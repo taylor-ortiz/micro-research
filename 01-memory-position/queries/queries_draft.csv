@@ -1,0 +1,115 @@
+id,domain,question
+q001,science,Why does ice float on water when most solids sink in their own liquids?
+q002,science,How do vaccines train the immune system to recognize a virus?
+q003,science,What actually happens inside a battery when it powers a device?
+q004,science,Why do onions make people cry when they are cut?
+q005,science,How does a microwave oven heat food?
+q006,science,What causes static electricity to build up on a dry day?
+q007,science,How do plants turn sunlight into energy?
+q008,science,Why does the sky look blue during the day and red at sunset?
+q009,science,How does soap remove grease from dishes?
+q010,science,What makes some materials magnetic while others are not?
+q011,earth,How do hurricanes form over the ocean?
+q012,earth,Why do some regions get earthquakes much more often than others?
+q013,earth,How does a river carve a canyon over time?
+q014,earth,What causes ocean tides to rise and fall?
+q015,earth,"How do coral reefs form, and why are they sensitive to warming water?"
+q016,earth,Why do leaves change color in autumn?
+q017,earth,How does composting break down food scraps into soil?
+q018,earth,What causes a drought to develop in a region?
+q019,earth,How do glaciers move if they are made of solid ice?
+q020,earth,Why is biodiversity important for a healthy ecosystem?
+q021,technology,How does the internet route a message from one computer to another?
+q022,technology,What does encryption do to keep online messages private?
+q024,technology,What happens when I type a web address into a browser and press enter?
+q026,technology,How does GPS figure out where my phone is?
+q027,technology,What is cloud storage and where are my files actually kept?
+q028,technology,How do recommendation algorithms on streaming services work?
+q029,technology,Why do computers slow down as they get older?
+q030,technology,How does a QR code store information?
+q031,software_howto,How do I set up automatic backups for the files on my laptop?
+q032,software_howto,How can I make a slow home Wi-Fi connection more reliable?
+q033,software_howto,How do I start learning to write simple Python scripts?
+q034,software_howto,How should a small team organize files on a shared drive?
+q035,software_howto,How do I recover a document I accidentally closed without saving?
+q036,software_howto,How can I protect my accounts with two-factor authentication?
+q037,software_howto,How do I find out what is using up all the storage on my phone?
+q038,software_howto,How do I set up a basic personal website?
+q039,software_howto,How do I spot a phishing email before clicking anything?
+q041,history,Why did the Roman Empire eventually fall?
+q042,history,How did the printing press change Europe?
+q043,history,What caused the start of the First World War?
+q044,history,How did the Silk Road shape trade between Asia and Europe?
+q045,history,Why was the invention of the steam engine so important?
+q046,history,How did ancient Egyptians build the pyramids?
+q047,history,What led to the end of the Cold War?
+q048,history,How did the Black Death change medieval society?
+q049,history,Why did the Industrial Revolution begin where it did?
+q050,history,How did the space race begin?
+q051,economics,"What causes inflation, and why does it matter?"
+q052,economics,How does compound interest work over long periods?
+q053,economics,How do central banks try to steer the economy?
+q054,economics,What determines a person's credit score?
+q056,economics,Why do housing prices rise faster in some cities than others?
+q057,economics,What is an index fund and why are they popular?
+q059,economics,What happens to an economy during a recession?
+q060,economics,How do income taxes generally work?
+q061,learning,How can I remember what I read for longer?
+q062,learning,What is a good way to prepare for a big exam over a month?
+q063,learning,How do I get better at learning a new language as an adult?
+q064,learning,Why is spaced repetition effective for memorization?
+q065,learning,How can I stay focused while studying at home?
+q066,learning,How do I take useful notes during a lecture?
+q067,learning,How can I build a daily reading habit?
+q068,learning,What makes some explanations easier to understand than others?
+q069,learning,How should I approach learning a musical instrument from scratch?
+q070,learning,How can I teach myself a difficult math topic?
+q071,career,How do I prepare for a job interview?
+q072,career,How can I give constructive feedback to a coworker?
+q073,career,How do I ask for a raise at work?
+q074,career,How can I run a productive meeting?
+q075,career,What should I focus on in my first month at a new job?
+q076,career,How do I write a strong cover letter?
+q077,career,How can I handle a disagreement with my manager?
+q078,career,How do I start networking if I'm introverted?
+q079,career,How can I avoid burnout during a demanding project?
+q080,career,How do I decide whether to change careers?
+q081,diy,How do I fix a leaky faucet?
+q082,diy,How can I patch a small hole in drywall?
+q083,diy,How do I unclog a slow bathroom sink drain?
+q084,diy,How do I fix a squeaky door hinge?
+q085,diy,How do I hang a heavy mirror securely on a wall?
+q086,diy,How do I reset a tripped circuit breaker safely?
+q087,diy,How can I stop a toilet that keeps running?
+q088,diy,How do I re-caulk around a bathtub?
+q089,diy,How do I paint a room so it looks professional?
+q090,diy,How do I fix a wobbly chair?
+q091,civics,How does a bill become a law?
+q092,civics,What does a jury do during a trial?
+q093,civics,How are election results counted and verified?
+q094,civics,Why do countries use different voting systems?
+q095,civics,How do governments use census data?
+q096,civics,What does a city council actually do?
+q098,civics,How does a country decide its national budget?
+q099,civics,How do local governments decide where to build new roads?
+q100,civics,How does the court system handle an appeal?
+q101,math,Why does dividing by zero not work?
+q102,math,How do probabilities behave when flipping a coin many times?
+q103,math,What is the Pythagorean theorem used for in real life?
+q104,math,How can a survey get accurate results from a small sample?
+q105,math,Why are prime numbers important in cryptography?
+q106,math,How does a mortgage calculator figure out monthly payments?
+q107,math,What does exponential growth actually mean?
+q108,math,How can I estimate a tip quickly in my head?
+q109,math,Why do the digits of pi never end?
+q110,math,How do logical fallacies weaken an argument?
+q111,space,How do astronauts stay healthy during long missions?
+q112,space,What would happen if the Moon disappeared?
+q113,space,How do scientists find planets around other stars?
+q114,space,Why does Mars look red?
+q115,space,How do black holes form?
+q116,space,How do rockets reach orbit?
+q117,space,What causes a solar eclipse?
+q118,space,How do we know how old the universe is?
+q119,space,Why doesn't the International Space Station fall to Earth?
+q120,space,How do stars produce light and heat?

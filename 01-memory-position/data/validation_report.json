@@ -1,0 +1,41 @@
+{
+ "candidates": 4440,
+ "kept": 3352,
+ "dropped_by_reason": {
+  "tokens": 1002,
+  "banned word": 52,
+  "near-duplicate": 19,
+  "exact duplicate": 15
+ },
+ "kept_by_category": {
+  "food_drink": 241,
+  "units_locale": 171,
+  "travel": 234,
+  "home": 227,
+  "pets": 244,
+  "fitness": 216,
+  "scheduling": 245,
+  "shopping": 247,
+  "entertainment": 231,
+  "hobbies": 246,
+  "transport": 213,
+  "work_habits": 203,
+  "social": 241,
+  "address_naming": 184,
+  "content_choices": 209
+ },
+ "output_neutral_share": 0.168,
+ "max_needle_similarity": 0.028,
+ "offline": false,
+ "review_canaries": {
+  "planted": 102,
+  "caught": 102
+ },
+ "token_length": {
+  "min": 18,
+  "max": 24,
+  "mean": 20.8,
+  "needle": 20
+ },
+ "sha256": "552f276278ef2aa463caa743cc83d8673852e9cfa8d7658976e8ad55d1668e69"
+}

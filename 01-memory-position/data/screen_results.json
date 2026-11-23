@@ -1,0 +1,2624 @@
+{
+ "q001": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 189,
+   "stop_reason": "end_turn",
+   "output_tokens": 646
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 208,
+   "stop_reason": "end_turn",
+   "output_tokens": 633
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 385,
+   "stop_reason": "end_turn",
+   "output_tokens": 903
+  }
+ ],
+ "q002": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 281,
+   "stop_reason": "end_turn",
+   "output_tokens": 574
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 289,
+   "stop_reason": "end_turn",
+   "output_tokens": 708
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 445,
+   "stop_reason": "end_turn",
+   "output_tokens": 1046
+  }
+ ],
+ "q003": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 374,
+   "stop_reason": "end_turn",
+   "output_tokens": 1192
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 387,
+   "stop_reason": "end_turn",
+   "output_tokens": 1064
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 528,
+   "stop_reason": "end_turn",
+   "output_tokens": 1199
+  }
+ ],
+ "q004": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 198,
+   "stop_reason": "end_turn",
+   "output_tokens": 423
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 205,
+   "stop_reason": "end_turn",
+   "output_tokens": 473
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 222,
+   "stop_reason": "end_turn",
+   "output_tokens": 563
+  }
+ ],
+ "q005": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 249,
+   "stop_reason": "end_turn",
+   "output_tokens": 526
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 254,
+   "stop_reason": "end_turn",
+   "output_tokens": 516
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 382,
+   "stop_reason": "end_turn",
+   "output_tokens": 807
+  }
+ ],
+ "q006": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 247,
+   "stop_reason": "end_turn",
+   "output_tokens": 468
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 270,
+   "stop_reason": "end_turn",
+   "output_tokens": 506
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 331,
+   "stop_reason": "end_turn",
+   "output_tokens": 719
+  }
+ ],
+ "q007": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 220,
+   "stop_reason": "end_turn",
+   "output_tokens": 477
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 215,
+   "stop_reason": "end_turn",
+   "output_tokens": 522
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 270,
+   "stop_reason": "end_turn",
+   "output_tokens": 646
+  }
+ ],
+ "q008": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 207,
+   "stop_reason": "end_turn",
+   "output_tokens": 441
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 189,
+   "stop_reason": "end_turn",
+   "output_tokens": 409
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 411,
+   "stop_reason": "end_turn",
+   "output_tokens": 896
+  }
+ ],
+ "q009": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 190,
+   "stop_reason": "end_turn",
+   "output_tokens": 401
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 228,
+   "stop_reason": "end_turn",
+   "output_tokens": 483
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 273,
+   "stop_reason": "end_turn",
+   "output_tokens": 615
+  }
+ ],
+ "q010": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 301,
+   "stop_reason": "end_turn",
+   "output_tokens": 675
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 377,
+   "stop_reason": "end_turn",
+   "output_tokens": 1339
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": true,
+   "words": 517,
+   "stop_reason": "end_turn",
+   "output_tokens": 1716
+  }
+ ],
+ "q011": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 307,
+   "stop_reason": "end_turn",
+   "output_tokens": 637
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 377,
+   "stop_reason": "end_turn",
+   "output_tokens": 811
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": true,
+   "words": 426,
+   "stop_reason": "end_turn",
+   "output_tokens": 1024
+  }
+ ],
+ "q012": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 370,
+   "stop_reason": "end_turn",
+   "output_tokens": 847
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 332,
+   "stop_reason": "end_turn",
+   "output_tokens": 822
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 381,
+   "stop_reason": "end_turn",
+   "output_tokens": 935
+  }
+ ],
+ "q013": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 302,
+   "stop_reason": "end_turn",
+   "output_tokens": 690
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 343,
+   "stop_reason": "end_turn",
+   "output_tokens": 767
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 459,
+   "stop_reason": "end_turn",
+   "output_tokens": 1167
+  }
+ ],
+ "q014": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 268,
+   "stop_reason": "end_turn",
+   "output_tokens": 532
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 298,
+   "stop_reason": "end_turn",
+   "output_tokens": 610
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 385,
+   "stop_reason": "end_turn",
+   "output_tokens": 851
+  }
+ ],
+ "q015": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 326,
+   "stop_reason": "end_turn",
+   "output_tokens": 748
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 386,
+   "stop_reason": "end_turn",
+   "output_tokens": 891
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 577,
+   "stop_reason": "end_turn",
+   "output_tokens": 1330
+  }
+ ],
+ "q016": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 274,
+   "stop_reason": "end_turn",
+   "output_tokens": 574
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 188,
+   "stop_reason": "end_turn",
+   "output_tokens": 396
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 339,
+   "stop_reason": "end_turn",
+   "output_tokens": 776
+  }
+ ],
+ "q017": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 420,
+   "stop_reason": "end_turn",
+   "output_tokens": 936
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 270,
+   "stop_reason": "end_turn",
+   "output_tokens": 690
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": true,
+   "words": 381,
+   "stop_reason": "end_turn",
+   "output_tokens": 1085
+  }
+ ],
+ "q018": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 294,
+   "stop_reason": "end_turn",
+   "output_tokens": 685
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 327,
+   "stop_reason": "end_turn",
+   "output_tokens": 826
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 410,
+   "stop_reason": "end_turn",
+   "output_tokens": 1033
+  }
+ ],
+ "q019": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 246,
+   "stop_reason": "end_turn",
+   "output_tokens": 805
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 242,
+   "stop_reason": "end_turn",
+   "output_tokens": 763
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 354,
+   "stop_reason": "end_turn",
+   "output_tokens": 750
+  }
+ ],
+ "q020": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 293,
+   "stop_reason": "end_turn",
+   "output_tokens": 671
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 287,
+   "stop_reason": "end_turn",
+   "output_tokens": 697
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 400,
+   "stop_reason": "end_turn",
+   "output_tokens": 974
+  }
+ ],
+ "q021": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 427,
+   "stop_reason": "end_turn",
+   "output_tokens": 929
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 441,
+   "stop_reason": "end_turn",
+   "output_tokens": 869
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": true,
+   "words": 657,
+   "stop_reason": "end_turn",
+   "output_tokens": 1478
+  }
+ ],
+ "q022": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 316,
+   "stop_reason": "end_turn",
+   "output_tokens": 669
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 235,
+   "stop_reason": "end_turn",
+   "output_tokens": 477
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 390,
+   "stop_reason": "end_turn",
+   "output_tokens": 828
+  }
+ ],
+ "q024": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 469,
+   "stop_reason": "end_turn",
+   "output_tokens": 977
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 502,
+   "stop_reason": "end_turn",
+   "output_tokens": 1050
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 587,
+   "stop_reason": "end_turn",
+   "output_tokens": 1360
+  }
+ ],
+ "q026": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 323,
+   "stop_reason": "end_turn",
+   "output_tokens": 704
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 316,
+   "stop_reason": "end_turn",
+   "output_tokens": 638
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 474,
+   "stop_reason": "end_turn",
+   "output_tokens": 1000
+  }
+ ],
+ "q027": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 247,
+   "stop_reason": "end_turn",
+   "output_tokens": 542
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 351,
+   "stop_reason": "end_turn",
+   "output_tokens": 696
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 374,
+   "stop_reason": "end_turn",
+   "output_tokens": 742
+  }
+ ],
+ "q028": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 583,
+   "stop_reason": "end_turn",
+   "output_tokens": 1316
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 456,
+   "stop_reason": "end_turn",
+   "output_tokens": 932
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 564,
+   "stop_reason": "end_turn",
+   "output_tokens": 1315
+  }
+ ],
+ "q029": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 299,
+   "stop_reason": "end_turn",
+   "output_tokens": 846
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 264,
+   "stop_reason": "end_turn",
+   "output_tokens": 792
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 360,
+   "stop_reason": "end_turn",
+   "output_tokens": 761
+  }
+ ],
+ "q030": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 384,
+   "stop_reason": "end_turn",
+   "output_tokens": 985
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 343,
+   "stop_reason": "end_turn",
+   "output_tokens": 1032
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": true,
+   "words": 570,
+   "stop_reason": "end_turn",
+   "output_tokens": 1188
+  }
+ ],
+ "q031": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 364,
+   "stop_reason": "end_turn",
+   "output_tokens": 878
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 332,
+   "stop_reason": "end_turn",
+   "output_tokens": 782
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 451,
+   "stop_reason": "end_turn",
+   "output_tokens": 1034
+  }
+ ],
+ "q032": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 523,
+   "stop_reason": "end_turn",
+   "output_tokens": 1074
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 543,
+   "stop_reason": "end_turn",
+   "output_tokens": 1116
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 462,
+   "stop_reason": "end_turn",
+   "output_tokens": 1044
+  }
+ ],
+ "q033": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 350,
+   "stop_reason": "end_turn",
+   "output_tokens": 831
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 327,
+   "stop_reason": "end_turn",
+   "output_tokens": 840
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 422,
+   "stop_reason": "end_turn",
+   "output_tokens": 1057
+  }
+ ],
+ "q034": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 342,
+   "stop_reason": "end_turn",
+   "output_tokens": 877
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 458,
+   "stop_reason": "end_turn",
+   "output_tokens": 1040
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 484,
+   "stop_reason": "end_turn",
+   "output_tokens": 1185
+  }
+ ],
+ "q035": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 324,
+   "stop_reason": "end_turn",
+   "output_tokens": 737
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 328,
+   "stop_reason": "end_turn",
+   "output_tokens": 850
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 266,
+   "stop_reason": "end_turn",
+   "output_tokens": 785
+  }
+ ],
+ "q036": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 372,
+   "stop_reason": "end_turn",
+   "output_tokens": 821
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 336,
+   "stop_reason": "end_turn",
+   "output_tokens": 715
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 376,
+   "stop_reason": "end_turn",
+   "output_tokens": 909
+  }
+ ],
+ "q037": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 299,
+   "stop_reason": "end_turn",
+   "output_tokens": 699
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 342,
+   "stop_reason": "end_turn",
+   "output_tokens": 764
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 252,
+   "stop_reason": "end_turn",
+   "output_tokens": 586
+  }
+ ],
+ "q038": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 440,
+   "stop_reason": "end_turn",
+   "output_tokens": 1204
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 365,
+   "stop_reason": "end_turn",
+   "output_tokens": 1017
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 414,
+   "stop_reason": "end_turn",
+   "output_tokens": 1143
+  }
+ ],
+ "q039": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 406,
+   "stop_reason": "end_turn",
+   "output_tokens": 822
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 342,
+   "stop_reason": "end_turn",
+   "output_tokens": 727
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 490,
+   "stop_reason": "end_turn",
+   "output_tokens": 1119
+  }
+ ],
+ "q041": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 363,
+   "stop_reason": "end_turn",
+   "output_tokens": 1244
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 354,
+   "stop_reason": "end_turn",
+   "output_tokens": 1183
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 559,
+   "stop_reason": "end_turn",
+   "output_tokens": 1597
+  }
+ ],
+ "q042": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 304,
+   "stop_reason": "end_turn",
+   "output_tokens": 957
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 403,
+   "stop_reason": "end_turn",
+   "output_tokens": 931
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 652,
+   "stop_reason": "end_turn",
+   "output_tokens": 1532
+  }
+ ],
+ "q043": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 275,
+   "stop_reason": "end_turn",
+   "output_tokens": 958
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 277,
+   "stop_reason": "end_turn",
+   "output_tokens": 685
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 503,
+   "stop_reason": "end_turn",
+   "output_tokens": 1459
+  }
+ ],
+ "q044": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 423,
+   "stop_reason": "end_turn",
+   "output_tokens": 992
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 465,
+   "stop_reason": "end_turn",
+   "output_tokens": 1094
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 544,
+   "stop_reason": "end_turn",
+   "output_tokens": 1334
+  }
+ ],
+ "q045": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 282,
+   "stop_reason": "end_turn",
+   "output_tokens": 603
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 269,
+   "stop_reason": "end_turn",
+   "output_tokens": 599
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 461,
+   "stop_reason": "end_turn",
+   "output_tokens": 1046
+  }
+ ],
+ "q046": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 386,
+   "stop_reason": "end_turn",
+   "output_tokens": 1269
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 448,
+   "stop_reason": "end_turn",
+   "output_tokens": 991
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 485,
+   "stop_reason": "end_turn",
+   "output_tokens": 1171
+  }
+ ],
+ "q047": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 448,
+   "stop_reason": "end_turn",
+   "output_tokens": 1120
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 476,
+   "stop_reason": "end_turn",
+   "output_tokens": 1328
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 411,
+   "stop_reason": "end_turn",
+   "output_tokens": 1082
+  }
+ ],
+ "q048": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 372,
+   "stop_reason": "end_turn",
+   "output_tokens": 841
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 449,
+   "stop_reason": "end_turn",
+   "output_tokens": 957
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 501,
+   "stop_reason": "end_turn",
+   "output_tokens": 1200
+  }
+ ],
+ "q049": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 346,
+   "stop_reason": "end_turn",
+   "output_tokens": 1104
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 364,
+   "stop_reason": "end_turn",
+   "output_tokens": 1247
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 571,
+   "stop_reason": "end_turn",
+   "output_tokens": 1510
+  }
+ ],
+ "q050": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 232,
+   "stop_reason": "end_turn",
+   "output_tokens": 612
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 266,
+   "stop_reason": "end_turn",
+   "output_tokens": 779
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 370,
+   "stop_reason": "end_turn",
+   "output_tokens": 878
+  }
+ ],
+ "q051": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 405,
+   "stop_reason": "end_turn",
+   "output_tokens": 870
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 392,
+   "stop_reason": "end_turn",
+   "output_tokens": 906
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 419,
+   "stop_reason": "end_turn",
+   "output_tokens": 952
+  }
+ ],
+ "q052": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 325,
+   "stop_reason": "end_turn",
+   "output_tokens": 904
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": true,
+   "words": 364,
+   "stop_reason": "end_turn",
+   "output_tokens": 844
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": true,
+   "words": 410,
+   "stop_reason": "end_turn",
+   "output_tokens": 938
+  }
+ ],
+ "q053": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 397,
+   "stop_reason": "end_turn",
+   "output_tokens": 848
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 471,
+   "stop_reason": "end_turn",
+   "output_tokens": 1048
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 614,
+   "stop_reason": "end_turn",
+   "output_tokens": 1312
+  }
+ ],
+ "q054": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 249,
+   "stop_reason": "end_turn",
+   "output_tokens": 503
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 297,
+   "stop_reason": "end_turn",
+   "output_tokens": 590
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 321,
+   "stop_reason": "end_turn",
+   "output_tokens": 717
+  }
+ ],
+ "q056": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 363,
+   "stop_reason": "end_turn",
+   "output_tokens": 772
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 386,
+   "stop_reason": "end_turn",
+   "output_tokens": 829
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 482,
+   "stop_reason": "end_turn",
+   "output_tokens": 1081
+  }
+ ],
+ "q057": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 300,
+   "stop_reason": "end_turn",
+   "output_tokens": 627
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 381,
+   "stop_reason": "end_turn",
+   "output_tokens": 768
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 468,
+   "stop_reason": "end_turn",
+   "output_tokens": 984
+  }
+ ],
+ "q059": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 265,
+   "stop_reason": "end_turn",
+   "output_tokens": 581
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 362,
+   "stop_reason": "end_turn",
+   "output_tokens": 765
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 405,
+   "stop_reason": "end_turn",
+   "output_tokens": 966
+  }
+ ],
+ "q060": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 364,
+   "stop_reason": "end_turn",
+   "output_tokens": 803
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 372,
+   "stop_reason": "end_turn",
+   "output_tokens": 770
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 530,
+   "stop_reason": "end_turn",
+   "output_tokens": 1177
+  }
+ ],
+ "q061": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 288,
+   "stop_reason": "end_turn",
+   "output_tokens": 582
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 283,
+   "stop_reason": "end_turn",
+   "output_tokens": 555
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 400,
+   "stop_reason": "end_turn",
+   "output_tokens": 815
+  }
+ ],
+ "q062": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 345,
+   "stop_reason": "end_turn",
+   "output_tokens": 725
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 292,
+   "stop_reason": "end_turn",
+   "output_tokens": 605
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 368,
+   "stop_reason": "end_turn",
+   "output_tokens": 792
+  }
+ ],
+ "q063": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 412,
+   "stop_reason": "end_turn",
+   "output_tokens": 875
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 328,
+   "stop_reason": "end_turn",
+   "output_tokens": 732
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 439,
+   "stop_reason": "end_turn",
+   "output_tokens": 954
+  }
+ ],
+ "q064": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 247,
+   "stop_reason": "end_turn",
+   "output_tokens": 532
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 219,
+   "stop_reason": "end_turn",
+   "output_tokens": 490
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 442,
+   "stop_reason": "end_turn",
+   "output_tokens": 1010
+  }
+ ],
+ "q065": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 298,
+   "stop_reason": "end_turn",
+   "output_tokens": 588
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 307,
+   "stop_reason": "end_turn",
+   "output_tokens": 613
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 346,
+   "stop_reason": "end_turn",
+   "output_tokens": 746
+  }
+ ],
+ "q066": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 381,
+   "stop_reason": "end_turn",
+   "output_tokens": 811
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 371,
+   "stop_reason": "end_turn",
+   "output_tokens": 773
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 433,
+   "stop_reason": "end_turn",
+   "output_tokens": 904
+  }
+ ],
+ "q067": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 278,
+   "stop_reason": "end_turn",
+   "output_tokens": 522
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 342,
+   "stop_reason": "end_turn",
+   "output_tokens": 639
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 346,
+   "stop_reason": "end_turn",
+   "output_tokens": 674
+  }
+ ],
+ "q068": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 322,
+   "stop_reason": "end_turn",
+   "output_tokens": 748
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 329,
+   "stop_reason": "end_turn",
+   "output_tokens": 811
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 434,
+   "stop_reason": "end_turn",
+   "output_tokens": 885
+  }
+ ],
+ "q069": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 439,
+   "stop_reason": "end_turn",
+   "output_tokens": 873
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 388,
+   "stop_reason": "end_turn",
+   "output_tokens": 825
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 448,
+   "stop_reason": "end_turn",
+   "output_tokens": 964
+  }
+ ],
+ "q070": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 374,
+   "stop_reason": "end_turn",
+   "output_tokens": 828
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 354,
+   "stop_reason": "end_turn",
+   "output_tokens": 743
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 543,
+   "stop_reason": "end_turn",
+   "output_tokens": 1124
+  }
+ ],
+ "q071": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 359,
+   "stop_reason": "end_turn",
+   "output_tokens": 727
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 347,
+   "stop_reason": "end_turn",
+   "output_tokens": 711
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 512,
+   "stop_reason": "end_turn",
+   "output_tokens": 1093
+  }
+ ],
+ "q072": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 374,
+   "stop_reason": "end_turn",
+   "output_tokens": 753
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 396,
+   "stop_reason": "end_turn",
+   "output_tokens": 761
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 336,
+   "stop_reason": "end_turn",
+   "output_tokens": 736
+  }
+ ],
+ "q073": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 377,
+   "stop_reason": "end_turn",
+   "output_tokens": 744
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 411,
+   "stop_reason": "end_turn",
+   "output_tokens": 818
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 425,
+   "stop_reason": "end_turn",
+   "output_tokens": 918
+  }
+ ],
+ "q074": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 289,
+   "stop_reason": "end_turn",
+   "output_tokens": 578
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 312,
+   "stop_reason": "end_turn",
+   "output_tokens": 633
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 355,
+   "stop_reason": "end_turn",
+   "output_tokens": 752
+  }
+ ],
+ "q075": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 344,
+   "stop_reason": "end_turn",
+   "output_tokens": 681
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 374,
+   "stop_reason": "end_turn",
+   "output_tokens": 738
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 432,
+   "stop_reason": "end_turn",
+   "output_tokens": 876
+  }
+ ],
+ "q076": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 427,
+   "stop_reason": "end_turn",
+   "output_tokens": 849
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 419,
+   "stop_reason": "end_turn",
+   "output_tokens": 834
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 490,
+   "stop_reason": "end_turn",
+   "output_tokens": 1005
+  }
+ ],
+ "q077": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 465,
+   "stop_reason": "end_turn",
+   "output_tokens": 882
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 340,
+   "stop_reason": "end_turn",
+   "output_tokens": 686
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 375,
+   "stop_reason": "end_turn",
+   "output_tokens": 785
+  }
+ ],
+ "q078": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 368,
+   "stop_reason": "end_turn",
+   "output_tokens": 731
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 323,
+   "stop_reason": "end_turn",
+   "output_tokens": 692
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 474,
+   "stop_reason": "end_turn",
+   "output_tokens": 967
+  }
+ ],
+ "q079": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 334,
+   "stop_reason": "end_turn",
+   "output_tokens": 735
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 356,
+   "stop_reason": "end_turn",
+   "output_tokens": 778
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 367,
+   "stop_reason": "end_turn",
+   "output_tokens": 816
+  }
+ ],
+ "q080": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 419,
+   "stop_reason": "end_turn",
+   "output_tokens": 780
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 341,
+   "stop_reason": "end_turn",
+   "output_tokens": 678
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 503,
+   "stop_reason": "end_turn",
+   "output_tokens": 980
+  }
+ ],
+ "q081": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 443,
+   "stop_reason": "end_turn",
+   "output_tokens": 975
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 444,
+   "stop_reason": "end_turn",
+   "output_tokens": 1017
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 495,
+   "stop_reason": "end_turn",
+   "output_tokens": 1145
+  }
+ ],
+ "q082": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 305,
+   "stop_reason": "end_turn",
+   "output_tokens": 619
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 363,
+   "stop_reason": "end_turn",
+   "output_tokens": 751
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 352,
+   "stop_reason": "end_turn",
+   "output_tokens": 767
+  }
+ ],
+ "q083": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 313,
+   "stop_reason": "end_turn",
+   "output_tokens": 646
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 416,
+   "stop_reason": "end_turn",
+   "output_tokens": 819
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 329,
+   "stop_reason": "end_turn",
+   "output_tokens": 701
+  }
+ ],
+ "q084": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 280,
+   "stop_reason": "end_turn",
+   "output_tokens": 556
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 233,
+   "stop_reason": "end_turn",
+   "output_tokens": 474
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 285,
+   "stop_reason": "end_turn",
+   "output_tokens": 633
+  }
+ ],
+ "q085": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 469,
+   "stop_reason": "end_turn",
+   "output_tokens": 1028
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 525,
+   "stop_reason": "end_turn",
+   "output_tokens": 1232
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": true,
+   "words": 446,
+   "stop_reason": "end_turn",
+   "output_tokens": 1072
+  }
+ ],
+ "q086": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 341,
+   "stop_reason": "end_turn",
+   "output_tokens": 716
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 344,
+   "stop_reason": "end_turn",
+   "output_tokens": 784
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 343,
+   "stop_reason": "end_turn",
+   "output_tokens": 713
+  }
+ ],
+ "q087": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 386,
+   "stop_reason": "end_turn",
+   "output_tokens": 786
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 323,
+   "stop_reason": "end_turn",
+   "output_tokens": 670
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 419,
+   "stop_reason": "end_turn",
+   "output_tokens": 835
+  }
+ ],
+ "q088": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 426,
+   "stop_reason": "end_turn",
+   "output_tokens": 886
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 471,
+   "stop_reason": "end_turn",
+   "output_tokens": 1018
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 510,
+   "stop_reason": "end_turn",
+   "output_tokens": 1136
+  }
+ ],
+ "q089": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 483,
+   "stop_reason": "end_turn",
+   "output_tokens": 1012
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 674,
+   "stop_reason": "end_turn",
+   "output_tokens": 1437
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 675,
+   "stop_reason": "end_turn",
+   "output_tokens": 1563
+  }
+ ],
+ "q090": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 392,
+   "stop_reason": "end_turn",
+   "output_tokens": 772
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 353,
+   "stop_reason": "end_turn",
+   "output_tokens": 759
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 435,
+   "stop_reason": "end_turn",
+   "output_tokens": 930
+  }
+ ],
+ "q091": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 301,
+   "stop_reason": "end_turn",
+   "output_tokens": 639
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 315,
+   "stop_reason": "end_turn",
+   "output_tokens": 670
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 345,
+   "stop_reason": "end_turn",
+   "output_tokens": 722
+  }
+ ],
+ "q092": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 292,
+   "stop_reason": "end_turn",
+   "output_tokens": 570
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 263,
+   "stop_reason": "end_turn",
+   "output_tokens": 518
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 373,
+   "stop_reason": "end_turn",
+   "output_tokens": 803
+  }
+ ],
+ "q093": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 395,
+   "stop_reason": "end_turn",
+   "output_tokens": 890
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 367,
+   "stop_reason": "end_turn",
+   "output_tokens": 797
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 467,
+   "stop_reason": "end_turn",
+   "output_tokens": 1044
+  }
+ ],
+ "q094": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 344,
+   "stop_reason": "end_turn",
+   "output_tokens": 774
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 415,
+   "stop_reason": "end_turn",
+   "output_tokens": 902
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 427,
+   "stop_reason": "end_turn",
+   "output_tokens": 967
+  }
+ ],
+ "q095": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 285,
+   "stop_reason": "end_turn",
+   "output_tokens": 611
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 272,
+   "stop_reason": "end_turn",
+   "output_tokens": 659
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 402,
+   "stop_reason": "end_turn",
+   "output_tokens": 907
+  }
+ ],
+ "q096": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 299,
+   "stop_reason": "end_turn",
+   "output_tokens": 553
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 265,
+   "stop_reason": "end_turn",
+   "output_tokens": 557
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 411,
+   "stop_reason": "end_turn",
+   "output_tokens": 853
+  }
+ ],
+ "q098": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 404,
+   "stop_reason": "end_turn",
+   "output_tokens": 963
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 370,
+   "stop_reason": "end_turn",
+   "output_tokens": 877
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 442,
+   "stop_reason": "end_turn",
+   "output_tokens": 1009
+  }
+ ],
+ "q099": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 416,
+   "stop_reason": "end_turn",
+   "output_tokens": 947
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 439,
+   "stop_reason": "end_turn",
+   "output_tokens": 936
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 583,
+   "stop_reason": "end_turn",
+   "output_tokens": 1280
+  }
+ ],
+ "q100": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 483,
+   "stop_reason": "end_turn",
+   "output_tokens": 1041
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 478,
+   "stop_reason": "end_turn",
+   "output_tokens": 1042
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 519,
+   "stop_reason": "end_turn",
+   "output_tokens": 1147
+  }
+ ],
+ "q101": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 242,
+   "stop_reason": "end_turn",
+   "output_tokens": 643
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 209,
+   "stop_reason": "end_turn",
+   "output_tokens": 654
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": true,
+   "words": 347,
+   "stop_reason": "end_turn",
+   "output_tokens": 912
+  }
+ ],
+ "q102": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 342,
+   "stop_reason": "end_turn",
+   "output_tokens": 802
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": true,
+   "words": 330,
+   "stop_reason": "end_turn",
+   "output_tokens": 779
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": true,
+   "words": 471,
+   "stop_reason": "end_turn",
+   "output_tokens": 1166
+  }
+ ],
+ "q103": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 268,
+   "stop_reason": "end_turn",
+   "output_tokens": 544
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 240,
+   "stop_reason": "end_turn",
+   "output_tokens": 467
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 336,
+   "stop_reason": "end_turn",
+   "output_tokens": 738
+  }
+ ],
+ "q104": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 381,
+   "stop_reason": "end_turn",
+   "output_tokens": 924
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 489,
+   "stop_reason": "end_turn",
+   "output_tokens": 1172
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": true,
+   "words": 456,
+   "stop_reason": "end_turn",
+   "output_tokens": 1054
+  }
+ ],
+ "q105": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 303,
+   "stop_reason": "end_turn",
+   "output_tokens": 673
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 362,
+   "stop_reason": "end_turn",
+   "output_tokens": 771
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 494,
+   "stop_reason": "end_turn",
+   "output_tokens": 1090
+  }
+ ],
+ "q106": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 227,
+   "stop_reason": "end_turn",
+   "output_tokens": 763
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 224,
+   "stop_reason": "end_turn",
+   "output_tokens": 799
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 365,
+   "stop_reason": "end_turn",
+   "output_tokens": 893
+  }
+ ],
+ "q107": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 277,
+   "stop_reason": "end_turn",
+   "output_tokens": 615
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 306,
+   "stop_reason": "end_turn",
+   "output_tokens": 692
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 366,
+   "stop_reason": "end_turn",
+   "output_tokens": 778
+  }
+ ],
+ "q108": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 160,
+   "stop_reason": "end_turn",
+   "output_tokens": 371
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 166,
+   "stop_reason": "end_turn",
+   "output_tokens": 372
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": true,
+   "words": 214,
+   "stop_reason": "end_turn",
+   "output_tokens": 506
+  }
+ ],
+ "q109": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 172,
+   "stop_reason": "end_turn",
+   "output_tokens": 678
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 178,
+   "stop_reason": "end_turn",
+   "output_tokens": 669
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 411,
+   "stop_reason": "end_turn",
+   "output_tokens": 1039
+  }
+ ],
+ "q110": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 389,
+   "stop_reason": "end_turn",
+   "output_tokens": 821
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 265,
+   "stop_reason": "end_turn",
+   "output_tokens": 575
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 451,
+   "stop_reason": "end_turn",
+   "output_tokens": 1024
+  }
+ ],
+ "q111": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 367,
+   "stop_reason": "end_turn",
+   "output_tokens": 930
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 352,
+   "stop_reason": "end_turn",
+   "output_tokens": 869
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 511,
+   "stop_reason": "end_turn",
+   "output_tokens": 1226
+  }
+ ],
+ "q112": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 309,
+   "stop_reason": "end_turn",
+   "output_tokens": 1259
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 349,
+   "stop_reason": "end_turn",
+   "output_tokens": 1672
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 553,
+   "stop_reason": "end_turn",
+   "output_tokens": 1949
+  }
+ ],
+ "q113": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 422,
+   "stop_reason": "end_turn",
+   "output_tokens": 841
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 381,
+   "stop_reason": "end_turn",
+   "output_tokens": 751
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 465,
+   "stop_reason": "end_turn",
+   "output_tokens": 1010
+  }
+ ],
+ "q114": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 108,
+   "stop_reason": "end_turn",
+   "output_tokens": 221
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 98,
+   "stop_reason": "end_turn",
+   "output_tokens": 198
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 269,
+   "stop_reason": "end_turn",
+   "output_tokens": 632
+  }
+ ],
+ "q115": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 317,
+   "stop_reason": "end_turn",
+   "output_tokens": 637
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 341,
+   "stop_reason": "end_turn",
+   "output_tokens": 678
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 463,
+   "stop_reason": "end_turn",
+   "output_tokens": 933
+  }
+ ],
+ "q116": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 356,
+   "stop_reason": "end_turn",
+   "output_tokens": 725
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 332,
+   "stop_reason": "end_turn",
+   "output_tokens": 681
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 408,
+   "stop_reason": "end_turn",
+   "output_tokens": 895
+  }
+ ],
+ "q117": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 258,
+   "stop_reason": "end_turn",
+   "output_tokens": 496
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 225,
+   "stop_reason": "end_turn",
+   "output_tokens": 452
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 316,
+   "stop_reason": "end_turn",
+   "output_tokens": 659
+  }
+ ],
+ "q118": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 405,
+   "stop_reason": "end_turn",
+   "output_tokens": 1104
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 400,
+   "stop_reason": "end_turn",
+   "output_tokens": 1416
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 456,
+   "stop_reason": "end_turn",
+   "output_tokens": 1065
+  }
+ ],
+ "q119": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 207,
+   "stop_reason": "end_turn",
+   "output_tokens": 420
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 189,
+   "stop_reason": "end_turn",
+   "output_tokens": 420
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 339,
+   "stop_reason": "end_turn",
+   "output_tokens": 705
+  }
+ ],
+ "q120": [
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 295,
+   "stop_reason": "end_turn",
+   "output_tokens": 636
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "table": false,
+   "words": 356,
+   "stop_reason": "end_turn",
+   "output_tokens": 775
+  },
+  {
+   "model": "claude-opus-5-5",
+   "table": false,
+   "words": 430,
+   "stop_reason": "end_turn",
+   "output_tokens": 976
+  }
+ ]
+}
