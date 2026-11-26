@@ -74,12 +74,15 @@ def corpus(item, shuffle, version):
     """The store in this shuffle's order plus the gold (or twin) memory, with opaque ids,
     each tagged with its ontology group. The gold sits last here; placement comes later."""
     order = STORE["shuffles"][shuffle]
+    secondary = set(item.get("secondary_gold") or [])
+    if version == "twin":  # secondary golds would contradict the twin, so they sit out
+        order = [k for k in order if k not in secondary]
     rows = [{"key": k, "id": opaque(shuffle, k), "memory": MEM[k]["memory"],
-             "group": ONTO["store_filing"][k], "gold": False} for k in order]
+             "group": ONTO["store_filing"][k], "gold": False, "secondary": k in secondary} for k in order]
     text = item.get(f"{version}_memory")
     if text:
         rows.append({"key": "GOLD", "id": opaque(shuffle, "GOLD:" + item["id"]), "memory": text,
-                     "group": ONTO["gold_filing"][text], "gold": True})
+                     "group": ONTO["gold_filing"][text], "gold": True, "secondary": False})
     return rows
 
 
@@ -252,7 +255,10 @@ def run_trial(t):
         info["gold_group"] = gold_row["group"]
         info["gold_group_searched"] = gold_row["group"] in info["groups_searched"]
     g = grade(item, res, version)
+    secondary_in = sum(1 for r in in_ctx if r.get("secondary"))
     row = {**t, "scenario": item["scenario"], "gold_in_context": gold_in,
+           "secondary_in_context": secondary_in, "any_gold_in_context": gold_in or secondary_in > 0,
+           "n_secondary": len(item.get("secondary_gold") or []),
            "n_memories_in_context": len(in_ctx), **info, **res,
            "passes": g["passes"], "grade_method": g["method"], "judge_tokens": g["judge_tokens"]}
     if gold_in:
