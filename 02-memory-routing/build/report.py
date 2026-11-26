@@ -82,7 +82,7 @@ def main():
             print(f"| {s} | {c['not_mentioned']} | {c['mentioned_set_aside']} | {c['mentioned_applied']} |")
 
     prices = {"claude-haiku-5-5": (0.10, 0.50), "claude-sonnet-5-5": (2.00, 10.00)}
-    batched = args.plan.startswith(("main_", "swap_", "smoke_engine"))
+    batched = args.plan.startswith(("main_", "swap_", "jevplus_", "smoke_engine"))
 
     def cost(r):
         p_in, p_out = prices[r.get("model", "claude-haiku-5-5")]
