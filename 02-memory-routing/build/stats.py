@@ -16,8 +16,8 @@ from collections import defaultdict
 
 from . import config
 
-RUNS = {"haiku": ["main_haiku", "jevplus_haiku"], "sonnet": ["main_sonnet", "jevplus_sonnet"]}
-ORDER = ["D", "A", "C-Jev+", "G", "C-Jev", "B1", "C-types", "C1", "C2", "C3", "C-embed", "E", "none"]
+RUNS = {"haiku": ["main_haiku", "jevplus_haiku", "llmpick_haiku"], "sonnet": ["main_sonnet", "jevplus_sonnet", "llmpick_sonnet"]}
+ORDER = ["D", "A", "C-Jev+", "L-cat", "L-all", "G", "C-Jev", "B1", "C-types", "C1", "C2", "C3", "C-embed", "E", "none"]
 DRAWS = 2000
 
 

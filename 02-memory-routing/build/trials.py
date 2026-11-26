@@ -40,6 +40,7 @@ TYPE_TOOL = {**SEARCH_TOOL, "description": "Search one type of your long-term me
                               "required": ["group"]}}
 JEVPLUS_KEEP = 0.7   # memory-score cutoff, chosen on the dev split (build/jev_memories.py)
 JEVPLUS_CAP = 20
+LPICK_KEEP = 0.6     # LLM-picker cutoff, chosen on the dev split by the same rule (build/llm_pick.py)
 DEV = set(json.loads((config.DATA / "jev_tune" / "dev_split.json").read_text()))
 MODELS = {"haiku": "claude-haiku-5-5", "sonnet": "claude-sonnet-5-5"}
 # $ per million tokens (input, output); cache reads at 10% of input, writes at 125%.
@@ -154,6 +155,23 @@ def prepare(t):
                            "n_candidates": len(cands), "n_kept": len(kept), "jev_memory_tokens": jtok,
                            "gold_memory_score": mscores.get(gold["id"]) if gold else None,
                            "gold_memory_jev_rank": (sorted(cands, key=lambda r: -mscores[r["id"]]).index(gold) + 1) if gold else None})
+        ctx = place(kept, depth, position)
+        st["system"] = system_blocks(ctx, None, note)
+    elif setup in ("L-cat", "L-all"):
+        # Haiku picks the memories (build/llm_pick.py): L-cat from Jev's groups, L-all from
+        # the whole store. Same keep rule as C-Jev+, with the cutoff tuned the same way.
+        from .llm_pick import cached_pick
+        pk = cached_pick(setup, item, shuffle, version)
+        cands = [r for r in rows if r["key"] in pk["scores"]]
+        kept = sorted([r for r in cands if pk["scores"][r["key"]] >= LPICK_KEEP],
+                      key=lambda r: -pk["scores"][r["key"]])[:JEVPLUS_CAP]
+        st["info"].update({"n_candidates": len(cands), "n_kept": len(kept),
+                           "gold_memory_score": pk["scores"].get("GOLD"),
+                           "picker_input_tokens": pk["picker_input_tokens"],
+                           "picker_output_tokens": pk["picker_output_tokens"],
+                           "picker_seconds": pk["picker_seconds"]})
+        if pk.get("groups") is not None:
+            st["info"]["groups_searched"] = pk["groups"]
         ctx = place(kept, depth, position)
         st["system"] = system_blocks(ctx, None, note)
     elif setup in ("C1", "C2", "C3", "C-types"):
@@ -351,6 +369,10 @@ PLANS = {
                            baselines=False),
     "jevplus_swap_haiku": dict(model="haiku", items=lambda: [i for i in main_items() if ITEMS[i]["gold_memory"]],
                                setups=["C-Jev+"], depths=["middle"], version="twin", baselines=False),
+    "llmpick_haiku": dict(model="haiku", items=main_items, setups=["L-cat", "L-all"], depths=["top", "middle", "end"],
+                          version="gold", baselines=False),
+    "llmpick_sonnet": dict(model="sonnet", items=sonnet_items, setups=["L-cat", "L-all"], depths=["middle"],
+                           version="gold", baselines=False),
     "smoke_engine": dict(model="haiku", items=lambda: main_items()[::40], setups=HAIKU_SETUPS, depths=["middle"], version="gold"),
     "smoke_sonnet": dict(model="sonnet", items=lambda: sonnet_items()[::20], setups=SONNET_SETUPS, depths=["middle"], version="gold"),
 }
@@ -376,7 +398,7 @@ def trials(plan):
 
 
 TOKENS_K = {"none": 0.6, "D": 0.7, "A": 52, "E": 1.4, "B1": 11, "G": 19, "C1": 7, "C2": 9.5, "C3": 23,
-            "C-types": 8, "C-embed": 2.7, "C-Jev": 8, "C-Jev+": 1.6}
+            "C-types": 8, "C-embed": 2.7, "C-Jev": 8, "C-Jev+": 1.6, "L-cat": 1.2, "L-all": 1.3}
 
 
 def estimate(ts, batch):
