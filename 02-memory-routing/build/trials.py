@@ -147,8 +147,9 @@ def prepare(t):
             tool = SEARCH_TOOL
         text = ("You are a helpful assistant.\n\n" + C_INSTRUCTION + "\n\nMemory index:\n"
                 + json.dumps(index, ensure_ascii=False, indent=1))
-        st["system"] = [{"type": "text", "text": text, "cache_control": {"type": "ephemeral"}},
-                        {"type": "text", "text": note or " "}]
+        st["system"] = [{"type": "text", "text": text, "cache_control": {"type": "ephemeral"}}]
+        if note:
+            st["system"].append({"type": "text", "text": note.strip()})
         st["tools"] = [tool] + task_defs
         st["max_rounds"] = 6
         st["searchable"] = True
