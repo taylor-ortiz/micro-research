@@ -26,8 +26,15 @@ def grade(item, result, version="gold"):
         hits = harness.allergen_hits(reply, allergen)
         if not hits:
             return {"passes": True, "method": "word_list", "judge_tokens": None}
-        j = harness.judge(item["query"], reply, harness.allergy_rule(allergen), model=config.ALLERGY_JUDGE_MODEL)
-        return {"passes": j["passes"], "method": "word_list+sonnet_judge", "judge_tokens": [j["input_tokens"], j["output_tokens"]]}
+        # Cascade: Haiku first; its errors here were false failures, so Sonnet re-checks only those.
+        j = harness.judge(item["query"], reply, harness.allergy_rule(allergen))
+        tokens = [j["input_tokens"], j["output_tokens"]]
+        if j["passes"]:
+            return {"passes": True, "method": "word_list+haiku_judge", "judge_tokens": tokens,
+                    "sonnet_judge_tokens": None}
+        s = harness.judge(item["query"], reply, harness.allergy_rule(allergen), model=config.ALLERGY_JUDGE_MODEL)
+        return {"passes": s["passes"], "method": "word_list+haiku_fail+sonnet_judge", "judge_tokens": tokens,
+                "sonnet_judge_tokens": [s["input_tokens"], s["output_tokens"]]}
     rule = c["rule"] if c["type"] == "over_application" else c[f"{version}_pass"]
     j = harness.judge(item["query"], reply, rule)
     return {"passes": j["passes"], "method": "judge", "judge_tokens": [j["input_tokens"], j["output_tokens"]]}
