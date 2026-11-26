@@ -9,7 +9,7 @@ from collections import defaultdict
 
 from . import config
 
-ORDER = ["none", "D", "A", "E", "B1", "G", "C-embed", "C-Jev", "C1", "C2", "C3"]
+ORDER = ["none", "D", "A", "E", "B1", "G", "C-types", "C-embed", "C-Jev", "C1", "C2", "C3"]
 
 
 def pct(n, d):
@@ -48,7 +48,8 @@ def main():
         read_fail = sum(1 for r in rs if r["gold_in_context"] and not r["passes"])
         grp = [r for r in rs if "gold_group_searched" in r]
         nmr = nm.get(s, [])
-        tok = sum(r["input_tokens"] for r in rs) / n
+        tok = sum(r["input_tokens"] + (r.get("cache_read_input_tokens") or 0) + (r.get("cache_creation_input_tokens") or 0)
+                  for r in rs) / n
         print(f"| {s} | {pct(passed, n)} | {pct(planted, n)} | {pct(anyg, n)} | "
               f"{pass_no_gold}/{len(no_gold)} | {read_fail}/{planted} | "
               f"{pct(sum(r['gold_group_searched'] for r in grp), len(grp)) if grp else '-'} | "
@@ -80,16 +81,25 @@ def main():
         if c:
             print(f"| {s} | {c['not_mentioned']} | {c['mentioned_set_aside']} | {c['mentioned_applied']} |")
 
+    prices = {"claude-haiku-5-5": (0.10, 0.50), "claude-sonnet-5-5": (2.00, 10.00)}
+    batched = args.plan.startswith(("main_", "swap_", "smoke_engine"))
+
     def cost(r):
-        c = (r["input_tokens"] * 0.10 + r["output_tokens"] * 0.50) / 1e6
+        p_in, p_out = prices[r.get("model", "claude-haiku-5-5")]
+        c = (r["input_tokens"] * p_in + (r.get("cache_read_input_tokens") or 0) * p_in * 0.1
+             + (r.get("cache_creation_input_tokens") or 0) * p_in * 1.25 + r["output_tokens"] * p_out) / 1e6
+        c *= 0.5 if batched else 1.0
         if r.get("judge_tokens"):
             a, b = r["judge_tokens"]
-            c += (a * 2 + b * 10) / 1e6 if "sonnet" in r.get("grade_method", "") else (a * 0.10 + b * 0.50) / 1e6
+            c += (a * 2 + b * 10) / 1e6 if r.get("grade_method") == "word_list+sonnet_judge" else (a * 0.10 + b * 0.50) / 1e6
+        if r.get("sonnet_judge_tokens"):
+            a, b = r["sonnet_judge_tokens"]
+            c += (a * 2 + b * 10) / 1e6
         if r.get("critic"):
             a, b = r["critic"]["tokens"]
             c += (a * 0.10 + b * 0.50) / 1e6
         return c
-    print(f"\nClaude cost of this run (standard rate): ${sum(map(cost, rows)):.2f}")
+    print(f"\nClaude cost of this run ({'batched' if batched else 'standard'} rate, incl. judging and critic): ${sum(map(cost, rows)):.2f}")
 
 
 if __name__ == "__main__":
