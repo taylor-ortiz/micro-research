@@ -37,3 +37,151 @@
 {"tag": "store", "item": "tp51", "flags": [], "checked": 7, "cost": 0.003144}
 {"tag": "store", "item": "tp56", "flags": [], "checked": 6, "cost": 0.003212}
 {"tag": "store", "item": "tp58", "flags": [], "checked": 2, "cost": 0.002252}
+{"tag": "store", "item": "tp43", "flags": [], "checked": 2, "cost": 0.002218}
+{"tag": "store", "item": "tp63", "flags": [], "checked": 7, "cost": 0.003326}
+{"tag": "store", "item": "tp59", "flags": [], "checked": 4, "cost": 0.002766}
+{"tag": "store", "item": "tp65", "flags": [], "checked": 2, "cost": 0.00229}
+{"tag": "store", "item": "tp48", "flags": [], "checked": 3, "cost": 0.002482}
+{"tag": "store", "item": "tp67", "flags": [], "checked": 1, "cost": 0.002102}
+{"tag": "store", "item": "tp50", "flags": [], "checked": 6, "cost": 0.00302}
+{"tag": "store", "item": "tp68", "flags": [], "checked": 4, "cost": 0.002552}
+{"tag": "store", "item": "tp66", "flags": [], "checked": 3, "cost": 0.00257}
+{"tag": "store", "item": "tp70", "flags": [], "checked": 1, "cost": 0.002076}
+{"tag": "store", "item": "al01", "flags": [], "checked": 3, "cost": 0.002402}
+{"tag": "store", "item": "tp54", "flags": [], "checked": 1, "cost": 0.002048}
+{"tag": "store", "item": "al02", "flags": [], "checked": 1, "cost": 0.001982}
+{"tag": "store", "item": "al03", "flags": [], "checked": 1, "cost": 0.00197}
+{"tag": "store", "item": "al08", "flags": [], "checked": 2, "cost": 0.002238}
+{"tag": "store", "item": "al04", "flags": [{"id": "h-11bd", "label": "contradicts_target"}, {"id": "h-5327", "label": "contradicts_target"}, {"id": "h-552c", "label": "contradicts_target"}, {"id": "h-87aa", "label": "contradicts_target"}, {"id": "h-ca8a", "label": "contradicts_target"}], "checked": 5, "cost": 0.002938}
+{"tag": "store", "item": "al05", "flags": [], "checked": 1, "cost": 0.001982}
+{"tag": "store", "item": "al11", "flags": [], "checked": 1, "cost": 0.001984}
+{"tag": "store", "item": "tp64", "flags": [], "checked": 5, "cost": 0.002926}
+{"tag": "store", "item": "al13", "flags": [{"id": "h-5327", "label": "contradicts_target"}, {"id": "h-87aa", "label": "contradicts_target"}, {"id": "h-ca8a", "label": "contradicts_target"}], "checked": 8, "cost": 0.00339}
+{"tag": "store", "item": "al09", "flags": [{"id": "h-5327", "label": "contradicts_target"}, {"id": "h-87aa", "label": "contradicts_target"}, {"id": "h-ca8a", "label": "contradicts_target"}], "checked": 3, "cost": 0.002488}
+{"tag": "store", "item": "al17", "flags": [], "checked": 3, "cost": 0.002324}
+{"tag": "store", "item": "al15", "flags": [], "checked": 1, "cost": 0.001986}
+{"tag": "store", "item": "al18", "flags": [{"id": "h-5327", "label": "contradicts_target"}, {"id": "h-552c", "label": "contradicts_target"}, {"id": "h-87aa", "label": "contradicts_target"}, {"id": "h-ca8a", "label": "contradicts_target"}], "checked": 5, "cost": 0.00289}
+{"tag": "store", "item": "al25", "flags": [], "checked": 5, "cost": 0.002702}
+{"tag": "store", "item": "al23", "flags": [{"id": "h-5327", "label": "contradicts_target"}, {"id": "h-552c", "label": "contradicts_target"}, {"id": "h-87aa", "label": "contradicts_target"}], "checked": 5, "cost": 0.002844}
+{"tag": "store", "item": "al27", "flags": [], "checked": 2, "cost": 0.00217}
+{"tag": "store", "item": "al31", "flags": [], "checked": 3, "cost": 0.002336}
+{"tag": "store", "item": "al37", "flags": [], "checked": 9, "cost": 0.003432}
+{"tag": "store", "item": "al35", "flags": [], "checked": 2, "cost": 0.002176}
+{"tag": "store", "item": "al28", "flags": [{"id": "h-5327", "label": "contradicts_target"}, {"id": "h-87aa", "label": "contradicts_target"}], "checked": 3, "cost": 0.00243}
+{"tag": "store", "item": "al24", "flags": [], "checked": 2, "cost": 0.00216}
+{"tag": "store", "item": "al39", "flags": [], "checked": 2, "cost": 0.002184}
+{"tag": "store", "item": "al50", "flags": [], "checked": 1, "cost": 0.00199}
+{"tag": "store", "item": "al52", "flags": [], "checked": 1, "cost": 0.002014}
+{"tag": "store", "item": "al32", "flags": [], "checked": 4, "cost": 0.002508}
+{"tag": "store", "item": "al40", "flags": [{"id": "h-5327", "label": "contradicts_target"}, {"id": "h-87aa", "label": "contradicts_target"}], "checked": 3, "cost": 0.002436}
+{"tag": "store", "item": "al33", "flags": [], "checked": 1, "cost": 0.001998}
+{"tag": "store", "item": "al44", "flags": [{"id": "h-5327", "label": "contradicts_target"}, {"id": "h-552c", "label": "contradicts_target"}, {"id": "h-87aa", "label": "contradicts_target"}, {"id": "h-ca8a", "label": "contradicts_target"}], "checked": 7, "cost": 0.003254}
+{"tag": "store", "item": "al48", "flags": [], "checked": 9, "cost": 0.003558}
+{"tag": "store", "item": "al55", "flags": [], "checked": 4, "cost": 0.002532}
+{"tag": "store", "item": "fa01", "flags": [{"id": "h-31e7", "label": "contradicts_target"}, {"id": "h-4ac0", "label": "supports_alternative"}, {"id": "h-7bca", "label": "contradicts_target"}, {"id": "h-cf0a", "label": "contradicts_target"}], "checked": 12, "cost": 0.004206}
+{"tag": "store", "item": "fa06", "flags": [], "checked": 17, "cost": 0.004924}
+{"tag": "store", "item": "fa03", "flags": [], "checked": 11, "cost": 0.003812}
+{"tag": "store", "item": "fa05", "flags": [], "checked": 22, "cost": 0.005754}
+{"tag": "store", "item": "fa02", "flags": [{"id": "h-1aff", "label": "supports_target"}, {"id": "h-32c0", "label": "supports_target"}, {"id": "h-5d45", "label": "supports_target"}, {"id": "h-6006", "label": "supports_target"}, {"id": "h-6d3e", "label": "supports_target"}, {"id": "h-bb12", "label": "supports_target"}, {"id": "h-da23", "label": "supports_target"}, {"id": "h-deb7", "label": "supports_target"}, {"id": "h-fd0c", "label": "supports_target"}], "checked": 29, "cost": 0.007474}
+{"tag": "store", "item": "fa07", "flags": [{"id": "h-31e7", "label": "contradicts_target"}, {"id": "h-3d32", "label": "contradicts_target"}, {"id": "h-4ac0", "label": "contradicts_target"}, {"id": "h-5327", "label": "contradicts_target"}, {"id": "h-cf0a", "label": "contradicts_target"}], "checked": 10, "cost": 0.003962}
+{"tag": "store", "item": "fa10", "flags": [], "checked": 3, "cost": 0.002422}
+{"tag": "store", "item": "fa11", "flags": [], "checked": 3, "cost": 0.002354}
+{"tag": "store", "item": "fa08", "flags": [], "checked": 22, "cost": 0.00606}
+{"tag": "store", "item": "al46", "flags": [], "checked": 2, "cost": 0.002162}
+{"tag": "store", "item": "fa14", "flags": [], "checked": 4, "cost": 0.002548}
+{"tag": "store", "item": "fa15", "flags": [{"id": "h-c526", "label": "supports_target"}, {"id": "h-fb06", "label": "supports_target"}], "checked": 11, "cost": 0.003958}
+{"tag": "store", "item": "fa12", "flags": [], "checked": 22, "cost": 0.005784}
+{"tag": "store", "item": "fa20", "flags": [], "checked": 2, "cost": 0.00226}
+{"tag": "store", "item": "fa16", "flags": [{"id": "h-484f", "label": "contradicts_target"}, {"id": "h-adef", "label": "supports_alternative"}], "checked": 11, "cost": 0.003876}
+{"tag": "store", "item": "fa09", "flags": [{"id": "h-444c", "label": "contradicts_target"}, {"id": "h-5c94", "label": "contradicts_target"}, {"id": "h-6ece", "label": "contradicts_target"}, {"id": "h-76af", "label": "contradicts_target"}], "checked": 46, "cost": 0.010286}
+{"tag": "store", "item": "fa17", "flags": [{"id": "h-2b09", "label": "contradicts_target"}, {"id": "s-093", "label": "supports_alternative"}, {"id": "s-157", "label": "contradicts_target"}, {"id": "s-164", "label": "supports_alternative"}, {"id": "s-192", "label": "contradicts_target"}, {"id": "s-253", "label": "supports_alternative"}, {"id": "s-265", "label": "supports_alternative"}], "checked": 18, "cost": 0.005992}
+{"tag": "store", "item": "fa21", "flags": [{"id": "s-005", "label": "supports_alternative"}, {"id": "s-025", "label": "supports_target"}, {"id": "s-182", "label": "supports_target"}], "checked": 11, "cost": 0.004312}
+{"tag": "store", "item": "fa18", "flags": [], "checked": 13, "cost": 0.004102}
+{"tag": "store", "item": "fa23", "flags": [{"id": "h-80a5", "label": "contradicts_target"}], "checked": 21, "cost": 0.005678}
+{"tag": "store", "item": "fa27", "flags": [], "checked": 5, "cost": 0.00287}
+{"tag": "store", "item": "fa26", "flags": [{"id": "h-31e7", "label": "contradicts_target"}, {"id": "h-5591", "label": "contradicts_target"}, {"id": "h-7bca", "label": "contradicts_target"}, {"id": "h-cf0a", "label": "contradicts_target"}], "checked": 13, "cost": 0.00439}
+{"tag": "store", "item": "fa24", "flags": [], "checked": 31, "cost": 0.007396}
+{"tag": "store", "item": "fa25", "flags": [], "checked": 22, "cost": 0.005676}
+{"tag": "store", "item": "fa29", "flags": [], "checked": 3, "cost": 0.002446}
+{"tag": "store", "item": "fa04", "flags": [{"id": "h-024d", "label": "supports_alternative"}, {"id": "h-18f6", "label": "supports_alternative"}, {"id": "h-20eb", "label": "supports_alternative"}, {"id": "h-2a21", "label": "supports_alternative"}, {"id": "h-37df", "label": "supports_alternative"}, {"id": "h-3c8a", "label": "supports_alternative"}, {"id": "h-5b84", "label": "supports_alternative"}, {"id": "h-6549", "label": "supports_alternative"}, {"id": "h-662d", "label": "supports_alternative"}, {"id": "h-809e", "label": "supports_alternative"}, {"id": "h-85dc", "label": "supports_alternative"}, {"id": "h-8e14", "label": "supports_alternative"}, {"id": "h-9e69", "label": "supports_alternative"}, {"id": "h-ac34", "label": "contradicts_target"}, {"id": "h-aed7", "label": "supports_target"}, {"id": "h-af3c", "label": "supports_alternative"}, {"id": "h-c0f8", "label": "supports_alternative"}, {"id": "h-cba9", "label": "contradicts_target"}, {"id": "h-dcf9", "label": "supports_alternative"}, {"id": "h-e7bd", "label": "contradicts_target"}, {"id": "s-008", "label": "supports_alternative"}, {"id": "s-022", "label": "supports_alternative"}, {"id": "s-050", "label": "contradicts_target"}, {"id": "s-067", "label": "supports_alternative"}, {"id": "s-070", "label": "supports_alternative"}, {"id": "s-081", "label": "supports_alternative"}, {"id": "s-141", "label": "contradicts_target"}, {"id": "s-160", "label": "contradicts_target"}, {"id": "s-172", "label": "contradicts_target"}, {"id": "s-187", "label": "supports_alternative"}, {"id": "s-201", "label": "supports_alternative"}, {"id": "s-240", "label": "supports_alternative"}, {"id": "s-242", "label": "supports_alternative"}, {"id": "s-250", "label": "supports_alternative"}, {"id": "s-261", "label": "supports_alternative"}, {"id": "s-290", "label": "supports_alternative"}], "checked": 100, "cost": 0.024412}
+{"tag": "store", "item": "fa30", "flags": [], "checked": 14, "cost": 0.004372}
+{"tag": "store", "item": "fa40", "flags": [], "checked": 6, "cost": 0.003236}
+{"tag": "store", "item": "ut04", "flags": [], "checked": 4, "cost": 0.002566}
+{"tag": "store", "item": "ut05", "flags": [], "checked": 3, "cost": 0.00235}
+{"tag": "store", "item": "ut06", "flags": [], "checked": 1, "cost": 0.002008}
+{"tag": "store", "item": "fa36", "flags": [], "checked": 34, "cost": 0.008006}
+{"tag": "store", "item": "ut07", "flags": [], "checked": 3, "cost": 0.002354}
+{"tag": "store", "item": "fa28", "flags": [{"id": "h-06a5", "label": "contradicts_target"}, {"id": "h-0767", "label": "supports_target"}, {"id": "h-168a", "label": "contradicts_target"}, {"id": "h-1825", "label": "supports_target"}, {"id": "h-2803", "label": "contradicts_target"}, {"id": "h-531d", "label": "contradicts_target"}, {"id": "h-5e95", "label": "contradicts_target"}, {"id": "h-6a89", "label": "supports_target"}, {"id": "h-6d01", "label": "contradicts_target"}, {"id": "h-6d3e", "label": "contradicts_target"}, {"id": "h-771e", "label": "contradicts_target"}, {"id": "h-97bd", "label": "contradicts_target"}, {"id": "h-9feb", "label": "contradicts_target"}, {"id": "h-a4e3", "label": "contradicts_target"}, {"id": "h-ae13", "label": "contradicts_target"}, {"id": "h-ae4a", "label": "contradicts_target"}, {"id": "h-ae8d", "label": "contradicts_target"}, {"id": "h-bb12", "label": "contradicts_target"}, {"id": "h-c3e4", "label": "contradicts_target"}, {"id": "h-ccb7", "label": "contradicts_target"}, {"id": "h-d8e3", "label": "contradicts_target"}, {"id": "h-da23", "label": "contradicts_target"}, {"id": "h-deb7", "label": "contradicts_target"}, {"id": "h-e02f", "label": "contradicts_target"}, {"id": "h-e6c0", "label": "contradicts_target"}, {"id": "h-f1a6", "label": "contradicts_target"}, {"id": "h-fd0c", "label": "contradicts_target"}, {"id": "h-ff56", "label": "contradicts_target"}, {"id": "s-047", "label": "supports_target"}, {"id": "s-067", "label": "contradicts_target"}], "checked": 42, "cost": 0.010928}
+{"tag": "store", "item": "ut11", "flags": [], "checked": 1, "cost": 0.002}
+{"tag": "store", "item": "ut13", "flags": [], "checked": 2, "cost": 0.00214}
+{"tag": "store", "item": "ut09", "flags": [], "checked": 7, "cost": 0.00315}
+{"tag": "store", "item": "ut16", "flags": [], "checked": 2, "cost": 0.002168}
+{"tag": "store", "item": "fa34", "flags": [{"id": "h-5327", "label": "contradicts_target"}], "checked": 6, "cost": 0.00298}
+{"tag": "store", "item": "ut15", "flags": [], "checked": 9, "cost": 0.003378}
+{"tag": "store", "item": "fa38", "flags": [], "checked": 9, "cost": 0.003658}
+{"tag": "store", "item": "ut17", "flags": [], "checked": 10, "cost": 0.003964}
+{"tag": "store", "item": "ut28", "flags": [], "checked": 2, "cost": 0.002176}
+{"tag": "store", "item": "ut20", "flags": [], "checked": 11, "cost": 0.003748}
+{"tag": "store", "item": "ut33", "flags": [], "checked": 4, "cost": 0.00249}
+{"tag": "store", "item": "fa32", "flags": [], "checked": 103, "cost": 0.02279}
+{"tag": "store", "item": "ut23", "flags": [{"id": "s-192", "label": "contradicts_target"}, {"id": "s-242", "label": "contradicts_target"}], "checked": 7, "cost": 0.00356}
+{"tag": "store", "item": "ut31", "flags": [], "checked": 2, "cost": 0.002302}
+{"tag": "store", "item": "ut38", "flags": [], "checked": 3, "cost": 0.002368}
+{"tag": "store", "item": "ut34", "flags": [], "checked": 3, "cost": 0.002418}
+{"tag": "store", "item": "ut39", "flags": [], "checked": 4, "cost": 0.002562}
+{"tag": "store", "item": "ut37", "flags": [], "checked": 1, "cost": 0.001974}
+{"tag": "store", "item": "ut40", "flags": [], "checked": 3, "cost": 0.002528}
+{"tag": "store", "item": "ut12", "flags": [], "checked": 11, "cost": 0.003762}
+{"tag": "store", "item": "ut36", "flags": [], "checked": 13, "cost": 0.004078}
+{"tag": "store", "item": "ut45", "flags": [], "checked": 1, "cost": 0.002026}
+{"tag": "store", "item": "ut44", "flags": [], "checked": 1, "cost": 0.00198}
+{"tag": "store", "item": "ut52", "flags": [], "checked": 2, "cost": 0.002222}
+{"tag": "store", "item": "ut41", "flags": [], "checked": 4, "cost": 0.002564}
+{"tag": "store", "item": "ut42", "flags": [], "checked": 23, "cost": 0.00604}
+{"tag": "store", "item": "ut58", "flags": [], "checked": 2, "cost": 0.00214}
+{"tag": "store", "item": "ut54", "flags": [], "checked": 2, "cost": 0.002266}
+{"tag": "store", "item": "ut55", "flags": [], "checked": 6, "cost": 0.002848}
+{"tag": "store", "item": "ut60", "flags": [], "checked": 2, "cost": 0.002226}
+{"tag": "store", "item": "ut62", "flags": [], "checked": 4, "cost": 0.0026}
+{"tag": "store", "item": "ut59", "flags": [], "checked": 12, "cost": 0.004034}
+{"tag": "store", "item": "ut65", "flags": [], "checked": 1, "cost": 0.001964}
+{"tag": "store", "item": "ut61", "flags": [], "checked": 6, "cost": 0.003046}
+{"tag": "store", "item": "ut64", "flags": [], "checked": 7, "cost": 0.003034}
+{"tag": "store", "item": "ut69", "flags": [], "checked": 3, "cost": 0.002376}
+{"tag": "store", "item": "ut66", "flags": [], "checked": 5, "cost": 0.002764}
+{"tag": "store", "item": "ps02", "flags": [], "checked": 4, "cost": 0.002612}
+{"tag": "store", "item": "ps05", "flags": [], "checked": 3, "cost": 0.002526}
+{"tag": "store", "item": "ps04", "flags": [], "checked": 7, "cost": 0.003302}
+{"tag": "store", "item": "ps06", "flags": [], "checked": 7, "cost": 0.003422}
+{"tag": "store", "item": "ps08", "flags": [], "checked": 8, "cost": 0.003492}
+{"tag": "store", "item": "ps09", "flags": [], "checked": 8, "cost": 0.003648}
+{"tag": "store", "item": "ps10", "flags": [], "checked": 3, "cost": 0.002386}
+{"tag": "store", "item": "ps01", "flags": [], "checked": 2, "cost": 0.002202}
+{"tag": "store", "item": "ps11", "flags": [], "checked": 8, "cost": 0.003558}
+{"tag": "store", "item": "ps03", "flags": [], "checked": 7, "cost": 0.003304}
+{"tag": "store", "item": "ps16", "flags": [], "checked": 3, "cost": 0.002412}
+{"tag": "store", "item": "ps13", "flags": [], "checked": 10, "cost": 0.00378}
+{"tag": "store", "item": "ps18", "flags": [], "checked": 1, "cost": 0.00202}
+{"tag": "store", "item": "ps17", "flags": [], "checked": 5, "cost": 0.0028}
+{"tag": "store", "item": "ps20", "flags": [], "checked": 6, "cost": 0.003064}
+{"tag": "store", "item": "ps21", "flags": [], "checked": 2, "cost": 0.002152}
+{"tag": "store", "item": "ps22", "flags": [], "checked": 4, "cost": 0.00266}
+{"tag": "store", "item": "ps07", "flags": [], "checked": 6, "cost": 0.00304}
+{"tag": "store", "item": "ps14", "flags": [], "checked": 3, "cost": 0.002506}
+{"tag": "store", "item": "ps24", "flags": [], "checked": 6, "cost": 0.003088}
+{"tag": "store", "item": "ps23", "flags": [], "checked": 3, "cost": 0.00235}
+{"tag": "store", "item": "ps32", "flags": [], "checked": 4, "cost": 0.002692}
+{"tag": "store", "item": "ps30", "flags": [], "checked": 10, "cost": 0.003824}
+{"tag": "store", "item": "ps31", "flags": [], "checked": 5, "cost": 0.002894}
+{"tag": "store", "item": "ps19", "flags": [], "checked": 4, "cost": 0.002614}
+{"tag": "store", "item": "ps34", "flags": [], "checked": 5, "cost": 0.002784}
+{"tag": "store", "item": "ps36", "flags": [], "checked": 1, "cost": 0.002052}
+{"tag": "store", "item": "ps29", "flags": [], "checked": 3, "cost": 0.002454}
+{"tag": "store", "item": "ps25", "flags": [], "checked": 4, "cost": 0.002644}
+{"tag": "store", "item": "ps15", "flags": [], "checked": 17, "cost": 0.005978}
+{"tag": "store", "item": "ps38", "flags": [], "checked": 5, "cost": 0.002774}
+{"tag": "store", "item": "ps39", "flags": [], "checked": 3, "cost": 0.002478}
+{"tag": "store", "item": "ps28", "flags": [], "checked": 7, "cost": 0.003124}
+{"tag": "store", "item": "ps40", "flags": [], "checked": 7, "cost": 0.003212}
+{"tag": "store", "item": "ps37", "flags": [], "checked": 26, "cost": 0.008264}
+{"tag": "store", "item": "ps35", "flags": [], "checked": 37, "cost": 0.010126}

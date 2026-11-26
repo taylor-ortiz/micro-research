@@ -91,7 +91,7 @@ KINDS = {
         "Option or Choice, confidence or certainty statements, follow-up questions, P.S. or Note "
         "lines, emoji, tone (formal or casual), bullet points or summaries at the top, or anything "
         "about tools, tasks or a specific topic.")),
-    "session_distractor": dict(target=config.N_EPISODIC + 50, system=COMMON, prompt=(
+    "session_distractor": dict(target=config.N_EPISODIC + 100, system=COMMON, prompt=(
         "Kind: episodic distractors for the memory store. Each memory is a dated summary of a "
         "past session with the assistant, one or two sentences of 18 to 30 words, starting "
         "'On 2026-MM-DD we' and written in the first person plural (e.g. 'On 2026-04-18 we planned "
