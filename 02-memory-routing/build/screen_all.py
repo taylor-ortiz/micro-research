@@ -8,6 +8,8 @@ that:
   supports_target       on its own would lead to a reply that passes the gold check
   supports_alternative  on its own would lead to a reply that passes the twin check
   contradicts_target    states something incompatible with the gold memory
+Haiku's flags are candidates only: Sonnet then re-checks each question's flagged
+memories in one call with stricter definitions, and only confirmed flags count.
 Rules: supports_target -> secondary gold for that question; the other two labels ->
 the memory is removed from the store and replaced by a screened candidate of the
 same kind, in the same shuffle positions. Questions with more than 3 secondary
@@ -86,6 +88,71 @@ def screen(it, mems):
     return flags, (u.input_tokens * 0.10 + u.output_tokens * 0.50) / 1e6
 
 
+VERIFY_SYSTEM = """You verify flags from a first-pass audit of a memory store for an experiment \
+on AI assistants. You get a user's request, a target memory with the check a reply must pass to \
+follow it, an alternative version with its check, and numbered memories that a first pass \
+flagged. For each, give the correct label under these strict definitions:
+- supports_target: a careful assistant given ONLY this memory and the request would almost \
+certainly produce a reply that passes the target's check. Being on the same topic, or making \
+the target's answer merely plausible, is not enough.
+- supports_alternative: the same, for the alternative's check.
+- contradicts_target: this memory and the target memory cannot both be true of the same person. \
+A different topic, project, date or preference that can coexist is not a contradiction.
+- none: none of the above. Expect most first-pass flags to be none."""
+
+
+class Verdict(BaseModel):
+    number: int
+    label: Literal["supports_target", "supports_alternative", "contradicts_target", "none"]
+
+
+class Verdicts(BaseModel):
+    verdicts: list[Verdict]
+
+
+def verify(it, mems):
+    if not mems:
+        return [], 0.0
+    gold_check, twin_check = checks(it)
+    listing = "\n".join(f"{n + 1}. {m['memory']}" for n, m in enumerate(mems))
+    r = harness.client().messages.parse(
+        model=config.AUDIT_MODEL, max_tokens=8000, system=VERIFY_SYSTEM, output_config={"effort": "medium"},
+        messages=[{"role": "user", "content":
+                   f"Request: {it['query']}\nTarget memory: {it['gold_memory']}\nTarget's check: {gold_check}\n"
+                   f"Alternative memory: {it['twin_memory']}\nAlternative's check: {twin_check}\n\n"
+                   f"Flagged memories:\n{listing}"}],
+        output_format=Verdicts)
+    u = r.usage
+    out = [{"id": mems[v.number - 1]["id"], "label": v.label}
+           for v in r.parsed_output.verdicts if 1 <= v.number <= len(mems) and v.label != "none"]
+    return out, (u.input_tokens * 2 + u.output_tokens * 10) / 1e6
+
+
+def run_verify(items, flags, mems_by_id, tag):
+    """Sonnet re-checks each item's first-pass flags. Resumable via data/screen_all/verify.jsonl."""
+    path = DIR / "verify.jsonl"
+    done = {}
+    if path.exists():
+        for l in path.read_text().splitlines():
+            row = json.loads(l)
+            done[(row["tag"], row["item"])] = row
+    todo = [it for it in items if (tag, it["id"]) not in done and flags.get(it["id"])]
+    print(f"[{tag}] verifying flags for {len(todo)} items with {config.AUDIT_MODEL}")
+
+    def go(it):
+        ids = sorted({f["id"] for f in flags[it["id"]]})
+        out, cost = verify(it, [mems_by_id[i] for i in ids])
+        row = {"tag": tag, "item": it["id"], "flags": out, "checked": len(ids), "cost": cost}
+        with _lock, path.open("a") as f:
+            f.write(json.dumps(row) + "\n")
+        return row
+
+    for row in harness.pmap(go, todo):
+        done[(row["tag"], row["item"])] = row
+    confirmed = {i: row["flags"] for (t, i), row in done.items() if t == tag}
+    return confirmed, sum(row["cost"] for (t, _), row in done.items() if t == tag)
+
+
 def run_screen(items, mems, tag):
     """Screen every item against `mems`; returns {item_id: [flags]} and cost. Resumable."""
     DIR.mkdir(parents=True, exist_ok=True)
@@ -124,7 +191,11 @@ def main():
     gold_items = [it for it in items if it["gold_memory"]]
     onto = json.loads((config.DATA / "ontology_v1.json").read_text())
 
-    flags, total = run_screen(gold_items, store, "store")
+    first, total = run_screen(gold_items, store, "store")
+    flags, vcost = run_verify(gold_items, first, {m["id"]: m for m in store}, "store")
+    total += vcost
+    print(f"first pass flagged {sum(len(v) for v in first.values())}, Sonnet confirmed "
+          f"{sum(len(v) for v in flags.values())}")
     removed = {f["id"] for fl in flags.values() for f in fl if f["label"] != "supports_target"}
     secondary = {i: sorted({f["id"] for f in fl if f["label"] == "supports_target"} - removed)
                  for i, fl in flags.items()}
@@ -137,24 +208,27 @@ def main():
     replacement, round_n = {}, 0
     pending = sorted(removed)
     src = {m["id"]: m["source"] for m in store}
+    typ = {m["id"]: m["type"] for m in store}
     while pending:
         round_n += 1
         picks = []
         for rid in pending:
-            cand = next((p for p in pool if p["source"] == src[rid] and p["id"] not in replacement.values()
-                         and p["id"] not in picks), None)
+            # Same source if any is left, else the same memory type (e.g. a task decoy is
+            # replaced by another procedural memory when no decoys remain).
+            ok = lambda p: p["id"] not in replacement.values() and p["id"] not in picks
+            cand = next((p for p in pool if p["source"] == src[rid] and ok(p)), None) or \
+                next((p for p in pool if p["type"] == typ[rid] and ok(p)), None)
             if cand is None:
                 raise SystemExit(f"No replacement left for source {src[rid]}")
             picks.append(cand["id"])
             replacement[rid] = cand["id"]
             pool.remove(cand)
         cand_mems = [p for p in candidate_pool() if p["id"] in set(picks)]
-        cflags, c = run_screen(gold_items, cand_mems, f"replace{round_n}")
-        total += c
+        cfirst, c = run_screen(gold_items, cand_mems, f"replace{round_n}")
+        cflags, vc = run_verify(gold_items, cfirst, {m["id"]: m for m in cand_mems}, f"replace{round_n}")
+        total += c + vc
         bad = {f["id"] for fl in cflags.values() for f in fl}
         pending = sorted(rid for rid, cid in replacement.items() if cid in bad)
-        for rid in pending:
-            src[rid] = src[rid]
         print(f"round {round_n}: {len(picks)} replacements screened, {len(pending)} flagged again")
 
     new_by_id = {p["id"]: p for p in candidate_pool()}

@@ -1217,3 +1217,1034 @@
 {"tag": "store", "item": "fa09", "batch": 7, "flags": [{"id": "h-fc73", "label": "supports_target"}, {"id": "h-fdd9", "label": "supports_target"}], "cost": 0.0007758000000000001}
 {"tag": "store", "item": "fa09", "batch": 9, "flags": [{"id": "s-300", "label": "supports_alternative"}], "cost": 0.0005689}
 {"tag": "store", "item": "fa09", "batch": 2, "flags": [{"id": "h-45fe", "label": "supports_target"}, {"id": "h-484f", "label": "supports_target"}, {"id": "h-4380", "label": "supports_target"}, {"id": "h-5045", "label": "supports_target"}, {"id": "h-58bf", "label": "supports_target"}, {"id": "h-5c8d", "label": "supports_target"}, {"id": "h-5c99", "label": "supports_target"}, {"id": "h-444c", "label": "supports_alternative"}, {"id": "h-5c94", "label": "contradicts_target"}], "cost": 0.0008197}
+{"tag": "store", "item": "fa10", "batch": 0, "flags": [], "cost": 0.0005156000000000001}
+{"tag": "store", "item": "fa10", "batch": 2, "flags": [], "cost": 0.00045210000000000004}
+{"tag": "store", "item": "fa09", "batch": 8, "flags": [{"id": "s-206", "label": "supports_target"}, {"id": "s-187", "label": "supports_target"}], "cost": 0.0008909000000000001}
+{"tag": "store", "item": "fa10", "batch": 1, "flags": [], "cost": 0.000501}
+{"tag": "store", "item": "fa10", "batch": 3, "flags": [], "cost": 0.000486}
+{"tag": "store", "item": "fa10", "batch": 6, "flags": [], "cost": 0.0004909000000000001}
+{"tag": "store", "item": "fa10", "batch": 5, "flags": [{"id": "h-dcb0", "label": "supports_target"}], "cost": 0.0005814}
+{"tag": "store", "item": "fa10", "batch": 9, "flags": [], "cost": 0.0006348}
+{"tag": "store", "item": "fa10", "batch": 4, "flags": [{"id": "h-a919", "label": "supports_target"}], "cost": 0.000645}
+{"tag": "store", "item": "fa11", "batch": 0, "flags": [], "cost": 0.0005449000000000001}
+{"tag": "store", "item": "fa10", "batch": 8, "flags": [], "cost": 0.0007943000000000001}
+{"tag": "store", "item": "fa10", "batch": 7, "flags": [{"id": "s-083", "label": "supports_alternative"}], "cost": 0.0009642}
+{"tag": "store", "item": "fa11", "batch": 2, "flags": [], "cost": 0.0006849000000000001}
+{"tag": "store", "item": "fa11", "batch": 3, "flags": [], "cost": 0.0006448}
+{"tag": "store", "item": "fa11", "batch": 4, "flags": [], "cost": 0.0006707999999999999}
+{"tag": "store", "item": "fa11", "batch": 5, "flags": [{"id": "h-c52f", "label": "supports_alternative"}, {"id": "h-c972", "label": "supports_alternative"}], "cost": 0.0006747000000000001}
+{"tag": "store", "item": "fa12", "batch": 0, "flags": [{"id": "h-0c74", "label": "supports_alternative"}, {"id": "h-1823", "label": "supports_alternative"}, {"id": "h-0f3b", "label": "supports_target"}, {"id": "h-1671", "label": "supports_target"}], "cost": 0.00044290000000000003}
+{"tag": "store", "item": "fa11", "batch": 7, "flags": [{"id": "h-fd3a", "label": "contradicts_target"}], "cost": 0.0009445}
+{"tag": "store", "item": "fa11", "batch": 8, "flags": [], "cost": 0.0009046}
+{"tag": "store", "item": "fa11", "batch": 6, "flags": [], "cost": 0.0006272000000000001}
+{"tag": "store", "item": "fa11", "batch": 1, "flags": [], "cost": 0.0007798}
+{"tag": "store", "item": "fa11", "batch": 9, "flags": [], "cost": 0.0006441}
+{"tag": "store", "item": "fa12", "batch": 7, "flags": [{"id": "h-fece", "label": "contradicts_target"}, {"id": "s-032", "label": "contradicts_target"}, {"id": "h-fd0c", "label": "contradicts_target"}], "cost": 0.0006585}
+{"tag": "store", "item": "fa12", "batch": 3, "flags": [{"id": "h-8304", "label": "supports_target"}, {"id": "h-7b6f", "label": "contradicts_target"}, {"id": "h-85f3", "label": "contradicts_target"}, {"id": "h-84f9", "label": "contradicts_target"}, {"id": "h-6ec6", "label": "contradicts_target"}], "cost": 0.0003663}
+{"tag": "store", "item": "fa12", "batch": 8, "flags": [], "cost": 0.0007256000000000001}
+{"tag": "store", "item": "fa12", "batch": 2, "flags": [{"id": "h-4f5f", "label": "supports_target"}, {"id": "h-4fe6", "label": "supports_target"}], "cost": 0.0005739000000000001}
+{"tag": "store", "item": "fa12", "batch": 5, "flags": [{"id": "h-b67e", "label": "supports_target"}, {"id": "h-d696", "label": "supports_target"}], "cost": 0.0005042}
+{"tag": "store", "item": "fa12", "batch": 1, "flags": [{"id": "h-3068", "label": "contradicts_target"}, {"id": "h-25ba", "label": "supports_target"}], "cost": 0.0006182999999999999}
+{"tag": "store", "item": "fa12", "batch": 4, "flags": [{"id": "h-9004", "label": "supports_target"}], "cost": 0.0004878}
+{"tag": "store", "item": "fa12", "batch": 9, "flags": [], "cost": 0.0006331}
+{"tag": "store", "item": "fa12", "batch": 6, "flags": [{"id": "h-e5cd", "label": "supports_target"}, {"id": "h-fa61", "label": "supports_target"}, {"id": "h-df98", "label": "supports_alternative"}], "cost": 0.0006332}
+{"tag": "store", "item": "fa14", "batch": 4, "flags": [], "cost": 0.0005283}
+{"tag": "store", "item": "fa14", "batch": 0, "flags": [], "cost": 0.0007089}
+{"tag": "store", "item": "fa14", "batch": 3, "flags": [{"id": "h-60f3", "label": "supports_target"}], "cost": 0.0005493}
+{"tag": "store", "item": "fa14", "batch": 2, "flags": [], "cost": 0.0005139000000000001}
+{"tag": "store", "item": "fa14", "batch": 1, "flags": [{"id": "h-3808", "label": "supports_target"}], "cost": 0.0006167999999999999}
+{"tag": "store", "item": "fa14", "batch": 6, "flags": [{"id": "h-eb3c", "label": "supports_alternative"}], "cost": 0.0005127}
+{"tag": "store", "item": "fa14", "batch": 7, "flags": [], "cost": 0.000742}
+{"tag": "store", "item": "fa14", "batch": 9, "flags": [], "cost": 0.0006231}
+{"tag": "store", "item": "fa14", "batch": 8, "flags": [], "cost": 0.0007476000000000001}
+{"tag": "store", "item": "fa14", "batch": 5, "flags": [{"id": "h-cf0a", "label": "supports_alternative"}], "cost": 0.0007122000000000001}
+{"tag": "store", "item": "fa15", "batch": 0, "flags": [{"id": "h-0507", "label": "supports_target"}, {"id": "h-0951", "label": "supports_target"}], "cost": 0.0005862}
+{"tag": "store", "item": "fa15", "batch": 3, "flags": [{"id": "h-6006", "label": "supports_target"}], "cost": 0.0006241}
+{"tag": "store", "item": "fa15", "batch": 2, "flags": [{"id": "h-481f", "label": "supports_target"}], "cost": 0.0006437000000000001}
+{"tag": "store", "item": "fa15", "batch": 1, "flags": [{"id": "h-32c0", "label": "supports_target"}], "cost": 0.0007031}
+{"tag": "store", "item": "fa15", "batch": 5, "flags": [{"id": "h-c526", "label": "supports_target"}], "cost": 0.000593}
+{"tag": "store", "item": "fa15", "batch": 9, "flags": [], "cost": 0.0005609}
+{"tag": "store", "item": "fa15", "batch": 6, "flags": [{"id": "h-fb06", "label": "supports_target"}, {"id": "h-ecad", "label": "supports_target"}], "cost": 0.0005985}
+{"tag": "store", "item": "fa15", "batch": 7, "flags": [{"id": "s-053", "label": "supports_target"}], "cost": 0.0008333}
+{"tag": "store", "item": "fa16", "batch": 0, "flags": [{"id": "h-0f49", "label": "supports_alternative"}], "cost": 0.0005159000000000001}
+{"tag": "store", "item": "fa15", "batch": 8, "flags": [{"id": "s-208", "label": "supports_target"}], "cost": 0.0009099}
+{"tag": "store", "item": "fa15", "batch": 4, "flags": [{"id": "h-8ab0", "label": "supports_target"}], "cost": 0.0006871000000000001}
+{"tag": "store", "item": "fa16", "batch": 8, "flags": [], "cost": 0.0006691000000000001}
+{"tag": "store", "item": "fa16", "batch": 9, "flags": [{"id": "s-268", "label": "supports_alternative"}], "cost": 0.0005701}
+{"tag": "store", "item": "fa16", "batch": 1, "flags": [{"id": "h-3b5c", "label": "supports_alternative"}], "cost": 0.0007168}
+{"tag": "store", "item": "fa16", "batch": 7, "flags": [], "cost": 0.0008025}
+{"tag": "store", "item": "fa16", "batch": 4, "flags": [{"id": "h-adef", "label": "supports_alternative"}, {"id": "h-b17a", "label": "supports_target"}], "cost": 0.0005073}
+{"tag": "store", "item": "fa16", "batch": 3, "flags": [{"id": "h-83db", "label": "supports_target"}], "cost": 0.0006477999999999999}
+{"tag": "store", "item": "fa16", "batch": 2, "flags": [{"id": "h-5cb5", "label": "supports_target"}, {"id": "h-484f", "label": "contradicts_target"}], "cost": 0.0007769000000000001}
+{"tag": "store", "item": "fa16", "batch": 6, "flags": [{"id": "h-f483", "label": "supports_alternative"}, {"id": "h-e973", "label": "contradicts_target"}], "cost": 0.0006642000000000001}
+{"tag": "store", "item": "fa16", "batch": 5, "flags": [{"id": "h-dad3", "label": "contradicts_target"}], "cost": 0.0007202}
+{"tag": "store", "item": "fa17", "batch": 0, "flags": [{"id": "h-1569", "label": "supports_target"}], "cost": 0.0005957}
+{"tag": "store", "item": "fa17", "batch": 1, "flags": [{"id": "h-30df", "label": "supports_target"}, {"id": "h-2b09", "label": "contradicts_target"}], "cost": 0.0005986}
+{"tag": "store", "item": "fa17", "batch": 2, "flags": [{"id": "h-5bc1", "label": "supports_alternative"}], "cost": 0.0005917}
+{"tag": "store", "item": "fa17", "batch": 3, "flags": [{"id": "h-720b", "label": "supports_target"}], "cost": 0.0005736000000000001}
+{"tag": "store", "item": "fa17", "batch": 4, "flags": [{"id": "h-9873", "label": "supports_target"}, {"id": "h-923e", "label": "supports_target"}], "cost": 0.0005986}
+{"tag": "store", "item": "fa17", "batch": 5, "flags": [{"id": "h-d553", "label": "supports_target"}], "cost": 0.0005725}
+{"tag": "store", "item": "fa17", "batch": 9, "flags": [{"id": "s-265", "label": "supports_alternative"}, {"id": "s-253", "label": "contradicts_target"}, {"id": "s-261", "label": "contradicts_target"}, {"id": "s-247", "label": "contradicts_target"}], "cost": 0.0006009}
+{"tag": "store", "item": "fa18", "batch": 0, "flags": [{"id": "h-0234", "label": "contradicts_target"}, {"id": "h-0366", "label": "contradicts_target"}, {"id": "h-050f", "label": "contradicts_target"}], "cost": 0.00043420000000000004}
+{"tag": "store", "item": "fa17", "batch": 6, "flags": [{"id": "h-e402", "label": "supports_target"}], "cost": 0.0005475}
+{"tag": "store", "item": "fa17", "batch": 7, "flags": [{"id": "s-093", "label": "supports_alternative"}], "cost": 0.0009738}
+{"tag": "store", "item": "fa18", "batch": 4, "flags": [{"id": "h-968b", "label": "supports_target"}, {"id": "h-95cf", "label": "supports_target"}, {"id": "h-a58f", "label": "supports_target"}, {"id": "h-a83e", "label": "supports_target"}, {"id": "h-9feb", "label": "supports_target"}, {"id": "h-ae8d", "label": "supports_target"}, {"id": "h-a3cb", "label": "contradicts_target"}], "cost": 0.00037810000000000003}
+{"tag": "store", "item": "fa18", "batch": 7, "flags": [], "cost": 0.0007528000000000001}
+{"tag": "store", "item": "fa18", "batch": 3, "flags": [], "cost": 0.0005686}
+{"tag": "store", "item": "fa17", "batch": 8, "flags": [{"id": "s-157", "label": "contradicts_target"}, {"id": "s-192", "label": "contradicts_target"}, {"id": "s-222", "label": "contradicts_target"}, {"id": "s-164", "label": "supports_alternative"}], "cost": 0.0011224000000000002}
+{"tag": "store", "item": "fa18", "batch": 8, "flags": [], "cost": 0.0007799}
+{"tag": "store", "item": "fa18", "batch": 2, "flags": [{"id": "h-56b3", "label": "supports_target"}], "cost": 0.0006357}
+{"tag": "store", "item": "fa18", "batch": 1, "flags": [], "cost": 0.0005091000000000001}
+{"tag": "store", "item": "fa18", "batch": 9, "flags": [], "cost": 0.0006533999999999999}
+{"tag": "store", "item": "fa18", "batch": 6, "flags": [], "cost": 0.000709}
+{"tag": "store", "item": "fa18", "batch": 5, "flags": [{"id": "h-cf0a", "label": "supports_target"}, {"id": "h-c462", "label": "supports_target"}], "cost": 0.0007535}
+{"tag": "store", "item": "fa20", "batch": 0, "flags": [], "cost": 0.0005468}
+{"tag": "store", "item": "fa20", "batch": 3, "flags": [], "cost": 0.00046120000000000004}
+{"tag": "store", "item": "fa20", "batch": 1, "flags": [], "cost": 0.0005462}
+{"tag": "store", "item": "fa20", "batch": 2, "flags": [], "cost": 0.0005868}
+{"tag": "store", "item": "fa20", "batch": 4, "flags": [], "cost": 0.0005562000000000001}
+{"tag": "store", "item": "fa21", "batch": 0, "flags": [{"id": "d-097", "label": "contradicts_target"}, {"id": "h-0507", "label": "supports_alternative"}, {"id": "h-1417", "label": "supports_alternative"}], "cost": 0.00043670000000000004}
+{"tag": "store", "item": "fa20", "batch": 5, "flags": [], "cost": 0.0005526}
+{"tag": "store", "item": "fa20", "batch": 8, "flags": [{"id": "s-160", "label": "supports_target"}], "cost": 0.0009035}
+{"tag": "store", "item": "fa20", "batch": 7, "flags": [], "cost": 0.0008329000000000001}
+{"tag": "store", "item": "fa20", "batch": 9, "flags": [], "cost": 0.0006385}
+{"tag": "store", "item": "fa20", "batch": 6, "flags": [{"id": "h-f472", "label": "contradicts_target"}], "cost": 0.0006821}
+{"tag": "store", "item": "fa21", "batch": 2, "flags": [{"id": "h-42b2", "label": "supports_target"}, {"id": "h-5ac0", "label": "supports_alternative"}], "cost": 0.0005462}
+{"tag": "store", "item": "fa21", "batch": 1, "flags": [], "cost": 0.0004731}
+{"tag": "store", "item": "fa21", "batch": 5, "flags": [{"id": "h-d3fe", "label": "supports_target"}], "cost": 0.000454}
+{"tag": "store", "item": "fa21", "batch": 3, "flags": [], "cost": 0.0004731}
+{"tag": "store", "item": "fa21", "batch": 7, "flags": [{"id": "s-025", "label": "supports_target"}, {"id": "s-005", "label": "supports_alternative"}], "cost": 0.0007903000000000001}
+{"tag": "store", "item": "fa21", "batch": 4, "flags": [], "cost": 0.0005081}
+{"tag": "store", "item": "fa21", "batch": 6, "flags": [], "cost": 0.0005675}
+{"tag": "store", "item": "fa21", "batch": 8, "flags": [{"id": "s-182", "label": "supports_target"}, {"id": "s-142", "label": "supports_alternative"}], "cost": 0.0009169000000000001}
+{"tag": "store", "item": "fa21", "batch": 9, "flags": [{"id": "s-268", "label": "supports_alternative"}], "cost": 0.0007488999999999999}
+{"tag": "store", "item": "fa23", "batch": 0, "flags": [], "cost": 0.0006241}
+{"tag": "store", "item": "fa23", "batch": 3, "flags": [{"id": "h-6b61", "label": "supports_target"}, {"id": "h-755a", "label": "supports_target"}, {"id": "h-80a5", "label": "supports_alternative"}], "cost": 0.000638}
+{"tag": "store", "item": "fa23", "batch": 8, "flags": [], "cost": 0.0006698}
+{"tag": "store", "item": "fa23", "batch": 4, "flags": [{"id": "h-8ab0", "label": "supports_target"}, {"id": "h-8995", "label": "supports_target"}, {"id": "h-b17a", "label": "supports_target"}], "cost": 0.000705}
+{"tag": "store", "item": "fa23", "batch": 1, "flags": [{"id": "h-1f08", "label": "supports_target"}, {"id": "h-2754", "label": "supports_target"}, {"id": "h-4138", "label": "supports_target"}, {"id": "h-26d8", "label": "supports_alternative"}], "cost": 0.0007665}
+{"tag": "store", "item": "fa23", "batch": 2, "flags": [{"id": "h-444c", "label": "supports_target"}, {"id": "h-53e9", "label": "supports_target"}, {"id": "h-5d45", "label": "supports_target"}, {"id": "h-5ed3", "label": "supports_target"}], "cost": 0.0007356}
+{"tag": "store", "item": "fa23", "batch": 9, "flags": [], "cost": 0.0006038}
+{"tag": "store", "item": "fa23", "batch": 5, "flags": [{"id": "h-b91b", "label": "supports_target"}, {"id": "h-da47", "label": "supports_target"}], "cost": 0.0006409000000000001}
+{"tag": "store", "item": "fa23", "batch": 6, "flags": [{"id": "h-e522", "label": "supports_target"}, {"id": "h-deb7", "label": "supports_target"}, {"id": "h-ecf5", "label": "supports_target"}, {"id": "h-fb06", "label": "supports_target"}], "cost": 0.0005954}
+{"tag": "store", "item": "fa23", "batch": 7, "flags": [{"id": "s-053", "label": "supports_target"}], "cost": 0.0008862000000000001}
+{"tag": "store", "item": "fa24", "batch": 0, "flags": [], "cost": 0.000566}
+{"tag": "store", "item": "fa24", "batch": 8, "flags": [], "cost": 0.0007277000000000001}
+{"tag": "store", "item": "fa24", "batch": 7, "flags": [], "cost": 0.0007771}
+{"tag": "store", "item": "fa24", "batch": 9, "flags": [{"id": "s-288", "label": "contradicts_target"}], "cost": 0.0005707}
+{"tag": "store", "item": "fa24", "batch": 1, "flags": [{"id": "h-1c54", "label": "supports_alternative"}], "cost": 0.0006254000000000001}
+{"tag": "store", "item": "fa24", "batch": 2, "flags": [{"id": "h-4310", "label": "supports_target"}, {"id": "h-49c8", "label": "supports_target"}, {"id": "h-521f", "label": "supports_target"}, {"id": "h-5b84", "label": "supports_alternative"}, {"id": "h-4fe6", "label": "supports_alternative"}, {"id": "h-5c9f", "label": "supports_alternative"}], "cost": 0.0007245}
+{"tag": "store", "item": "fa24", "batch": 3, "flags": [{"id": "h-8304", "label": "supports_target"}, {"id": "h-809e", "label": "supports_alternative"}, {"id": "h-6f26", "label": "supports_alternative"}, {"id": "h-6549", "label": "supports_alternative"}], "cost": 0.0006954000000000001}
+{"tag": "store", "item": "fa24", "batch": 5, "flags": [{"id": "h-b5d5", "label": "supports_target"}, {"id": "h-cfc1", "label": "supports_target"}, {"id": "h-da87", "label": "supports_target"}, {"id": "h-d3fe", "label": "supports_target"}, {"id": "h-d36f", "label": "supports_alternative"}, {"id": "h-dcf9", "label": "supports_alternative"}, {"id": "h-d0f8", "label": "supports_alternative"}, {"id": "h-c0f8", "label": "supports_alternative"}, {"id": "h-bc31", "label": "supports_alternative"}], "cost": 0.0007193}
+{"tag": "store", "item": "fa25", "batch": 0, "flags": [], "cost": 0.0005357999999999999}
+{"tag": "store", "item": "fa24", "batch": 4, "flags": [{"id": "h-9a9c", "label": "supports_target"}, {"id": "h-a896", "label": "supports_target"}, {"id": "h-9838", "label": "supports_alternative"}, {"id": "h-9e69", "label": "supports_alternative"}, {"id": "h-af3c", "label": "supports_alternative"}], "cost": 0.0009029000000000001}
+{"tag": "store", "item": "fa24", "batch": 6, "flags": [{"id": "h-e75f", "label": "supports_target"}, {"id": "h-e0e4", "label": "supports_target"}, {"id": "h-de99", "label": "supports_alternative"}, {"id": "h-e91c", "label": "supports_alternative"}, {"id": "h-e9be", "label": "supports_alternative"}], "cost": 0.0008657999999999999}
+{"tag": "store", "item": "fa25", "batch": 1, "flags": [{"id": "h-3d35", "label": "contradicts_target"}], "cost": 0.0005957}
+{"tag": "store", "item": "fa25", "batch": 8, "flags": [], "cost": 0.0007365}
+{"tag": "store", "item": "fa25", "batch": 3, "flags": [{"id": "h-6b6d", "label": "contradicts_target"}, {"id": "h-7ae6", "label": "supports_target"}, {"id": "h-70b9", "label": "supports_alternative"}, {"id": "h-7c9c", "label": "supports_alternative"}], "cost": 0.0006732}
+{"tag": "store", "item": "fa25", "batch": 7, "flags": [], "cost": 0.0007689000000000001}
+{"tag": "store", "item": "fa25", "batch": 2, "flags": [{"id": "h-484f", "label": "supports_alternative"}, {"id": "h-5c8d", "label": "supports_alternative"}, {"id": "h-485b", "label": "contradicts_target"}, {"id": "h-598d", "label": "contradicts_target"}], "cost": 0.0007643}
+{"tag": "store", "item": "fa25", "batch": 4, "flags": [{"id": "h-92db", "label": "contradicts_target"}, {"id": "h-968b", "label": "supports_target"}, {"id": "h-9404", "label": "supports_alternative"}, {"id": "h-9763", "label": "supports_alternative"}, {"id": "h-a905", "label": "supports_alternative"}, {"id": "h-adef", "label": "supports_alternative"}, {"id": "h-b0da", "label": "supports_alternative"}], "cost": 0.0007752000000000001}
+{"tag": "store", "item": "fa25", "batch": 9, "flags": [], "cost": 0.000649}
+{"tag": "store", "item": "fa25", "batch": 5, "flags": [{"id": "h-bbc8", "label": "supports_target"}, {"id": "h-b6de", "label": "supports_alternative"}, {"id": "h-dad3", "label": "supports_alternative"}], "cost": 0.0006666}
+{"tag": "store", "item": "fa26", "batch": 2, "flags": [{"id": "h-4ac0", "label": "supports_target"}, {"id": "h-51e0", "label": "contradicts_target"}, {"id": "h-54bf", "label": "contradicts_target"}, {"id": "h-5591", "label": "contradicts_target"}], "cost": 0.00036310000000000004}
+{"tag": "store", "item": "fa25", "batch": 6, "flags": [{"id": "h-e973", "label": "supports_alternative"}, {"id": "h-f483", "label": "supports_alternative"}, {"id": "h-f7d1", "label": "supports_alternative"}], "cost": 0.0006966}
+{"tag": "store", "item": "fa26", "batch": 0, "flags": [{"id": "h-0507", "label": "supports_target"}], "cost": 0.0006221}
+{"tag": "store", "item": "fa26", "batch": 6, "flags": [], "cost": 0.0004489}
+{"tag": "store", "item": "fa26", "batch": 9, "flags": [{"id": "u-003", "label": "supports_alternative"}], "cost": 0.0005723000000000001}
+{"tag": "store", "item": "fa26", "batch": 4, "flags": [], "cost": 0.000527}
+{"tag": "store", "item": "fa26", "batch": 8, "flags": [], "cost": 0.0008008000000000001}
+{"tag": "store", "item": "fa26", "batch": 7, "flags": [], "cost": 0.0007392000000000001}
+{"tag": "store", "item": "fa26", "batch": 3, "flags": [{"id": "h-6006", "label": "supports_target"}, {"id": "h-7bca", "label": "contradicts_target"}], "cost": 0.0005975}
+{"tag": "store", "item": "fa26", "batch": 1, "flags": [{"id": "h-39cf", "label": "supports_target"}, {"id": "h-31e7", "label": "contradicts_target"}], "cost": 0.0005845}
+{"tag": "store", "item": "fa26", "batch": 5, "flags": [{"id": "h-c7ab", "label": "supports_target"}, {"id": "h-d1cb", "label": "supports_target"}, {"id": "h-cf0a", "label": "contradicts_target"}, {"id": "h-cf0a", "label": "supports_alternative"}], "cost": 0.0006474000000000001}
+{"tag": "store", "item": "fa27", "batch": 0, "flags": [], "cost": 0.00046120000000000004}
+{"tag": "store", "item": "fa27", "batch": 4, "flags": [{"id": "h-92db", "label": "contradicts_target"}], "cost": 0.0003311}
+{"tag": "store", "item": "fa27", "batch": 1, "flags": [], "cost": 0.0004311}
+{"tag": "store", "item": "fa27", "batch": 7, "flags": [{"id": "h-fece", "label": "contradicts_target"}, {"id": "s-071", "label": "contradicts_target"}], "cost": 0.0006488}
+{"tag": "store", "item": "fa27", "batch": 8, "flags": [{"id": "s-197", "label": "contradicts_target"}], "cost": 0.0006789000000000001}
+{"tag": "store", "item": "fa27", "batch": 9, "flags": [{"id": "s-238", "label": "supports_alternative"}], "cost": 0.0005708999999999999}
+{"tag": "store", "item": "fa27", "batch": 3, "flags": [], "cost": 0.00044960000000000003}
+{"tag": "store", "item": "fa27", "batch": 6, "flags": [], "cost": 0.0004345}
+{"tag": "store", "item": "fa27", "batch": 5, "flags": [], "cost": 0.0004605}
+{"tag": "store", "item": "fa27", "batch": 2, "flags": [], "cost": 0.0004537}
+{"tag": "store", "item": "fa28", "batch": 0, "flags": [{"id": "h-06a5", "label": "contradicts_target"}, {"id": "h-168a", "label": "contradicts_target"}, {"id": "h-1825", "label": "supports_target"}, {"id": "h-0767", "label": "supports_target"}], "cost": 0.0007447}
+{"tag": "store", "item": "fa28", "batch": 8, "flags": [], "cost": 0.0006709000000000001}
+{"tag": "store", "item": "fa28", "batch": 6, "flags": [{"id": "h-deb7", "label": "supports_alternative"}, {"id": "h-deb7", "label": "contradicts_target"}, {"id": "h-e02f", "label": "contradicts_target"}, {"id": "h-e6c0", "label": "contradicts_target"}, {"id": "h-f1a6", "label": "contradicts_target"}], "cost": 0.0006695}
+{"tag": "store", "item": "fa28", "batch": 2, "flags": [{"id": "h-531d", "label": "contradicts_target"}, {"id": "h-5d45", "label": "contradicts_target"}, {"id": "h-5e95", "label": "contradicts_target"}], "cost": 0.0007062}
+{"tag": "store", "item": "fa28", "batch": 1, "flags": [{"id": "h-18f6", "label": "supports_target"}, {"id": "h-2160", "label": "supports_target"}, {"id": "h-2803", "label": "supports_alternative"}], "cost": 0.0007811000000000001}
+{"tag": "store", "item": "fa28", "batch": 5, "flags": [{"id": "h-bb12", "label": "contradicts_target"}, {"id": "h-bd5f", "label": "contradicts_target"}, {"id": "h-c3e4", "label": "contradicts_target"}, {"id": "h-ccb7", "label": "contradicts_target"}, {"id": "h-d8e3", "label": "contradicts_target"}, {"id": "h-da23", "label": "contradicts_target"}], "cost": 0.000756}
+{"tag": "store", "item": "fa28", "batch": 7, "flags": [{"id": "h-fd0c", "label": "contradicts_target"}, {"id": "h-ff56", "label": "contradicts_target"}, {"id": "s-047", "label": "supports_target"}, {"id": "s-067", "label": "supports_alternative"}, {"id": "s-070", "label": "supports_alternative"}], "cost": 0.0010898000000000001}
+{"tag": "store", "item": "fa28", "batch": 3, "flags": [{"id": "h-6006", "label": "contradicts_target"}, {"id": "h-662d", "label": "supports_target"}, {"id": "h-69dd", "label": "supports_target"}, {"id": "h-6a89", "label": "supports_target"}, {"id": "h-6d01", "label": "contradicts_target"}, {"id": "h-6d3e", "label": "contradicts_target"}, {"id": "h-771e", "label": "contradicts_target"}, {"id": "h-83db", "label": "contradicts_target"}, {"id": "h-8437", "label": "supports_target"}], "cost": 0.0008751000000000001}
+{"tag": "store", "item": "fa28", "batch": 4, "flags": [{"id": "h-8e14", "label": "supports_alternative"}, {"id": "h-97bd", "label": "contradicts_target"}, {"id": "h-9feb", "label": "contradicts_target"}, {"id": "h-a4e3", "label": "contradicts_target"}, {"id": "h-a5c9", "label": "supports_target"}, {"id": "h-ae13", "label": "contradicts_target"}, {"id": "h-ae4a", "label": "contradicts_target"}, {"id": "h-ae8d", "label": "contradicts_target"}], "cost": 0.0009321}
+{"tag": "store", "item": "fa28", "batch": 9, "flags": [], "cost": 0.0007063999999999999}
+{"tag": "store", "item": "fa29", "batch": 0, "flags": [], "cost": 0.0006085}
+{"tag": "store", "item": "fa29", "batch": 2, "flags": [], "cost": 0.0005445}
+{"tag": "store", "item": "fa29", "batch": 3, "flags": [], "cost": 0.0005679000000000001}
+{"tag": "store", "item": "fa29", "batch": 9, "flags": [{"id": "s-300", "label": "supports_target"}], "cost": 0.0005712}
+{"tag": "store", "item": "fa29", "batch": 8, "flags": [], "cost": 0.0007352000000000001}
+{"tag": "store", "item": "fa29", "batch": 6, "flags": [], "cost": 0.0004938}
+{"tag": "store", "item": "fa29", "batch": 1, "flags": [{"id": "h-2f1b", "label": "contradicts_target"}, {"id": "h-32da", "label": "contradicts_target"}], "cost": 0.0007004000000000001}
+{"tag": "store", "item": "fa29", "batch": 4, "flags": [], "cost": 0.0005404000000000001}
+{"tag": "store", "item": "fa29", "batch": 7, "flags": [], "cost": 0.0007901000000000001}
+{"tag": "store", "item": "fa30", "batch": 0, "flags": [], "cost": 0.0005357999999999999}
+{"tag": "store", "item": "fa29", "batch": 5, "flags": [], "cost": 0.0006263}
+{"tag": "store", "item": "fa30", "batch": 2, "flags": [{"id": "h-56b3", "label": "supports_alternative"}], "cost": 0.0005333}
+{"tag": "store", "item": "fa30", "batch": 5, "flags": [{"id": "h-bbc8", "label": "supports_target"}], "cost": 0.0005941000000000001}
+{"tag": "store", "item": "fa30", "batch": 3, "flags": [{"id": "h-755a", "label": "supports_target"}, {"id": "h-622a", "label": "supports_alternative"}], "cost": 0.0006247000000000001}
+{"tag": "store", "item": "fa30", "batch": 4, "flags": [{"id": "h-9b4e", "label": "supports_target"}], "cost": 0.0006402000000000001}
+{"tag": "store", "item": "fa30", "batch": 6, "flags": [{"id": "h-ddbd", "label": "supports_target"}, {"id": "h-faf4", "label": "supports_target"}], "cost": 0.0006011}
+{"tag": "store", "item": "fa30", "batch": 7, "flags": [{"id": "h-fd0c", "label": "supports_target"}, {"id": "s-020", "label": "supports_target"}], "cost": 0.0008599000000000001}
+{"tag": "store", "item": "fa30", "batch": 8, "flags": [], "cost": 0.0008415}
+{"tag": "store", "item": "fa30", "batch": 1, "flags": [{"id": "h-1aff", "label": "supports_target"}, {"id": "h-3252", "label": "supports_target"}, {"id": "h-370c", "label": "supports_target"}, {"id": "h-3713", "label": "supports_target"}, {"id": "h-2ee3", "label": "supports_alternative"}], "cost": 0.0008157}
+{"tag": "store", "item": "fa30", "batch": 9, "flags": [], "cost": 0.0006555}
+{"tag": "store", "item": "fa32", "batch": 1, "flags": [{"id": "h-1ab1", "label": "supports_target"}, {"id": "h-1aff", "label": "supports_target"}, {"id": "h-280a", "label": "supports_target"}, {"id": "h-3c8a", "label": "supports_target"}, {"id": "h-40a0", "label": "supports_target"}, {"id": "h-1c80", "label": "supports_alternative"}, {"id": "h-1c80", "label": "contradicts_target"}], "cost": 0.0008927000000000001}
+{"tag": "store", "item": "fa32", "batch": 0, "flags": [{"id": "h-024d", "label": "supports_target"}, {"id": "h-0a30", "label": "supports_target"}, {"id": "h-0a33", "label": "supports_target"}, {"id": "h-0b12", "label": "supports_target"}, {"id": "h-0bf1", "label": "supports_target"}], "cost": 0.0009358}
+{"tag": "store", "item": "fa32", "batch": 3, "flags": [{"id": "h-6212", "label": "supports_target"}, {"id": "h-662d", "label": "supports_target"}, {"id": "h-7c29", "label": "supports_target"}, {"id": "h-85dc", "label": "supports_target"}, {"id": "h-83db", "label": "contradicts_target"}, {"id": "h-8402", "label": "contradicts_target"}, {"id": "h-845f", "label": "contradicts_target"}, {"id": "h-64eb", "label": "contradicts_target"}, {"id": "h-84f9", "label": "contradicts_target"}, {"id": "h-83db", "label": "supports_alternative"}, {"id": "h-8402", "label": "supports_alternative"}, {"id": "h-845f", "label": "supports_alternative"}], "cost": 0.0010152}
+{"tag": "store", "item": "fa32", "batch": 2, "flags": [{"id": "h-4194", "label": "supports_target"}, {"id": "h-42b2", "label": "supports_target"}, {"id": "h-4ff8", "label": "supports_target"}, {"id": "h-5016", "label": "supports_target"}, {"id": "h-5ecb", "label": "supports_target"}, {"id": "h-5c9f", "label": "supports_target"}, {"id": "h-457b", "label": "supports_target"}, {"id": "h-5ed3", "label": "supports_target"}, {"id": "h-5bc1", "label": "supports_target"}, {"id": "h-5cb5", "label": "supports_alternative"}, {"id": "h-416c", "label": "contradicts_target"}, {"id": "h-55d3", "label": "contradicts_target"}, {"id": "h-5ac0", "label": "contradicts_target"}], "cost": 0.0010733}
+{"tag": "store", "item": "fa32", "batch": 4, "flags": [{"id": "h-8893", "label": "supports_alternative"}, {"id": "h-b17a", "label": "supports_alternative"}, {"id": "h-9288", "label": "contradicts_target"}, {"id": "h-92fc", "label": "contradicts_target"}, {"id": "h-b0c6", "label": "contradicts_target"}, {"id": "h-9838", "label": "supports_target"}, {"id": "h-b0ee", "label": "supports_target"}, {"id": "h-ae8b", "label": "supports_target"}, {"id": "h-8ab0", "label": "supports_target"}, {"id": "h-ad7e", "label": "supports_target"}], "cost": 0.0009942}
+{"tag": "store", "item": "fa32", "batch": 6, "flags": [{"id": "h-de28", "label": "contradicts_target"}, {"id": "h-f1f8", "label": "contradicts_target"}, {"id": "h-f53d", "label": "contradicts_target"}, {"id": "h-f72d", "label": "contradicts_target"}, {"id": "h-ee48", "label": "contradicts_target"}, {"id": "h-ecdc", "label": "supports_target"}, {"id": "h-e91c", "label": "supports_target"}, {"id": "h-ec17", "label": "supports_target"}, {"id": "h-e402", "label": "supports_target"}, {"id": "h-ecf5", "label": "supports_target"}], "cost": 0.0011266}
+{"tag": "store", "item": "fa33", "batch": 0, "flags": [], "cost": 0.0005306}
+{"tag": "store", "item": "fa33", "batch": 1, "flags": [], "cost": 0.000435}
+{"tag": "store", "item": "fa32", "batch": 5, "flags": [{"id": "h-b56f", "label": "supports_target"}, {"id": "h-baa3", "label": "supports_target"}, {"id": "h-cbc0", "label": "supports_target"}, {"id": "h-cfc1", "label": "supports_target"}, {"id": "h-d3fe", "label": "supports_target"}, {"id": "h-da87", "label": "supports_target"}, {"id": "h-dcf9", "label": "supports_target"}, {"id": "h-bcc8", "label": "contradicts_target"}, {"id": "h-bfac", "label": "contradicts_target"}, {"id": "h-c388", "label": "contradicts_target"}, {"id": "h-c526", "label": "contradicts_target"}, {"id": "h-d4c5", "label": "contradicts_target"}, {"id": "h-d59a", "label": "contradicts_target"}, {"id": "h-ddb5", "label": "contradicts_target"}], "cost": 0.0011901}
+{"tag": "store", "item": "fa33", "batch": 2, "flags": [], "cost": 0.0004976000000000001}
+{"tag": "store", "item": "fa32", "batch": 7, "flags": [{"id": "h-ff56", "label": "supports_target"}, {"id": "s-005", "label": "supports_alternative"}, {"id": "s-008", "label": "supports_target"}, {"id": "s-014", "label": "supports_target"}, {"id": "s-020", "label": "supports_target"}, {"id": "s-032", "label": "supports_alternative"}, {"id": "s-043", "label": "supports_target"}, {"id": "s-055", "label": "supports_target"}, {"id": "s-062", "label": "supports_target"}, {"id": "s-064", "label": "supports_alternative"}, {"id": "s-067", "label": "supports_target"}, {"id": "s-081", "label": "supports_target"}, {"id": "s-092", "label": "supports_target"}, {"id": "s-108", "label": "supports_alternative"}, {"id": "s-110", "label": "supports_target"}], "cost": 0.0015599000000000001}
+{"tag": "store", "item": "fa33", "batch": 3, "flags": [], "cost": 0.000513}
+{"tag": "store", "item": "fa33", "batch": 5, "flags": [], "cost": 0.0004824}
+{"tag": "store", "item": "fa33", "batch": 4, "flags": [], "cost": 0.000579}
+{"tag": "store", "item": "fa33", "batch": 6, "flags": [], "cost": 0.00047440000000000004}
+{"tag": "store", "item": "fa32", "batch": 9, "flags": [{"id": "s-231", "label": "supports_target"}, {"id": "s-236", "label": "supports_alternative"}, {"id": "s-243", "label": "supports_target"}, {"id": "s-243", "label": "supports_alternative"}, {"id": "s-245", "label": "supports_alternative"}, {"id": "s-245", "label": "contradicts_target"}, {"id": "s-252", "label": "supports_target"}, {"id": "s-262", "label": "supports_target"}, {"id": "s-268", "label": "supports_alternative"}, {"id": "s-268", "label": "contradicts_target"}, {"id": "s-272", "label": "supports_target"}, {"id": "s-276", "label": "supports_alternative"}, {"id": "s-276", "label": "contradicts_target"}, {"id": "s-281", "label": "supports_target"}, {"id": "s-292", "label": "supports_target"}, {"id": "s-300", "label": "supports_target"}, {"id": "s-300", "label": "supports_alternative"}], "cost": 0.001277}
+{"tag": "store", "item": "fa32", "batch": 8, "flags": [{"id": "s-121", "label": "supports_target"}, {"id": "s-130", "label": "supports_target"}, {"id": "s-130", "label": "supports_alternative"}, {"id": "s-142", "label": "supports_alternative"}, {"id": "s-151", "label": "supports_target"}, {"id": "s-173", "label": "supports_target"}, {"id": "s-173", "label": "supports_alternative"}, {"id": "s-182", "label": "supports_target"}, {"id": "s-202", "label": "supports_target"}, {"id": "s-202", "label": "supports_alternative"}, {"id": "s-212", "label": "supports_target"}, {"id": "s-221", "label": "supports_target"}], "cost": 0.001386}
+{"tag": "store", "item": "fa33", "batch": 8, "flags": [], "cost": 0.0007868}
+{"tag": "store", "item": "fa33", "batch": 9, "flags": [], "cost": 0.0006143}
+{"tag": "store", "item": "fa33", "batch": 7, "flags": [], "cost": 0.0007637000000000001}
+{"tag": "store", "item": "fa34", "batch": 2, "flags": [{"id": "h-5327", "label": "contradicts_target"}], "cost": 0.0005971}
+{"tag": "store", "item": "fa34", "batch": 4, "flags": [], "cost": 0.0005805}
+{"tag": "store", "item": "fa34", "batch": 7, "flags": [], "cost": 0.0008517}
+{"tag": "store", "item": "fa34", "batch": 8, "flags": [], "cost": 0.0006728000000000001}
+{"tag": "store", "item": "fa34", "batch": 0, "flags": [{"id": "h-0ce5", "label": "supports_target"}], "cost": 0.0008006}
+{"tag": "store", "item": "fa34", "batch": 6, "flags": [{"id": "h-eb3c", "label": "supports_target"}], "cost": 0.0006949000000000001}
+{"tag": "store", "item": "fa34", "batch": 5, "flags": [{"id": "h-c972", "label": "supports_target"}], "cost": 0.0006669000000000001}
+{"tag": "store", "item": "fa34", "batch": 3, "flags": [{"id": "h-60f3", "label": "supports_target"}], "cost": 0.0007355}
+{"tag": "store", "item": "fa34", "batch": 9, "flags": [], "cost": 0.0006188000000000001}
+{"tag": "store", "item": "fa34", "batch": 1, "flags": [{"id": "h-3d32", "label": "supports_alternative"}], "cost": 0.0009235}
+{"tag": "store", "item": "fa36", "batch": 4, "flags": [{"id": "h-9404", "label": "supports_target"}, {"id": "h-94cc", "label": "supports_target"}, {"id": "h-adef", "label": "supports_alternative"}], "cost": 0.0005255}
+{"tag": "store", "item": "fa36", "batch": 0, "flags": [{"id": "h-01e6", "label": "supports_target"}, {"id": "h-0761", "label": "supports_target"}, {"id": "h-182a", "label": "supports_target"}, {"id": "h-0a6b", "label": "supports_alternative"}], "cost": 0.0007026000000000001}
+{"tag": "store", "item": "fa36", "batch": 5, "flags": [{"id": "h-c6fe", "label": "supports_target"}, {"id": "h-bc69", "label": "supports_target"}, {"id": "h-b6de", "label": "supports_alternative"}, {"id": "h-dad3", "label": "supports_alternative"}], "cost": 0.0005779000000000001}
+{"tag": "store", "item": "fa36", "batch": 1, "flags": [{"id": "h-2513", "label": "supports_target"}, {"id": "h-3b5c", "label": "supports_alternative"}], "cost": 0.0006355}
+{"tag": "store", "item": "fa36", "batch": 6, "flags": [{"id": "h-df98", "label": "supports_target"}, {"id": "h-f165", "label": "supports_target"}, {"id": "h-e973", "label": "supports_alternative"}, {"id": "h-f483", "label": "supports_alternative"}], "cost": 0.0005499000000000001}
+{"tag": "store", "item": "fa36", "batch": 3, "flags": [{"id": "h-7c59", "label": "supports_target"}, {"id": "h-7549", "label": "supports_target"}, {"id": "h-6bf8", "label": "supports_target"}, {"id": "h-808c", "label": "supports_alternative"}, {"id": "h-75c4", "label": "supports_alternative"}], "cost": 0.000692}
+{"tag": "store", "item": "fa36", "batch": 2, "flags": [{"id": "h-484f", "label": "supports_target"}, {"id": "h-5045", "label": "supports_target"}, {"id": "h-4380", "label": "supports_target"}, {"id": "h-58bf", "label": "supports_target"}, {"id": "h-5c99", "label": "supports_target"}, {"id": "h-45fe", "label": "supports_alternative"}, {"id": "h-444c", "label": "supports_alternative"}], "cost": 0.0007761}
+{"tag": "store", "item": "fa36", "batch": 9, "flags": [], "cost": 0.0006478}
+{"tag": "store", "item": "fa36", "batch": 7, "flags": [{"id": "h-fc73", "label": "supports_target"}, {"id": "h-fdd9", "label": "supports_target"}], "cost": 0.0008262}
+{"tag": "store", "item": "fa37", "batch": 1, "flags": [], "cost": 0.00047290000000000006}
+{"tag": "store", "item": "fa37", "batch": 0, "flags": [], "cost": 0.000544}
+{"tag": "store", "item": "fa36", "batch": 8, "flags": [{"id": "s-206", "label": "supports_target"}, {"id": "s-187", "label": "supports_target"}, {"id": "s-200", "label": "supports_alternative"}], "cost": 0.0008883000000000001}
+{"tag": "store", "item": "fa37", "batch": 3, "flags": [], "cost": 0.00048090000000000003}
+{"tag": "store", "item": "fa37", "batch": 2, "flags": [], "cost": 0.000497}
+{"tag": "store", "item": "fa37", "batch": 8, "flags": [], "cost": 0.0006737000000000001}
+{"tag": "store", "item": "fa37", "batch": 5, "flags": [], "cost": 0.0004403}
+{"tag": "store", "item": "fa37", "batch": 6, "flags": [], "cost": 0.0004173}
+{"tag": "store", "item": "fa38", "batch": 0, "flags": [{"id": "d-097", "label": "supports_alternative"}], "cost": 0.0004154}
+{"tag": "store", "item": "fa37", "batch": 9, "flags": [], "cost": 0.0006367}
+{"tag": "store", "item": "fa37", "batch": 7, "flags": [], "cost": 0.0008031000000000001}
+{"tag": "store", "item": "fa38", "batch": 3, "flags": [], "cost": 0.00039830000000000003}
+{"tag": "store", "item": "fa38", "batch": 1, "flags": [], "cost": 0.0004483}
+{"tag": "store", "item": "fa38", "batch": 2, "flags": [{"id": "h-5ac0", "label": "supports_target"}, {"id": "h-416c", "label": "supports_alternative"}], "cost": 0.00046540000000000004}
+{"tag": "store", "item": "fa37", "batch": 4, "flags": [], "cost": 0.0004954}
+{"tag": "store", "item": "fa38", "batch": 5, "flags": [], "cost": 0.00044320000000000004}
+{"tag": "store", "item": "fa38", "batch": 4, "flags": [{"id": "h-92fc", "label": "supports_alternative"}], "cost": 0.0004643}
+{"tag": "store", "item": "fa38", "batch": 7, "flags": [{"id": "s-005", "label": "supports_target"}], "cost": 0.000805}
+{"tag": "store", "item": "fa38", "batch": 6, "flags": [{"id": "h-ee48", "label": "supports_alternative"}, {"id": "h-f53d", "label": "supports_alternative"}], "cost": 0.0005572}
+{"tag": "store", "item": "fa40", "batch": 1, "flags": [], "cost": 0.00044220000000000007}
+{"tag": "store", "item": "fa40", "batch": 4, "flags": [{"id": "h-8e14", "label": "supports_alternative"}, {"id": "h-9e48", "label": "supports_alternative"}], "cost": 0.00034370000000000006}
+{"tag": "store", "item": "fa38", "batch": 8, "flags": [{"id": "s-142", "label": "supports_target"}, {"id": "s-198", "label": "supports_alternative"}], "cost": 0.0009221}
+{"tag": "store", "item": "fa38", "batch": 9, "flags": [], "cost": 0.0007276}
+{"tag": "store", "item": "fa40", "batch": 2, "flags": [], "cost": 0.0004598}
+{"tag": "store", "item": "fa40", "batch": 9, "flags": [{"id": "s-250", "label": "contradicts_target"}, {"id": "s-261", "label": "contradicts_target"}, {"id": "s-290", "label": "contradicts_target"}], "cost": 0.0005925}
+{"tag": "store", "item": "fa40", "batch": 0, "flags": [], "cost": 0.0005128}
+{"tag": "store", "item": "ut04", "batch": 0, "flags": [{"id": "h-142a", "label": "contradicts_target"}], "cost": 0.00041520000000000006}
+{"tag": "store", "item": "ut04", "batch": 1, "flags": [{"id": "h-1d91", "label": "contradicts_target"}], "cost": 0.00033360000000000003}
+{"tag": "store", "item": "ut04", "batch": 2, "flags": [], "cost": 0.00037070000000000007}
+{"tag": "store", "item": "fa40", "batch": 6, "flags": [], "cost": 0.0005166}
+{"tag": "store", "item": "fa40", "batch": 5, "flags": [], "cost": 0.0005151}
+{"tag": "store", "item": "fa40", "batch": 7, "flags": [], "cost": 0.0008119000000000001}
+{"tag": "store", "item": "ut04", "batch": 3, "flags": [], "cost": 0.0004091}
+{"tag": "store", "item": "fa40", "batch": 8, "flags": [{"id": "s-123", "label": "supports_alternative"}], "cost": 0.0009235}
+{"tag": "store", "item": "ut04", "batch": 4, "flags": [], "cost": 0.00036760000000000004}
+{"tag": "store", "item": "ut04", "batch": 6, "flags": [], "cost": 0.0003755}
+{"tag": "store", "item": "ut04", "batch": 5, "flags": [], "cost": 0.0004055}
+{"tag": "store", "item": "ut04", "batch": 7, "flags": [], "cost": 0.0006928}
+{"tag": "store", "item": "ut05", "batch": 0, "flags": [{"id": "h-0366", "label": "supports_alternative"}, {"id": "h-0c74", "label": "supports_alternative"}], "cost": 0.000427}
+{"tag": "store", "item": "ut04", "batch": 8, "flags": [], "cost": 0.0007759}
+{"tag": "store", "item": "ut04", "batch": 9, "flags": [{"id": "s-300", "label": "supports_target"}, {"id": "u-003", "label": "supports_alternative"}], "cost": 0.0005769}
+{"tag": "store", "item": "ut05", "batch": 2, "flags": [{"id": "h-4310", "label": "supports_target"}], "cost": 0.0004515}
+{"tag": "store", "item": "fa40", "batch": 3, "flags": [], "cost": 0.00046420000000000006}
+{"tag": "store", "item": "ut05", "batch": 4, "flags": [], "cost": 0.00042140000000000005}
+{"tag": "store", "item": "ut05", "batch": 7, "flags": [], "cost": 0.0007171}
+{"tag": "store", "item": "ut05", "batch": 1, "flags": [], "cost": 0.0005719000000000001}
+{"tag": "store", "item": "ut05", "batch": 5, "flags": [], "cost": 0.0004463}
+{"tag": "store", "item": "ut05", "batch": 3, "flags": [], "cost": 0.0005489000000000001}
+{"tag": "store", "item": "ut05", "batch": 6, "flags": [], "cost": 0.0005333}
+{"tag": "store", "item": "ut05", "batch": 8, "flags": [], "cost": 0.0007472000000000001}
+{"tag": "store", "item": "ut06", "batch": 0, "flags": [], "cost": 0.0004675}
+{"tag": "store", "item": "ut06", "batch": 2, "flags": [], "cost": 0.0003915}
+{"tag": "store", "item": "ut05", "batch": 9, "flags": [], "cost": 0.0006302}
+{"tag": "store", "item": "ut06", "batch": 4, "flags": [{"id": "h-a5c9", "label": "supports_alternative"}], "cost": 0.00033240000000000006}
+{"tag": "store", "item": "ut06", "batch": 1, "flags": [], "cost": 0.0004019}
+{"tag": "store", "item": "ut06", "batch": 3, "flags": [], "cost": 0.00040590000000000005}
+{"tag": "store", "item": "ut06", "batch": 7, "flags": [], "cost": 0.0007091}
+{"tag": "store", "item": "ut06", "batch": 5, "flags": [], "cost": 0.0003853}
+{"tag": "store", "item": "ut06", "batch": 9, "flags": [], "cost": 0.0006117000000000001}
+{"tag": "store", "item": "ut06", "batch": 6, "flags": [], "cost": 0.0004003}
+{"tag": "store", "item": "ut06", "batch": 8, "flags": [], "cost": 0.0007542}
+{"tag": "store", "item": "ut07", "batch": 0, "flags": [{"id": "h-0d31", "label": "contradicts_target"}], "cost": 0.0006508}
+{"tag": "store", "item": "ut07", "batch": 7, "flags": [], "cost": 0.0007704000000000001}
+{"tag": "store", "item": "ut07", "batch": 1, "flags": [], "cost": 0.0005782000000000001}
+{"tag": "store", "item": "ut07", "batch": 3, "flags": [], "cost": 0.0005982}
+{"tag": "store", "item": "ut07", "batch": 2, "flags": [], "cost": 0.0006743}
+{"tag": "store", "item": "ut07", "batch": 5, "flags": [{"id": "h-dcb0", "label": "supports_target"}], "cost": 0.0005801000000000001}
+{"tag": "store", "item": "ut07", "batch": 8, "flags": [], "cost": 0.000773}
+{"tag": "store", "item": "ut07", "batch": 4, "flags": [{"id": "h-adef", "label": "contradicts_target"}], "cost": 0.0005957}
+{"tag": "store", "item": "ut07", "batch": 9, "flags": [], "cost": 0.000563}
+{"tag": "store", "item": "ut09", "batch": 2, "flags": [{"id": "h-416c", "label": "supports_alternative"}], "cost": 0.0003346}
+{"tag": "store", "item": "ut09", "batch": 0, "flags": [], "cost": 0.0004816}
+{"tag": "store", "item": "ut09", "batch": 4, "flags": [{"id": "h-95cf", "label": "supports_target"}, {"id": "h-a308", "label": "contradicts_target"}], "cost": 0.000338}
+{"tag": "store", "item": "ut07", "batch": 6, "flags": [], "cost": 0.0006216}
+{"tag": "store", "item": "ut09", "batch": 3, "flags": [{"id": "h-85f3", "label": "contradicts_target"}, {"id": "h-7b6f", "label": "supports_alternative"}], "cost": 0.0003385}
+{"tag": "store", "item": "ut09", "batch": 5, "flags": [], "cost": 0.00039040000000000006}
+{"tag": "store", "item": "ut09", "batch": 1, "flags": [], "cost": 0.0004245}
+{"tag": "store", "item": "ut11", "batch": 0, "flags": [{"id": "d-002", "label": "supports_alternative"}], "cost": 0.00041640000000000004}
+{"tag": "store", "item": "ut09", "batch": 6, "flags": [], "cost": 0.00046140000000000005}
+{"tag": "store", "item": "ut11", "batch": 2, "flags": [], "cost": 0.00032590000000000006}
+{"tag": "store", "item": "ut09", "batch": 9, "flags": [], "cost": 0.0006853}
+{"tag": "store", "item": "ut11", "batch": 1, "flags": [], "cost": 0.0004063}
+{"tag": "store", "item": "ut09", "batch": 7, "flags": [{"id": "s-068", "label": "supports_target"}], "cost": 0.0008357000000000001}
+{"tag": "store", "item": "ut11", "batch": 5, "flags": [], "cost": 0.00038720000000000003}
+{"tag": "store", "item": "ut11", "batch": 4, "flags": [], "cost": 0.0004123}
+{"tag": "store", "item": "ut11", "batch": 3, "flags": [], "cost": 0.0004423}
+{"tag": "store", "item": "ut11", "batch": 6, "flags": [], "cost": 0.00045120000000000007}
+{"tag": "store", "item": "ut11", "batch": 7, "flags": [], "cost": 0.000745}
+{"tag": "store", "item": "ut09", "batch": 8, "flags": [{"id": "s-144", "label": "contradicts_target"}], "cost": 0.0009138000000000001}
+{"tag": "store", "item": "ut12", "batch": 0, "flags": [], "cost": 0.0005449000000000001}
+{"tag": "store", "item": "ut11", "batch": 8, "flags": [], "cost": 0.0007941000000000001}
+{"tag": "store", "item": "ut11", "batch": 9, "flags": [], "cost": 0.0006946}
+{"tag": "store", "item": "ut12", "batch": 3, "flags": [{"id": "h-6e59", "label": "supports_alternative"}, {"id": "h-6d19", "label": "supports_alternative"}, {"id": "h-6ec6", "label": "contradicts_target"}, {"id": "h-8035", "label": "supports_target"}], "cost": 0.0003578}
+{"tag": "store", "item": "ut12", "batch": 1, "flags": [{"id": "h-2c4f", "label": "contradicts_target"}], "cost": 0.0005863}
+{"tag": "store", "item": "ut12", "batch": 5, "flags": [], "cost": 0.0005087000000000001}
+{"tag": "store", "item": "ut12", "batch": 2, "flags": [{"id": "h-4e6a", "label": "supports_target"}, {"id": "h-46d4", "label": "supports_alternative"}], "cost": 0.0006079000000000001}
+{"tag": "store", "item": "ut12", "batch": 4, "flags": [{"id": "h-8a3f", "label": "supports_alternative"}, {"id": "h-ae31", "label": "contradicts_target"}], "cost": 0.0006663}
+{"tag": "store", "item": "ut13", "batch": 0, "flags": [], "cost": 0.0004751}
+{"tag": "store", "item": "ut12", "batch": 7, "flags": [], "cost": 0.000861}
+{"tag": "store", "item": "ut13", "batch": 1, "flags": [], "cost": 0.000408}
+{"tag": "store", "item": "ut12", "batch": 8, "flags": [], "cost": 0.0009176}
+{"tag": "store", "item": "ut12", "batch": 9, "flags": [], "cost": 0.0007501000000000001}
+{"tag": "store", "item": "ut13", "batch": 2, "flags": [], "cost": 0.0004081}
+{"tag": "store", "item": "ut13", "batch": 4, "flags": [{"id": "h-a896", "label": "supports_target"}, {"id": "h-9a9c", "label": "supports_target"}], "cost": 0.000337}
+{"tag": "store", "item": "ut12", "batch": 6, "flags": [{"id": "h-e02f", "label": "supports_target"}, {"id": "h-e6e2", "label": "contradicts_target"}], "cost": 0.0006222}
+{"tag": "store", "item": "ut13", "batch": 3, "flags": [], "cost": 0.0004275}
+{"tag": "store", "item": "ut13", "batch": 6, "flags": [], "cost": 0.00039040000000000006}
+{"tag": "store", "item": "ut15", "batch": 0, "flags": [{"id": "h-01e6", "label": "contradicts_target"}, {"id": "h-13a5", "label": "supports_target"}, {"id": "h-0367", "label": "supports_target"}], "cost": 0.0004309}
+{"tag": "store", "item": "ut13", "batch": 5, "flags": [], "cost": 0.00042090000000000004}
+{"tag": "store", "item": "ut13", "batch": 9, "flags": [], "cost": 0.0005608000000000001}
+{"tag": "store", "item": "ut13", "batch": 7, "flags": [], "cost": 0.0007512}
+{"tag": "store", "item": "ut13", "batch": 8, "flags": [], "cost": 0.0007983}
+{"tag": "store", "item": "ut15", "batch": 8, "flags": [], "cost": 0.0007626}
+{"tag": "store", "item": "ut15", "batch": 7, "flags": [{"id": "h-fd0c", "label": "supports_target"}], "cost": 0.0007785}
+{"tag": "store", "item": "ut15", "batch": 4, "flags": [], "cost": 0.0005652999999999999}
+{"tag": "store", "item": "ut15", "batch": 3, "flags": [{"id": "h-755a", "label": "supports_target"}], "cost": 0.0005842999999999999}
+{"tag": "store", "item": "ut15", "batch": 2, "flags": [{"id": "h-54bf", "label": "supports_alternative"}, {"id": "h-5591", "label": "supports_alternative"}], "cost": 0.0006244000000000001}
+{"tag": "store", "item": "ut15", "batch": 1, "flags": [], "cost": 0.0006678}
+{"tag": "store", "item": "ut15", "batch": 5, "flags": [{"id": "h-b67e", "label": "supports_target"}, {"id": "h-c52f", "label": "supports_target"}], "cost": 0.0005867}
+{"tag": "store", "item": "ut16", "batch": 4, "flags": [], "cost": 0.0003225}
+{"tag": "store", "item": "ut15", "batch": 6, "flags": [], "cost": 0.0006437000000000001}
+{"tag": "store", "item": "ut16", "batch": 0, "flags": [{"id": "h-0a33", "label": "supports_alternative"}, {"id": "h-1463", "label": "supports_alternative"}], "cost": 0.0004266}
+{"tag": "store", "item": "ut16", "batch": 1, "flags": [], "cost": 0.0004055}
+{"tag": "store", "item": "ut15", "batch": 9, "flags": [], "cost": 0.0006741000000000001}
+{"tag": "store", "item": "ut16", "batch": 2, "flags": [], "cost": 0.00041160000000000003}
+{"tag": "store", "item": "ut16", "batch": 3, "flags": [], "cost": 0.0004375}
+{"tag": "store", "item": "ut16", "batch": 5, "flags": [], "cost": 0.0004359}
+{"tag": "store", "item": "ut17", "batch": 0, "flags": [{"id": "h-0001", "label": "contradicts_target"}, {"id": "h-082f", "label": "contradicts_target"}, {"id": "d-097", "label": "contradicts_target"}], "cost": 0.00043610000000000003}
+{"tag": "store", "item": "ut16", "batch": 6, "flags": [], "cost": 0.00044540000000000004}
+{"tag": "store", "item": "ut16", "batch": 8, "flags": [], "cost": 0.0007908}
+{"tag": "store", "item": "ut16", "batch": 7, "flags": [], "cost": 0.0007892}
+{"tag": "store", "item": "ut16", "batch": 9, "flags": [], "cost": 0.0006758000000000001}
+{"tag": "store", "item": "ut17", "batch": 1, "flags": [], "cost": 0.000483}
+{"tag": "store", "item": "ut17", "batch": 2, "flags": [], "cost": 0.0004716}
+{"tag": "store", "item": "ut20", "batch": 0, "flags": [{"id": "h-0001", "label": "supports_alternative"}], "cost": 0.00041720000000000006}
+{"tag": "store", "item": "ut17", "batch": 4, "flags": [], "cost": 0.000443}
+{"tag": "store", "item": "ut17", "batch": 9, "flags": [{"id": "s-237", "label": "contradicts_target"}, {"id": "s-257", "label": "contradicts_target"}, {"id": "s-267", "label": "contradicts_target"}, {"id": "s-273", "label": "contradicts_target"}, {"id": "s-293", "label": "contradicts_target"}], "cost": 0.0006078}
+{"tag": "store", "item": "ut17", "batch": 5, "flags": [], "cost": 0.0004579}
+{"tag": "store", "item": "ut17", "batch": 8, "flags": [], "cost": 0.0007718000000000001}
+{"tag": "store", "item": "ut17", "batch": 3, "flags": [], "cost": 0.0004675}
+{"tag": "store", "item": "ut20", "batch": 1, "flags": [{"id": "h-21e0", "label": "supports_target"}, {"id": "h-3675", "label": "supports_target"}], "cost": 0.00034260000000000003}
+{"tag": "store", "item": "ut17", "batch": 7, "flags": [], "cost": 0.0008122}
+{"tag": "store", "item": "ut17", "batch": 6, "flags": [{"id": "h-e8d5", "label": "supports_target"}, {"id": "h-eb5c", "label": "supports_target"}], "cost": 0.0005384000000000001}
+{"tag": "store", "item": "ut20", "batch": 3, "flags": [{"id": "h-6ec6", "label": "supports_alternative"}, {"id": "h-85f3", "label": "supports_alternative"}, {"id": "h-7b6f", "label": "supports_alternative"}], "cost": 0.0003486}
+{"tag": "store", "item": "ut20", "batch": 2, "flags": [{"id": "h-5591", "label": "supports_alternative"}], "cost": 0.00033570000000000003}
+{"tag": "store", "item": "ut20", "batch": 4, "flags": [{"id": "h-a308", "label": "contradicts_target"}, {"id": "h-93bb", "label": "supports_alternative"}], "cost": 0.0003401}
+{"tag": "store", "item": "ut20", "batch": 8, "flags": [], "cost": 0.0006699000000000001}
+{"tag": "store", "item": "ut20", "batch": 7, "flags": [{"id": "h-fcb1", "label": "contradicts_target"}, {"id": "h-fd0c", "label": "supports_alternative"}], "cost": 0.0006488}
+{"tag": "store", "item": "ut20", "batch": 9, "flags": [], "cost": 0.0005618999999999999}
+{"tag": "store", "item": "ut20", "batch": 5, "flags": [], "cost": 0.0004285}
+{"tag": "store", "item": "ut20", "batch": 6, "flags": [], "cost": 0.000402}
+{"tag": "store", "item": "ut22", "batch": 0, "flags": [], "cost": 0.0004861}
+{"tag": "store", "item": "ut22", "batch": 2, "flags": [], "cost": 0.0004066}
+{"tag": "store", "item": "ut22", "batch": 1, "flags": [], "cost": 0.000418}
+{"tag": "store", "item": "ut22", "batch": 3, "flags": [], "cost": 0.00043}
+{"tag": "store", "item": "ut22", "batch": 5, "flags": [], "cost": 0.00042540000000000004}
+{"tag": "store", "item": "ut22", "batch": 6, "flags": [], "cost": 0.00043440000000000004}
+{"tag": "store", "item": "ut22", "batch": 7, "flags": [], "cost": 0.0007257}
+{"tag": "store", "item": "ut22", "batch": 4, "flags": [], "cost": 0.0004475}
+{"tag": "store", "item": "ut22", "batch": 8, "flags": [], "cost": 0.0007468}
+{"tag": "store", "item": "ut22", "batch": 9, "flags": [], "cost": 0.0006688000000000001}
+{"tag": "store", "item": "ut23", "batch": 0, "flags": [], "cost": 0.0006414000000000001}
+{"tag": "store", "item": "ut23", "batch": 2, "flags": [], "cost": 0.0005324}
+{"tag": "store", "item": "ut23", "batch": 1, "flags": [], "cost": 0.0006133}
+{"tag": "store", "item": "ut23", "batch": 8, "flags": [{"id": "s-172", "label": "contradicts_target"}, {"id": "s-192", "label": "supports_alternative"}, {"id": "s-145", "label": "supports_alternative"}, {"id": "s-210", "label": "supports_alternative"}, {"id": "s-222", "label": "supports_alternative"}], "cost": 0.0007156}
+{"tag": "store", "item": "ut23", "batch": 4, "flags": [], "cost": 0.0006058}
+{"tag": "store", "item": "ut23", "batch": 5, "flags": [{"id": "h-bfc2", "label": "supports_target"}], "cost": 0.0006182000000000001}
+{"tag": "store", "item": "ut28", "batch": 0, "flags": [{"id": "d-097", "label": "contradicts_target"}, {"id": "h-0234", "label": "supports_alternative"}], "cost": 0.0004244}
+{"tag": "store", "item": "ut23", "batch": 6, "flags": [], "cost": 0.0006287}
+{"tag": "store", "item": "ut23", "batch": 7, "flags": [], "cost": 0.0009175}
+{"tag": "store", "item": "ut23", "batch": 3, "flags": [], "cost": 0.0007273}
+{"tag": "store", "item": "ut23", "batch": 9, "flags": [{"id": "s-242", "label": "contradicts_target"}], "cost": 0.0007736}
+{"tag": "store", "item": "ut28", "batch": 1, "flags": [], "cost": 0.0004263}
+{"tag": "store", "item": "ut28", "batch": 3, "flags": [], "cost": 0.0004223}
+{"tag": "store", "item": "ut28", "batch": 2, "flags": [], "cost": 0.00046840000000000006}
+{"tag": "store", "item": "ut28", "batch": 5, "flags": [], "cost": 0.00038770000000000005}
+{"tag": "store", "item": "ut28", "batch": 6, "flags": [], "cost": 0.00043670000000000004}
+{"tag": "store", "item": "ut28", "batch": 7, "flags": [], "cost": 0.0007505}
+{"tag": "store", "item": "ut28", "batch": 4, "flags": [], "cost": 0.0004668}
+{"tag": "store", "item": "ut28", "batch": 8, "flags": [], "cost": 0.0007481}
+{"tag": "store", "item": "ut28", "batch": 9, "flags": [], "cost": 0.0006451}
+{"tag": "store", "item": "ut31", "batch": 1, "flags": [], "cost": 0.00043970000000000006}
+{"tag": "store", "item": "ut31", "batch": 0, "flags": [], "cost": 0.0005608}
+{"tag": "store", "item": "ut31", "batch": 8, "flags": [{"id": "s-206", "label": "contradicts_target"}, {"id": "s-190", "label": "supports_target"}], "cost": 0.000687}
+{"tag": "store", "item": "ut31", "batch": 2, "flags": [], "cost": 0.0004838}
+{"tag": "store", "item": "ut31", "batch": 3, "flags": [], "cost": 0.0004967000000000001}
+{"tag": "store", "item": "ut31", "batch": 9, "flags": [], "cost": 0.0006285}
+{"tag": "store", "item": "ut31", "batch": 5, "flags": [], "cost": 0.0005031}
+{"tag": "store", "item": "ut31", "batch": 7, "flags": [], "cost": 0.0007424}
+{"tag": "store", "item": "ut33", "batch": 0, "flags": [], "cost": 0.0004395}
+{"tag": "store", "item": "ut31", "batch": 4, "flags": [], "cost": 0.0005432000000000001}
+{"tag": "store", "item": "ut31", "batch": 6, "flags": [], "cost": 0.0005091000000000001}
+{"tag": "store", "item": "ut33", "batch": 1, "flags": [], "cost": 0.0003824}
+{"tag": "store", "item": "ut33", "batch": 2, "flags": [], "cost": 0.0003255}
+{"tag": "store", "item": "ut33", "batch": 6, "flags": [{"id": "h-f42d", "label": "contradicts_target"}, {"id": "h-f629", "label": "contradicts_target"}], "cost": 0.0003408}
+{"tag": "store", "item": "ut33", "batch": 3, "flags": [{"id": "h-6857", "label": "supports_alternative"}, {"id": "h-5fc3", "label": "supports_target"}], "cost": 0.0003374}
+{"tag": "store", "item": "ut33", "batch": 4, "flags": [], "cost": 0.00032090000000000005}
+{"tag": "store", "item": "ut33", "batch": 8, "flags": [], "cost": 0.0006687}
+{"tag": "store", "item": "ut33", "batch": 5, "flags": [], "cost": 0.0003553}
+{"tag": "store", "item": "ut33", "batch": 9, "flags": [], "cost": 0.0005607}
+{"tag": "store", "item": "ut34", "batch": 3, "flags": [{"id": "h-6ec6", "label": "supports_alternative"}, {"id": "h-7bca", "label": "supports_alternative"}], "cost": 0.00033890000000000005}
+{"tag": "store", "item": "ut33", "batch": 7, "flags": [], "cost": 0.0006841}
+{"tag": "store", "item": "ut34", "batch": 0, "flags": [], "cost": 0.0005045}
+{"tag": "store", "item": "ut34", "batch": 1, "flags": [], "cost": 0.00040390000000000006}
+{"tag": "store", "item": "ut34", "batch": 2, "flags": [], "cost": 0.000409}
+{"tag": "store", "item": "ut34", "batch": 4, "flags": [], "cost": 0.0004399}
+{"tag": "store", "item": "ut34", "batch": 9, "flags": [{"id": "s-231", "label": "supports_target"}], "cost": 0.0005692000000000001}
+{"tag": "store", "item": "ut34", "batch": 5, "flags": [], "cost": 0.0004013}
+{"tag": "store", "item": "ut34", "batch": 6, "flags": [], "cost": 0.0003898}
+{"tag": "store", "item": "ut34", "batch": 8, "flags": [], "cost": 0.0007232}
+{"tag": "store", "item": "ut34", "batch": 7, "flags": [], "cost": 0.0006986000000000001}
+{"tag": "store", "item": "ut36", "batch": 2, "flags": [{"id": "h-4a74", "label": "supports_target"}, {"id": "h-552c", "label": "supports_target"}, {"id": "h-58e4", "label": "supports_alternative"}, {"id": "h-57fc", "label": "supports_target"}], "cost": 0.0003588}
+{"tag": "store", "item": "ut36", "batch": 8, "flags": [], "cost": 0.000669}
+{"tag": "store", "item": "ut36", "batch": 0, "flags": [{"id": "h-0f49", "label": "supports_target"}], "cost": 0.0005717999999999999}
+{"tag": "store", "item": "ut36", "batch": 5, "flags": [{"id": "h-d830", "label": "supports_target"}], "cost": 0.00044560000000000004}
+{"tag": "store", "item": "ut36", "batch": 7, "flags": [], "cost": 0.0007184000000000001}
+{"tag": "store", "item": "ut36", "batch": 4, "flags": [{"id": "h-b0da", "label": "supports_target"}], "cost": 0.0005297}
+{"tag": "store", "item": "ut36", "batch": 9, "flags": [], "cost": 0.0006075}
+{"tag": "store", "item": "ut36", "batch": 1, "flags": [], "cost": 0.0006322000000000001}
+{"tag": "store", "item": "ut36", "batch": 3, "flags": [{"id": "h-7b68", "label": "supports_target"}, {"id": "h-7ca3", "label": "supports_alternative"}], "cost": 0.0006462000000000001}
+{"tag": "store", "item": "ut37", "batch": 1, "flags": [], "cost": 0.0004159}
+{"tag": "store", "item": "ut36", "batch": 6, "flags": [{"id": "h-e3b3", "label": "supports_target"}, {"id": "h-f483", "label": "supports_target"}, {"id": "h-e973", "label": "supports_target"}, {"id": "h-ec0e", "label": "supports_alternative"}], "cost": 0.0005481}
+{"tag": "store", "item": "ut37", "batch": 2, "flags": [], "cost": 0.0004325}
+{"tag": "store", "item": "ut37", "batch": 4, "flags": [{"id": "h-b3d2", "label": "supports_alternative"}], "cost": 0.0003309}
+{"tag": "store", "item": "ut37", "batch": 0, "flags": [], "cost": 0.000583}
+{"tag": "store", "item": "ut37", "batch": 3, "flags": [], "cost": 0.00045490000000000005}
+{"tag": "store", "item": "ut37", "batch": 8, "flags": [], "cost": 0.0006697000000000001}
+{"tag": "store", "item": "ut37", "batch": 5, "flags": [], "cost": 0.0004323}
+{"tag": "store", "item": "ut38", "batch": 3, "flags": [{"id": "h-8035", "label": "contradicts_target"}], "cost": 0.0003305}
+{"tag": "store", "item": "ut37", "batch": 9, "flags": [], "cost": 0.0006542000000000001}
+{"tag": "store", "item": "ut37", "batch": 7, "flags": [], "cost": 0.0007256000000000001}
+{"tag": "store", "item": "ut38", "batch": 0, "flags": [{"id": "d-032", "label": "contradicts_target"}], "cost": 0.0004171}
+{"tag": "store", "item": "ut38", "batch": 2, "flags": [], "cost": 0.00042110000000000004}
+{"tag": "store", "item": "ut37", "batch": 6, "flags": [], "cost": 0.0004958}
+{"tag": "store", "item": "ut38", "batch": 1, "flags": [{"id": "h-2c4f", "label": "supports_alternative"}], "cost": 0.00051}
+{"tag": "store", "item": "ut38", "batch": 4, "flags": [], "cost": 0.0004325}
+{"tag": "store", "item": "ut38", "batch": 8, "flags": [], "cost": 0.0007293000000000001}
+{"tag": "store", "item": "ut38", "batch": 9, "flags": [], "cost": 0.0006138000000000001}
+{"tag": "store", "item": "ut39", "batch": 1, "flags": [{"id": "h-2311", "label": "supports_alternative"}], "cost": 0.00033520000000000007}
+{"tag": "store", "item": "ut39", "batch": 0, "flags": [{"id": "d-097", "label": "supports_target"}], "cost": 0.0004158}
+{"tag": "store", "item": "ut39", "batch": 2, "flags": [], "cost": 0.0003263}
+{"tag": "store", "item": "ut39", "batch": 3, "flags": [], "cost": 0.00032120000000000006}
+{"tag": "store", "item": "ut38", "batch": 7, "flags": [], "cost": 0.0007222000000000001}
+{"tag": "store", "item": "ut39", "batch": 4, "flags": [{"id": "h-92db", "label": "contradicts_target"}, {"id": "h-9a9c", "label": "contradicts_target"}], "cost": 0.00033970000000000007}
+{"tag": "store", "item": "ut38", "batch": 6, "flags": [], "cost": 0.0005214000000000001}
+{"tag": "store", "item": "ut39", "batch": 5, "flags": [], "cost": 0.0003621}
+{"tag": "store", "item": "ut39", "batch": 8, "flags": [], "cost": 0.0006695}
+{"tag": "store", "item": "ut38", "batch": 5, "flags": [], "cost": 0.0006089000000000001}
+{"tag": "store", "item": "ut39", "batch": 6, "flags": [], "cost": 0.0003801}
+{"tag": "store", "item": "ut39", "batch": 7, "flags": [], "cost": 0.0006959000000000001}
+{"tag": "store", "item": "ut40", "batch": 0, "flags": [{"id": "d-019", "label": "supports_alternative"}], "cost": 0.0004179}
+{"tag": "store", "item": "ut39", "batch": 9, "flags": [], "cost": 0.0006405}
+{"tag": "store", "item": "ut40", "batch": 4, "flags": [], "cost": 0.0004148}
+{"tag": "store", "item": "ut40", "batch": 1, "flags": [], "cost": 0.0004823}
+{"tag": "store", "item": "ut40", "batch": 2, "flags": [], "cost": 0.0005124000000000001}
+{"tag": "store", "item": "ut40", "batch": 5, "flags": [], "cost": 0.00044170000000000006}
+{"tag": "store", "item": "ut40", "batch": 7, "flags": [], "cost": 0.00073}
+{"tag": "store", "item": "ut40", "batch": 8, "flags": [{"id": "s-133", "label": "contradicts_target"}, {"id": "s-145", "label": "supports_alternative"}], "cost": 0.0006886}
+{"tag": "store", "item": "ut40", "batch": 9, "flags": [], "cost": 0.0006176}
+{"tag": "store", "item": "ut40", "batch": 3, "flags": [], "cost": 0.0005543}
+{"tag": "store", "item": "ut40", "batch": 6, "flags": [], "cost": 0.0005177000000000001}
+{"tag": "store", "item": "ut41", "batch": 0, "flags": [], "cost": 0.00048820000000000005}
+{"tag": "store", "item": "ut41", "batch": 4, "flags": [{"id": "h-a5c9", "label": "contradicts_target"}, {"id": "h-92fc", "label": "supports_target"}, {"id": "h-92db", "label": "supports_target"}], "cost": 0.00034910000000000003}
+{"tag": "store", "item": "ut41", "batch": 5, "flags": [{"id": "h-dafa", "label": "contradicts_target"}], "cost": 0.000334}
+{"tag": "store", "item": "ut41", "batch": 1, "flags": [], "cost": 0.00040960000000000004}
+{"tag": "store", "item": "ut41", "batch": 3, "flags": [], "cost": 0.0004021}
+{"tag": "store", "item": "ut41", "batch": 2, "flags": [], "cost": 0.00042770000000000004}
+{"tag": "store", "item": "ut41", "batch": 6, "flags": [], "cost": 0.0004135}
+{"tag": "store", "item": "ut41", "batch": 7, "flags": [], "cost": 0.0007578000000000001}
+{"tag": "store", "item": "ut41", "batch": 9, "flags": [], "cost": 0.0005639}
+{"tag": "store", "item": "ut41", "batch": 8, "flags": [], "cost": 0.0007744000000000001}
+{"tag": "store", "item": "ut42", "batch": 0, "flags": [{"id": "h-0dc9", "label": "supports_target"}], "cost": 0.0006232999999999999}
+{"tag": "store", "item": "ut42", "batch": 6, "flags": [{"id": "h-e3db", "label": "supports_alternative"}, {"id": "h-f2c0", "label": "supports_target"}, {"id": "h-df98", "label": "supports_alternative"}, {"id": "h-dfa9", "label": "supports_alternative"}, {"id": "h-f69a", "label": "supports_alternative"}, {"id": "h-fa57", "label": "supports_alternative"}, {"id": "h-e087", "label": "contradicts_target"}], "cost": 0.0003906}
+{"tag": "store", "item": "ut42", "batch": 7, "flags": [], "cost": 0.0007334}
+{"tag": "store", "item": "ut42", "batch": 8, "flags": [], "cost": 0.0006745}
+{"tag": "store", "item": "ut42", "batch": 9, "flags": [], "cost": 0.0005665}
+{"tag": "store", "item": "ut42", "batch": 3, "flags": [{"id": "h-7902", "label": "supports_alternative"}, {"id": "h-7e4f", "label": "supports_target"}, {"id": "h-808c", "label": "supports_target"}], "cost": 0.0006142000000000001}
+{"tag": "store", "item": "ut42", "batch": 4, "flags": [{"id": "h-af2d", "label": "supports_target"}, {"id": "h-92fc", "label": "supports_alternative"}], "cost": 0.0005732000000000001}
+{"tag": "store", "item": "ut42", "batch": 2, "flags": [{"id": "h-457b", "label": "contradicts_target"}, {"id": "h-4a82", "label": "supports_target"}, {"id": "h-5ed3", "label": "supports_target"}], "cost": 0.0007172999999999999}
+{"tag": "store", "item": "ut42", "batch": 1, "flags": [{"id": "h-32da", "label": "contradicts_target"}, {"id": "h-3808", "label": "supports_target"}, {"id": "h-1d28", "label": "supports_target"}], "cost": 0.0007202}
+{"tag": "store", "item": "ut44", "batch": 0, "flags": [], "cost": 0.0004689}
+{"tag": "store", "item": "ut44", "batch": 1, "flags": [], "cost": 0.0004278}
+{"tag": "store", "item": "ut42", "batch": 5, "flags": [{"id": "h-d836", "label": "supports_target"}, {"id": "h-c7ab", "label": "supports_target"}, {"id": "h-c691", "label": "supports_alternative"}, {"id": "h-cf1a", "label": "supports_alternative"}], "cost": 0.0007186}
+{"tag": "store", "item": "ut44", "batch": 2, "flags": [], "cost": 0.0004024}
+{"tag": "store", "item": "ut44", "batch": 3, "flags": [], "cost": 0.0004953000000000001}
+{"tag": "store", "item": "ut45", "batch": 0, "flags": [{"id": "d-097", "label": "supports_alternative"}], "cost": 0.00041690000000000005}
+{"tag": "store", "item": "ut44", "batch": 5, "flags": [], "cost": 0.00044820000000000005}
+{"tag": "store", "item": "ut44", "batch": 6, "flags": [], "cost": 0.00045620000000000003}
+{"tag": "store", "item": "ut44", "batch": 4, "flags": [{"id": "h-b0c6", "label": "supports_target"}], "cost": 0.0005363}
+{"tag": "store", "item": "ut44", "batch": 8, "flags": [], "cost": 0.0007536}
+{"tag": "store", "item": "ut44", "batch": 7, "flags": [], "cost": 0.0007765}
+{"tag": "store", "item": "ut45", "batch": 4, "flags": [], "cost": 0.0003218}
+{"tag": "store", "item": "ut44", "batch": 9, "flags": [], "cost": 0.0007386000000000001}
+{"tag": "store", "item": "ut45", "batch": 1, "flags": [], "cost": 0.0003998}
+{"tag": "store", "item": "ut45", "batch": 2, "flags": [], "cost": 0.0004219}
+{"tag": "store", "item": "ut45", "batch": 6, "flags": [], "cost": 0.00039270000000000006}
+{"tag": "store", "item": "ut45", "batch": 5, "flags": [], "cost": 0.00041470000000000005}
+{"tag": "store", "item": "ut45", "batch": 3, "flags": [], "cost": 0.0004308}
+{"tag": "store", "item": "ut45", "batch": 9, "flags": [], "cost": 0.0005616}
+{"tag": "store", "item": "ut45", "batch": 7, "flags": [], "cost": 0.000715}
+{"tag": "store", "item": "ut52", "batch": 0, "flags": [{"id": "h-0001", "label": "supports_alternative"}], "cost": 0.00041670000000000005}
+{"tag": "store", "item": "ut45", "batch": 8, "flags": [], "cost": 0.0006696}
+{"tag": "store", "item": "ut52", "batch": 1, "flags": [], "cost": 0.00039860000000000004}
+{"tag": "store", "item": "ut52", "batch": 3, "flags": [], "cost": 0.00044310000000000004}
+{"tag": "store", "item": "ut52", "batch": 5, "flags": [], "cost": 0.0004295}
+{"tag": "store", "item": "ut52", "batch": 4, "flags": [], "cost": 0.0004216}
+{"tag": "store", "item": "ut52", "batch": 2, "flags": [], "cost": 0.0004922}
+{"tag": "store", "item": "ut52", "batch": 6, "flags": [], "cost": 0.0004485}
+{"tag": "store", "item": "ut52", "batch": 8, "flags": [], "cost": 0.0007854000000000001}
+{"tag": "store", "item": "ut52", "batch": 9, "flags": [], "cost": 0.0006359}
+{"tag": "store", "item": "ut52", "batch": 7, "flags": [{"id": "s-083", "label": "contradicts_target"}], "cost": 0.0008843000000000001}
+{"tag": "store", "item": "ut54", "batch": 0, "flags": [], "cost": 0.0005815}
+{"tag": "store", "item": "ut54", "batch": 4, "flags": [], "cost": 0.00048590000000000005}
+{"tag": "store", "item": "ut54", "batch": 1, "flags": [], "cost": 0.0004949}
+{"tag": "store", "item": "ut54", "batch": 5, "flags": [], "cost": 0.0005237999999999999}
+{"tag": "store", "item": "ut54", "batch": 2, "flags": [{"id": "h-53e9", "label": "supports_target"}], "cost": 0.0005205}
+{"tag": "store", "item": "ut54", "batch": 6, "flags": [], "cost": 0.0004738}
+{"tag": "store", "item": "ut54", "batch": 3, "flags": [], "cost": 0.0005539000000000001}
+{"tag": "store", "item": "ut54", "batch": 7, "flags": [], "cost": 0.0007041}
+{"tag": "store", "item": "ut54", "batch": 9, "flags": [{"id": "s-288", "label": "supports_alternative"}], "cost": 0.0005727000000000001}
+{"tag": "store", "item": "ut54", "batch": 8, "flags": [], "cost": 0.0007507000000000001}
+{"tag": "store", "item": "ut55", "batch": 5, "flags": [{"id": "h-d4d1", "label": "contradicts_target"}], "cost": 0.00032910000000000003}
+{"tag": "store", "item": "ut55", "batch": 1, "flags": [{"id": "h-2311", "label": "contradicts_target"}], "cost": 0.0003332}
+{"tag": "store", "item": "ut55", "batch": 0, "flags": [{"id": "d-002", "label": "supports_target"}], "cost": 0.00041380000000000003}
+{"tag": "store", "item": "ut55", "batch": 4, "flags": [{"id": "h-9178", "label": "contradicts_target"}, {"id": "h-b024", "label": "contradicts_target"}], "cost": 0.0003377}
+{"tag": "store", "item": "ut55", "batch": 2, "flags": [], "cost": 0.0003913}
+{"tag": "store", "item": "ut55", "batch": 9, "flags": [], "cost": 0.0005595}
+{"tag": "store", "item": "ut55", "batch": 3, "flags": [{"id": "h-64d8", "label": "contradicts_target"}], "cost": 0.00032820000000000006}
+{"tag": "store", "item": "ut55", "batch": 6, "flags": [], "cost": 0.0004136}
+{"tag": "store", "item": "ut55", "batch": 7, "flags": [], "cost": 0.0007014000000000001}
+{"tag": "store", "item": "ut55", "batch": 8, "flags": [], "cost": 0.000753}
+{"tag": "store", "item": "ut56", "batch": 0, "flags": [], "cost": 0.0006012999999999999}
+{"tag": "store", "item": "ut56", "batch": 1, "flags": [], "cost": 0.0005502}
+{"tag": "store", "item": "ut56", "batch": 7, "flags": [], "cost": 0.0007744000000000001}
+{"tag": "store", "item": "ut56", "batch": 8, "flags": [], "cost": 0.0007575}
+{"tag": "store", "item": "ut56", "batch": 2, "flags": [], "cost": 0.0006797999999999999}
+{"tag": "store", "item": "ut56", "batch": 9, "flags": [], "cost": 0.000636}
+{"tag": "store", "item": "ut56", "batch": 3, "flags": [], "cost": 0.0006617000000000001}
+{"tag": "store", "item": "ut56", "batch": 5, "flags": [], "cost": 0.0006206}
+{"tag": "store", "item": "ut56", "batch": 4, "flags": [], "cost": 0.0006797000000000001}
+{"tag": "store", "item": "ut56", "batch": 6, "flags": [], "cost": 0.0006266}
+{"tag": "store", "item": "ut58", "batch": 2, "flags": [{"id": "h-4bc5", "label": "contradicts_target"}, {"id": "h-5ac0", "label": "contradicts_target"}], "cost": 0.0003443}
+{"tag": "store", "item": "ut58", "batch": 0, "flags": [], "cost": 0.0005252999999999999}
+{"tag": "store", "item": "ut58", "batch": 1, "flags": [], "cost": 0.00043470000000000005}
+{"tag": "store", "item": "ut58", "batch": 4, "flags": [], "cost": 0.0004932000000000001}
+{"tag": "store", "item": "ut58", "batch": 6, "flags": [], "cost": 0.0004216}
+{"tag": "store", "item": "ut58", "batch": 5, "flags": [], "cost": 0.00044310000000000004}
+{"tag": "store", "item": "ut58", "batch": 3, "flags": [], "cost": 0.0004912}
+{"tag": "store", "item": "ut58", "batch": 7, "flags": [], "cost": 0.0007929000000000001}
+{"tag": "store", "item": "ut59", "batch": 0, "flags": [{"id": "d-097", "label": "contradicts_target"}, {"id": "d-093", "label": "contradicts_target"}, {"id": "d-097", "label": "contradicts_target"}], "cost": 0.000434}
+{"tag": "store", "item": "ut59", "batch": 2, "flags": [{"id": "h-416c", "label": "supports_alternative"}], "cost": 0.0003345}
+{"tag": "store", "item": "ut59", "batch": 3, "flags": [{"id": "h-7b6f", "label": "contradicts_target"}, {"id": "h-7bca", "label": "contradicts_target"}, {"id": "h-7226", "label": "contradicts_target"}], "cost": 0.00034740000000000004}
+{"tag": "store", "item": "ut59", "batch": 4, "flags": [{"id": "h-92db", "label": "contradicts_target"}, {"id": "h-92f4", "label": "contradicts_target"}], "cost": 0.00033890000000000005}
+{"tag": "store", "item": "ut58", "batch": 9, "flags": [], "cost": 0.000696}
+{"tag": "store", "item": "ut58", "batch": 8, "flags": [], "cost": 0.0008335}
+{"tag": "store", "item": "ut59", "batch": 6, "flags": [{"id": "h-ecdc", "label": "supports_alternative"}], "cost": 0.0003318}
+{"tag": "store", "item": "ut59", "batch": 1, "flags": [], "cost": 0.00040340000000000005}
+{"tag": "store", "item": "ut59", "batch": 8, "flags": [], "cost": 0.0006687}
+{"tag": "store", "item": "ut59", "batch": 5, "flags": [{"id": "h-b735", "label": "contradicts_target"}, {"id": "h-c5a4", "label": "contradicts_target"}, {"id": "h-c691", "label": "contradicts_target"}], "cost": 0.0003483}
+{"tag": "store", "item": "ut59", "batch": 9, "flags": [], "cost": 0.0005607}
+{"tag": "store", "item": "ut60", "batch": 0, "flags": [{"id": "d-097", "label": "contradicts_target"}, {"id": "d-037", "label": "contradicts_target"}], "cost": 0.0004248}
+{"tag": "store", "item": "ut60", "batch": 1, "flags": [], "cost": 0.00039420000000000004}
+{"tag": "store", "item": "ut60", "batch": 2, "flags": [], "cost": 0.0003948}
+{"tag": "store", "item": "ut60", "batch": 4, "flags": [], "cost": 0.00034920000000000003}
+{"tag": "store", "item": "ut60", "batch": 6, "flags": [], "cost": 0.0004081}
+{"tag": "store", "item": "ut59", "batch": 7, "flags": [], "cost": 0.0008086}
+{"tag": "store", "item": "ut60", "batch": 8, "flags": [], "cost": 0.0006685}
+{"tag": "store", "item": "ut61", "batch": 0, "flags": [{"id": "d-097", "label": "contradicts_target"}, {"id": "d-074", "label": "contradicts_target"}], "cost": 0.0004265}
+{"tag": "store", "item": "ut60", "batch": 5, "flags": [], "cost": 0.0004401}
+{"tag": "store", "item": "ut60", "batch": 7, "flags": [], "cost": 0.0006959000000000001}
+{"tag": "store", "item": "ut60", "batch": 3, "flags": [], "cost": 0.00044070000000000003}
+{"tag": "store", "item": "ut60", "batch": 9, "flags": [], "cost": 0.0006095}
+{"tag": "store", "item": "ut61", "batch": 4, "flags": [], "cost": 0.00037390000000000004}
+{"tag": "store", "item": "ut61", "batch": 1, "flags": [], "cost": 0.00039240000000000005}
+{"tag": "store", "item": "ut61", "batch": 6, "flags": [{"id": "h-e8d5", "label": "contradicts_target"}, {"id": "h-fa70", "label": "contradicts_target"}], "cost": 0.0003423}
+{"tag": "store", "item": "ut61", "batch": 3, "flags": [], "cost": 0.0004109}
+{"tag": "store", "item": "ut61", "batch": 5, "flags": [], "cost": 0.0003798}
+{"tag": "store", "item": "ut61", "batch": 7, "flags": [], "cost": 0.0007636}
+{"tag": "store", "item": "ut61", "batch": 2, "flags": [], "cost": 0.0004445}
+{"tag": "store", "item": "ut61", "batch": 8, "flags": [], "cost": 0.0007357}
+{"tag": "store", "item": "ut61", "batch": 9, "flags": [{"id": "s-240", "label": "contradicts_target"}, {"id": "u-003", "label": "supports_target"}], "cost": 0.0005792000000000001}
+{"tag": "store", "item": "ut62", "batch": 0, "flags": [], "cost": 0.0004605}
+{"tag": "store", "item": "ut62", "batch": 3, "flags": [], "cost": 0.00036990000000000005}
+{"tag": "store", "item": "ut62", "batch": 4, "flags": [{"id": "h-968b", "label": "supports_alternative"}, {"id": "h-a58f", "label": "supports_alternative"}, {"id": "h-a83e", "label": "supports_alternative"}], "cost": 0.00034990000000000005}
+{"tag": "store", "item": "ut62", "batch": 8, "flags": [{"id": "s-114", "label": "supports_alternative"}], "cost": 0.0006797000000000001}
+{"tag": "store", "item": "ut62", "batch": 2, "flags": [], "cost": 0.000524}
+{"tag": "store", "item": "ut62", "batch": 9, "flags": [], "cost": 0.0005627000000000001}
+{"tag": "store", "item": "ut62", "batch": 6, "flags": [], "cost": 0.0004188}
+{"tag": "store", "item": "ut62", "batch": 1, "flags": [], "cost": 0.0004869}
+{"tag": "store", "item": "ut62", "batch": 5, "flags": [], "cost": 0.0005023}
+{"tag": "store", "item": "ut64", "batch": 0, "flags": [], "cost": 0.0004992000000000001}
+{"tag": "store", "item": "ut62", "batch": 7, "flags": [], "cost": 0.0007416}
+{"tag": "store", "item": "ut64", "batch": 1, "flags": [{"id": "h-1d4f", "label": "contradicts_target"}, {"id": "h-21e0", "label": "supports_target"}, {"id": "h-1f24", "label": "supports_target"}], "cost": 0.0003511}
+{"tag": "store", "item": "ut64", "batch": 3, "flags": [{"id": "h-6421", "label": "supports_target"}, {"id": "h-6c4d", "label": "supports_alternative"}, {"id": "h-7b6f", "label": "supports_alternative"}, {"id": "h-7311", "label": "supports_target"}], "cost": 0.0003551}
+{"tag": "store", "item": "ut64", "batch": 4, "flags": [], "cost": 0.00040710000000000003}
+{"tag": "store", "item": "ut64", "batch": 7, "flags": [], "cost": 0.0007243000000000001}
+{"tag": "store", "item": "ut64", "batch": 2, "flags": [], "cost": 0.0004402}
+{"tag": "store", "item": "ut64", "batch": 8, "flags": [], "cost": 0.0007204000000000001}
+{"tag": "store", "item": "ut64", "batch": 9, "flags": [], "cost": 0.0006144}
+{"tag": "store", "item": "ut64", "batch": 6, "flags": [], "cost": 0.0004385}
+{"tag": "store", "item": "ut64", "batch": 5, "flags": [], "cost": 0.0005035}
+{"tag": "store", "item": "ut65", "batch": 0, "flags": [], "cost": 0.00045970000000000006}
+{"tag": "store", "item": "ut65", "batch": 6, "flags": [], "cost": 0.0004105}
+{"tag": "store", "item": "ut65", "batch": 5, "flags": [], "cost": 0.000405}
+{"tag": "store", "item": "ut65", "batch": 4, "flags": [], "cost": 0.0004266}
+{"tag": "store", "item": "ut65", "batch": 1, "flags": [{"id": "h-39cf", "label": "supports_alternative"}], "cost": 0.0005186}
+{"tag": "store", "item": "ut65", "batch": 3, "flags": [], "cost": 0.00046510000000000003}
+{"tag": "store", "item": "ut65", "batch": 7, "flags": [], "cost": 0.0006998000000000001}
+{"tag": "store", "item": "ut65", "batch": 8, "flags": [], "cost": 0.0007204000000000001}
+{"tag": "store", "item": "ut65", "batch": 9, "flags": [], "cost": 0.0005609}
+{"tag": "store", "item": "ut65", "batch": 2, "flags": [], "cost": 0.0005107}
+{"tag": "store", "item": "ut66", "batch": 2, "flags": [{"id": "h-56b3", "label": "contradicts_target"}, {"id": "h-4e6a", "label": "supports_alternative"}, {"id": "h-5ed3", "label": "contradicts_target"}, {"id": "h-54bf", "label": "supports_target"}, {"id": "h-5591", "label": "supports_target"}], "cost": 0.0003728}
+{"tag": "store", "item": "ut66", "batch": 3, "flags": [], "cost": 0.00048320000000000004}
+{"tag": "store", "item": "ut66", "batch": 0, "flags": [], "cost": 0.0006173}
+{"tag": "store", "item": "ut66", "batch": 8, "flags": [], "cost": 0.0007405}
+{"tag": "store", "item": "ut66", "batch": 7, "flags": [], "cost": 0.0007324000000000001}
+{"tag": "store", "item": "ut66", "batch": 6, "flags": [], "cost": 0.0005636}
+{"tag": "store", "item": "ut66", "batch": 1, "flags": [], "cost": 0.0006227}
+{"tag": "store", "item": "ut66", "batch": 5, "flags": [], "cost": 0.0006006000000000001}
+{"tag": "store", "item": "ut66", "batch": 4, "flags": [], "cost": 0.0006467}
+{"tag": "store", "item": "ut69", "batch": 3, "flags": [], "cost": 0.000322}
+{"tag": "store", "item": "ut69", "batch": 2, "flags": [{"id": "h-49c8", "label": "contradicts_target"}, {"id": "h-56b3", "label": "contradicts_target"}], "cost": 0.00034510000000000004}
+{"tag": "store", "item": "ut69", "batch": 4, "flags": [], "cost": 0.0003225}
+{"tag": "store", "item": "ut69", "batch": 0, "flags": [{"id": "d-002", "label": "supports_alternative"}], "cost": 0.0004176}
+{"tag": "store", "item": "ut69", "batch": 5, "flags": [], "cost": 0.0003999}
+{"tag": "store", "item": "ps01", "batch": 0, "flags": [{"id": "h-0001", "label": "supports_target"}], "cost": 0.00041840000000000003}
+{"tag": "store", "item": "ut69", "batch": 9, "flags": [], "cost": 0.0005623000000000001}
+{"tag": "store", "item": "ut66", "batch": 9, "flags": [], "cost": 0.0006355}
+{"tag": "store", "item": "ut69", "batch": 1, "flags": [], "cost": 0.000403}
+{"tag": "store", "item": "ut69", "batch": 6, "flags": [], "cost": 0.00042790000000000005}
+{"tag": "store", "item": "ut69", "batch": 8, "flags": [], "cost": 0.0007093000000000001}
+{"tag": "store", "item": "ut69", "batch": 7, "flags": [], "cost": 0.0006937}
+{"tag": "store", "item": "ps01", "batch": 1, "flags": [], "cost": 0.0003288}
+{"tag": "store", "item": "ps01", "batch": 2, "flags": [], "cost": 0.0003289}
+{"tag": "store", "item": "ps01", "batch": 3, "flags": [{"id": "h-85dc", "label": "supports_target"}], "cost": 0.0003318}
+{"tag": "store", "item": "ps01", "batch": 4, "flags": [], "cost": 0.0003243}
+{"tag": "store", "item": "ps01", "batch": 6, "flags": [], "cost": 0.00038120000000000005}
+{"tag": "store", "item": "ps02", "batch": 1, "flags": [{"id": "h-198b", "label": "supports_target"}, {"id": "h-198b", "label": "supports_alternative"}], "cost": 0.000346}
+{"tag": "store", "item": "ps02", "batch": 0, "flags": [{"id": "d-052", "label": "contradicts_target"}], "cost": 0.0004196}
+{"tag": "store", "item": "ps01", "batch": 7, "flags": [], "cost": 0.0007395}
+{"tag": "store", "item": "ps01", "batch": 8, "flags": [], "cost": 0.0007636}
+{"tag": "store", "item": "ps01", "batch": 5, "flags": [], "cost": 0.0004047}
+{"tag": "store", "item": "ps02", "batch": 4, "flags": [{"id": "h-8893", "label": "contradicts_target"}, {"id": "h-b3d2", "label": "supports_target"}], "cost": 0.0003415}
+{"tag": "store", "item": "ps01", "batch": 9, "flags": [], "cost": 0.0007056}
+{"tag": "store", "item": "ps02", "batch": 2, "flags": [], "cost": 0.00037660000000000005}
+{"tag": "store", "item": "ps02", "batch": 5, "flags": [], "cost": 0.00038290000000000004}
+{"tag": "store", "item": "ps02", "batch": 3, "flags": [], "cost": 0.0003845}
+{"tag": "store", "item": "ps03", "batch": 0, "flags": [], "cost": 0.00041}
+{"tag": "store", "item": "ps03", "batch": 2, "flags": [], "cost": 0.0003285}
+{"tag": "store", "item": "ps03", "batch": 3, "flags": [{"id": "h-614b", "label": "contradicts_target"}], "cost": 0.00033240000000000006}
+{"tag": "store", "item": "ps03", "batch": 1, "flags": [{"id": "h-198b", "label": "contradicts_target"}], "cost": 0.0003374}
+{"tag": "store", "item": "ps02", "batch": 9, "flags": [], "cost": 0.0006528}
+{"tag": "store", "item": "ps02", "batch": 7, "flags": [], "cost": 0.0007567}
+{"tag": "store", "item": "ps03", "batch": 5, "flags": [], "cost": 0.0003243}
+{"tag": "store", "item": "ps02", "batch": 8, "flags": [], "cost": 0.0007628000000000001}
+{"tag": "store", "item": "ps02", "batch": 6, "flags": [], "cost": 0.0004024}
+{"tag": "store", "item": "ps03", "batch": 4, "flags": [{"id": "h-89c9", "label": "supports_target"}, {"id": "h-ad7b", "label": "supports_target"}], "cost": 0.0003399}
+{"tag": "store", "item": "ps03", "batch": 7, "flags": [{"id": "s-001", "label": "contradicts_target"}, {"id": "s-013", "label": "contradicts_target"}], "cost": 0.0006506}
+{"tag": "store", "item": "ps03", "batch": 8, "flags": [], "cost": 0.0006717}
+{"tag": "store", "item": "ps03", "batch": 9, "flags": [{"id": "s-299", "label": "supports_target"}], "cost": 0.0005717000000000001}
+{"tag": "store", "item": "ps03", "batch": 6, "flags": [], "cost": 0.0003258}
+{"tag": "store", "item": "ps04", "batch": 0, "flags": [{"id": "d-052", "label": "contradicts_target"}], "cost": 0.000421}
+{"tag": "store", "item": "ps04", "batch": 6, "flags": [{"id": "h-e3db", "label": "supports_alternative"}], "cost": 0.0003368}
+{"tag": "store", "item": "ps04", "batch": 4, "flags": [{"id": "h-9c02", "label": "contradicts_target"}], "cost": 0.0003349}
+{"tag": "store", "item": "ps04", "batch": 2, "flags": [], "cost": 0.000442}
+{"tag": "store", "item": "ps04", "batch": 3, "flags": [], "cost": 0.00043490000000000005}
+{"tag": "store", "item": "ps04", "batch": 8, "flags": [{"id": "s-118", "label": "contradicts_target"}, {"id": "s-138", "label": "contradicts_target"}], "cost": 0.0006917000000000001}
+{"tag": "store", "item": "ps04", "batch": 1, "flags": [], "cost": 0.0004644}
+{"tag": "store", "item": "ps04", "batch": 5, "flags": [{"id": "h-d1cb", "label": "supports_alternative"}, {"id": "h-bd7c", "label": "contradicts_target"}], "cost": 0.0003443}
+{"tag": "store", "item": "ps04", "batch": 9, "flags": [], "cost": 0.0005657}
+{"tag": "store", "item": "ps05", "batch": 0, "flags": [{"id": "d-002", "label": "contradicts_target"}], "cost": 0.00041830000000000003}
+{"tag": "store", "item": "ps04", "batch": 7, "flags": [], "cost": 0.0006996}
+{"tag": "store", "item": "ps05", "batch": 2, "flags": [], "cost": 0.0003278}
+{"tag": "store", "item": "ps05", "batch": 3, "flags": [], "cost": 0.00032270000000000004}
+{"tag": "store", "item": "ps05", "batch": 4, "flags": [], "cost": 0.00032320000000000005}
+{"tag": "store", "item": "ps05", "batch": 5, "flags": [], "cost": 0.0003636}
+{"tag": "store", "item": "ps05", "batch": 6, "flags": [], "cost": 0.00037160000000000003}
+{"tag": "store", "item": "ps05", "batch": 1, "flags": [], "cost": 0.00037970000000000007}
+{"tag": "store", "item": "ps05", "batch": 9, "flags": [], "cost": 0.000563}
+{"tag": "store", "item": "ps06", "batch": 1, "flags": [{"id": "h-3f5a", "label": "supports_alternative"}], "cost": 0.0003355}
+{"tag": "store", "item": "ps05", "batch": 7, "flags": [], "cost": 0.0007204000000000001}
+{"tag": "store", "item": "ps06", "batch": 0, "flags": [{"id": "d-002", "label": "supports_target"}], "cost": 0.00041660000000000004}
+{"tag": "store", "item": "ps06", "batch": 2, "flags": [], "cost": 0.0003261}
+{"tag": "store", "item": "ps05", "batch": 8, "flags": [{"id": "s-124", "label": "contradicts_target"}, {"id": "s-144", "label": "contradicts_target"}], "cost": 0.000689}
+{"tag": "store", "item": "ps06", "batch": 3, "flags": [], "cost": 0.0003215}
+{"tag": "store", "item": "ps06", "batch": 6, "flags": [], "cost": 0.0003239}
+{"tag": "store", "item": "ps06", "batch": 5, "flags": [], "cost": 0.0003219}
+{"tag": "store", "item": "ps06", "batch": 9, "flags": [{"id": "s-238", "label": "contradicts_target"}, {"id": "s-268", "label": "contradicts_target"}, {"id": "s-278", "label": "contradicts_target"}, {"id": "s-288", "label": "contradicts_target"}, {"id": "s-258", "label": "contradicts_target"}], "cost": 0.0006068000000000001}
+{"tag": "store", "item": "ps07", "batch": 0, "flags": [], "cost": 0.0004065}
+{"tag": "store", "item": "ps07", "batch": 2, "flags": [], "cost": 0.000325}
+{"tag": "store", "item": "ps06", "batch": 4, "flags": [], "cost": 0.000322}
+{"tag": "store", "item": "ps06", "batch": 7, "flags": [], "cost": 0.0007182}
+{"tag": "store", "item": "ps07", "batch": 3, "flags": [{"id": "h-8402", "label": "supports_alternative"}], "cost": 0.0003289}
+{"tag": "store", "item": "ps06", "batch": 8, "flags": [], "cost": 0.0007388000000000001}
+{"tag": "store", "item": "ps07", "batch": 1, "flags": [], "cost": 0.00037590000000000003}
+{"tag": "store", "item": "ps07", "batch": 4, "flags": [], "cost": 0.00032040000000000004}
+{"tag": "store", "item": "ps07", "batch": 6, "flags": [{"id": "h-de28", "label": "contradicts_target"}, {"id": "h-f53d", "label": "supports_alternative"}], "cost": 0.00034030000000000003}
+{"tag": "store", "item": "ps08", "batch": 0, "flags": [{"id": "d-097", "label": "contradicts_target"}], "cost": 0.000418}
+{"tag": "store", "item": "ps07", "batch": 9, "flags": [{"id": "s-268", "label": "contradicts_target"}, {"id": "s-245", "label": "contradicts_target"}], "cost": 0.0005782000000000001}
+{"tag": "store", "item": "ps07", "batch": 5, "flags": [], "cost": 0.0003743}
+{"tag": "store", "item": "ps07", "batch": 8, "flags": [{"id": "s-170", "label": "contradicts_target"}], "cost": 0.0006772000000000001}
+{"tag": "store", "item": "ps08", "batch": 3, "flags": [], "cost": 0.00032240000000000003}
+{"tag": "store", "item": "ps08", "batch": 1, "flags": [{"id": "h-198b", "label": "contradicts_target"}], "cost": 0.00033640000000000005}
+{"tag": "store", "item": "ps08", "batch": 2, "flags": [], "cost": 0.0003275}
+{"tag": "store", "item": "ps08", "batch": 4, "flags": [], "cost": 0.00032290000000000004}
+{"tag": "store", "item": "ps08", "batch": 6, "flags": [{"id": "h-f72d", "label": "supports_target"}], "cost": 0.0003328}
+{"tag": "store", "item": "ps07", "batch": 7, "flags": [], "cost": 0.0007321000000000001}
+{"tag": "store", "item": "ps08", "batch": 5, "flags": [{"id": "h-c691", "label": "supports_alternative"}], "cost": 0.0003323}
+{"tag": "store", "item": "ps08", "batch": 7, "flags": [{"id": "s-012", "label": "contradicts_target"}], "cost": 0.0006406000000000001}
+{"tag": "store", "item": "ps08", "batch": 8, "flags": [{"id": "s-140", "label": "contradicts_target"}], "cost": 0.0006797000000000001}
+{"tag": "store", "item": "ps09", "batch": 4, "flags": [], "cost": 0.0003221}
+{"tag": "store", "item": "ps09", "batch": 0, "flags": [{"id": "d-052", "label": "contradicts_target"}, {"id": "d-062", "label": "contradicts_target"}], "cost": 0.00042620000000000006}
+{"tag": "store", "item": "ps08", "batch": 9, "flags": [{"id": "s-246", "label": "contradicts_target"}, {"id": "u-003", "label": "supports_target"}], "cost": 0.0005797}
+{"tag": "store", "item": "ps09", "batch": 2, "flags": [], "cost": 0.00038720000000000003}
+{"tag": "store", "item": "ps09", "batch": 1, "flags": [], "cost": 0.0003706}
+{"tag": "store", "item": "ps09", "batch": 6, "flags": [{"id": "h-eb3c", "label": "contradicts_target"}], "cost": 0.000333}
+{"tag": "store", "item": "ps09", "batch": 5, "flags": [], "cost": 0.000383}
+{"tag": "store", "item": "ps09", "batch": 8, "flags": [{"id": "s-133", "label": "contradicts_target"}, {"id": "s-145", "label": "contradicts_target"}, {"id": "s-172", "label": "contradicts_target"}, {"id": "s-192", "label": "contradicts_target"}, {"id": "s-222", "label": "contradicts_target"}], "cost": 0.0007149000000000001}
+{"tag": "store", "item": "ps09", "batch": 3, "flags": [], "cost": 0.0004246}
+{"tag": "store", "item": "ps10", "batch": 0, "flags": [{"id": "d-024", "label": "supports_target"}], "cost": 0.0004165}
+{"tag": "store", "item": "ps09", "batch": 7, "flags": [], "cost": 0.0007388000000000001}
+{"tag": "store", "item": "ps09", "batch": 9, "flags": [], "cost": 0.0006359}
+{"tag": "store", "item": "ps10", "batch": 2, "flags": [], "cost": 0.000327}
+{"tag": "store", "item": "ps10", "batch": 3, "flags": [{"id": "h-60f5", "label": "supports_target"}], "cost": 0.00032990000000000005}
+{"tag": "store", "item": "ps10", "batch": 1, "flags": [], "cost": 0.0003264}
+{"tag": "store", "item": "ps10", "batch": 4, "flags": [{"id": "h-89c9", "label": "supports_alternative"}], "cost": 0.00033140000000000003}
+{"tag": "store", "item": "ps10", "batch": 5, "flags": [], "cost": 0.0003788}
+{"tag": "store", "item": "ps10", "batch": 6, "flags": [], "cost": 0.0003688}
+{"tag": "store", "item": "ps10", "batch": 8, "flags": [], "cost": 0.0006702}
+{"tag": "store", "item": "ps11", "batch": 0, "flags": [{"id": "h-1132", "label": "contradicts_target"}], "cost": 0.0004168}
+{"tag": "store", "item": "ps11", "batch": 1, "flags": [], "cost": 0.00038320000000000004}
+{"tag": "store", "item": "ps11", "batch": 4, "flags": [], "cost": 0.00032170000000000007}
+{"tag": "store", "item": "ps11", "batch": 2, "flags": [], "cost": 0.0003263}
+{"tag": "store", "item": "ps10", "batch": 7, "flags": [], "cost": 0.0007596}
+{"tag": "store", "item": "ps11", "batch": 6, "flags": [{"id": "h-e8d5", "label": "supports_alternative"}], "cost": 0.0003326}
+{"tag": "store", "item": "ps10", "batch": 9, "flags": [], "cost": 0.0006507}
+{"tag": "store", "item": "ps11", "batch": 3, "flags": [], "cost": 0.00039370000000000003}
+{"tag": "store", "item": "ps11", "batch": 7, "flags": [{"id": "h-fd3a", "label": "contradicts_target"}, {"id": "s-001", "label": "contradicts_target"}], "cost": 0.0006484}
+{"tag": "store", "item": "ps11", "batch": 5, "flags": [], "cost": 0.00037610000000000003}
+{"tag": "store", "item": "ps11", "batch": 8, "flags": [], "cost": 0.0006695}
+{"tag": "store", "item": "ps11", "batch": 9, "flags": [{"id": "s-238", "label": "contradicts_target"}, {"id": "s-248", "label": "contradicts_target"}, {"id": "s-278", "label": "contradicts_target"}, {"id": "s-258", "label": "contradicts_target"}], "cost": 0.0005975}
+{"tag": "store", "item": "ps12", "batch": 2, "flags": [], "cost": 0.00037580000000000003}
+{"tag": "store", "item": "ps12", "batch": 1, "flags": [], "cost": 0.0003532}
+{"tag": "store", "item": "ps12", "batch": 4, "flags": [], "cost": 0.00032170000000000007}
+{"tag": "store", "item": "ps12", "batch": 0, "flags": [], "cost": 0.0004538}
+{"tag": "store", "item": "ps12", "batch": 3, "flags": [], "cost": 0.00037870000000000004}
+{"tag": "store", "item": "ps12", "batch": 6, "flags": [], "cost": 0.0003236}
+{"tag": "store", "item": "ps13", "batch": 0, "flags": [{"id": "d-024", "label": "contradicts_target"}], "cost": 0.0004195}
+{"tag": "store", "item": "ps12", "batch": 7, "flags": [], "cost": 0.0006829000000000001}
+{"tag": "store", "item": "ps13", "batch": 2, "flags": [{"id": "h-4310", "label": "supports_alternative"}], "cost": 0.0003375}
+{"tag": "store", "item": "ps13", "batch": 1, "flags": [{"id": "h-1b7c", "label": "supports_alternative"}, {"id": "h-1ff6", "label": "contradicts_target"}], "cost": 0.0003464}
+{"tag": "store", "item": "ps12", "batch": 5, "flags": [], "cost": 0.00039010000000000005}
+{"tag": "store", "item": "ps12", "batch": 8, "flags": [], "cost": 0.0007525}
+{"tag": "store", "item": "ps12", "batch": 9, "flags": [], "cost": 0.0005615}
+{"tag": "store", "item": "ps13", "batch": 4, "flags": [], "cost": 0.0003239}
+{"tag": "store", "item": "ps13", "batch": 3, "flags": [{"id": "h-80a5", "label": "supports_alternative"}], "cost": 0.00033240000000000006}
+{"tag": "store", "item": "ps13", "batch": 6, "flags": [{"id": "h-ec0e", "label": "supports_alternative"}, {"id": "h-fb1a", "label": "supports_alternative"}, {"id": "h-f483", "label": "supports_target"}], "cost": 0.0003518}
+{"tag": "store", "item": "ps13", "batch": 7, "flags": [{"id": "s-001", "label": "contradicts_target"}, {"id": "s-002", "label": "contradicts_target"}], "cost": 0.0006506}
+{"tag": "store", "item": "ps13", "batch": 8, "flags": [], "cost": 0.0006717}
+{"tag": "store", "item": "ps14", "batch": 0, "flags": [], "cost": 0.00040940000000000003}
+{"tag": "store", "item": "ps13", "batch": 9, "flags": [], "cost": 0.0005637000000000001}
+{"tag": "store", "item": "ps14", "batch": 1, "flags": [{"id": "h-2311", "label": "contradicts_target"}], "cost": 0.0003368}
+{"tag": "store", "item": "ps13", "batch": 5, "flags": [], "cost": 0.0003853}
+{"tag": "store", "item": "ps14", "batch": 4, "flags": [], "cost": 0.0003233}
+{"tag": "store", "item": "ps14", "batch": 6, "flags": [], "cost": 0.00032520000000000004}
+{"tag": "store", "item": "ps14", "batch": 3, "flags": [], "cost": 0.0003568}
+{"tag": "store", "item": "ps14", "batch": 5, "flags": [], "cost": 0.00032370000000000006}
+{"tag": "store", "item": "ps14", "batch": 9, "flags": [], "cost": 0.0005631}
+{"tag": "store", "item": "ps14", "batch": 7, "flags": [], "cost": 0.0006805}
+{"tag": "store", "item": "ps14", "batch": 2, "flags": [], "cost": 0.00037940000000000006}
+{"tag": "store", "item": "ps14", "batch": 8, "flags": [{"id": "s-197", "label": "contradicts_target"}, {"id": "s-167", "label": "contradicts_target"}], "cost": 0.0006891}
+{"tag": "store", "item": "ps15", "batch": 0, "flags": [{"id": "d-002", "label": "supports_target"}], "cost": 0.0004165}
+{"tag": "store", "item": "ps15", "batch": 2, "flags": [], "cost": 0.000327}
+{"tag": "store", "item": "ps15", "batch": 1, "flags": [], "cost": 0.00032690000000000003}
+{"tag": "store", "item": "ps15", "batch": 3, "flags": [], "cost": 0.0003219}
+{"tag": "store", "item": "ps15", "batch": 4, "flags": [], "cost": 0.00032240000000000003}
+{"tag": "store", "item": "ps15", "batch": 6, "flags": [], "cost": 0.0003243}
+{"tag": "store", "item": "ps16", "batch": 0, "flags": [{"id": "d-002", "label": "supports_target"}], "cost": 0.0004179}
+{"tag": "store", "item": "ps15", "batch": 5, "flags": [], "cost": 0.0004013}
+{"tag": "store", "item": "ps16", "batch": 2, "flags": [], "cost": 0.0003284}
+{"tag": "store", "item": "ps15", "batch": 8, "flags": [{"id": "s-132", "label": "supports_target"}, {"id": "s-123", "label": "contradicts_target"}, {"id": "s-138", "label": "contradicts_target"}, {"id": "s-143", "label": "contradicts_target"}], "cost": 0.0007052}
+{"tag": "store", "item": "ps16", "batch": 3, "flags": [], "cost": 0.0003233}
+{"tag": "store", "item": "ps15", "batch": 9, "flags": [{"id": "s-244", "label": "contradicts_target"}, {"id": "s-258", "label": "contradicts_target"}, {"id": "s-274", "label": "contradicts_target"}, {"id": "s-254", "label": "contradicts_target"}, {"id": "s-263", "label": "contradicts_target"}, {"id": "s-294", "label": "contradicts_target"}, {"id": "s-248", "label": "contradicts_target"}, {"id": "s-268", "label": "contradicts_target"}, {"id": "s-288", "label": "contradicts_target"}, {"id": "s-278", "label": "contradicts_target"}, {"id": "s-298", "label": "contradicts_target"}, {"id": "s-238", "label": "contradicts_target"}], "cost": 0.0006702}
+{"tag": "store", "item": "ps15", "batch": 7, "flags": [], "cost": 0.0007071}
+{"tag": "store", "item": "ps16", "batch": 1, "flags": [], "cost": 0.0003853}
+{"tag": "store", "item": "ps16", "batch": 6, "flags": [{"id": "h-e8d5", "label": "contradicts_target"}], "cost": 0.00033470000000000006}
+{"tag": "store", "item": "ps16", "batch": 4, "flags": [], "cost": 0.0003238}
+{"tag": "store", "item": "ps16", "batch": 5, "flags": [], "cost": 0.0003242}
+{"tag": "store", "item": "ps16", "batch": 8, "flags": [], "cost": 0.0006716000000000001}
+{"tag": "store", "item": "ps16", "batch": 7, "flags": [], "cost": 0.000702}
+{"tag": "store", "item": "ps16", "batch": 9, "flags": [{"id": "u-003", "label": "supports_target"}], "cost": 0.0005716}
+{"tag": "store", "item": "ps17", "batch": 2, "flags": [], "cost": 0.0003771}
+{"tag": "store", "item": "ps17", "batch": 1, "flags": [], "cost": 0.0004215}
+{"tag": "store", "item": "ps17", "batch": 6, "flags": [{"id": "h-deb7", "label": "contradicts_target"}, {"id": "h-dfa9", "label": "supports_target"}, {"id": "h-e02f", "label": "supports_target"}], "cost": 0.00034990000000000005}
+{"tag": "store", "item": "ps17", "batch": 0, "flags": [{"id": "h-168a", "label": "supports_alternative"}], "cost": 0.0005716}
+{"tag": "store", "item": "ps17", "batch": 4, "flags": [], "cost": 0.000323}
+{"tag": "store", "item": "ps17", "batch": 9, "flags": [{"id": "s-297", "label": "contradicts_target"}], "cost": 0.0005718}
+{"tag": "store", "item": "ps17", "batch": 5, "flags": [], "cost": 0.00043740000000000006}
+{"tag": "store", "item": "ps17", "batch": 7, "flags": [], "cost": 0.0007247}
+{"tag": "store", "item": "ps17", "batch": 8, "flags": [], "cost": 0.0006708}
+{"tag": "store", "item": "ps18", "batch": 0, "flags": [{"id": "d-002", "label": "supports_target"}], "cost": 0.00041640000000000004}
+{"tag": "store", "item": "ps18", "batch": 2, "flags": [], "cost": 0.00032690000000000003}
+{"tag": "store", "item": "ps18", "batch": 5, "flags": [], "cost": 0.0003802}
+{"tag": "store", "item": "ps18", "batch": 4, "flags": [], "cost": 0.00032230000000000003}
+{"tag": "store", "item": "ps18", "batch": 6, "flags": [], "cost": 0.0003242}
+{"tag": "store", "item": "ps18", "batch": 3, "flags": [], "cost": 0.0003608}
+{"tag": "store", "item": "ps18", "batch": 8, "flags": [], "cost": 0.0006701}
+{"tag": "store", "item": "ps18", "batch": 1, "flags": [], "cost": 0.0003823}
+{"tag": "store", "item": "ps18", "batch": 7, "flags": [], "cost": 0.0006925}
+{"tag": "store", "item": "ps19", "batch": 0, "flags": [{"id": "h-08b6", "label": "contradicts_target"}], "cost": 0.00041670000000000005}
+{"tag": "store", "item": "ps18", "batch": 9, "flags": [], "cost": 0.0005621000000000001}
+{"tag": "store", "item": "ps17", "batch": 3, "flags": [], "cost": 0.0004815}
+{"tag": "store", "item": "ps19", "batch": 3, "flags": [{"id": "h-808c", "label": "contradicts_target"}], "cost": 0.0003301}
+{"tag": "store", "item": "ps19", "batch": 4, "flags": [], "cost": 0.0003216}
+{"tag": "store", "item": "ps19", "batch": 1, "flags": [], "cost": 0.0004311}
+{"tag": "store", "item": "ps19", "batch": 2, "flags": [], "cost": 0.0004137}
+{"tag": "store", "item": "ps19", "batch": 9, "flags": [], "cost": 0.0005614}
+{"tag": "store", "item": "ps19", "batch": 7, "flags": [{"id": "s-026", "label": "contradicts_target"}, {"id": "s-016", "label": "contradicts_target"}], "cost": 0.0006483000000000001}
+{"tag": "store", "item": "ps20", "batch": 1, "flags": [{"id": "h-280a", "label": "supports_target"}, {"id": "h-31c8", "label": "supports_target"}], "cost": 0.0003443}
+{"tag": "store", "item": "ps20", "batch": 2, "flags": [], "cost": 0.0003284}
+{"tag": "store", "item": "ps19", "batch": 8, "flags": [], "cost": 0.0007364000000000001}
+{"tag": "store", "item": "ps19", "batch": 5, "flags": [], "cost": 0.00048}
+{"tag": "store", "item": "ps20", "batch": 0, "flags": [{"id": "d-002", "label": "supports_target"}, {"id": "d-010", "label": "supports_target"}], "cost": 0.00042590000000000005}
+{"tag": "store", "item": "ps20", "batch": 4, "flags": [], "cost": 0.0003238}
+{"tag": "store", "item": "ps20", "batch": 5, "flags": [], "cost": 0.0003242}
+{"tag": "store", "item": "ps20", "batch": 6, "flags": [], "cost": 0.00032570000000000006}
+{"tag": "store", "item": "ps20", "batch": 3, "flags": [], "cost": 0.0003833}
+{"tag": "store", "item": "ps20", "batch": 8, "flags": [], "cost": 0.0006716000000000001}
+{"tag": "store", "item": "ps21", "batch": 0, "flags": [], "cost": 0.00040790000000000005}
+{"tag": "store", "item": "ps19", "batch": 6, "flags": [], "cost": 0.0005415}
+{"tag": "store", "item": "ps20", "batch": 9, "flags": [{"id": "s-232", "label": "contradicts_target"}, {"id": "u-003", "label": "contradicts_target"}], "cost": 0.0005816}
+{"tag": "store", "item": "ps21", "batch": 1, "flags": [{"id": "h-198b", "label": "contradicts_target"}, {"id": "h-1a21", "label": "contradicts_target"}], "cost": 0.0003443}
+{"tag": "store", "item": "ps20", "batch": 7, "flags": [], "cost": 0.0006845}
+{"tag": "store", "item": "ps21", "batch": 3, "flags": [], "cost": 0.0003213}
+{"tag": "store", "item": "ps21", "batch": 2, "flags": [], "cost": 0.0003264}
+{"tag": "store", "item": "ps21", "batch": 4, "flags": [], "cost": 0.0003218}
+{"tag": "store", "item": "ps21", "batch": 5, "flags": [], "cost": 0.0003222}
+{"tag": "store", "item": "ps21", "batch": 6, "flags": [], "cost": 0.00032370000000000006}
+{"tag": "store", "item": "ps22", "batch": 0, "flags": [], "cost": 0.00041670000000000005}
+{"tag": "store", "item": "ps21", "batch": 8, "flags": [], "cost": 0.0006696}
+{"tag": "store", "item": "ps22", "batch": 1, "flags": [], "cost": 0.00032710000000000004}
+{"tag": "store", "item": "ps22", "batch": 2, "flags": [], "cost": 0.00032720000000000004}
+{"tag": "store", "item": "ps21", "batch": 9, "flags": [], "cost": 0.0005616}
+{"tag": "store", "item": "ps21", "batch": 7, "flags": [], "cost": 0.0007015}
+{"tag": "store", "item": "ps22", "batch": 3, "flags": [], "cost": 0.0003221}
+{"tag": "store", "item": "ps22", "batch": 4, "flags": [], "cost": 0.00032260000000000004}
+{"tag": "store", "item": "ps22", "batch": 5, "flags": [], "cost": 0.000323}
+{"tag": "store", "item": "ps22", "batch": 6, "flags": [{"id": "h-df1b", "label": "contradicts_target"}, {"id": "h-f42d", "label": "contradicts_target"}], "cost": 0.0003425}
+{"tag": "store", "item": "ps22", "batch": 9, "flags": [{"id": "s-245", "label": "supports_target"}, {"id": "s-245", "label": "supports_alternative"}], "cost": 0.0005794}
+{"tag": "store", "item": "ps22", "batch": 8, "flags": [{"id": "s-118", "label": "supports_target"}], "cost": 0.0006784000000000001}
+{"tag": "store", "item": "ps23", "batch": 0, "flags": [{"id": "d-002", "label": "supports_target"}], "cost": 0.0004153}
+{"tag": "store", "item": "ps22", "batch": 7, "flags": [], "cost": 0.0007048000000000001}
+{"tag": "store", "item": "ps23", "batch": 2, "flags": [], "cost": 0.0003258}
+{"tag": "store", "item": "ps23", "batch": 5, "flags": [], "cost": 0.0003216}
+{"tag": "store", "item": "ps23", "batch": 3, "flags": [{"id": "h-7b6f", "label": "supports_alternative"}], "cost": 0.00032970000000000005}
+{"tag": "store", "item": "ps23", "batch": 4, "flags": [], "cost": 0.00038570000000000005}
+{"tag": "store", "item": "ps23", "batch": 6, "flags": [{"id": "h-ddbd", "label": "supports_target"}], "cost": 0.0003311}
+{"tag": "store", "item": "ps23", "batch": 1, "flags": [], "cost": 0.00039720000000000006}
+{"tag": "store", "item": "ps23", "batch": 8, "flags": [], "cost": 0.000669}
+{"tag": "store", "item": "ps23", "batch": 7, "flags": [], "cost": 0.0007054000000000001}
+{"tag": "store", "item": "ps24", "batch": 0, "flags": [], "cost": 0.00041170000000000003}
+{"tag": "store", "item": "ps24", "batch": 5, "flags": [], "cost": 0.000326}
+{"tag": "store", "item": "ps24", "batch": 1, "flags": [], "cost": 0.0003301}
+{"tag": "store", "item": "ps24", "batch": 3, "flags": [{"id": "h-5fc3", "label": "supports_target"}], "cost": 0.0003331}
+{"tag": "store", "item": "ps24", "batch": 6, "flags": [], "cost": 0.0003275}
+{"tag": "store", "item": "ps24", "batch": 2, "flags": [], "cost": 0.00033020000000000006}
+{"tag": "store", "item": "ps23", "batch": 9, "flags": [], "cost": 0.000622}
+{"tag": "store", "item": "ps24", "batch": 8, "flags": [], "cost": 0.0006734000000000001}
+{"tag": "store", "item": "ps24", "batch": 4, "flags": [{"id": "h-881c", "label": "contradicts_target"}], "cost": 0.0003346}
+{"tag": "store", "item": "ps24", "batch": 7, "flags": [{"id": "s-001", "label": "contradicts_target"}, {"id": "s-002", "label": "contradicts_target"}], "cost": 0.0006523000000000001}
+{"tag": "store", "item": "ps24", "batch": 9, "flags": [{"id": "u-003", "label": "supports_target"}, {"id": "u-004", "label": "supports_target"}], "cost": 0.0005813999999999999}
+{"tag": "store", "item": "ps25", "batch": 0, "flags": [{"id": "d-023", "label": "supports_alternative"}], "cost": 0.00041770000000000007}
+{"tag": "store", "item": "ps25", "batch": 3, "flags": [], "cost": 0.0003221}
+{"tag": "store", "item": "ps25", "batch": 4, "flags": [], "cost": 0.00032260000000000004}
+{"tag": "store", "item": "ps25", "batch": 2, "flags": [], "cost": 0.00037520000000000007}
+{"tag": "store", "item": "ps25", "batch": 5, "flags": [], "cost": 0.000368}
+{"tag": "store", "item": "ps25", "batch": 1, "flags": [{"id": "h-2311", "label": "supports_alternative"}], "cost": 0.00033610000000000004}
+{"tag": "store", "item": "ps25", "batch": 6, "flags": [{"id": "h-f4bd", "label": "contradicts_target"}], "cost": 0.0003335}
+{"tag": "store", "item": "ps25", "batch": 8, "flags": [], "cost": 0.0006704000000000001}
+{"tag": "store", "item": "ps25", "batch": 7, "flags": [], "cost": 0.0007038000000000001}
+{"tag": "store", "item": "ps25", "batch": 9, "flags": [{"id": "s-245", "label": "supports_target"}], "cost": 0.0005704}
+{"tag": "store", "item": "ps28", "batch": 0, "flags": [{"id": "h-0641", "label": "contradicts_target"}, {"id": "h-12de", "label": "contradicts_target"}, {"id": "h-1174", "label": "contradicts_target"}], "cost": 0.0004356}
+{"tag": "store", "item": "ps28", "batch": 4, "flags": [{"id": "h-89c9", "label": "supports_alternative"}], "cost": 0.0003315}
+{"tag": "store", "item": "ps28", "batch": 3, "flags": [{"id": "h-60f5", "label": "supports_target"}], "cost": 0.00033}
+{"tag": "store", "item": "ps28", "batch": 6, "flags": [{"id": "h-f42d", "label": "supports_target"}], "cost": 0.00033240000000000006}
+{"tag": "store", "item": "ps28", "batch": 1, "flags": [], "cost": 0.0004225}
+{"tag": "store", "item": "ps28", "batch": 2, "flags": [], "cost": 0.0004286}
+{"tag": "store", "item": "ps29", "batch": 0, "flags": [{"id": "h-0234", "label": "supports_target"}], "cost": 0.00041840000000000003}
+{"tag": "store", "item": "ps29", "batch": 3, "flags": [{"id": "h-83db", "label": "supports_target"}], "cost": 0.0003318}
+{"tag": "store", "item": "ps29", "batch": 2, "flags": [], "cost": 0.0003289}
+{"tag": "store", "item": "ps29", "batch": 1, "flags": [], "cost": 0.0003883}
+{"tag": "store", "item": "ps28", "batch": 5, "flags": [], "cost": 0.00043440000000000004}
+{"tag": "store", "item": "ps29", "batch": 5, "flags": [], "cost": 0.00032470000000000003}
+{"tag": "store", "item": "ps29", "batch": 6, "flags": [], "cost": 0.00032620000000000007}
+{"tag": "store", "item": "ps28", "batch": 7, "flags": [], "cost": 0.0008257000000000001}
+{"tag": "store", "item": "ps28", "batch": 9, "flags": [], "cost": 0.0007013000000000001}
+{"tag": "store", "item": "ps29", "batch": 4, "flags": [], "cost": 0.00038480000000000003}
+{"tag": "store", "item": "ps29", "batch": 8, "flags": [{"id": "s-224", "label": "contradicts_target"}], "cost": 0.0006811}
+{"tag": "store", "item": "ps30", "batch": 0, "flags": [{"id": "d-047", "label": "contradicts_target"}], "cost": 0.0004173}
+{"tag": "store", "item": "ps29", "batch": 9, "flags": [], "cost": 0.0005641}
+{"tag": "store", "item": "ps28", "batch": 8, "flags": [{"id": "s-171", "label": "supports_alternative"}], "cost": 0.0009128000000000001}
+{"tag": "store", "item": "ps30", "batch": 2, "flags": [], "cost": 0.0003853}
+{"tag": "store", "item": "ps29", "batch": 7, "flags": [], "cost": 0.0007115}
+{"tag": "store", "item": "ps30", "batch": 1, "flags": [], "cost": 0.00039820000000000003}
+{"tag": "store", "item": "ps30", "batch": 3, "flags": [], "cost": 0.00041020000000000005}
+{"tag": "store", "item": "ps30", "batch": 5, "flags": [{"id": "h-bc31", "label": "supports_target"}, {"id": "h-d36f", "label": "supports_target"}, {"id": "h-bd5f", "label": "supports_alternative"}], "cost": 0.00034760000000000005}
+{"tag": "store", "item": "ps30", "batch": 4, "flags": [{"id": "h-89f5", "label": "supports_target"}, {"id": "h-9b4e", "label": "supports_target"}], "cost": 0.00033820000000000003}
+{"tag": "store", "item": "ps30", "batch": 6, "flags": [{"id": "h-e6f4", "label": "contradicts_target"}], "cost": 0.0003331}
+{"tag": "store", "item": "ps30", "batch": 9, "flags": [{"id": "s-291", "label": "supports_target"}], "cost": 0.00057}
+{"tag": "store", "item": "ps30", "batch": 8, "flags": [{"id": "s-122", "label": "contradicts_target"}, {"id": "s-160", "label": "contradicts_target"}], "cost": 0.000688}
+{"tag": "store", "item": "ps31", "batch": 0, "flags": [], "cost": 0.0004089}
+{"tag": "store", "item": "ps31", "batch": 2, "flags": [{"id": "h-4e50", "label": "contradicts_target"}, {"id": "h-5604", "label": "contradicts_target"}], "cost": 0.00034540000000000005}
+{"tag": "store", "item": "ps31", "batch": 4, "flags": [], "cost": 0.0003228}
+{"tag": "store", "item": "ps30", "batch": 7, "flags": [], "cost": 0.0007434000000000001}
+{"tag": "store", "item": "ps31", "batch": 3, "flags": [], "cost": 0.00032230000000000003}
+{"tag": "store", "item": "ps31", "batch": 1, "flags": [], "cost": 0.0003883}
+{"tag": "store", "item": "ps31", "batch": 6, "flags": [], "cost": 0.00032470000000000003}
+{"tag": "store", "item": "ps31", "batch": 7, "flags": [{"id": "s-001", "label": "contradicts_target"}, {"id": "s-002", "label": "contradicts_target"}], "cost": 0.0006495}
+{"tag": "store", "item": "ps31", "batch": 5, "flags": [], "cost": 0.00039770000000000007}
+{"tag": "store", "item": "ps32", "batch": 1, "flags": [{"id": "h-1b01", "label": "supports_target"}], "cost": 0.0003355}
+{"tag": "store", "item": "ps32", "batch": 2, "flags": [], "cost": 0.00032760000000000005}
+{"tag": "store", "item": "ps31", "batch": 8, "flags": [{"id": "s-161", "label": "supports_target"}], "cost": 0.0006786}
+{"tag": "store", "item": "ps32", "batch": 0, "flags": [{"id": "d-002", "label": "contradicts_target"}], "cost": 0.0004181}
+{"tag": "store", "item": "ps32", "batch": 4, "flags": [], "cost": 0.000323}
+{"tag": "store", "item": "ps31", "batch": 9, "flags": [], "cost": 0.0006366}
+{"tag": "store", "item": "ps32", "batch": 3, "flags": [], "cost": 0.000375}
+{"tag": "store", "item": "ps32", "batch": 5, "flags": [], "cost": 0.00032340000000000005}
+{"tag": "store", "item": "ps32", "batch": 6, "flags": [], "cost": 0.00032490000000000004}
+{"tag": "store", "item": "ps32", "batch": 9, "flags": [], "cost": 0.0005628}
+{"tag": "store", "item": "ps32", "batch": 7, "flags": [], "cost": 0.0006807}
+{"tag": "store", "item": "ps33", "batch": 0, "flags": [], "cost": 0.00046510000000000003}
+{"tag": "store", "item": "ps32", "batch": 8, "flags": [{"id": "s-127", "label": "contradicts_target"}, {"id": "s-137", "label": "contradicts_target"}], "cost": 0.0006888}
+{"tag": "store", "item": "ps33", "batch": 4, "flags": [], "cost": 0.0003225}
+{"tag": "store", "item": "ps33", "batch": 2, "flags": [], "cost": 0.0004081}
+{"tag": "store", "item": "ps33", "batch": 3, "flags": [], "cost": 0.000414}
+{"tag": "store", "item": "ps33", "batch": 1, "flags": [], "cost": 0.000407}
+{"tag": "store", "item": "ps33", "batch": 5, "flags": [], "cost": 0.00037590000000000003}
+{"tag": "store", "item": "ps34", "batch": 1, "flags": [], "cost": 0.0003275}
+{"tag": "store", "item": "ps33", "batch": 6, "flags": [], "cost": 0.0003709}
+{"tag": "store", "item": "ps34", "batch": 0, "flags": [{"id": "h-0001", "label": "contradicts_target"}], "cost": 0.0004181}
+{"tag": "store", "item": "ps33", "batch": 8, "flags": [], "cost": 0.0007433}
+{"tag": "store", "item": "ps34", "batch": 2, "flags": [], "cost": 0.00032760000000000005}
+{"tag": "store", "item": "ps33", "batch": 7, "flags": [], "cost": 0.0007107000000000001}
+{"tag": "store", "item": "ps33", "batch": 9, "flags": [], "cost": 0.0006308}
+{"tag": "store", "item": "ps34", "batch": 4, "flags": [{"id": "h-b3d2", "label": "contradicts_target"}], "cost": 0.000332}
+{"tag": "store", "item": "ps34", "batch": 3, "flags": [], "cost": 0.0003985}
+{"tag": "store", "item": "ps34", "batch": 9, "flags": [{"id": "s-239", "label": "supports_alternative"}], "cost": 0.0005718}
+{"tag": "store", "item": "ps34", "batch": 6, "flags": [{"id": "h-f42d", "label": "supports_target"}, {"id": "h-f4bd", "label": "supports_target"}], "cost": 0.00034090000000000005}
+{"tag": "store", "item": "ps34", "batch": 7, "flags": [], "cost": 0.0006927000000000001}
+{"tag": "store", "item": "ps34", "batch": 5, "flags": [], "cost": 0.00038940000000000003}
+{"tag": "store", "item": "ps35", "batch": 2, "flags": [], "cost": 0.0003275}
+{"tag": "store", "item": "ps35", "batch": 1, "flags": [], "cost": 0.00037040000000000006}
+{"tag": "store", "item": "ps34", "batch": 8, "flags": [], "cost": 0.0007583000000000001}
+{"tag": "store", "item": "ps35", "batch": 4, "flags": [], "cost": 0.00032290000000000004}
+{"tag": "store", "item": "ps35", "batch": 3, "flags": [], "cost": 0.00032240000000000003}
+{"tag": "store", "item": "ps35", "batch": 6, "flags": [], "cost": 0.00032480000000000003}
+{"tag": "store", "item": "ps35", "batch": 0, "flags": [{"id": "d-002", "label": "contradicts_target"}, {"id": "d-010", "label": "contradicts_target"}, {"id": "d-011", "label": "contradicts_target"}, {"id": "d-019", "label": "contradicts_target"}, {"id": "d-023", "label": "contradicts_target"}, {"id": "d-024", "label": "contradicts_target"}, {"id": "d-025", "label": "contradicts_target"}, {"id": "d-032", "label": "contradicts_target"}, {"id": "d-033", "label": "contradicts_target"}, {"id": "d-037", "label": "contradicts_target"}, {"id": "d-041", "label": "contradicts_target"}, {"id": "d-042", "label": "contradicts_target"}, {"id": "d-046", "label": "contradicts_target"}, {"id": "d-047", "label": "contradicts_target"}, {"id": "d-050", "label": "contradicts_target"}, {"id": "d-052", "label": "contradicts_target"}, {"id": "d-054", "label": "contradicts_target"}, {"id": "d-061", "label": "contradicts_target"}, {"id": "d-062", "label": "contradicts_target"}, {"id": "d-063", "label": "contradicts_target"}, {"id": "d-065", "label": "contradicts_target"}, {"id": "d-067", "label": "contradicts_target"}, {"id": "d-068", "label": "contradicts_target"}, {"id": "d-069", "label": "contradicts_target"}, {"id": "d-070", "label": "contradicts_target"}, {"id": "d-074", "label": "contradicts_target"}, {"id": "d-075", "label": "contradicts_target"}, {"id": "d-077", "label": "contradicts_target"}, {"id": "d-081", "label": "contradicts_target"}, {"id": "d-082", "label": "contradicts_target"}, {"id": "d-086", "label": "contradicts_target"}, {"id": "d-089", "label": "contradicts_target"}, {"id": "d-090", "label": "contradicts_target"}, {"id": "d-091", "label": "contradicts_target"}, {"id": "d-093", "label": "contradicts_target"}, {"id": "d-097", "label": "contradicts_target"}], "cost": 0.000733}
+{"tag": "store", "item": "ps35", "batch": 8, "flags": [], "cost": 0.0006707000000000001}
+{"tag": "store", "item": "ps35", "batch": 5, "flags": [], "cost": 0.00036280000000000004}
+{"tag": "store", "item": "ps35", "batch": 9, "flags": [{"id": "s-258", "label": "contradicts_target"}], "cost": 0.0005717000000000001}
+{"tag": "store", "item": "ps36", "batch": 0, "flags": [{"id": "h-024d", "label": "contradicts_target"}], "cost": 0.00042070000000000003}
+{"tag": "store", "item": "ps35", "batch": 7, "flags": [], "cost": 0.0007261}
+{"tag": "store", "item": "ps36", "batch": 4, "flags": [], "cost": 0.0003256}
+{"tag": "store", "item": "ps36", "batch": 2, "flags": [], "cost": 0.00042270000000000003}
+{"tag": "store", "item": "ps36", "batch": 8, "flags": [], "cost": 0.0006734000000000001}
+{"tag": "store", "item": "ps36", "batch": 1, "flags": [], "cost": 0.00045910000000000005}
+{"tag": "store", "item": "ps36", "batch": 3, "flags": [], "cost": 0.0004241}
+{"tag": "store", "item": "ps36", "batch": 5, "flags": [], "cost": 0.000435}
+{"tag": "store", "item": "ps37", "batch": 0, "flags": [], "cost": 0.0004198}
+{"tag": "store", "item": "ps36", "batch": 6, "flags": [], "cost": 0.000413}
+{"tag": "store", "item": "ps37", "batch": 2, "flags": [], "cost": 0.0003743}
+{"tag": "store", "item": "ps37", "batch": 1, "flags": [], "cost": 0.00033020000000000006}
+{"tag": "store", "item": "ps36", "batch": 7, "flags": [], "cost": 0.0007498000000000001}
+{"tag": "store", "item": "ps36", "batch": 9, "flags": [], "cost": 0.0006649}
+{"tag": "store", "item": "ps37", "batch": 3, "flags": [], "cost": 0.00032520000000000004}
+{"tag": "store", "item": "ps37", "batch": 5, "flags": [], "cost": 0.0003261}
+{"tag": "store", "item": "ps37", "batch": 6, "flags": [], "cost": 0.00032760000000000005}
+{"tag": "store", "item": "ps37", "batch": 7, "flags": [], "cost": 0.0006344000000000001}
+{"tag": "store", "item": "ps37", "batch": 4, "flags": [], "cost": 0.00032570000000000006}
+{"tag": "store", "item": "ps37", "batch": 9, "flags": [{"id": "s-241", "label": "contradicts_target"}, {"id": "s-264", "label": "contradicts_target"}], "cost": 0.0005835}
+{"tag": "store", "item": "ps38", "batch": 0, "flags": [], "cost": 0.00040870000000000007}
+{"tag": "store", "item": "ps38", "batch": 1, "flags": [], "cost": 0.0003996}
+{"tag": "store", "item": "ps38", "batch": 3, "flags": [{"id": "h-8402", "label": "supports_alternative"}], "cost": 0.0003311}
+{"tag": "store", "item": "ps38", "batch": 2, "flags": [], "cost": 0.00041670000000000005}
+{"tag": "store", "item": "ps37", "batch": 8, "flags": [{"id": "s-115", "label": "contradicts_target"}, {"id": "s-116", "label": "contradicts_target"}, {"id": "s-126", "label": "contradicts_target"}, {"id": "s-131", "label": "contradicts_target"}, {"id": "s-140", "label": "contradicts_target"}, {"id": "s-146", "label": "contradicts_target"}, {"id": "s-156", "label": "contradicts_target"}, {"id": "s-166", "label": "contradicts_target"}, {"id": "s-171", "label": "contradicts_target"}, {"id": "s-176", "label": "contradicts_target"}, {"id": "s-180", "label": "contradicts_target"}, {"id": "s-184", "label": "contradicts_target"}, {"id": "s-186", "label": "contradicts_target"}, {"id": "s-190", "label": "contradicts_target"}, {"id": "s-196", "label": "contradicts_target"}, {"id": "s-200", "label": "contradicts_target"}, {"id": "s-206", "label": "contradicts_target"}, {"id": "s-211", "label": "contradicts_target"}, {"id": "s-215", "label": "contradicts_target"}, {"id": "s-216", "label": "contradicts_target"}, {"id": "s-220", "label": "contradicts_target"}, {"id": "s-224", "label": "contradicts_target"}, {"id": "s-226", "label": "contradicts_target"}, {"id": "s-230", "label": "contradicts_target"}], "cost": 0.0008895}
+{"tag": "store", "item": "ps38", "batch": 6, "flags": [{"id": "h-e473", "label": "contradicts_target"}, {"id": "h-f53d", "label": "contradicts_target"}, {"id": "h-f1f8", "label": "contradicts_target"}], "cost": 0.0003515}
+{"tag": "store", "item": "ps38", "batch": 4, "flags": [], "cost": 0.00032260000000000004}
+{"tag": "store", "item": "ps38", "batch": 9, "flags": [{"id": "s-240", "label": "supports_alternative"}], "cost": 0.0005714}
+{"tag": "store", "item": "ps38", "batch": 7, "flags": [], "cost": 0.0007178000000000001}
+{"tag": "store", "item": "ps39", "batch": 0, "flags": [], "cost": 0.00041670000000000005}
+{"tag": "store", "item": "ps38", "batch": 5, "flags": [], "cost": 0.0004365}
+{"tag": "store", "item": "ps39", "batch": 1, "flags": [], "cost": 0.00036260000000000003}
+{"tag": "store", "item": "ps39", "batch": 3, "flags": [], "cost": 0.00033210000000000005}
+{"tag": "store", "item": "ps39", "batch": 5, "flags": [], "cost": 0.000323}
+{"tag": "store", "item": "ps39", "batch": 4, "flags": [{"id": "h-ad7b", "label": "contradicts_target"}], "cost": 0.00033160000000000004}
+{"tag": "store", "item": "ps39", "batch": 2, "flags": [], "cost": 0.00036520000000000004}
+{"tag": "store", "item": "ps38", "batch": 8, "flags": [], "cost": 0.0008224}
+{"tag": "store", "item": "ps39", "batch": 6, "flags": [], "cost": 0.000367}
+{"tag": "store", "item": "ps39", "batch": 7, "flags": [{"id": "s-002", "label": "contradicts_target"}, {"id": "s-032", "label": "contradicts_target"}], "cost": 0.0006493000000000001}
+{"tag": "store", "item": "ps39", "batch": 8, "flags": [], "cost": 0.0007279000000000001}
+{"tag": "store", "item": "ps39", "batch": 9, "flags": [], "cost": 0.0005624}
+{"tag": "store", "item": "ps40", "batch": 1, "flags": [{"id": "h-25b0", "label": "supports_target"}, {"id": "h-24f3", "label": "supports_target"}], "cost": 0.00034320000000000005}
+{"tag": "store", "item": "ps40", "batch": 2, "flags": [], "cost": 0.00039830000000000003}
+{"tag": "store", "item": "ps40", "batch": 3, "flags": [{"id": "h-6b61", "label": "supports_target"}], "cost": 0.00033020000000000006}
+{"tag": "store", "item": "ps40", "batch": 0, "flags": [], "cost": 0.0004748}
+{"tag": "store", "item": "ps40", "batch": 6, "flags": [{"id": "h-e522", "label": "supports_alternative"}, {"id": "h-f390", "label": "supports_alternative"}], "cost": 0.00034260000000000003}
+{"tag": "store", "item": "ps40", "batch": 4, "flags": [], "cost": 0.0003847}
+{"tag": "store", "item": "ps40", "batch": 8, "flags": [{"id": "s-181", "label": "supports_target"}], "cost": 0.0006785}
+{"tag": "store", "item": "ps40", "batch": 7, "flags": [], "cost": 0.0006834000000000001}
+{"tag": "store", "item": "ps40", "batch": 9, "flags": [{"id": "s-288", "label": "contradicts_target"}], "cost": 0.0005715}
+{"tag": "store", "item": "ps40", "batch": 5, "flags": [], "cost": 0.0004221}
