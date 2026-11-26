@@ -24,7 +24,8 @@ PRICES = {"claude-haiku-5-5": (0.10, 0.50), "claude-sonnet-5-5": (2.00, 10.00),
 # Store composition at 1,000 memories: ~60% semantic, 25% episodic, 15% procedural.
 STORE_SIZE = 1000
 N_SEMANTIC, N_EPISODIC, N_PROCEDURAL = 600, 250, 150
-N_TASK_DECOYS = 100            # procedural distractors that use the mock tools
+N_TASK_DECOYS = 100            # procedural distractors that use the mock tools (60 survive screening)
+N_UNIVERSAL_RULES = 40         # procedural distractors that apply to every reply
 # haystack_v1 categories excluded from the store: their items set currency, time
 # zones, dates and forms of address, which would contradict gold style rules.
 EXCLUDED_HAYSTACK_CATEGORIES = {"units_locale", "address_naming"}

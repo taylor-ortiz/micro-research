@@ -1,12 +1,13 @@
 {
- "store_v1.json": "6ca78a7c5cfade3c4f390dbae34f227860b7169b1cbd602ccc5997dc7bacb9df",
+ "store_v1.json": "d2beac91c87bd721666d4912017746a3c31e9b2f189998c537eccb5582ae3209",
  "items_final.jsonl": "24d0f946ada7573eaec9d99c32cec67ee3b7724eb1a893a0b991ae031cf7caec",
  "store_counts": {
   "semantic": 600,
   "episodic": 250,
   "procedural": 150
  },
- "task_decoys": 60,
+ "task_decoys": 36,
+ "every_reply_rules": 40,
  "item_counts": {
   "style_rule": 17,
   "task_procedure": 45,

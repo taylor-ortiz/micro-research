@@ -15,7 +15,7 @@ Status: stage 1 (build and freeze the test material) is done. The setups, pilot 
 | Conflict screen | 243 distractors that contradicted or duplicated a gold memory were removed |
 | Frozen | 1,000-memory store in 5 fixed shuffles and 265 questions, hashed in `data/frozen.meta.json` |
 
-Final questions: allergy 51, task procedures 45, unclear type 40, no memory 40, past sessions 38, facts 34, style rules 17. Store: 600 semantic, 250 episodic, 150 procedural (60 task decoys, 90 content-choice rules from study 01's `haystack_v1`).
+Final questions: allergy 51, task procedures 45, unclear type 40, no memory 40, past sessions 38, facts 34, style rules 17. Store: 600 semantic, 250 episodic, 150 procedural (36 task decoys, 40 generated every-reply rules, 74 content-choice rules from study 01's `haystack_v1`). The every-reply rules were added after the first ontology build showed the store had no rules that apply to every reply, which would have made the ontology unable to say so.
 
 Stage 1 cost about $6 in API calls, including re-runs after the grading fixes below.
 
@@ -38,6 +38,7 @@ uv run python -m build.finalize         # merge into data/items_v1.jsonl
 uv run python -m build.validate_oracle  # perfect-retrieval validation
 uv run python -m build.conflicts        # conflict screen
 uv run python -m build.store            # freeze store, items and hashes
+uv run python -m build.ontology         # groups, entries and filing
 ```
 
 ## Files
@@ -51,6 +52,9 @@ uv run python -m build.store            # freeze store, items and hashes
 | `build/grade.py` | One grader for every question type |
 | `build/screen.py`, `build/validate_oracle.py`, `build/conflicts.py` | The three filters |
 | `build/finalize.py`, `build/store.py` | Merge and freeze |
+| `build/search.py` | The shared hybrid search: BM25 + OpenAI `text-embedding-3-small`, reciprocal rank fusion, top 10, tie-safe ranks |
+| `build/ontology.py` | Opus proposes the groups and entries; Haiku files every memory, gold included |
+| `data/ontology_v1.json`, `data/embeddings/` | The ontology and cached embeddings |
 | `data/gen/` | Every generated item |
 | `data/screen/`, `data/validate/` | Every screen and validation reply, with grades |
 | `data/items_final.jsonl`, `data/store_v1.json` | The frozen questions and store |

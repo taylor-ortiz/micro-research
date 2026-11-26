@@ -30,7 +30,8 @@ def candidate_pool():
             continue
         kind = "procedural" if meta[h["id"]]["kind"] == "output_neutral" else "semantic"
         pool.append({"id": f"h-{h['id']}", "memory": h["preference"], "type": kind, "source": f"haystack_v1:{cat}"})
-    for kind, typ, pre in (("session_distractor", "episodic", "s"), ("task_decoy", "procedural", "d")):
+    for kind, typ, pre in (("session_distractor", "episodic", "s"), ("task_decoy", "procedural", "d"),
+                           ("universal_rule", "procedural", "u")):
         for i, l in enumerate((config.DATA / "gen" / f"{kind}.jsonl").read_text().splitlines()):
             pool.append({"id": f"{pre}-{i + 1:03d}", "memory": json.loads(l)["memory"], "type": typ, "source": kind})
     return pool

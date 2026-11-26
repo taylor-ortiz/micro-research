@@ -80,6 +80,17 @@ KINDS = {
         "uploaded with drive_upload and then linked in slack_post'). Vary task types widely. "
         "Do NOT cover any of these task types, which belong to other memories: {gold_tasks}.\n\nTool catalog:\n"
         + "\n".join(f"- {k}: {v}" for k, v in config.TOOLS.items()))),
+    "universal_rule": dict(target=60, system=COMMON, prompt=(
+        "Kind: standing rules about how the user wants EVERY reply written, whatever the topic, as "
+        "distractors in the memory store. Each memory is one sentence of 10 to 16 words starting "
+        "'User prefers' or 'User wants' (e.g. 'User prefers plain everyday words over technical "
+        "jargon in every reply'). Vary them widely: word choice, sentence length, paragraph length, "
+        "emphasis, punctuation, spelling of particular words, caveats, hedging. They must NOT touch: "
+        "units or measurements, currencies, prices, dates, clock times, time zones, how to address "
+        "or greet the user, how replies open or close or sign off, labels such as Step, Phase, "
+        "Option or Choice, confidence or certainty statements, follow-up questions, P.S. or Note "
+        "lines, emoji, tone (formal or casual), bullet points or summaries at the top, or anything "
+        "about tools, tasks or a specific topic.")),
     "session_distractor": dict(target=config.N_EPISODIC + 50, system=COMMON, prompt=(
         "Kind: episodic distractors for the memory store. Each memory is a dated summary of a "
         "past session with the assistant, one or two sentences of 18 to 30 words, starting "
@@ -125,7 +136,8 @@ class MemoryItem(BaseModel):
 
 SCHEMA = {"fact": PairItem, "unclear_type": PairItem, "past_session": PairItem,
           "allergy": AllergyItem, "task_procedure": TaskItem,
-          "task_decoy": MemoryItem, "session_distractor": MemoryItem}
+          "task_decoy": MemoryItem, "session_distractor": MemoryItem,
+          "universal_rule": MemoryItem}
 
 
 def batch_model(item_cls):
@@ -135,7 +147,7 @@ def batch_model(item_cls):
 def summary(kind, row):
     if kind == "allergy":
         return f"{row['allergen']} / {row['query']}"
-    if kind in ("task_decoy", "session_distractor"):
+    if kind in ("task_decoy", "session_distractor", "universal_rule"):
         return row["memory"]
     return f"{row['query']} -> {row['gold_memory']}"
 

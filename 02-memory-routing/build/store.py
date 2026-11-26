@@ -3,8 +3,9 @@
     uv run python -m build.store
 
 - Distractors: 600 semantic (haystack_v1 everyday facts), 250 episodic (generated
-  past sessions), 150 procedural (100 task decoys + 50 haystack_v1 content-choice
-  rules), all drawn from what survived the conflict screen. Gold memories are added
+  past sessions), 150 procedural (task decoys, 40 generated every-reply rules, and
+  haystack_v1 content-choice rules for the rest), all drawn from what survived the
+  conflict screen. Gold memories are added
   per trial, so they are not in this file.
 - Items: those that passed both the no-memory screen and perfect-retrieval validation.
 - Shuffles: 5 fixed orders of the store, shared by every condition and depth.
@@ -41,9 +42,11 @@ def main():
     episodic = take([p for p in pool if p["type"] == "episodic"], config.N_EPISODIC, "episodic")
     decoys = [p for p in pool if p["source"] == "task_decoy"]
     n_decoys = min(config.N_TASK_DECOYS, len(decoys))
+    universal = take([p for p in pool if p["source"] == "universal_rule"], config.N_UNIVERSAL_RULES,
+                     "every-reply rules")
     rules = take([p for p in pool if p["source"] == "haystack_v1:content_choices"],
-                 config.N_PROCEDURAL - n_decoys, "content-choice rules")
-    store = semantic + episodic + rng.sample(decoys, n_decoys) + rules
+                 config.N_PROCEDURAL - n_decoys - config.N_UNIVERSAL_RULES, "content-choice rules")
+    store = semantic + episodic + rng.sample(decoys, n_decoys) + universal + rules
     assert len(store) == config.STORE_SIZE and len({s["id"] for s in store}) == len(store)
 
     orders = []
@@ -66,7 +69,7 @@ def main():
         counts[it["scenario"]] = counts.get(it["scenario"], 0) + 1
     meta = {"store_v1.json": sha(store_path), "items_final.jsonl": sha(items_path),
             "store_counts": {t: sum(s["type"] == t for s in store) for t in ("semantic", "episodic", "procedural")},
-            "task_decoys": n_decoys, "item_counts": counts, "shuffles": N_SHUFFLES, "seed": SEED}
+            "task_decoys": n_decoys, "every_reply_rules": config.N_UNIVERSAL_RULES, "item_counts": counts, "shuffles": N_SHUFFLES, "seed": SEED}
     (config.DATA / "frozen.meta.json").write_text(json.dumps(meta, indent=1))
     print(json.dumps(meta, indent=1))
 
