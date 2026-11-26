@@ -1,0 +1,3011 @@
+{
+ "summary": {
+  "style_rule": [
+   17,
+   20
+  ],
+  "task_procedure": [
+   45,
+   60
+  ],
+  "fact": [
+   34,
+   38
+  ],
+  "unclear_type": [
+   40,
+   61
+  ],
+  "past_session": [
+   38,
+   39
+  ],
+  "allergy": [
+   51,
+   53
+  ]
+ },
+ "items": {
+  "sr02": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "sr01": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "sr03": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "sr05": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "sr06": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "sr04": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    false,
+    false
+   ],
+   "keep": false
+  },
+  "sr07": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "sr08": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "sr09": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "sr11": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "sr10": {
+   "gold": [
+    false,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": false
+  },
+  "sr12": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "sr13": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "sr14": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "sr16": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "sr15": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "sr17": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "sr18": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "sr19": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    false,
+    true
+   ],
+   "keep": false
+  },
+  "sr20": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp02": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp03": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp04": {
+   "gold": [
+    true,
+    false
+   ],
+   "twin": [
+    true,
+    false
+   ],
+   "keep": false
+  },
+  "tp06": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp07": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp08": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp09": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp10": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp11": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp12": {
+   "gold": [
+    true,
+    false
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": false
+  },
+  "tp13": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp15": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp16": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp18": {
+   "gold": [
+    false,
+    false
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": false
+  },
+  "tp19": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp20": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp21": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp22": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp23": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp24": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp25": {
+   "gold": [
+    false,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": false
+  },
+  "tp27": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp26": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp29": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp30": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp31": {
+   "gold": [
+    false,
+    false
+   ],
+   "twin": [
+    false,
+    false
+   ],
+   "keep": false
+  },
+  "tp32": {
+   "gold": [
+    false,
+    false
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": false
+  },
+  "tp33": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp34": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp35": {
+   "gold": [
+    false,
+    false
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": false
+  },
+  "tp36": {
+   "gold": [
+    false,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": false
+  },
+  "tp37": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp38": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp39": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp40": {
+   "gold": [
+    false,
+    false
+   ],
+   "twin": [
+    false,
+    false
+   ],
+   "keep": false
+  },
+  "fa01": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "fa02": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "fa03": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "fa04": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "fa05": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "fa07": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "fa06": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "fa08": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "fa09": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "fa10": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "fa11": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "fa12": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "fa14": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "fa15": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "fa16": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "fa17": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "fa18": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "fa19": {
+   "gold": [
+    true,
+    false
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": false
+  },
+  "fa21": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "fa20": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "fa22": {
+   "gold": [
+    false,
+    false
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": false
+  },
+  "fa23": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "fa24": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "fa25": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "fa26": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "fa27": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "fa28": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "fa29": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "fa30": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "fa31": {
+   "gold": [
+    true,
+    false
+   ],
+   "twin": [
+    false,
+    false
+   ],
+   "keep": false
+  },
+  "fa32": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "fa33": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "fa34": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "fa36": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "fa37": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "fa38": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "fa39": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    false,
+    false
+   ],
+   "keep": false
+  },
+  "fa40": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ut01": {
+   "gold": [
+    false,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": false
+  },
+  "ut03": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    false
+   ],
+   "keep": false
+  },
+  "ut02": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    false,
+    false
+   ],
+   "keep": false
+  },
+  "ut04": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ut06": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ut05": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ut07": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ut09": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ut08": {
+   "gold": [
+    false,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": false
+  },
+  "ut11": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ut13": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ut12": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ut14": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    false,
+    false
+   ],
+   "keep": false
+  },
+  "ut15": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ut16": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ut17": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ut18": {
+   "gold": [
+    false,
+    false
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": false
+  },
+  "ut19": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    false,
+    false
+   ],
+   "keep": false
+  },
+  "ut20": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ut22": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ut21": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    false
+   ],
+   "keep": false
+  },
+  "ut24": {
+   "gold": [
+    false,
+    false
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": false
+  },
+  "ut23": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ut25": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    false,
+    false
+   ],
+   "keep": false
+  },
+  "ut26": {
+   "gold": [
+    true,
+    false
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": false
+  },
+  "ut28": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ut27": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    false
+   ],
+   "keep": false
+  },
+  "ut29": {
+   "gold": [
+    true,
+    false
+   ],
+   "twin": [
+    false,
+    true
+   ],
+   "keep": false
+  },
+  "ut30": {
+   "gold": [
+    true,
+    false
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": false
+  },
+  "ut32": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    false,
+    true
+   ],
+   "keep": false
+  },
+  "ut31": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ut33": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ut34": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ut37": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ut36": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ut39": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ut38": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ps01": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ut40": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ps02": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ps03": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ps04": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ps05": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ps06": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ps07": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ps08": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ps09": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ps10": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ps11": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ps12": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ps13": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ps14": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ps15": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ps16": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ps17": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ps18": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ps19": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ps20": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ps21": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ps22": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ps23": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ps24": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ps25": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ps26": {
+   "gold": [
+    false,
+    false
+   ],
+   "twin": [
+    true,
+    false
+   ],
+   "keep": false
+  },
+  "ps28": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ps29": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ps30": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ps31": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ps32": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ps33": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ps34": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ps35": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ps37": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ps36": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ps38": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ps39": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ps40": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp41": {
+   "gold": [
+    false,
+    false
+   ],
+   "twin": [
+    false,
+    false
+   ],
+   "keep": false
+  },
+  "tp42": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp43": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp44": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp46": {
+   "gold": [
+    false,
+    false
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": false
+  },
+  "tp47": {
+   "gold": [
+    false,
+    false
+   ],
+   "twin": [
+    false,
+    false
+   ],
+   "keep": false
+  },
+  "tp48": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp49": {
+   "gold": [
+    false,
+    false
+   ],
+   "twin": [
+    false,
+    true
+   ],
+   "keep": false
+  },
+  "tp50": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp51": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp52": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp53": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp54": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp56": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp57": {
+   "gold": [
+    false,
+    true
+   ],
+   "twin": [
+    false,
+    false
+   ],
+   "keep": false
+  },
+  "tp58": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp59": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp62": {
+   "gold": [
+    false,
+    false
+   ],
+   "twin": [
+    false,
+    true
+   ],
+   "keep": false
+  },
+  "tp63": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp64": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp65": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp66": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp67": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp68": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "tp70": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al01": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al02": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al03": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al04": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al05": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al06": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al07": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al08": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al09": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al10": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al11": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al12": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al13": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al14": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al15": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al16": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al17": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al18": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al19": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al20": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al21": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al22": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al23": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al24": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al25": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al26": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al27": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al28": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al29": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al30": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al31": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al32": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al33": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al34": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al35": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al36": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al37": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al38": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al39": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al40": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al41": {
+   "gold": [
+    false,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": false
+  },
+  "al42": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al44": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al45": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al46": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al47": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al48": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al49": {
+   "gold": [
+    false,
+    false
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": false
+  },
+  "al50": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al51": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al52": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al53": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "al55": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ut41": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ut42": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ut44": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ut45": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ut46": {
+   "gold": [
+    false,
+    true
+   ],
+   "twin": [
+    false,
+    true
+   ],
+   "keep": false
+  },
+  "ut49": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    false,
+    true
+   ],
+   "keep": false
+  },
+  "ut52": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ut53": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    false
+   ],
+   "keep": false
+  },
+  "ut54": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ut55": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ut56": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ut58": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ut59": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ut60": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ut61": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ut62": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ut64": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ut65": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ut66": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ut67": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    false,
+    false
+   ],
+   "keep": false
+  },
+  "ut68": {
+   "gold": [
+    true,
+    false
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": false
+  },
+  "ut69": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    true,
+    true
+   ],
+   "keep": true
+  },
+  "ut70": {
+   "gold": [
+    true,
+    true
+   ],
+   "twin": [
+    false,
+    true
+   ],
+   "keep": false
+  }
+ }
+}

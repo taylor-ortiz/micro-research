@@ -1,0 +1,300 @@
+{"memory": "On 2026-02-11 we debugged the user's Python script for renaming photo files; the date parsing bug was fixed but duplicate filename handling still needs work."}
+{"memory": "On 2026-03-27 we outlined the first three chapters of the user's mystery novel and agreed the detective's backstory should be revealed gradually through flashbacks."}
+{"memory": "On 2026-05-09 we built a study schedule for the user's statistics exam, covering hypothesis testing first and leaving regression review for the final week."}
+{"memory": "On 2026-07-14 we planned repainting the user's living room, picked a muted green for the walls, and listed supplies still needed before starting next weekend."}
+{"memory": "On 2026-10-03 we worked through tuning tips for the user's acoustic guitar and practiced a fingerpicking pattern; the user still struggles with the transition to the C chord."}
+{"memory": "On 2026-01-19 we set up a Git branching workflow for the user's small web app and resolved a merge conflict in the login page template."}
+{"memory": "On 2026-02-24 we drafted a cover letter for the user's application to a nonprofit role; the opening paragraph was finalized but the closing still felt too generic."}
+{"memory": "On 2026-04-06 we designed a raised vegetable bed layout for the user's garden, deciding on tomatoes and peppers along the sunny side and herbs near the path."}
+{"memory": "On 2026-04-30 we reviewed flashcards for the user's beginner Spanish course and focused on irregular past tense verbs, which the user keeps mixing up."}
+{"memory": "On 2026-06-02 we wrote SQL queries to summarize the user's book club reading log; the monthly totals worked but the genre breakdown returned duplicate rows."}
+{"memory": "On 2026-06-21 we planned a three-day camping trip for the user and two friends, choosing a lakeside site and drafting a shared gear checklist."}
+{"memory": "On 2026-08-08 we edited the user's short story for a local writing contest, trimming it to fit the length limit and sharpening the ending twist."}
+{"memory": "On 2026-08-29 we troubleshot the user's leaky bathroom faucet; replacing the cartridge seemed likely to fix it, and the user planned to buy the part."}
+{"memory": "On 2026-09-17 we sketched a pattern for the user's first knitted scarf, picking a simple rib stitch and estimating how many skeins of yarn to buy."}
+{"memory": "On 2026-11-12 we refactored the user's JavaScript to-do list app into separate modules and added unit tests, though the drag-and-drop sorting remains untested."}
+{"memory": "On 2026-01-08 we organized the user's home office cable mess, planned a cable tray under the desk, and labeled which adapters belong to each device."}
+{"memory": "On 2026-01-28 we wrote a bash script to back up the user's documents folder nightly; the copy works but old backups are not yet pruned automatically."}
+{"memory": "On 2026-03-09 we prepared notes for the user's biology quiz on cell respiration, and the user still confuses the stages of the Krebs cycle with glycolysis."}
+{"memory": "On 2026-03-15 we drafted a speech for the user's sibling's wedding toast, settling on a childhood anecdote opening but leaving the closing lines unfinished."}
+{"memory": "On 2026-05-22 we planned the user's bird-watching outing at a nearby wetland, listing likely species and deciding which field guide pages to bookmark beforehand."}
+{"memory": "On 2026-06-12 we fixed CSS layout issues on the user's portfolio site; the mobile menu now displays correctly but image galleries still overflow on small screens."}
+{"memory": "On 2026-07-25 we assembled a decluttering plan for the user's garage, sorting items into keep, donate, and sell piles, with the tool shelf scheduled for next."}
+{"memory": "On 2026-09-04 we reviewed the user's chess games from an online tournament and identified repeated weaknesses in endgame pawn play and rushed opening moves."}
+{"memory": "On 2026-10-19 we outlined a newsletter for the user's neighborhood association, choosing sections on upcoming events and park cleanup, but the volunteer spotlight remains unwritten."}
+{"memory": "On 2026-11-20 we started a watercolor practice plan for the user, focusing on wet-on-wet skies this week and postponing layered landscapes until brush control improves."}
+{"memory": "On 2026-01-14 we wrote a Python script to track the user's monthly utility bills from CSV exports; the charts render, but missing months still break the averages."}
+{"memory": "On 2026-02-05 we planned the user's indoor herb shelf by the kitchen window, choosing basil, mint, and parsley and scheduling a weekly watering reminder."}
+{"memory": "On 2026-03-03 we revised the user's personal essay for a scholarship application, tightening the middle section, though the user wants a stronger connection to future goals."}
+{"memory": "On 2026-04-14 we studied for the user's history midterm on the Industrial Revolution, building a timeline of key inventions; labor reform causes still need review."}
+{"memory": "On 2026-05-15 we set up a Raspberry Pi weather station for the user; temperature logging works, but the humidity sensor readings keep dropping out overnight."}
+{"memory": "On 2026-07-03 we planned a birthday party for the user's niece, choosing a backyard treasure hunt theme and drafting clues, with decorations still undecided."}
+{"memory": "On 2026-07-31 we brainstormed episode topics for the user's hobby podcast about board games and agreed the first episode should cover cooperative games for beginners."}
+{"memory": "On 2026-09-10 we fixed a squeaky door hinge and a sticking drawer in the user's bedroom, and the user plans to adjust the closet door alignment next."}
+{"memory": "On 2026-10-08 we drafted a poem sequence for the user's open mic night, settling on three autumn-themed pieces, though the second poem's rhythm still feels uneven."}
+{"memory": "On 2026-10-27 we wrote a regex-based log parser for the user's home server; error counts are accurate, but warnings spanning multiple lines are still missed."}
+{"memory": "On 2026-01-23 we planned the user's bookshelf build for the hallway nook, choosing pine boards and sketching shelf spacing, though the anchoring method is still undecided."}
+{"memory": "On 2026-02-17 we practiced calculus derivatives for the user's evening class, covering the chain rule thoroughly; implicit differentiation problems still trip the user up."}
+{"memory": "On 2026-03-21 we built a Flask API endpoint for the user's recipe-sharing hobby site; search by title works, but pagination returns the same page twice."}
+{"memory": "On 2026-04-22 we drafted a product description series for the user's handmade candle shop, finishing three listings and agreeing the lavender one needs a warmer tone."}
+{"memory": "On 2026-05-28 we planned the user's weekend bike tune-up, adjusting the rear derailleur and checking brake pads, with chain replacement postponed until new parts arrive."}
+{"memory": "On 2026-06-27 we organized the user's digital photo library into yearly albums and drafted a tagging scheme, though older scanned prints remain unsorted."}
+{"memory": "On 2026-08-15 we prepared the user for a job interview by rehearsing behavioral questions; answers about teamwork improved, but the conflict-resolution example still sounds rambling."}
+{"memory": "On 2026-09-24 we designed a beginner pottery practice routine for the user, focusing on centering clay on the wheel before attempting taller cylinder shapes."}
+{"memory": "On 2026-10-14 we wrote a spreadsheet formula set for the user's running log; weekly distance totals calculate correctly, but pace averages ignore skipped days incorrectly."}
+{"memory": "On 2026-11-05 we mapped out a winter insulation plan for the user's attic, listing gaps around vents to seal, with the hatch weatherstripping left for later."}
+{"memory": "On 2026-01-31 we wrote a Rust command-line tool to count words in the user's markdown notes; folder recursion works, but code blocks are still counted as prose."}
+{"memory": "On 2026-02-28 we planned the user's aquarium setup for a small tropical tank, choosing live plants and a filter, with fish selection postponed until cycling finishes."}
+{"memory": "On 2026-03-31 we drafted a grant proposal summary for the user's community mural project; the budget narrative was finished, but the impact section still lacks concrete examples."}
+{"memory": "On 2026-04-26 we studied for the user's chemistry lab practical on titration, walking through endpoint detection; calculating molarity from results still confuses the user."}
+{"memory": "On 2026-05-04 we planned a reading nook in the user's spare bedroom, choosing a corner armchair and floor lamp, though the rug size is still undecided."}
+{"memory": "On 2026-06-17 we built a Discord bot for the user's tabletop gaming group; dice rolling commands work, but session reminders fail to send after restarts."}
+{"memory": "On 2026-07-20 we designed a beginner bouldering training plan for the user, emphasizing footwork drills twice weekly and delaying finger strength exercises for a month."}
+{"memory": "On 2026-08-22 we edited the user's travel blog post about a coastal road trip, reorganizing it chronologically, though the user wants more vivid descriptions of the lighthouse stop."}
+{"memory": "On 2026-09-29 we cleaned and resealed the grout in the user's kitchen backsplash, and the user plans to recaulk the sink edge once the sealant cures."}
+{"memory": "On 2026-11-16 we learned basic film photography exposure settings for the user's secondhand camera; aperture choices made sense, but metering in low light remains tricky."}
+{"memory": "On 2026-01-11 we wrote a Go program to monitor the user's home Wi-Fi uptime; ping logging works, but the alert email still triggers on brief single drops."}
+{"memory": "On 2026-02-20 we outlined a children's picture book for the user about a lost kite, finishing the story arc but leaving the illustration notes for later pages."}
+{"memory": "On 2026-03-18 we planned the user's spring closet swap, sorting winter coats for storage and listing worn-out shoes to replace before the warmer months begin."}
+{"memory": "On 2026-04-10 we reviewed the user's economics notes on supply and demand curves; shifting equilibrium made sense, but price elasticity calculations still need more practice problems."}
+{"memory": "On 2026-05-31 we restored an old wooden chair for the user, sanding the legs and choosing a walnut stain, with the wobbly seat joint still needing glue."}
+{"memory": "On 2026-07-09 we built a Kotlin habit tracker app prototype for the user; daily check-ins save correctly, but the streak counter resets wrongly after app updates."}
+{"memory": "On 2026-08-03 we planned the user's model railway layout on a folding table, sketching a figure-eight track, though the mountain tunnel scenery remains undesigned."}
+{"memory": "On 2026-09-13 we drafted a eulogy outline for the user's late family friend, gathering three warm memories, but the user still wants a gentler concluding paragraph."}
+{"memory": "On 2026-10-22 we studied music theory with the user for their piano lessons, covering major scale key signatures; minor scale relationships still feel confusing."}
+{"memory": "On 2026-11-09 we planned a holiday card list for the user, gathering contacts into a spreadsheet and drafting a short message, with photo selection still pending."}
+{"memory": "On 2026-01-26 we wrote a C# script for the user's Unity platformer prototype; jumping physics feel right, but the camera still jitters when the character lands."}
+{"memory": "On 2026-02-14 we planned the user's beekeeping starter setup, choosing a single hive location near the fence, with protective gear purchases postponed until early spring."}
+{"memory": "On 2026-03-12 we revised the user's conference talk slides on volunteer coordination, cutting redundant charts, though the opening story still runs too long."}
+{"memory": "On 2026-04-18 we studied for the user's physics quiz on projectile motion; horizontal range problems clicked, but launch angle questions on slopes remain shaky."}
+{"memory": "On 2026-05-25 we fixed the user's sagging gate latch and planned to replace two rotting fence pickets once the lumber is picked up."}
+{"memory": "On 2026-06-08 we wrote a TypeScript form validator for the user's event signup page; email checks work, but date fields still accept past dates."}
+{"memory": "On 2026-07-17 we drafted a family history piece for the user's reunion booklet, finishing the grandparents' migration section while the photo captions remain incomplete."}
+{"memory": "On 2026-08-26 we planned the user's sourdough baking practice, scheduling starter feedings and a first loaf attempt, with shaping technique videos bookmarked for later review."}
+{"memory": "On 2026-10-11 we built a calendar sync script for the user's volunteer shifts; new events import fine, but cancelled shifts are not removed from the calendar."}
+{"memory": "On 2026-11-02 we started a calligraphy practice routine for the user, drilling basic downstrokes daily, and agreed to postpone full alphabet practice for two weeks."}
+{"memory": "On 2026-01-17 we wrote a PowerShell script to clean up the user's downloads folder; old installers get archived, but zipped files are still skipped entirely."}
+{"memory": "On 2026-02-09 we planned the user's home emergency kit, listing flashlights and first aid supplies, though the water storage containers are still not purchased."}
+{"memory": "On 2026-03-06 we drafted a stage play scene for the user's community theater workshop, tightening the argument dialogue, but the lighting cues remain unplanned."}
+{"memory": "On 2026-04-03 we practiced probability problems for the user's discrete math course; conditional probability made sense, but counting permutations with repeats still causes errors."}
+{"memory": "On 2026-05-19 we set up a home media server for the user, organizing movie folders correctly, though subtitles still fail to load on the living room device."}
+{"memory": "On 2026-06-24 we designed a beginner birdhouse woodworking project for the user, cutting the side panels to size, with the roof hinge design left undecided."}
+{"memory": "On 2026-07-28 we wrote a Swift widget for the user's meditation app idea; session timers display properly, but the widget does not refresh after midnight."}
+{"memory": "On 2026-08-18 we planned the user's houseplant repotting day, choosing larger pots for the fiddle-leaf fig and snake plant, with fresh soil still to buy."}
+{"memory": "On 2026-09-20 we edited the user's volunteer handbook for an animal shelter, reorganizing the dog-walking section, though the cleaning procedures still read as confusing."}
+{"memory": "On 2026-10-30 we studied astronomy basics for the user's stargazing hobby, mapping winter constellations, but locating faint galaxies with binoculars still feels difficult for the user."}
+{"memory": "On 2026-01-21 we wrote a Ruby script to scrape the user's favorite library's new arrivals page; titles parse correctly, but author names with accents come out garbled."}
+{"memory": "On 2026-02-26 we planned the user's laundry room shelving upgrade, measuring the wall above the dryer and picking wire shelves, though bracket spacing is still unresolved."}
+{"memory": "On 2026-03-24 we drafted a fantasy short story opening for the user, establishing the river village setting, but the main character's motivation still feels vague to the user."}
+{"memory": "On 2026-04-29 we practiced linear algebra for the user's online course, covering matrix multiplication drills; eigenvalue problems still leave the user unsure where to start."}
+{"memory": "On 2026-06-05 we planned the user's first community yard sale table, pricing old board games and books, with signage design left for the following evening."}
+{"memory": "On 2026-07-06 we built a Java inventory tracker for the user's comic book collection; adding issues works, but searching by series name ignores partial matches."}
+{"memory": "On 2026-08-11 we designed a beginner origami practice plan for the user, starting with cranes and boxes, and postponing modular designs until valley folds become cleaner."}
+{"memory": "On 2026-09-07 we replaced the weatherstrip on the user's front door and noticed the threshold gap, which the user plans to fix with an adjustable sweep."}
+{"memory": "On 2026-10-24 we wrote a lesson plan outline for the user's volunteer tutoring session on fractions, finishing warm-up activities while the closing game still needs clearer rules."}
+{"memory": "On 2026-11-18 we studied for the user's psychology quiz on memory models, comparing short-term and long-term storage; the user still mixes up encoding and retrieval terms."}
+{"memory": "On 2026-01-06 we wrote a Perl script to merge the user's duplicate contact exports; matching by email works, but entries with only phone details still slip through."}
+{"memory": "On 2026-02-02 we planned the user's hallway gallery wall, arranging eight framed prints on paper templates, though the hanging height for the largest frame is undecided."}
+{"memory": "On 2026-03-01 we drafted a memoir chapter for the user about their first summer job, finishing the opening scene while the reflective ending still feels rushed."}
+{"memory": "On 2026-04-08 we studied organic chemistry naming rules for the user's evening course; alkane names clicked, but branched alkene numbering still causes repeated mistakes."}
+{"memory": "On 2026-05-12 we set up a home composting bin for the user, balancing greens and browns, with turning frequency left to adjust after checking moisture next week."}
+{"memory": "On 2026-06-15 we built a Python Tkinter quiz app for the user's trivia night; questions load from a file, but the score display freezes after the final round."}
+{"memory": "On 2026-07-22 we planned the user's kayak day trip on a calm river, mapping put-in and take-out points, though the shuttle car arrangement is still unconfirmed."}
+{"memory": "On 2026-08-31 we practiced juggling progressions for the user's new hobby, mastering the two-ball exchange, and agreed to delay three-ball cascades until throws become more consistent."}
+{"memory": "On 2026-09-26 we wrote a Haskell exercise solution set for the user's functional programming study group; list folds work, but the monad examples still confuse the user."}
+{"memory": "On 2026-11-14 we drafted a user guide for the user's homemade board game prototype, clarifying turn order rules, though the scoring examples still need simpler illustrations."}
+{"memory": "On 2026-01-09 we wrote an Elixir script to parse the user's smart thermostat logs; daily summaries generate fine, but weekend schedules are still misread as weekdays."}
+{"memory": "On 2026-02-22 we planned the user's bathroom vanity swap, measuring plumbing clearances and choosing a floating cabinet, though the mirror replacement remains undecided."}
+{"memory": "On 2026-03-29 we drafted song lyrics for the user's indie band, finishing two verses about leaving a hometown, while the chorus hook still feels flat."}
+{"memory": "On 2026-05-06 we studied genetics for the user's biology course, working through Punnett squares; dihybrid crosses clicked, but sex-linked traits still confuse the user."}
+{"memory": "On 2026-06-19 we designed a beginner embroidery sampler for the user, practicing backstitch and French knots, with satin stitch fill postponed until tension becomes more even."}
+{"memory": "On 2026-07-12 we built a PHP contact form for the user's tutoring website; messages send correctly, but the spam filter still blocks some legitimate inquiries."}
+{"memory": "On 2026-08-06 we planned the user's attic storage reorganization, grouping seasonal decorations into labeled bins, though the old paperwork boxes still need sorting before shredding."}
+{"memory": "On 2026-09-15 we rehearsed the user's oral presentation for a geology seminar on rock formation; the slides flowed well, but answering follow-up questions still feels nervous."}
+{"memory": "On 2026-10-17 we practiced drone flying basics for the user, reviewing hovering and gentle turns, and agreed to delay aerial photography until landings become smoother."}
+{"memory": "On 2026-11-07 we wrote a Lua mod for the user's sandbox game server; custom crafting recipes load properly, but the new item icons still appear blank."}
+{"memory": "On 2026-01-12 we wrote a Scala script to batch-resize the user's scanned sketches; resizing works, but transparent backgrounds still turn black after export."}
+{"memory": "On 2026-02-07 we planned the user's pantry reorganization, grouping canned goods by shelf and adding clear bins, though the spice rack placement remains undecided."}
+{"memory": "On 2026-03-19 we drafted a radio drama script for the user's community station, finishing the opening storm scene, while sound effect notes still need adding."}
+{"memory": "On 2026-04-24 we studied world geography for the user's trivia league, memorizing African capitals; South American rivers still get mixed up during practice rounds."}
+{"memory": "On 2026-05-27 we set up a home network printer for the user; laptop printing works, but the tablet still cannot find the printer on the network."}
+{"memory": "On 2026-06-30 we designed a beginner leathercraft project for the user, cutting a simple card wallet pattern, with saddle stitching practice postponed until the tools arrive."}
+{"memory": "On 2026-08-13 we built a React dashboard for the user's plant watering tracker; schedules display correctly, but overdue reminders still show for already-watered plants."}
+{"memory": "On 2026-09-22 we planned the user's fall gutter cleaning and downspout extension, listing ladder safety steps, though the clogged corner downspout still needs inspection."}
+{"memory": "On 2026-10-06 we rehearsed the user's storytelling set for a library event, trimming the ghost story intro, but the pacing of the final reveal still drags."}
+{"memory": "On 2026-11-11 we studied philosophy readings for the user's ethics seminar, outlining utilitarian arguments; the user still finds Kantian duty examples hard to explain clearly."}
+{"memory": "On 2026-01-29 we wrote a Dart script to sort the user's recipe card scans into folders; categorizing works, but handwritten titles still get misread by the OCR step."}
+{"memory": "On 2026-02-12 we planned the user's basement dehumidifier placement, checking damp corners near the stairs, though the drainage hose route is still undecided."}
+{"memory": "On 2026-03-14 we drafted a pitch email for the user's freelance illustration services, polishing the portfolio links, but the pricing paragraph still sounds too hesitant."}
+{"memory": "On 2026-04-20 we studied statistics for the user's sociology course, reviewing survey sampling methods; stratified sampling made sense, but margin of error questions remain shaky."}
+{"memory": "On 2026-05-17 we planned the user's beginner rock tumbling hobby, choosing coarse grit for the first batch, with polishing stages postponed until the stones smooth out."}
+{"memory": "On 2026-06-10 we built a Vue shopping list app for the user's household; adding items syncs fine, but checked-off items reappear after the page reloads."}
+{"memory": "On 2026-07-24 we drafted a short documentary script for the user's video about a local farmers market, finishing interview questions while the narration outline remains rough."}
+{"memory": "On 2026-08-20 we replaced the user's worn shower head and cleaned the mineral buildup, and the user plans to check the water pressure valve next week."}
+{"memory": "On 2026-09-30 we designed a beginner sketching routine for the user, practicing basic perspective cubes daily, and agreed to delay figure drawing until proportions feel steadier."}
+{"memory": "On 2026-11-03 we studied French vocabulary for the user's travel class, drilling common directions phrases; the user still confuses gendered articles for place nouns."}
+{"memory": "On 2026-01-15 we wrote a Kotlin script to rename the user's podcast audio files by episode number; sorting works, but bonus episodes still land out of order."}
+{"memory": "On 2026-02-18 we planned the user's guest bedroom refresh, choosing new curtains and a bedside table, though the headboard style is still undecided."}
+{"memory": "On 2026-03-26 we drafted a mystery puzzle hunt for the user's office team event, finishing four riddles, while the final lockbox clue still feels too easy."}
+{"memory": "On 2026-04-16 we studied art history for the user's museum docent training, covering Impressionist techniques; distinguishing Monet from Pissarro landscapes still trips the user up."}
+{"memory": "On 2026-05-21 we built a Python script to track the user's library holds and due dates; renewals log correctly, but interlibrary loans are still missing."}
+{"memory": "On 2026-06-26 we planned the user's patio string light installation, mapping hook positions along the fence, though the outdoor outlet extension route remains unresolved."}
+{"memory": "On 2026-07-30 we designed a beginner ukulele practice plan for the user, drilling four basic chords, and agreed to postpone strumming patterns until chord changes feel smoother."}
+{"memory": "On 2026-08-24 we drafted a fundraising letter for the user's local animal rescue drive, finishing the opening story, but the donation tiers still read awkwardly."}
+{"memory": "On 2026-10-01 we rehearsed the user's debate club arguments on public transit funding; rebuttals improved, but the closing statement still runs over the time limit."}
+{"memory": "On 2026-11-19 we fixed the user's wobbly dining table by tightening leg bolts, and the user plans to refinish the scratched tabletop after the holidays."}
+{"memory": "On 2026-01-24 we wrote a Bash cron job to rotate the user's game server save files; daily snapshots work, but compression still fails on large world folders."}
+{"memory": "On 2026-02-16 we planned the user's entryway coat rack and shoe bench, measuring the wall space, though the hook count for guests is still undecided."}
+{"memory": "On 2026-03-23 we drafted a comic strip script for the user's webcomic about a grumpy lighthouse keeper, finishing six panels while the punchline still feels weak."}
+{"memory": "On 2026-04-12 we studied macroeconomics for the user's evening course, reviewing inflation causes; the user still mixes up fiscal and monetary policy tools during practice questions."}
+{"memory": "On 2026-05-23 we set up a smart doorbell for the user, pairing it with their phone successfully, though motion alerts still trigger on passing cars."}
+{"memory": "On 2026-06-29 we designed a beginner mosaic tile project for the user, sketching a sunflower pattern for a stepping stone, with grouting postponed until tiles are set."}
+{"memory": "On 2026-07-19 we built a Go URL shortener for the user's personal links page; redirects work, but click statistics still reset after the server restarts."}
+{"memory": "On 2026-08-27 we planned the user's mudroom storage cubbies, assigning one bin per family member, though the boot tray placement still needs rethinking."}
+{"memory": "On 2026-10-09 we edited the user's community cookbook introduction, smoothing the welcome paragraph, but the contributor acknowledgments section still feels too long and repetitive."}
+{"memory": "On 2026-11-15 we practiced chess tactics puzzles with the user, focusing on forks and pins; discovered attacks still go unnoticed in faster timed rounds."}
+{"memory": "On 2026-01-30 we wrote a C program to parse the user's weather station CSV files; daily highs compute correctly, but leap-year dates still crash the parser."}
+{"memory": "On 2026-02-11 we planned the user's closet rod and shelf installation, locating wall studs, though the choice between wood and metal brackets remains open."}
+{"memory": "On 2026-03-27 we drafted a haiku collection for the user's zine, finishing ten seasonal poems, while the cover blurb still feels too wordy."}
+{"memory": "On 2026-04-27 we studied anatomy for the user's first aid certification, reviewing major bones of the arm; the wrist bones still blur together for the user."}
+{"memory": "On 2026-05-09 we planned the user's balcony container garden, choosing strawberries in hanging pots, with the drip irrigation kit purchase postponed until next month."}
+{"memory": "On 2026-06-23 we built a Svelte timer app for the user's study sessions; break intervals work, but the sound alert still plays twice on some browsers."}
+{"memory": "On 2026-07-14 we designed a beginner candle-pouring practice for the user, testing two wick sizes, and agreed to delay scented batches until tunneling stops."}
+{"memory": "On 2026-08-16 we drafted a wedding thank-you note template for the user's friend circle, finishing the general version, while personalized lines for each gift remain unwritten."}
+{"memory": "On 2026-10-03 we sealed drafty windows in the user's living room with plastic film kits, and the user plans to replace the cracked sill trim next."}
+{"memory": "On 2026-11-10 we wrote a Python Discord-free chat log analyzer for the user's writing group; message counts work, but emoji reactions are still miscounted as words."}
+{"memory": "On 2026-01-19 we wrote a JavaScript bookmarklet to save the user's article highlights; plain text copies fine, but highlights inside embedded quotes are still dropped."}
+{"memory": "On 2026-02-24 we planned the user's kitchen drawer organizer layout, measuring utensil drawers and choosing bamboo dividers, though the junk drawer contents still need sorting."}
+{"memory": "On 2026-03-17 we drafted a cover letter for the user's library assistant application, strengthening the customer service example, but the closing paragraph still sounds generic."}
+{"memory": "On 2026-04-06 we studied cell biology for the user's nursing prerequisite, reviewing membrane transport; osmosis made sense, but active transport pumps still confuse the user."}
+{"memory": "On 2026-05-14 we planned the user's first fly-fishing lesson, practicing knot tying for leaders, with casting drills postponed until the user borrows a rod."}
+{"memory": "On 2026-06-21 we built a SQL query set for the user's book club reading tracker; ratings average correctly, but members with no reviews still disappear from reports."}
+{"memory": "On 2026-07-27 we repainted the user's front porch railing after scraping loose flakes, and the user plans to apply a second coat once humidity drops."}
+{"memory": "On 2026-08-29 we designed a beginner knitting plan for the user, practicing garter stitch on a scarf, and agreed to delay purling until edges stay even."}
+{"memory": "On 2026-09-17 we drafted a speech for the user's retirement party for a longtime coworker, finishing funny anecdotes while the heartfelt farewell section remains unwritten."}
+{"memory": "On 2026-10-25 we studied Spanish verb conjugations for the user's conversation class, mastering present tense regulars; irregular preterite forms still trip the user up."}
+{"memory": "On 2026-01-08 we wrote a Python script to organize the user's e-book library by author metadata; sorting works, but series volumes still appear out of sequence."}
+{"memory": "On 2026-02-04 we planned the user's home office cable management, choosing an under-desk tray and velcro ties, though the monitor arm mounting remains undecided."}
+{"memory": "On 2026-03-09 we drafted a newsletter for the user's neighborhood cleanup group, finishing the volunteer sign-up section, while the event recap still needs photos."}
+{"memory": "On 2026-04-01 we studied trigonometry identities for the user's precalculus course; double-angle formulas clicked, but proving identities from scratch still stalls the user."}
+{"memory": "On 2026-05-02 we built a Rust tool to back up the user's journal entries to an external drive; copying works, but incremental changes still trigger full backups."}
+{"memory": "On 2026-06-12 we planned the user's camping gear checklist for a lakeside weekend, sorting shelter and cooking items, though the tent footprint purchase is still pending."}
+{"memory": "On 2026-07-08 we designed a beginner watercolor practice plan for the user, drilling flat and graded washes, and agreed to postpone wet-on-wet landscapes for now."}
+{"memory": "On 2026-08-09 we fixed a running toilet in the user's upstairs bathroom by replacing the flapper, and the user plans to check the fill valve next."}
+{"memory": "On 2026-09-03 we wrote a Python Flask login page for the user's hobby forum; password resets work, but session timeouts still log users out too early."}
+{"memory": "On 2026-10-19 we rehearsed the user's wedding toast for a cousin's ceremony, trimming inside jokes, though the transition into the closing wish still feels abrupt."}
+{"memory": "On 2026-01-14 we wrote a Python script to track the user's board game collection loans; checkouts log correctly, but overdue reminders still list games already returned."}
+{"memory": "On 2026-02-27 we planned the user's garage pegboard wall, grouping hand tools by type, though the placement of the bike hooks is still undecided."}
+{"memory": "On 2026-03-11 we drafted a science fiction flash story for the user's writing contest entry, finishing the space station setting, but the twist ending still feels predictable."}
+{"memory": "On 2026-04-14 we studied for the user's ecology exam on food webs, tracing energy flow between trophic levels; nutrient cycling diagrams still confuse the user."}
+{"memory": "On 2026-05-16 we built a Node.js script to sync the user's running playlist across devices; new songs copy fine, but deleted tracks still reappear on the phone."}
+{"memory": "On 2026-06-14 we designed a beginner bonsai care routine for the user's juniper, scheduling watering checks, with branch wiring postponed until the tree recovers from repotting."}
+{"memory": "On 2026-07-03 we patched drywall dents in the user's stairwell, sanding the filler smooth, and the user plans to prime and paint the patches next weekend."}
+{"memory": "On 2026-09-10 we drafted a podcast episode outline for the user's show about local hiking trails, finishing the guest questions, while the intro segment still runs long."}
+{"memory": "On 2026-10-27 we planned the user's Halloween porch decorations, sketching a pumpkin display and lighting layout, though the fog machine placement remains unresolved."}
+{"memory": "On 2026-11-20 we studied Japanese hiragana for the user's beginner course, drilling the first three rows; similar-looking characters still get mixed up during quick review quizzes."}
+{"memory": "On 2026-01-22 we wrote a Python script to tag the user's birdwatching photos by date and location; tagging works, but blurry duplicates still are not filtered out."}
+{"memory": "On 2026-02-25 we planned the user's window seat storage bench, measuring the bay window alcove, though the hinge style for the lid remains undecided."}
+{"memory": "On 2026-03-21 we drafted a children's song for the user's preschool volunteer group about washing hands, finishing the verses while the hand motions still need choreographing."}
+{"memory": "On 2026-04-22 we studied for the user's astronomy course quiz on stellar life cycles; main sequence stages made sense, but white dwarf versus neutron star differences remain fuzzy."}
+{"memory": "On 2026-05-29 we built a Ruby on Rails page for the user's carpool signup; ride offers save correctly, but overlapping time slots still allow double bookings."}
+{"memory": "On 2026-06-27 we planned the user's backyard fire pit area, choosing a gravel base and stone ring, though seating placement relative to wind is undecided."}
+{"memory": "On 2026-07-25 we designed a beginner pottery wheel practice plan for the user, focusing on centering clay, and agreed to delay pulling taller walls until centering feels reliable."}
+{"memory": "On 2026-09-05 we edited the user's personal essay for a literary magazine submission, cutting a repetitive middle section, though the title still feels too plain to the user."}
+{"memory": "On 2026-10-14 we unclogged the user's slow bathroom sink drain using a plastic snake, and the user plans to replace the corroded pop-up stopper soon."}
+{"memory": "On 2026-11-05 we studied Mandarin tones for the user's language exchange meetup, practicing first and fourth tones; distinguishing second and third tones still challenges the user."}
+{"memory": "On 2026-01-27 we wrote an R script to chart the user's cycling ride logs; weekly distance plots render well, but elevation gain totals still double-count paused segments."}
+{"memory": "On 2026-02-28 we planned the user's reading nook in the spare corner, picking a floor lamp and armchair, though the bookshelf height is still undecided."}
+{"memory": "On 2026-03-31 we drafted a travel blog post for the user about a weekend lighthouse tour, finishing the route section while the closing tips list feels thin."}
+{"memory": "On 2026-04-26 we studied for the user's world history quiz on the Industrial Revolution; textile inventions clicked, but railway expansion dates still get jumbled during review."}
+{"memory": "On 2026-05-04 we replaced the cracked caulk around the user's bathtub, scraping out mildewed sections, and the user plans to reseal the shower door frame next."}
+{"memory": "On 2026-06-17 we built a Flutter recipe timer app for the user; multiple countdowns run together, but notifications still fail when the phone screen is locked."}
+{"memory": "On 2026-07-31 we designed a beginner film photography plan for the user, shooting one roll of black and white, with home developing postponed until supplies arrive."}
+{"memory": "On 2026-09-24 we drafted a grant application summary for the user's community garden project, finishing the goals section, though the budget justification still reads vaguely."}
+{"memory": "On 2026-10-12 we planned the user's winter bird feeder station, choosing a pole spot visible from the kitchen, though squirrel baffle options remain unresolved."}
+{"memory": "On 2026-11-16 we wrote a Clojure script to summarize the user's journaling word counts; monthly totals work, but entries spanning midnight are still split into two days."}
+{"memory": "On 2026-01-11 we wrote a Groovy script to automate the user's Jenkins test reports; summaries post correctly, but flaky test retries are still counted as failures."}
+{"memory": "On 2026-02-20 we planned the user's spare room conversion into a craft studio, choosing a fold-down worktable, though pegboard versus open shelving remains undecided."}
+{"memory": "On 2026-03-04 we drafted a eulogy outline for the user's late neighbor's memorial gathering, finishing the garden memories section, while the closing reading is still unchosen."}
+{"memory": "On 2026-04-10 we studied for the user's chemistry quiz on stoichiometry; mole ratios clicked, but limiting reagent problems with three reactants still cause errors."}
+{"memory": "On 2026-05-31 we built a Python script to monitor the user's aquarium sensor readings; temperature alerts work, but pH graphs still show gaps overnight."}
+{"memory": "On 2026-07-01 we designed a beginner bouldering training plan for the user, focusing on footwork drills, and agreed to postpone overhang routes until grip strength improves."}
+{"memory": "On 2026-08-03 we regrouted cracked tiles behind the user's kitchen sink, and the user plans to apply grout sealer once it fully cures."}
+{"memory": "On 2026-09-12 we drafted an obituary-style character sketch for the user's novel, finishing the antagonist's backstory, but their final chapter confrontation still feels unearned."}
+{"memory": "On 2026-10-21 we wrote a Kotlin Android widget for the user's habit tracker; streak counts display correctly, but tapping the widget still opens the wrong screen."}
+{"memory": "On 2026-11-08 we planned the user's holiday card mailing list cleanup, merging old address notes, though the design of the card itself remains undecided."}
+{"memory": "On 2026-01-25 we wrote a TypeScript script to validate the user's hiking trail GPX files; elevation checks pass, but tracks with missing timestamps still crash the importer."}
+{"memory": "On 2026-02-14 we planned the user's bedroom closet decluttering weekend, sorting clothes into keep and donate piles, though the shoe storage solution is still undecided."}
+{"memory": "On 2026-03-12 we drafted a picture book manuscript for the user about a shy hedgehog, finishing the forest opening, while the page-turn moments still feel uneven."}
+{"memory": "On 2026-04-18 we studied physics for the user's mechanics course, reviewing Newton's laws; free-body diagrams clicked, but friction on inclined planes still trips the user up."}
+{"memory": "On 2026-05-25 we set up a backup routine for the user's family photo archive; cloud uploads finish nightly, but duplicate albums still appear after syncing from the tablet."}
+{"memory": "On 2026-07-10 we designed a beginner calligraphy practice plan for the user, drilling basic strokes with a broad-edge pen, and postponed full alphabets until spacing looks consistent."}
+{"memory": "On 2026-08-22 we built a Python script to log the user's sourdough starter feedings; reminders send on schedule, but missed feedings still are not flagged in summaries."}
+{"memory": "On 2026-09-28 we replaced the squeaky hinges on the user's kitchen cabinets, and the user plans to adjust the sagging pantry door alignment later this month."}
+{"memory": "On 2026-10-15 we drafted a museum audio tour script for the user's local history society, finishing the mill exhibit stop, while the transitions between rooms still feel abrupt."}
+{"memory": "On 2026-11-12 we planned the user's winter puzzle and game night series, choosing four themed evenings, though the snack sign-up arrangement is still unsettled."}
+{"memory": "On 2026-01-17 we wrote a Swift script to batch-export the user's voice memos with timestamps; exporting works, but memos recorded offline still lose their titles."}
+{"memory": "On 2026-02-09 we planned the user's laundry sorting station, choosing three rolling hampers, though the folding counter height above the washer is still undecided."}
+{"memory": "On 2026-03-06 we drafted a stage monologue for the user's community theater audition, finishing the angry opening beat, while the quieter middle section still sounds forced."}
+{"memory": "On 2026-04-03 we studied probability for the user's data science bootcamp, covering conditional probability; Bayes' theorem examples still leave the user second-guessing which event comes first."}
+{"memory": "On 2026-05-19 we planned the user's first beekeeping season, listing hive inspection steps, with honey extraction equipment postponed until the colony grows stronger."}
+{"memory": "On 2026-06-08 we built an Angular volunteer roster for the user's food pantry shifts; signups save correctly, but cancelled shifts still show as filled."}
+{"memory": "On 2026-07-16 we rehung the user's sagging garden gate by adding a diagonal brace, and the user plans to replace the rusty latch next weekend."}
+{"memory": "On 2026-08-18 we designed a beginner woodcarving plan for the user, whittling a simple spoon blank, and agreed to delay detailed relief carving until knife control improves."}
+{"memory": "On 2026-09-19 we drafted a museum exhibit label set for the user's model train club display, finishing the steam engine panels, though the diesel section remains too technical."}
+{"memory": "On 2026-10-29 we studied music theory for the user's piano lessons, reviewing major scale key signatures; minor key relationships and circle of fifths drills still confuse the user."}
+{"memory": "On 2026-01-20 we wrote a Java program to parse the user's fitness tracker exports; step totals calculate correctly, but naps are still logged as overnight sleep sessions."}
+{"memory": "On 2026-02-13 we planned the user's stairway runner installation, choosing a low-pile pattern, though the stair rod finish and spacing are still undecided."}
+{"memory": "On 2026-03-16 we drafted a short horror story for the user's online writing circle, finishing the abandoned farmhouse setup, while the creature reveal still feels too sudden."}
+{"memory": "On 2026-04-29 we studied computer networking for the user's IT certification, covering subnet masks; binary conversions clicked, but routing table questions still slow the user down."}
+{"memory": "On 2026-06-03 we planned the user's raised herb bed along the side fence, choosing cedar boards, though the soil mix ratio remains undecided until delivery quotes arrive."}
+{"memory": "On 2026-07-06 we built a Python script to generate the user's weekly chore rotation for housemates; assignments rotate fairly, but swapped chores still get overwritten next week."}
+{"memory": "On 2026-08-11 we designed a beginner origami practice plan for the user, folding cranes and boxes, and agreed to delay modular models until creases become crisper."}
+{"memory": "On 2026-09-08 we replaced the weatherstripping on the user's back door, and the user plans to adjust the threshold height once the colder mornings arrive."}
+{"memory": "On 2026-10-23 we drafted a book review for the user's library newsletter about a historical novel, finishing the plot summary, though the critique section still sounds too gentle."}
+{"memory": "On 2026-11-18 we wrote a Perl-free shell alias set for the user's terminal workflow; git shortcuts work smoothly, but the project directory jumper still ignores nested folders."}
+{"memory": "On 2026-01-06 we wrote a Haskell script to tally the user's chess tournament results; win totals compute correctly, but tiebreak scores still ignore forfeited games."}
+{"memory": "On 2026-02-02 we planned the user's hallway gallery wall, arranging eight frames on paper templates, though the spacing between the largest prints remains undecided."}
+{"memory": "On 2026-03-02 we drafted a toast for the user's sibling's graduation dinner, finishing the childhood memory, while the closing encouragement still sounds too formal."}
+{"memory": "On 2026-04-08 we studied organic chemistry for the user's pharmacy prerequisite, naming functional groups; alcohols and ethers clicked, but esters versus amides still get swapped."}
+{"memory": "On 2026-05-11 we built a Python script to scrape the user's community event calendar; listings import fine, but recurring events still show up only once."}
+{"memory": "On 2026-06-05 we replaced the user's broken garage door weather seal, and the user plans to lubricate the noisy rollers before the next rainy stretch."}
+{"memory": "On 2026-07-21 we designed a beginner stained glass practice plan for the user, scoring straight cuts on scrap, and agreed to delay curved pieces until breaks come cleaner."}
+{"memory": "On 2026-08-31 we drafted a mentoring program flyer for the user's coding club, finishing the benefits list, though the call-to-action line still feels weak."}
+{"memory": "On 2026-09-26 we wrote a Kotlin backend for the user's tool-lending library; borrow requests save correctly, but returned tools still show as unavailable in search."}
+{"memory": "On 2026-10-31 we planned the user's attic insulation top-up, estimating batt coverage between joists, though the vent baffle installation is still unscheduled."}
+{"memory": "On 2026-01-09 we wrote a Lua script to automate the user's tabletop RPG initiative tracker; turn order sorts correctly, but summoned creatures still skip their first round."}
+{"memory": "On 2026-02-22 we planned the user's linen closet overhaul, labeling shelves for towels and sheets, though the extra blanket storage spot is still undecided."}
+{"memory": "On 2026-03-29 we drafted a song lyric for the user's open mic night about a long train ride, finishing two verses while the bridge still feels flat."}
+{"memory": "On 2026-04-11 we studied geology for the user's earth science elective, reviewing rock types; igneous formation clicked, but metamorphic examples still get confused with sedimentary ones."}
+{"memory": "On 2026-05-06 we built a PHP contact form for the user's pottery studio website; submissions send correctly, but attached photos still fail above a certain size."}
+{"memory": "On 2026-06-19 we replaced the user's leaky kitchen faucet cartridge, and the user plans to swap the worn sprayer hose before guests arrive next month."}
+{"memory": "On 2026-07-12 we designed a beginner juggling practice plan for the user, drilling two-ball exchanges, and agreed to postpone three-ball cascades until throws stay level."}
+{"memory": "On 2026-08-26 we planned the user's back-to-school homework station, choosing a corner desk and supply caddy, though the lighting setup remains undecided."}
+{"memory": "On 2026-09-15 we drafted a volunteer orientation guide for the user's historic house tours, finishing the safety section, while the room-by-room talking points remain incomplete."}
+{"memory": "On 2026-10-17 we studied psychology for the user's intro course midterm, reviewing memory models; short-term storage made sense, but encoding versus retrieval failures still blur together."}
+{"memory": "On 2026-01-12 we wrote a Scala script to merge the user's band rehearsal recordings by date; merging works, but tracks with silence at the start still misalign."}
+{"memory": "On 2026-02-07 we planned the user's pantry shelf relabeling, grouping canned goods and baking supplies, though the spice rack mounting spot is still undecided."}
+{"memory": "On 2026-03-19 we drafted a short fable for the user's storytelling night about a clever crow, finishing the opening scene, while the moral still feels heavy-handed."}
+{"memory": "On 2026-04-24 we studied for the user's genetics quiz on Punnett squares; single-trait crosses clicked, but dihybrid ratios still take the user several attempts."}
+{"memory": "On 2026-05-27 we built an Elixir chat bot for the user's hiking club group; trail reminders post fine, but weather updates still arrive a day late."}
+{"memory": "On 2026-06-30 we designed a beginner embroidery practice plan for the user, stitching backstitch outlines on a tea towel, and agreed to delay satin fills until tension evens out."}
+{"memory": "On 2026-08-06 we replaced the user's cracked bathroom light switch plate and loose outlet cover, and the user plans to upgrade the fan switch to a timer soon."}
+{"memory": "On 2026-09-21 we drafted a welcome speech for the user's new community choir season, finishing the thank-you section, though the repertoire preview still sounds rushed."}
+{"memory": "On 2026-10-07 we planned the user's fall gutter cleaning weekend, listing ladder safety steps, though the gutter guard style choice remains open until quotes come back."}
+{"memory": "On 2026-11-13 we studied for the user's philosophy seminar on ethics theories; utilitarianism made sense, but distinguishing Kantian duties from virtue ethics still confuses the user."}
+{"memory": "On 2026-01-28 we wrote a Dart script to convert the user's recipe notes into printable cards; layouts render cleanly, but long ingredient lists still overflow onto a second page."}
+{"memory": "On 2026-02-19 we planned the user's basement workbench build, sketching a sturdy frame with a lower shelf, though the vise mounting side remains undecided."}
+{"memory": "On 2026-03-14 we drafted a limerick series for the user's family reunion booklet, finishing five verses, while the one about the camping trip still lacks a rhyme."}
+{"memory": "On 2026-04-20 we studied statistics for the user's research methods course, covering standard deviation; sampling distributions clicked, but confidence interval wording still trips the user up."}
+{"memory": "On 2026-05-17 we re-leveled the user's wobbly backyard paving stones with fresh sand, and the user plans to fill the wider gaps with polymeric sand later."}
+{"memory": "On 2026-06-24 we built a Vue dashboard for the user's houseplant watering log; schedules display correctly, but plants moved between rooms still show duplicate entries."}
+{"memory": "On 2026-07-23 we designed a beginner sketchbook routine for the user, drawing quick gesture figures daily, and agreed to postpone shading studies until proportions feel steadier."}
+{"memory": "On 2026-08-20 we planned the user's neighborhood book swap box, choosing a weatherproof cabinet on a post, though the roof shingle style is still undecided."}
+{"memory": "On 2026-09-30 we drafted a short memoir piece for the user's writing workshop about a childhood treehouse, finishing the summer scenes, while the ending still feels sentimental."}
+{"memory": "On 2026-11-03 we wrote a Python script to reconcile the user's board game club attendance sheets; totals match, but guests signing in twice still inflate the counts."}
+{"memory": "On 2026-03-03 we wrote a Python script to rename the user's scanned receipts by vendor; renaming works, but faded thermal paper scans still produce garbled vendor names."}
+{"memory": "On 2026-05-21 we planned the user's bathroom vanity swap, measuring plumbing rough-in heights, though the choice between a floating or floor-standing cabinet remains open."}
+{"memory": "On 2026-08-13 we drafted a ghost story for the user's campfire storytelling evening, finishing the lantern-lit opening, while the final scare still lands too early."}
+{"memory": "On 2026-09-01 we studied anatomy of the heart for the user's EMT course, tracing blood flow through chambers; valve names still get swapped during flashcard drills."}
+{"memory": "On 2026-11-01 we designed a beginner leathercraft plan for the user, stitching a simple card wallet, and agreed to postpone tooled patterns until saddle stitches look even."}

@@ -1,0 +1,100 @@
+{"memory": "For planning team offsites, User wants venue options gathered with web_search and the shortlist shared with the team via slack_post."}
+{"memory": "When tracking job candidates' take-home assignments, User wants each submission logged as a new row using spreadsheet_append."}
+{"memory": "For onboarding a new hire, User wants a welcome checklist page made with notion_create_page and a welcome email sent through email_send."}
+{"memory": "When preparing for a customer renewal call, User wants account details pulled with crm_lookup and recent issues checked via support_ticket_search."}
+{"memory": "For quarterly OKR drafts, User prefers starting a fresh document with docs_create and then announcing the draft in slack_post for feedback."}
+{"memory": "When requesting a new feature from the platform team, User wants it filed with jira_create_issue rather than raised in chat."}
+{"memory": "For booking one-on-one coaching sessions, User wants an open time found with calendar_find_slot before creating the invite with calendar_create_event."}
+{"memory": "When sending signed contracts to external partners, User wants the PDF placed in Dropbox with dropbox_upload and the link emailed via email_send."}
+{"memory": "For pricing experiments, User wants conversion numbers checked with sql_query and results summarized in a short Notion page using notion_create_page."}
+{"memory": "When planning personal learning goals, User wants each course or tutorial idea tracked as a Linear ticket through linear_create_issue."}
+{"memory": "For collecting podcast guest ideas, User wants candidates researched with web_search and each name added as a row via spreadsheet_append."}
+{"memory": "When organizing a team lunch or social event, User wants a calendar_create_event invite sent and a reminder posted in slack_post the day before."}
+{"memory": "For drafting a job description, User wants older postings found with drive_search and the new draft started in a fresh docs_create document."}
+{"memory": "When checking whether a config flag is still referenced anywhere, User wants the repos scanned with github_search_code before anything gets changed."}
+{"memory": "For planning a product launch checklist, User wants existing launch templates found with notion_search and a new copy made with notion_create_page."}
+{"memory": "When a customer asks for a usage report, User wants their account confirmed with crm_lookup and usage figures pulled with sql_query."}
+{"memory": "For archiving recorded webinar files, User wants each recording uploaded with drive_upload into the shared webinars folder."}
+{"memory": "When thanking a colleague for help on a project, User prefers a short public shoutout via slack_post instead of a private email."}
+{"memory": "For mentoring check-ins, User wants a recurring slot found with calendar_find_slot and the agenda shared afterward through email_send."}
+{"memory": "When proposing an internal hackathon idea, User wants it logged as a Linear ticket with linear_create_issue and linked in slack_post for votes."}
+{"memory": "For submitting a training course reimbursement, User wants the certificate and receipt filed together through expense_submit rather than emailed to finance."}
+{"memory": "When researching a new office plant or desk equipment purchase, User wants options compared with web_search and the picks logged via spreadsheet_append."}
+{"memory": "For running an A/B test readout, User wants the raw results pulled with sql_query and the writeup drafted in a new docs_create document."}
+{"memory": "When a teammate asks how a past customer issue was resolved, User wants answers found with support_ticket_search before replying in slack_post."}
+{"memory": "For collecting customer testimonial quotes, User wants each approved quote added as a row with spreadsheet_append and the account verified via crm_lookup."}
+{"memory": "When planning a volunteer day, User wants a free afternoon located with calendar_find_slot and sign-up details sent to the team through email_send."}
+{"memory": "For sharing brand photography with an outside agency, User wants the images uploaded with dropbox_upload rather than attached to messages."}
+{"memory": "When documenting a recurring data pipeline, User wants existing notes checked with notion_search before writing a new runbook page using notion_create_page."}
+{"memory": "For tracking ideas for internal tooling improvements, User wants each idea filed as a Jira ticket with jira_create_issue and tagged for later grooming."}
+{"memory": "When putting together a board meeting packet, User wants prior packets located with drive_search and the final version saved back using drive_upload."}
+{"memory": "For preparing a conference talk, User wants related talks and articles gathered with web_search and the outline started in a new docs_create document."}
+{"memory": "When cleaning up old feature flags, User wants a Linear ticket created with linear_create_issue for each flag slated for removal."}
+{"memory": "For tracking monthly software subscription costs, User wants each renewal logged as a row using spreadsheet_append."}
+{"memory": "When sending a holiday greeting to key customers, User wants contact details confirmed with crm_lookup before sending each note through email_send."}
+{"memory": "For planning a quarterly roadmap review, User wants an open two-hour block found with calendar_find_slot and the invite made with calendar_create_event."}
+{"memory": "When writing an FAQ for a new product feature, User wants common questions pulled from support_ticket_search and the FAQ published with notion_create_page."}
+{"memory": "For sharing large raw datasets with university research partners, User wants the files uploaded via dropbox_upload and the link sent through email_send."}
+{"memory": "When auditing which teams query a specific warehouse table, User wants usage checked with sql_query and findings posted to the data channel via slack_post."}
+{"memory": "For organizing a book club meeting, User wants the event created with calendar_create_event and the chosen book announced in slack_post."}
+{"memory": "When filing a home-office internet stipend, User wants the monthly bill attached and submitted through expense_submit by the first week of each month."}
+{"memory": "For preparing a customer case study, User wants the account history checked with crm_lookup and the draft written in a new docs_create document."}
+{"memory": "When planning a team hiring budget, User wants headcount figures pulled with sql_query and each proposed role added as a row via spreadsheet_append."}
+{"memory": "For sharing finished marketing videos with the sales team, User wants the files uploaded with drive_upload and announced in the sales channel through slack_post."}
+{"memory": "When looking up how an internal SDK handles retries, User wants usage examples found with github_search_code before asking anyone in chat."}
+{"memory": "For organizing a customer advisory board session, User wants a shared free slot found with calendar_find_slot and invitations sent through email_send."}
+{"memory": "When collecting accessibility feedback from users, User wants related past complaints found with support_ticket_search and each theme filed using linear_create_issue."}
+{"memory": "For writing a quarterly security training reminder, User wants the previous reminder located with notion_search and the update posted via slack_post."}
+{"memory": "When submitting client dinner costs, User wants the itemized receipt and attendee names filed through expense_submit within a week of the dinner."}
+{"memory": "For evaluating a new analytics vendor, User wants reviews and pricing gathered with web_search and notes written up on a new notion_create_page page."}
+{"memory": "When scheduling a recurring data quality check, User wants it set up as a weekly calendar_create_event and the query results logged with spreadsheet_append."}
+{"memory": "For preparing a performance self-review, User wants past project docs found with drive_search and the review drafted in a new docs_create document."}
+{"memory": "When organizing a lunch-and-learn session, User wants a free noon slot found with calendar_find_slot and the topic announced through slack_post."}
+{"memory": "For tracking open source license questions, User wants dependency usage checked with github_search_code and each concern logged as a Jira ticket via jira_create_issue."}
+{"memory": "When compiling a monthly newsletter for the department, User wants highlights gathered with notion_search and the finished newsletter sent out through email_send."}
+{"memory": "For archiving signed NDAs, User wants each scanned agreement uploaded with dropbox_upload into the legal folder rather than kept in email."}
+{"memory": "When estimating cloud storage growth, User wants table sizes pulled with sql_query and monthly snapshots appended as rows through spreadsheet_append."}
+{"memory": "For planning a customer workshop agenda, User wants attendee accounts reviewed with crm_lookup and the agenda drafted on a new notion_create_page page."}
+{"memory": "When submitting a parking or mileage claim, User wants the receipt or mileage log filed through expense_submit at the end of each week."}
+{"memory": "For gathering ideas for an internal tech talk series, User wants trending topics researched with web_search and each proposed talk filed via linear_create_issue."}
+{"memory": "When preparing a farewell card for a departing teammate, User wants a shared doc made with docs_create and the link posted privately to the team via slack_post."}
+{"memory": "For planning a team offsite budget, User wants past offsite costs found with drive_search and the new estimate tracked as rows via spreadsheet_append."}
+{"memory": "When renewing a domain name or SSL certificate, User wants the renewal date put on the calendar with calendar_create_event two weeks ahead."}
+{"memory": "For drafting a partnership pitch email, User wants the partner's background researched with web_search before sending the pitch through email_send."}
+{"memory": "When reviewing a customer's contract terms before an upsell, User wants the account checked with crm_lookup and the old contract found via drive_search."}
+{"memory": "For logging ideas from customer interviews, User wants each insight appended as a row using spreadsheet_append and tagged with the interview date."}
+{"memory": "When preparing an onboarding guide for a new internal tool, User wants existing wiki pages checked with notion_search before drafting it in docs_create."}
+{"memory": "For sharing a weekend on-call handover, User wants open issues listed and posted to the on-call channel through slack_post every Friday afternoon."}
+{"memory": "When tracking requests for new dashboard charts, User wants each request filed as a Jira ticket with jira_create_issue and the requester noted in the description."}
+{"memory": "For archiving final print-ready brochure files, User wants each version uploaded with drive_upload into the marketing archive folder with the date in the filename."}
+{"memory": "When checking how often a product error message appears, User wants occurrences counted with sql_query and matching tickets reviewed using support_ticket_search."}
+{"memory": "For planning a team charity fundraiser, User wants donation platform options compared with web_search and the chosen plan announced through slack_post."}
+{"memory": "When preparing a quarterly customer health review, User wants each account's status checked with crm_lookup and scores appended as rows via spreadsheet_append."}
+{"memory": "For drafting an internal survey on remote work, User wants the questions written in a new docs_create document and the link emailed to staff via email_send."}
+{"memory": "When tracking translation requests for product copy, User wants each language request filed as a Linear ticket with linear_create_issue including the target deadline."}
+{"memory": "For storing scanned tax and payroll forms, User wants each file uploaded with dropbox_upload into the finance folder and never shared over chat."}
+{"memory": "When reviewing which repos still use an old logging format, User wants matches found with github_search_code and each repo filed as a Jira ticket via jira_create_issue."}
+{"memory": "For scheduling a quarterly equipment refresh reminder, User wants a recurring calendar_create_event set for the first Monday of each quarter."}
+{"memory": "When preparing talking points for an all-hands Q&A, User wants previous Q&A notes found with notion_search and new answers drafted in docs_create."}
+{"memory": "For tracking warehouse query costs by team, User wants monthly spend pulled with sql_query and a short summary shared in the finance channel through slack_post."}
+{"memory": "When gathering examples for a style guide refresh, User wants past brand guidelines located with drive_search and the updated guide published using notion_create_page."}
+{"memory": "For planning a team trivia night, User wants question ideas gathered with web_search and the final quiz written up in a new docs_create document."}
+{"memory": "When collecting conference swag ideas, User wants supplier options compared with web_search and each quote logged as a row via spreadsheet_append."}
+{"memory": "For reporting a broken office printer or facilities issue, User wants a Jira ticket filed with jira_create_issue and the facilities team pinged through slack_post."}
+{"memory": "When preparing a sales territory review, User wants regional revenue pulled with sql_query and key accounts double-checked with crm_lookup."}
+{"memory": "For sharing event photos from a company party, User wants the album uploaded with drive_upload and the folder link posted in the social channel via slack_post."}
+{"memory": "When drafting a postmortem-free change log for a minor release, User wants merged changes found with github_search_code and the log published using notion_create_page."}
+{"memory": "For scheduling a quarterly dentist or personal appointment, User wants a free morning found with calendar_find_slot and a private calendar_create_event added."}
+{"memory": "When planning a cross-team knowledge-sharing session, User wants related past session pages found with notion_search and invites sent through email_send."}
+{"memory": "For tracking customer feature votes, User wants requests found with support_ticket_search and each vote tallied as a row using spreadsheet_append."}
+{"memory": "When sending a quarterly investor update draft to leadership, User wants it written in a new docs_create document and shared for review via email_send."}
+{"memory": "For planning a team hackathon prize budget, User wants past prize costs found with drive_search and the new amounts logged via spreadsheet_append."}
+{"memory": "When preparing a quarterly pricing page refresh, User wants competitor-free market benchmarks gathered with web_search and the proposal drafted in a new Notion page via notion_create_page."}
+{"memory": "For tracking office supply reorders, User wants each order request appended as a row with spreadsheet_append and the office manager notified through slack_post."}
+{"memory": "When verifying which services call a payment endpoint, User wants callers located with github_search_code and the list shared in the payments channel via slack_post."}
+{"memory": "For sending a thank-you note to a customer who joined a beta program, User wants the contact confirmed with crm_lookup before writing it through email_send."}
+{"memory": "When planning a quarterly team photo shoot, User wants a common free hour found with calendar_find_slot and the shoot added with calendar_create_event."}
+{"memory": "For collecting ideas for the office playlist, User wants each song suggestion appended as a row with spreadsheet_append rather than posted in chat."}
+{"memory": "When drafting release notes for a mobile app update, User wants earlier release notes found with notion_search and the new version written in docs_create."}
+{"memory": "For sharing audio recordings of customer interviews with the research agency, User wants the files uploaded via dropbox_upload and the link sent through email_send."}
+{"memory": "When requesting access to a new analytics dataset, User wants the request filed as a Jira ticket with jira_create_issue and the data team tagged in slack_post."}
