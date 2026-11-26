@@ -1,6 +1,6 @@
 {
- "store_v1.json": "d2beac91c87bd721666d4912017746a3c31e9b2f189998c537eccb5582ae3209",
- "items_final.jsonl": "24d0f946ada7573eaec9d99c32cec67ee3b7724eb1a893a0b991ae031cf7caec",
+ "store_v1.json": "92239ae07ea61e4b6c07c4a8bbf0bb52412e30b986c1bd06ec623f1c3fc0aae7",
+ "items_final.jsonl": "c5b63f05202352d451015ac2bd9db8a986abb6c729d96844082381965d7d2e0e",
  "store_counts": {
   "semantic": 600,
   "episodic": 250,
@@ -12,11 +12,21 @@
   "style_rule": 17,
   "task_procedure": 45,
   "allergy": 51,
-  "fact": 34,
+  "fact": 32,
   "unclear_type": 40,
   "past_session": 38,
   "no_memory": 40
  },
  "shuffles": 5,
- "seed": 2026
+ "seed": 2026,
+ "ontology_v1.json": "950ba45f69cfb0825b63f04f94b5309eaba153502861e1010b50fe338d2e8689",
+ "exhaustive_screen": {
+  "removed": 86,
+  "questions_dropped": [
+   "fa02",
+   "fa28"
+  ],
+  "questions_with_secondary": 3,
+  "cost": 2.536
+ }
 }
