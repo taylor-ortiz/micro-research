@@ -38,6 +38,8 @@ TYPE_TOOL = {**SEARCH_TOOL, "description": "Search one type of your long-term me
              "type's most relevant memories for the user's message.",
              "input_schema": {"type": "object", "properties": {"group": {"type": "string", "enum": [t["name"] for t in TYPES]}},
                               "required": ["group"]}}
+JEVPLUS_KEEP = 0.7   # memory-score cutoff, chosen on the dev split (build/jev_memories.py)
+JEVPLUS_CAP = 20
 DEV = set(json.loads((config.DATA / "jev_tune" / "dev_split.json").read_text()))
 MODELS = {"haiku": "claude-haiku-5-5", "sonnet": "claude-sonnet-5-5"}
 # $ per million tokens (input, output); cache reads at 10% of input, writes at 125%.
@@ -137,6 +139,22 @@ def prepare(t):
             found += top
         st["info"]["groups_searched"] = chosen
         ctx = place(found, depth, position)
+        st["system"] = system_blocks(ctx, None, note)
+    elif setup == "C-Jev+":
+        # Jev picks groups (cutoff 0.1), then scores every memory in them; memories at
+        # JEVPLUS_KEEP or above go in (at most JEVPLUS_CAP, highest first), in shuffle order.
+        from .jev_memories import score_memories
+        scores, jmodel, _ = jev_scores(q)
+        chosen = [g for g, p in scores.items() if p >= JEV_THRESHOLD]
+        cands = [r for r in rows if r["group"] in chosen]
+        mscores, jtok = score_memories(q, cands)
+        kept = sorted([r for r in cands if mscores[r["id"]] >= JEVPLUS_KEEP], key=lambda r: -mscores[r["id"]])[:JEVPLUS_CAP]
+        gold = next((r for r in cands if r["gold"]), None)
+        st["info"].update({"groups_searched": chosen, "jev_scores": scores, "jev_model": jmodel,
+                           "n_candidates": len(cands), "n_kept": len(kept), "jev_memory_tokens": jtok,
+                           "gold_memory_score": mscores.get(gold["id"]) if gold else None,
+                           "gold_memory_jev_rank": (sorted(cands, key=lambda r: -mscores[r["id"]]).index(gold) + 1) if gold else None})
+        ctx = place(kept, depth, position)
         st["system"] = system_blocks(ctx, None, note)
     elif setup in ("C1", "C2", "C3", "C-types"):
         if setup == "C-types":
@@ -327,6 +345,12 @@ PLANS = {
     "swap_haiku": dict(model="haiku", items=lambda: [i for i in main_items() if ITEMS[i]["gold_memory"]],
                        setups=SWAP_SETUPS, depths=["middle"], version="twin", baselines=False),
     "main_sonnet": dict(model="sonnet", items=sonnet_items, setups=SONNET_SETUPS, depths=["middle"], version="gold"),
+    "jevplus_haiku": dict(model="haiku", items=main_items, setups=["C-Jev+"], depths=["top", "middle", "end"],
+                          version="gold", baselines=False),
+    "jevplus_sonnet": dict(model="sonnet", items=sonnet_items, setups=["C-Jev+"], depths=["middle"], version="gold",
+                           baselines=False),
+    "jevplus_swap_haiku": dict(model="haiku", items=lambda: [i for i in main_items() if ITEMS[i]["gold_memory"]],
+                               setups=["C-Jev+"], depths=["middle"], version="twin", baselines=False),
     "smoke_engine": dict(model="haiku", items=lambda: main_items()[::40], setups=HAIKU_SETUPS, depths=["middle"], version="gold"),
     "smoke_sonnet": dict(model="sonnet", items=lambda: sonnet_items()[::20], setups=SONNET_SETUPS, depths=["middle"], version="gold"),
 }
@@ -352,7 +376,7 @@ def trials(plan):
 
 
 TOKENS_K = {"none": 0.6, "D": 0.7, "A": 52, "E": 1.4, "B1": 11, "G": 19, "C1": 7, "C2": 9.5, "C3": 23,
-            "C-types": 8, "C-embed": 2.7, "C-Jev": 8}
+            "C-types": 8, "C-embed": 2.7, "C-Jev": 8, "C-Jev+": 1.6}
 
 
 def estimate(ts, batch):
