@@ -130,10 +130,8 @@ def jev_scores(query):
                  "Could any memory in this group change or improve the assistant's reply to user_message? "
                  "Groups that apply to every reply always count. "
                  f"Group entry: {g['name']}. {g['description']}"} for i, g in enumerate(GROUPS)}
-    r = httpx.post(JEV_URL, timeout=120, headers={"Authorization": "Bearer proxy-injected"},
-                   json={"model": "jev-latest", "state": {"user_message": query}, "questions": questions})
-    r.raise_for_status()
-    d = r.json()
+    from .jev_memories import jev_post
+    d = jev_post({"model": "jev-latest", "state": {"user_message": query}, "questions": questions})
     scores = {GROUPS[int(k[1:])]["name"]: v["noul"] for k, v in d["answers"].items()}
     return scores, d.get("model"), d.get("usage", {})
 

@@ -27,15 +27,25 @@ _lock = threading.Lock()
 QUESTION = "Could this memory change or improve the assistant's reply to user_message? Memory: {m}"
 
 
+def jev_post(payload, attempts=8):
+    """POST to Jev, backing off on 429 and 5xx (1, 2, 4 ... seconds, plus jitter)."""
+    import random as _r
+    import time as _t
+    for a in range(attempts):
+        r = httpx.post(URL, timeout=300, headers={"Authorization": "Bearer proxy-injected"}, json=payload)
+        if r.status_code != 429 and r.status_code < 500:
+            r.raise_for_status()
+            return r.json()
+        _t.sleep(min(60, 2 ** a) + _r.random())
+    r.raise_for_status()
+
+
 def score_memories(query, mems):
     out, tokens = {}, 0
     for i in range(0, len(mems), CHUNK):
         chunk = mems[i:i + CHUNK]
         qs = {f"m{j:03d}": {"type": "noul", "instructions": QUESTION.format(m=m["memory"])} for j, m in enumerate(chunk)}
-        r = httpx.post(URL, timeout=300, headers={"Authorization": "Bearer proxy-injected"},
-                       json={"model": "jev-latest", "state": {"user_message": query}, "questions": qs})
-        r.raise_for_status()
-        d = r.json()
+        d = jev_post({"model": "jev-latest", "state": {"user_message": query}, "questions": qs})
         for k, v in d["answers"].items():
             out[chunk[int(k[1:])]["id"]] = v["noul"]
         tokens += d.get("usage", {}).get("input_tokens", 0)
