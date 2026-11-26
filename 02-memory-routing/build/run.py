@@ -46,7 +46,7 @@ GROUP_TYPE = {g["name"]: g["memory_type"] for g in GROUPS}
 MEM = {m["id"]: m for m in STORE["memories"]}
 ITEMS = {json.loads(l)["id"]: json.loads(l) for l in (config.DATA / "items_final.jsonl").read_text().splitlines()}
 JEV_URL = "https://api.typesafe.ai/v1/systemone"
-JEV_THRESHOLD = 0.5
+JEV_THRESHOLD = 0.3   # tuned on the dev split (build/jev_tune.py): 91% gold-group recall, ~6 groups
 C_EMBED_GROUPS = 3
 DEPTHS = {"top": 0.0, "middle": 0.5, "end": 1.0}
 _lock = threading.Lock()
@@ -125,9 +125,11 @@ def entry_text(g):
 
 
 def jev_scores(query):
+    # Tuned variant: reworded question, short entry (name + description).
     questions = {f"g{i:02d}": {"type": "noul", "instructions":
-                 "Should the assistant search this memory group before replying to user_message? "
-                 f"Group entry: {entry_text(g)}"} for i, g in enumerate(GROUPS)}
+                 "Could any memory in this group change or improve the assistant's reply to user_message? "
+                 "Groups that apply to every reply always count. "
+                 f"Group entry: {g['name']}. {g['description']}"} for i, g in enumerate(GROUPS)}
     r = httpx.post(JEV_URL, timeout=120, headers={"Authorization": "Bearer proxy-injected"},
                    json={"model": "jev-latest", "state": {"user_message": query}, "questions": questions})
     r.raise_for_status()
