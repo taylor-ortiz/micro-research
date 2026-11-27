@@ -43,7 +43,7 @@ I built one synthetic user with 1,000 memories and wrote 263 questions, each bui
 - **Inject everything:** all 1,000 memories, every time.
 - **Similarity search:** the standard hybrid search most memory systems use. It combines keyword matching (BM25) with embeddings (OpenAI's text-embedding-3-small), uses the user's message as the query, and puts the top 10 in the prompt.
 - **Organized:** the same search, but run within the ontology. Rules always injected with search for the rest; search inside every topic group; or a model reads the ontology's group descriptions and picks which groups to search.
-- **Relevance judges:** a classifier model (Jev, from TypeSafe, which answers yes/no questions with a probability) picks the likely groups, then scores every memory in them on whether it would change the reply, and keeps the top few. I also tested Haiku doing the same picking.
+- **Relevance judges:** a classifier model (Jev, from TypeSafe, which answers yes/no questions with a probability) picks the likely groups, then scores every memory in them on whether it would change the reply, and keeps the top few. I also tested an LLM (Haiku) doing the same picking.
 
 I ran it on Haiku 5.5, with Sonnet 5.5 side by side, and controlled where the right memory sat in the list, since study 01 showed that matters.
 
@@ -55,7 +55,19 @@ My first plan had a hole. Some of the 1,000 background memories quietly answered
 
 The biggest surprise was the ontology. I expected three groups, one per memory type. It came out with 26.
 
-## 5. What happened
+## 5. What happened (draft)
+
+The model writing the reply was rarely the problem. Once the right memory made it into the prompt, Haiku and Sonnet used it almost every time. What failed was getting it there. Similarity search, the hybrid method described above, missed memories that matter without sharing words with the question, and allergies were the starkest case: the classifier got all 102 allergy trials right, while every search-based setup got 18–28.
+
+Organizing memories helped, but not enough. The best organized setup, which searched every topic group for every message, got 74% right, still well below full injection. Always including every rule fixed rule-following (33 of 33, against 12 for similarity search) but didn't help anything else. And giving the model more detail about each group didn't help at all.
+
+My first version of the classifier only picked the groups, then ran similarity search inside them. That reached 71% on Haiku and 75% on Sonnet, no better than the other organized setups. So I had the classifier do both: pick the likely groups, then judge each memory inside them. That's what closed the gap. On the same questions, it beat full injection on Haiku by 6 points and tied it on Sonnet. It also didn't care where the right memory sat in the list. Full injection did:
+
+![Injecting everything depends on where the memory sits. The classifier doesn't.](images/position.png)
+
+One question I didn't plan to highlight shows why. The user's rule was to sign off every reply with "Cheers." With full injection it was in the prompt, just in the middle, and Haiku ignored it. That's study 01 all over again.
+
+I also swapped the classifier for an LLM doing the same job: Haiku read the candidate memories and scored which ones mattered. It came close on accuracy, about the same on Haiku and 5–7 points behind on Sonnet. But it was 3–10 times slower and cost 2–3 times as much to pick, because an LLM has to write out its choices while the classifier just returns scores. All in, the classifier was the cheapest setup: $0.0017 per question against $0.0071 for full injection on Haiku, and $0.013 against $0.14 on Sonnet.
 
 ## 6. What I'd do with this
 
