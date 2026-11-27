@@ -55,7 +55,7 @@ My first plan had a hole. Some of the 1,000 background memories quietly answered
 
 The biggest surprise was the ontology. I expected three groups, one per memory type. It came out with 26.
 
-## 5. What happened (draft)
+## 5. What happened (locked)
 
 The model writing the reply was rarely the problem. Once the right memory made it into the prompt, Haiku and Sonnet used it almost every time. What failed was getting it there. Similarity search, the hybrid method described above, missed memories that matter without sharing words with the question, and allergies were the starkest case: the classifier got all 102 allergy trials right, while every search-based setup got 18–28.
 
