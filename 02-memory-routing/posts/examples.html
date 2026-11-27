@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><title>Questions and the memories that matter</title>
+<style>
+.viz-root{--surface:#ffffff;--card:#f6f6f4;--card-border:#e4e4e0;--mem:#eef4fc;--mem-border:#cfe0f5;--text:#191919;--muted:#666666;--good:#0aac23;--bad:#dc3c3d;
+ font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;color:var(--text);background:var(--surface);width:960px;padding:30px 32px 22px;box-sizing:border-box}
+h1{font-size:21px;font-weight:600;margin:0 0 6px}
+.sub{font-size:14px;color:var(--muted);margin:0 0 20px}
+.head,.row{display:grid;grid-template-columns:1fr 28px 1fr 190px;gap:0 12px;align-items:center}
+.head{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+.row{margin-bottom:14px}
+.card{border-radius:10px;padding:12px 14px;font-size:14.5px;line-height:1.4;border:1px solid var(--card-border);background:var(--card);min-height:44px;display:flex;align-items:center}
+.mem{background:var(--mem);border-color:var(--mem-border)}
+.kind{display:block;font-size:11px;color:var(--muted);margin-bottom:3px;text-transform:uppercase;letter-spacing:.05em}
+.arrow{color:#9c9c9c;font-size:20px;text-align:center}
+.ranks{font-size:13px;line-height:1.55}
+.ranks div{display:flex;gap:7px;align-items:baseline}
+.ic{font-weight:700;width:12px;display:inline-block}
+.bad .ic{color:var(--bad)}.good .ic{color:var(--good)}
+.ranks b{font-weight:600}
+.note{font-size:12px;color:var(--muted);margin-top:8px;line-height:1.45}
+body{margin:0;background:#fff}
+</style></head><body>
+<div class="viz-root" id="root">
+<h1>The memory that matters often looks nothing like the question</h1>
+<p class="sub">Four test questions, the memory each one depends on, and where that memory ranked out of 1,000</p>
+<div class="head"><div>User message</div><div></div><div>Memory it depends on</div><div>Where it ranked</div></div>
+
+<div class="row"><div class="card">Suggest three dishes I should order at a Thai restaurant for a first visit.</div><div class="arrow">→</div>
+<div class="card mem"><div><span class="kind">Fact</span>Has a serious peanut allergy and must avoid any food containing peanuts.</div></div>
+<div class="ranks"><div class="bad"><span class="ic">✕</span><span>Search: <b>#344</b></span></div><div class="good"><span class="ic">✓</span><span>Classifier: <b>#1</b> of 11 kept</span></div></div></div>
+
+<div class="row"><div class="card">Can you put together a simple 20-minute workout routine for me?</div><div class="arrow">→</div>
+<div class="card mem"><div><span class="kind">Fact</span>Has a bad left knee and cannot do jumping or deep squatting movements.</div></div>
+<div class="ranks"><div class="bad"><span class="ic">✕</span><span>Search: <b>#41</b></span></div><div class="good"><span class="ic">✓</span><span>Classifier: <b>#1</b> of 16 kept</span></div></div></div>
+
+<div class="row"><div class="card">What are some good ways to stay focused while studying?</div><div class="arrow">→</div>
+<div class="card mem"><div><span class="kind">Standing rule</span>Prefers every reply to end with the single closing word Cheers.</div></div>
+<div class="ranks"><div class="bad"><span class="ic">✕</span><span>Search: <b>#486</b></span></div><div class="good"><span class="ic">✓</span><span>Classifier: <b>#2</b> of 19 kept</span></div></div></div>
+
+<div class="row"><div class="card">Please write me a short toast for my sister's wedding reception.</div><div class="arrow">→</div>
+<div class="card mem"><div><span class="kind">Rule for a kind of task</span>Keeps any public speech under one minute and never includes jokes in speeches.</div></div>
+<div class="ranks"><div class="bad"><span class="ic">✕</span><span>Search: <b>#71</b></span></div><div class="good"><span class="ic">✓</span><span>Classifier: <b>#1</b> of 14 kept</span></div></div></div>
+
+<p class="note">Similarity search puts its top 10 in the prompt, so each of these memories was left out. ✕ / ✓: whether the memory reached the prompt. In all four, Haiku's reply followed the memory with the classifier and missed it with search. Held-out questions, Haiku 5.5, memory placed mid-list.</p>
+</div></body></html>
