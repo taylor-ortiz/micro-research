@@ -14,13 +14,13 @@ body{margin:0;background:#fff}
 </style></head>
 <body><div class="viz-root" id="root">
 <h1>Letting a classifier pick ~9 memories matched injecting all 1,000, at 2% of the tokens</h1>
-<p class="sub">How often the reply used the right memory, against the tokens the answering model reads per question</p>
+<p class="sub">How often the reply used the right memory, against the tokens the replying model reads per question</p>
 <div class="legend">
  <span><svg width="12" height="12"><circle cx="6" cy="6" r="5" fill="var(--series-1)"/></svg>Haiku 5.5</span>
  <span><svg width="12" height="12"><rect x="1" y="1" width="10" height="10" rx="2" fill="var(--series-2)"/></svg>Sonnet 5.5</span>
 </div>
 <svg id="chart" width="816" height="430" role="img" aria-label="Scatter plot of adherence against answer tokens per question for four memory selection setups on Haiku 5.5 and Sonnet 5.5"></svg>
-<p class="note">Haiku: 188 held-out questions at three positions. Sonnet: 99 of them, middle position. Tokens are what the answering model reads; the classifier (Jev) also reads about 26k tokens per question, for about $0.001.</p>
+<p class="note">Haiku: 188 held-out questions at three positions. Sonnet: 99 of them, middle position. Tokens are what the replying model reads; the classifier (Jev) also reads about 26k tokens per question, for about $0.001.</p>
 <div class="tip" id="tip"></div>
 </div>
 <script>
@@ -41,7 +41,7 @@ for(let v=50;v<=100;v+=10){el("line",{x1:m.l,x2:W-m.r,y1:Y(v),y2:Y(v),stroke:"va
 for(const [v,t] of [[1000,"1k"],[10000,"10k"],[100000,"100k"]]){el("line",{x1:X(v),x2:X(v),y1:H-m.b,y2:H-m.b+5,stroke:"var(--axis)"});
  el("text",{x:X(v),y:H-m.b+20,"text-anchor":"middle","font-size":12,fill:"var(--text-secondary)"},t)}
 el("line",{x1:m.l,x2:W-m.r,y1:H-m.b,y2:H-m.b,stroke:"var(--axis)"});
-el("text",{x:(m.l+W-m.r)/2,y:H-6,"text-anchor":"middle","font-size":12,fill:"var(--text-secondary)"},"Tokens the answering model reads per question (log scale)");
+el("text",{x:(m.l+W-m.r)/2,y:H-6,"text-anchor":"middle","font-size":12,fill:"var(--text-secondary)"},"Tokens the replying model reads per question (log scale)");
 const tip=document.getElementById("tip"),root=document.getElementById("root");root.style.position="relative";
 for(const d of data){
  el("line",{x1:X(d.h[0]),y1:Y(d.h[1]),x2:X(d.n[0]),y2:Y(d.n[1]),stroke:"var(--link)","stroke-width":2});

@@ -26,9 +26,9 @@ The types matter because they look different from the questions they apply to, a
 
 ## 2. What I found (locked)
 
-Using a fast classifier model to pick the memories that matter for each message worked as well as injecting all 1,000. It picked about 9 memories per question and got it right 93% of the time on Haiku and 94% on Sonnet, against 87% and 96% for full injection, with about 98% fewer tokens for the answering model. Plain similarity search, the usual way agents fetch memories, also puts about 10 memories in the prompt, but got it right only 60–63% of the time.
+Using a fast classifier model to pick the memories that matter for each message worked as well as injecting all 1,000. It picked about 9 memories per question and got it right 93% of the time on Haiku and 94% on Sonnet, against 87% and 96% for full injection, with about 98% fewer tokens for the model writing the reply. Plain similarity search, the usual way agents fetch memories, also puts about 10 memories in the prompt, but got it right only 60–63% of the time.
 
-![Accuracy vs. tokens the answering model reads](images/accuracy-vs-tokens.png)
+![Accuracy vs. tokens the replying model reads](images/accuracy-vs-tokens.png)
 
 ## 3. What I expected (locked)
 
