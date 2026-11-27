@@ -36,7 +36,24 @@ My original hypothesis was that it was better to organize memories than to searc
 
 Neither held up. The best organized setup came in about 15 points under full injection, and richer descriptions didn't help at all. Having a classifier judge each individual memory was a late addition after that first result set came in.
 
-## 4. How I tested it
+## 4. How I tested it (locked)
+
+I built one synthetic user with 1,000 memories and wrote 263 questions, each built around one known right memory with a pass check written beforehand. The Thai restaurant question above passes only if the reply steers clear of peanuts, because the user's memory says they have a serious peanut allergy. Every setup got the same message, the same prompt, the same memories and the same grading. The only thing that changed was how memories were picked:
+
+- **Inject everything:** all 1,000 memories, every time.
+- **Similarity search:** the standard hybrid search most memory systems use. It combines keyword matching (BM25) with embeddings (OpenAI's text-embedding-3-small), uses the user's message as the query, and puts the top 10 in the prompt.
+- **Organized:** the same search, but run within the ontology. Rules always injected with search for the rest; search inside every topic group; or a model reads the ontology's group descriptions and picks which groups to search.
+- **Relevance judges:** a classifier model (Jev, from TypeSafe, which answers yes/no questions with a probability) picks the likely groups, then scores every memory in them on whether it would change the reply, and keeps the top few. I also tested Haiku doing the same picking.
+
+I ran it on Haiku 5.5, with Sonnet 5.5 side by side, and controlled where the right memory sat in the list, since study 01 showed that matters.
+
+**Proving the memory did it.** A pass on its own doesn't prove much. Haiku might have skipped peanuts by chance. So every right memory has a twin that changes one detail. The Thai question's memory is "serious peanut allergy," and its twin is "serious shellfish allergy." I reran the questions with the twin swapped in and nothing else changed. If the memory is driving the answer, the reply should flip with it, and it did. With the peanut memory, Haiku told the user to "confirm that the kitchen doesn't add peanuts." With the shellfish memory, it said to "confirm that no shrimp paste or oyster sauce is used, given your shellfish allergy." Across all questions, when the twin reached the prompt, the reply followed it 92–96% of the time.
+
+The twins also shaped which questions made it in. A question was kept only if Haiku failed it with no memory, and followed the right memory, and separately its twin, every time it was given only that one. If Haiku already did the right thing by default, say it used metric anyway, I swapped the two, so passing always required reading the memory.
+
+My first plan had a hole. Some of the 1,000 background memories quietly answered questions on their own, so a pass didn't always trace back to the memory I planted. I checked every right memory against all 1,000 others and replaced 86 that contradicted one. I also found the store had no rules that apply to every reply, so I added 40. And I tuned settings on 75 questions and reported results only on the other 188, so the classifier never saw the test.
+
+The biggest surprise was the ontology. I expected three groups, one per memory type. It came out with 26.
 
 ## 5. What happened
 
