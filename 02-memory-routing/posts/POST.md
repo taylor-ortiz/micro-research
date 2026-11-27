@@ -4,6 +4,16 @@
 
 A recent study I published showed that for smaller models, where a memory sits in a list of memories decides whether the model finds it and applies it. With about 1,450 stored preferences, Claude Haiku 5.5 followed one listed first 98–99% of the time, and one in the middle 0% of the time. Larger models had no trouble. That led to the next question: when an agent answers a message, how should it choose which memories go into the prompt? Does organizing the memories help it find the right ones? And what does each approach cost in tokens, given that the obvious fix, injecting every memory, gets expensive fast?
 
+## Three kinds of memory (locked)
+
+Before the results, here are the kinds of memory I used. The test user had 1,000 of them.
+
+- **Semantic:** facts about the user. "Allergic to peanuts," "vegetarian." (600)
+- **Episodic:** past conversations that give context later. "On Sept 17 we drafted the grant proposal; the evaluation plan is still left." (250)
+- **Procedural:** how the agent should act. Some are standing rules that apply to every reply, like "use metric units." Others are the steps for a task, like which tool to try first when booking a hotel. (150)
+
+The types matter because they look different from the questions they apply to, and that turned out to decide everything.
+
 ## 2. What I found
 
 ## 3. What I expected
