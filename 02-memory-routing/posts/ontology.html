@@ -1,0 +1,34 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>How the memories were grouped</title><style>
+:root{--panel:#efeee8;--card:#fbfaf7;--line:#d6d4cc;--text:#1f1e1c;--muted:#6b6a65;--mem-fill:#cddff3;--mem-line:#4b7fbf}
+body{margin:0;background:#fff}
+.viz-root{width:1120px;box-sizing:border-box;padding:18px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;color:var(--text)}
+.panel{background:var(--panel);border-radius:14px;padding:34px 36px 30px}
+h1{font-size:30px;font-weight:700;text-align:center;margin:0 0 6px;letter-spacing:-.01em}
+.sub{text-align:center;color:var(--muted);font-size:16px;margin:0 0 26px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px 24px}
+.label{font-size:16px;margin:0 0 8px 4px;color:var(--text);font-weight:600}
+.kind{font-weight:400;color:var(--muted)}
+.card{background:var(--card);border:2px solid var(--line);border-radius:14px;padding:16px 16px 12px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{background:#fff;border:2px solid #3f3f3f;border-radius:999px;padding:4px 11px;font:13.5px/1.3 ui-monospace,"SF Mono",Menlo,Consolas,monospace}
+.chip em{font-style:normal;color:var(--muted);margin-left:3px}
+.chip.hi{background:var(--mem-fill);border-color:var(--mem-line)}
+.entrylabel{font-size:16px;margin:26px 0 8px 4px;font-weight:600}
+.entry{background:var(--mem-fill);border:2px dashed var(--mem-line);border-radius:14px;padding:18px 22px;display:grid;grid-template-columns:150px 1fr;gap:10px 18px;font-size:15px;line-height:1.45}
+.k{color:#2f5d93;font-weight:600;font-size:13px;text-transform:uppercase;letter-spacing:.05em;padding-top:2px}
+.v{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;font-size:14.5px}
+.v ul{margin:0;padding-left:18px}
+.filed{background:#fff;border:2px solid var(--mem-line);border-radius:10px;padding:6px 10px;display:inline-block}
+</style></head><body><div class="viz-root" id="root"><div class="panel">
+<h1>How the 1,000 memories were grouped</h1>
+<p class="sub">Opus proposed 26 topic groups under 4 types, without seeing the test questions. Haiku filed every memory into one.</p>
+<div class="grid"><div><p class="label">Facts <span class="kind">· semantic · 12 groups</span></p><div class="card"><div class="chips"><span class="chip hi">food and drink <em>66</em></span><span class="chip">home furnishings and decor <em>35</em></span><span class="chip">household chores and maintenance routines <em>47</em></span><span class="chip">gardening and plants <em>25</em></span><span class="chip">pets and animals <em>45</em></span><span class="chip">travel and transport <em>84</em></span><span class="chip">crafts, making and collecting hobbies <em>38</em></span><span class="chip">books, films, music and games <em>54</em></span><span class="chip">fitness, sports, health and sleep <em>54</em></span><span class="chip">work routines and scheduling habits <em>41</em></span><span class="chip">family, social life, gifts and celebrations <em>65</em></span><span class="chip">shopping and purchasing habits <em>45</em></span></div></div></div><div><p class="label">Past sessions <span class="kind">· episodic · 6 groups</span></p><div class="card"><div class="chips"><span class="chip">coding and software projects <em>71</em></span><span class="chip">study and exam preparation <em>41</em></span><span class="chip">home repairs and fixes <em>17</em></span><span class="chip">home planning and organization projects <em>40</em></span><span class="chip">writing and creative drafts <em>48</em></span><span class="chip">beginner hobby practice plans <em>33</em></span></div></div></div><div><p class="label">Style rules <span class="kind">· procedural · 5 groups</span></p><div class="card"><div class="chips"><span class="chip">wording, spelling and vocabulary <em>22</em></span><span class="chip">punctuation, formatting and structure <em>18</em></span><span class="chip">analogies and metaphors <em>26</em></span><span class="chip">example themes and programming languages <em>39</em></span><span class="chip">units, time frames and sources <em>8</em></span></div></div></div><div><p class="label">Task procedures <span class="kind">· procedural · 3 groups</span></p><div class="card"><div class="chips"><span class="chip">data logging, lookups and spreadsheets <em>14</em></span><span class="chip">documents and team communication <em>9</em></span><span class="chip">tickets, calendar and file storage <em>15</em></span></div></div></div></div>
+<p class="entrylabel">One group's entry, and a memory filed in it</p>
+<div class="entry">
+<div class="k">Group</div><div class="v">Facts: food and drink (66 memories)</div>
+<div class="k">Description</div><div class="v">The user&#x27;s food and drink tastes, dislikes, regular meals, snacks and favourite places to eat.</div>
+<div class="k">Applies when</div><div class="v">Consult when suggesting meals, recipes, restaurants, snacks or drinks, or when food comes up in planning.</div>
+<div class="k">Examples</div><div class="v"><ul><li>User usually orders a breakfast burrito from the corner food truck.</li><li>User likes ordering falafel wraps from the downtown street cart.</li><li>User usually brews cold brew coffee overnight in a glass jar.</li></ul></div>
+<div class="k">A memory in it</div><div class="v"><span class="filed">User has a serious peanut allergy and must avoid any food containing peanuts.</span></div>
+</div>
+</div></div></body></html>
