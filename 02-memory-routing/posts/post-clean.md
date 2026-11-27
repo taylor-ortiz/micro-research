@@ -1,6 +1,6 @@
-# Similarity search is breaking agent memory retrieval. Use a decision model instead.
+# How a Decision Model Hit 96% Agent Memory Retrieval Accuracy with 98% Fewer Tokens
 
-*A fast decision model picking about 9 memories per message matched injecting all 1,000, with 98% fewer tokens for the model writing the reply.*
+*Similarity search got the right memory into the prompt only 60% of the time. Here's what worked instead, and what it cost.*
 
 ## Why I looked at this
 
