@@ -36,6 +36,12 @@ My original hypothesis was that it was better to organize memories than to searc
 
 Neither held up. The best organized setup came in about 15 points under full injection, and richer descriptions didn't help at all. Having a classifier judge each individual memory was a late addition after that first result set came in.
 
+## How I grouped the memories (locked)
+
+I didn't build the groups by hand. Opus read the whole store, without seeing any test questions, and proposed 26 topic groups under 4 types. Procedural memory split into two: style rules for how replies are written, and task procedures for which tools to use. Each group got a name, a description, when it applies and a few examples. Then Haiku filed every memory into one group, including the ones the questions depend on. The peanut allergy landed in "Facts: food and drink."
+
+![How the 1,000 memories were grouped: 26 topic groups under 4 types, and one group's full entry](images/ontology.png)
+
 ## 4. How I tested it (locked)
 
 I built one synthetic user with 1,000 memories and wrote 263 questions, each built around one known right memory with a pass check written beforehand. The Thai restaurant question above passes only if the reply steers clear of peanuts, because the user's memory says they have a serious peanut allergy. Every setup got the same message, the same prompt, the same memories and the same grading. The only thing that changed was how memories were picked:
@@ -69,7 +75,13 @@ One question I didn't plan to highlight shows why. The user's rule was to sign o
 
 I also swapped the classifier for an LLM doing the same job: Haiku read the candidate memories and scored which ones mattered. It came close on accuracy, about the same on Haiku and 5–7 points behind on Sonnet. But it was 3–10 times slower and cost 2–3 times as much to pick, because an LLM has to write out its choices while the classifier just returns scores. All in, the classifier was also far cheaper than full injection: $0.0017 per question against $0.0071 for full injection on Haiku, and $0.013 against $0.14 on Sonnet.
 
-## 6. What I'd do with this
+## 6. What I'd do with this (locked)
+
+If I were building an agent tomorrow, I'd put a relevance judge between the memory store and the prompt. Instead of asking "which memories look like this message?", ask "would this memory change the reply?" A fast classifier is enough for that job, and it's cheap.
+
+I'd still organize memories into topic groups, but for a different reason than I started with. The groups don't help the model find the right memory; the classifier does that. They keep the classifier's work bounded. Full injection hits a hard wall once memory outgrows the context window. A classifier judges each memory on its own, so it keeps working at any size, but its cost grows with every memory you add. Filtering by group first keeps that in check.
+
+This matters most if you run a smaller model on every message, if your users have memories that matter without resembling their requests (allergies, standing rules, constraints), or if you're heading toward account-level memory. If you're on a larger model with a small memory store, injecting everything works fine. You'll just pay about ten times as much.
 
 ## 7. What I can't claim yet
 
