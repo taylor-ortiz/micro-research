@@ -67,7 +67,7 @@ My first version of the classifier only picked the groups, then ran similarity s
 
 One question I didn't plan to highlight shows why. The user's rule was to sign off every reply with "Cheers." With full injection it was in the prompt, just in the middle, and Haiku ignored it. That's study 01 all over again.
 
-I also swapped the classifier for an LLM doing the same job: Haiku read the candidate memories and scored which ones mattered. It came close on accuracy, about the same on Haiku and 5–7 points behind on Sonnet. But it was 3–10 times slower and cost 2–3 times as much to pick, because an LLM has to write out its choices while the classifier just returns scores. All in, the classifier was the cheapest setup: $0.0017 per question against $0.0071 for full injection on Haiku, and $0.013 against $0.14 on Sonnet.
+I also swapped the classifier for an LLM doing the same job: Haiku read the candidate memories and scored which ones mattered. It came close on accuracy, about the same on Haiku and 5–7 points behind on Sonnet. But it was 3–10 times slower and cost 2–3 times as much to pick, because an LLM has to write out its choices while the classifier just returns scores. All in, the classifier was also far cheaper than full injection: $0.0017 per question against $0.0071 for full injection on Haiku, and $0.013 against $0.14 on Sonnet.
 
 ## 6. What I'd do with this
 
