@@ -26,7 +26,11 @@ Using a fast classifier model to pick the memories that matter for each message 
 
 ![Accuracy vs. tokens the answering model reads](images/accuracy-vs-tokens.png)
 
-## 3. What I expected
+## 3. What I expected (locked)
+
+My original hypothesis was that it was better to organize memories than to search them all together. Standing rules like "use metric units" apply to every reply but share no words with any question, so I figured plain search would miss them. My theory was a memory ontology: sort every memory into topic groups, give each group a name, a description, when it applies and a few examples, and let the model read that like a table of contents to decide which groups to search. I assumed the more detail each group had, the better the model would choose.
+
+Neither held up. The best organized setup came in about 15 points under full injection, and richer descriptions didn't help at all. Having a classifier judge each individual memory was a late addition after that first result set came in.
 
 ## 4. How I tested it
 
@@ -35,3 +39,11 @@ Using a fast classifier model to pick the memories that matter for each message 
 ## 6. What I'd do with this
 
 ## 7. What I can't claim yet
+
+---
+
+## Notes for later sections (not part of the post)
+
+- Section 6/7: full injection hits a hard wall at the context window. The classifier judges each memory independently, so the store can be split across calls; its cost grows with the store. Filtering by category first keeps that bounded. In this study the 0.1 group cutoff kept ~530 of 1,000 memories on average (range 253–949), so finer groups (a growing ontology that splits as it fills) are needed to really bound it.
+- Section 7: isolation means the classifier can't spot conflicting or duplicate memories; the test store was screened for conflicts.
+- Section 7: untested: classifier with no group step; richer group entries for the classifier; group context when judging a memory.
