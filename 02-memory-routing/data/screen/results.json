@@ -1,0 +1,2095 @@
+{
+ "kept": {
+  "allergy": [
+   53,
+   55
+  ],
+  "fact": [
+   38,
+   40
+  ],
+  "past_session": [
+   39,
+   40
+  ],
+  "style_rule": [
+   16,
+   20
+  ],
+  "task_procedure": [
+   26,
+   70
+  ],
+  "unclear_type": [
+   61,
+   70
+  ]
+ },
+ "items": {
+  "allergy:0": {
+   "kind": "allergy",
+   "idx": 0,
+   "gold_rate": 1.0,
+   "twin_rate": 0.6,
+   "keep": true
+  },
+  "allergy:1": {
+   "kind": "allergy",
+   "idx": 1,
+   "gold_rate": 1.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "allergy:2": {
+   "kind": "allergy",
+   "idx": 2,
+   "gold_rate": 1.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "allergy:3": {
+   "kind": "allergy",
+   "idx": 3,
+   "gold_rate": 1.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "allergy:4": {
+   "kind": "allergy",
+   "idx": 4,
+   "gold_rate": 1.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "allergy:5": {
+   "kind": "allergy",
+   "idx": 5,
+   "gold_rate": 1.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "allergy:6": {
+   "kind": "allergy",
+   "idx": 6,
+   "gold_rate": 1.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "allergy:7": {
+   "kind": "allergy",
+   "idx": 7,
+   "gold_rate": 1.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "allergy:8": {
+   "kind": "allergy",
+   "idx": 8,
+   "gold_rate": 1.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "allergy:9": {
+   "kind": "allergy",
+   "idx": 9,
+   "gold_rate": 1.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "allergy:10": {
+   "kind": "allergy",
+   "idx": 10,
+   "gold_rate": 1.0,
+   "twin_rate": 0.8,
+   "keep": true
+  },
+  "allergy:11": {
+   "kind": "allergy",
+   "idx": 11,
+   "gold_rate": 1.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "allergy:12": {
+   "kind": "allergy",
+   "idx": 12,
+   "gold_rate": 1.0,
+   "twin_rate": 0.4,
+   "keep": true
+  },
+  "allergy:13": {
+   "kind": "allergy",
+   "idx": 13,
+   "gold_rate": 1.0,
+   "twin_rate": 0.4,
+   "keep": true
+  },
+  "allergy:14": {
+   "kind": "allergy",
+   "idx": 14,
+   "gold_rate": 1.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "allergy:15": {
+   "kind": "allergy",
+   "idx": 15,
+   "gold_rate": 1.0,
+   "twin_rate": 0.0,
+   "keep": true
+  },
+  "allergy:16": {
+   "kind": "allergy",
+   "idx": 16,
+   "gold_rate": 1.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "allergy:17": {
+   "kind": "allergy",
+   "idx": 17,
+   "gold_rate": 1.0,
+   "twin_rate": 0.4,
+   "keep": true
+  },
+  "allergy:18": {
+   "kind": "allergy",
+   "idx": 18,
+   "gold_rate": 1.0,
+   "twin_rate": 0.6,
+   "keep": true
+  },
+  "allergy:19": {
+   "kind": "allergy",
+   "idx": 19,
+   "gold_rate": 1.0,
+   "twin_rate": 0.0,
+   "keep": true
+  },
+  "allergy:20": {
+   "kind": "allergy",
+   "idx": 20,
+   "gold_rate": 1.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "allergy:21": {
+   "kind": "allergy",
+   "idx": 21,
+   "gold_rate": 1.0,
+   "twin_rate": 0.0,
+   "keep": true
+  },
+  "allergy:22": {
+   "kind": "allergy",
+   "idx": 22,
+   "gold_rate": 1.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "allergy:23": {
+   "kind": "allergy",
+   "idx": 23,
+   "gold_rate": 1.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "allergy:24": {
+   "kind": "allergy",
+   "idx": 24,
+   "gold_rate": 1.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "allergy:25": {
+   "kind": "allergy",
+   "idx": 25,
+   "gold_rate": 1.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "allergy:26": {
+   "kind": "allergy",
+   "idx": 26,
+   "gold_rate": 1.0,
+   "twin_rate": 0.2,
+   "keep": true
+  },
+  "allergy:27": {
+   "kind": "allergy",
+   "idx": 27,
+   "gold_rate": 1.0,
+   "twin_rate": 0.0,
+   "keep": true
+  },
+  "allergy:28": {
+   "kind": "allergy",
+   "idx": 28,
+   "gold_rate": 1.0,
+   "twin_rate": 0.0,
+   "keep": true
+  },
+  "allergy:29": {
+   "kind": "allergy",
+   "idx": 29,
+   "gold_rate": 1.0,
+   "twin_rate": 0.6,
+   "keep": true
+  },
+  "allergy:30": {
+   "kind": "allergy",
+   "idx": 30,
+   "gold_rate": 0.8,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "allergy:31": {
+   "kind": "allergy",
+   "idx": 31,
+   "gold_rate": 1.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "allergy:32": {
+   "kind": "allergy",
+   "idx": 32,
+   "gold_rate": 0.8,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "allergy:33": {
+   "kind": "allergy",
+   "idx": 33,
+   "gold_rate": 1.0,
+   "twin_rate": 0.0,
+   "keep": true
+  },
+  "allergy:34": {
+   "kind": "allergy",
+   "idx": 34,
+   "gold_rate": 1.0,
+   "twin_rate": 0.0,
+   "keep": true
+  },
+  "allergy:35": {
+   "kind": "allergy",
+   "idx": 35,
+   "gold_rate": 1.0,
+   "twin_rate": 0.2,
+   "keep": true
+  },
+  "allergy:36": {
+   "kind": "allergy",
+   "idx": 36,
+   "gold_rate": 1.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "allergy:37": {
+   "kind": "allergy",
+   "idx": 37,
+   "gold_rate": 0.8,
+   "twin_rate": 0.4,
+   "keep": true
+  },
+  "allergy:38": {
+   "kind": "allergy",
+   "idx": 38,
+   "gold_rate": 1.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "allergy:39": {
+   "kind": "allergy",
+   "idx": 39,
+   "gold_rate": 1.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "allergy:40": {
+   "kind": "allergy",
+   "idx": 40,
+   "gold_rate": 1.0,
+   "twin_rate": 0.0,
+   "keep": true
+  },
+  "allergy:41": {
+   "kind": "allergy",
+   "idx": 41,
+   "gold_rate": 1.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "allergy:42": {
+   "kind": "allergy",
+   "idx": 42,
+   "gold_rate": 0.2,
+   "twin_rate": 0.0,
+   "keep": false
+  },
+  "allergy:43": {
+   "kind": "allergy",
+   "idx": 43,
+   "gold_rate": 1.0,
+   "twin_rate": 0.0,
+   "keep": true
+  },
+  "allergy:44": {
+   "kind": "allergy",
+   "idx": 44,
+   "gold_rate": 1.0,
+   "twin_rate": 0.2,
+   "keep": true
+  },
+  "allergy:45": {
+   "kind": "allergy",
+   "idx": 45,
+   "gold_rate": 1.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "allergy:46": {
+   "kind": "allergy",
+   "idx": 46,
+   "gold_rate": 1.0,
+   "twin_rate": 0.2,
+   "keep": true
+  },
+  "allergy:47": {
+   "kind": "allergy",
+   "idx": 47,
+   "gold_rate": 1.0,
+   "twin_rate": 0.0,
+   "keep": true
+  },
+  "allergy:48": {
+   "kind": "allergy",
+   "idx": 48,
+   "gold_rate": 1.0,
+   "twin_rate": 0.8,
+   "keep": true
+  },
+  "allergy:49": {
+   "kind": "allergy",
+   "idx": 49,
+   "gold_rate": 1.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "allergy:50": {
+   "kind": "allergy",
+   "idx": 50,
+   "gold_rate": 1.0,
+   "twin_rate": 0.0,
+   "keep": true
+  },
+  "allergy:51": {
+   "kind": "allergy",
+   "idx": 51,
+   "gold_rate": 1.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "allergy:52": {
+   "kind": "allergy",
+   "idx": 52,
+   "gold_rate": 1.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "allergy:53": {
+   "kind": "allergy",
+   "idx": 53,
+   "gold_rate": 0.0,
+   "twin_rate": 0.0,
+   "keep": false
+  },
+  "allergy:54": {
+   "kind": "allergy",
+   "idx": 54,
+   "gold_rate": 1.0,
+   "twin_rate": 0.0,
+   "keep": true
+  },
+  "fact:0": {
+   "kind": "fact",
+   "idx": 0,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "fact:1": {
+   "kind": "fact",
+   "idx": 1,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "fact:2": {
+   "kind": "fact",
+   "idx": 2,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "fact:3": {
+   "kind": "fact",
+   "idx": 3,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "fact:4": {
+   "kind": "fact",
+   "idx": 4,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "fact:5": {
+   "kind": "fact",
+   "idx": 5,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "fact:6": {
+   "kind": "fact",
+   "idx": 6,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "fact:7": {
+   "kind": "fact",
+   "idx": 7,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "fact:8": {
+   "kind": "fact",
+   "idx": 8,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "fact:9": {
+   "kind": "fact",
+   "idx": 9,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "fact:10": {
+   "kind": "fact",
+   "idx": 10,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "fact:11": {
+   "kind": "fact",
+   "idx": 11,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "fact:12": {
+   "kind": "fact",
+   "idx": 12,
+   "gold_rate": 0.6666666666666666,
+   "twin_rate": null,
+   "keep": false
+  },
+  "fact:13": {
+   "kind": "fact",
+   "idx": 13,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "fact:14": {
+   "kind": "fact",
+   "idx": 14,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "fact:15": {
+   "kind": "fact",
+   "idx": 15,
+   "gold_rate": 0.3333333333333333,
+   "twin_rate": null,
+   "keep": true
+  },
+  "fact:16": {
+   "kind": "fact",
+   "idx": 16,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "fact:17": {
+   "kind": "fact",
+   "idx": 17,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "fact:18": {
+   "kind": "fact",
+   "idx": 18,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "fact:19": {
+   "kind": "fact",
+   "idx": 19,
+   "gold_rate": 0.3333333333333333,
+   "twin_rate": null,
+   "keep": true
+  },
+  "fact:20": {
+   "kind": "fact",
+   "idx": 20,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "fact:21": {
+   "kind": "fact",
+   "idx": 21,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "fact:22": {
+   "kind": "fact",
+   "idx": 22,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "fact:23": {
+   "kind": "fact",
+   "idx": 23,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "fact:24": {
+   "kind": "fact",
+   "idx": 24,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "fact:25": {
+   "kind": "fact",
+   "idx": 25,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "fact:26": {
+   "kind": "fact",
+   "idx": 26,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "fact:27": {
+   "kind": "fact",
+   "idx": 27,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "fact:28": {
+   "kind": "fact",
+   "idx": 28,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "fact:29": {
+   "kind": "fact",
+   "idx": 29,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "fact:30": {
+   "kind": "fact",
+   "idx": 30,
+   "gold_rate": 0.3333333333333333,
+   "twin_rate": null,
+   "keep": true
+  },
+  "fact:31": {
+   "kind": "fact",
+   "idx": 31,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "fact:32": {
+   "kind": "fact",
+   "idx": 32,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "fact:33": {
+   "kind": "fact",
+   "idx": 33,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "fact:34": {
+   "kind": "fact",
+   "idx": 34,
+   "gold_rate": 1.0,
+   "twin_rate": null,
+   "keep": false
+  },
+  "fact:35": {
+   "kind": "fact",
+   "idx": 35,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "fact:36": {
+   "kind": "fact",
+   "idx": 36,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "fact:37": {
+   "kind": "fact",
+   "idx": 37,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "fact:38": {
+   "kind": "fact",
+   "idx": 38,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "fact:39": {
+   "kind": "fact",
+   "idx": 39,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "past_session:0": {
+   "kind": "past_session",
+   "idx": 0,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "past_session:1": {
+   "kind": "past_session",
+   "idx": 1,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "past_session:2": {
+   "kind": "past_session",
+   "idx": 2,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "past_session:3": {
+   "kind": "past_session",
+   "idx": 3,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "past_session:4": {
+   "kind": "past_session",
+   "idx": 4,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "past_session:5": {
+   "kind": "past_session",
+   "idx": 5,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "past_session:6": {
+   "kind": "past_session",
+   "idx": 6,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "past_session:7": {
+   "kind": "past_session",
+   "idx": 7,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "past_session:8": {
+   "kind": "past_session",
+   "idx": 8,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "past_session:9": {
+   "kind": "past_session",
+   "idx": 9,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "past_session:10": {
+   "kind": "past_session",
+   "idx": 10,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "past_session:11": {
+   "kind": "past_session",
+   "idx": 11,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "past_session:12": {
+   "kind": "past_session",
+   "idx": 12,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "past_session:13": {
+   "kind": "past_session",
+   "idx": 13,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "past_session:14": {
+   "kind": "past_session",
+   "idx": 14,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "past_session:15": {
+   "kind": "past_session",
+   "idx": 15,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "past_session:16": {
+   "kind": "past_session",
+   "idx": 16,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "past_session:17": {
+   "kind": "past_session",
+   "idx": 17,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "past_session:18": {
+   "kind": "past_session",
+   "idx": 18,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "past_session:19": {
+   "kind": "past_session",
+   "idx": 19,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "past_session:20": {
+   "kind": "past_session",
+   "idx": 20,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "past_session:21": {
+   "kind": "past_session",
+   "idx": 21,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "past_session:22": {
+   "kind": "past_session",
+   "idx": 22,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "past_session:23": {
+   "kind": "past_session",
+   "idx": 23,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "past_session:24": {
+   "kind": "past_session",
+   "idx": 24,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "past_session:25": {
+   "kind": "past_session",
+   "idx": 25,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "past_session:26": {
+   "kind": "past_session",
+   "idx": 26,
+   "gold_rate": 0.6666666666666666,
+   "twin_rate": null,
+   "keep": false
+  },
+  "past_session:27": {
+   "kind": "past_session",
+   "idx": 27,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "past_session:28": {
+   "kind": "past_session",
+   "idx": 28,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "past_session:29": {
+   "kind": "past_session",
+   "idx": 29,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "past_session:30": {
+   "kind": "past_session",
+   "idx": 30,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "past_session:31": {
+   "kind": "past_session",
+   "idx": 31,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "past_session:32": {
+   "kind": "past_session",
+   "idx": 32,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "past_session:33": {
+   "kind": "past_session",
+   "idx": 33,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "past_session:34": {
+   "kind": "past_session",
+   "idx": 34,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "past_session:35": {
+   "kind": "past_session",
+   "idx": 35,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "past_session:36": {
+   "kind": "past_session",
+   "idx": 36,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "past_session:37": {
+   "kind": "past_session",
+   "idx": 37,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "past_session:38": {
+   "kind": "past_session",
+   "idx": 38,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "past_session:39": {
+   "kind": "past_session",
+   "idx": 39,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "style_rule:0": {
+   "kind": "style_rule",
+   "idx": 0,
+   "gold_rate": 0.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "style_rule:1": {
+   "kind": "style_rule",
+   "idx": 1,
+   "gold_rate": 0.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "style_rule:2": {
+   "kind": "style_rule",
+   "idx": 2,
+   "gold_rate": 1.0,
+   "twin_rate": 0.0,
+   "keep": false
+  },
+  "style_rule:3": {
+   "kind": "style_rule",
+   "idx": 3,
+   "gold_rate": 0.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "style_rule:4": {
+   "kind": "style_rule",
+   "idx": 4,
+   "gold_rate": 0.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "style_rule:5": {
+   "kind": "style_rule",
+   "idx": 5,
+   "gold_rate": 0.0,
+   "twin_rate": 0.0,
+   "keep": true
+  },
+  "style_rule:6": {
+   "kind": "style_rule",
+   "idx": 6,
+   "gold_rate": 0.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "style_rule:7": {
+   "kind": "style_rule",
+   "idx": 7,
+   "gold_rate": 1.0,
+   "twin_rate": 0.0,
+   "keep": false
+  },
+  "style_rule:8": {
+   "kind": "style_rule",
+   "idx": 8,
+   "gold_rate": 0.8,
+   "twin_rate": 0.0,
+   "keep": false
+  },
+  "style_rule:9": {
+   "kind": "style_rule",
+   "idx": 9,
+   "gold_rate": 0.4,
+   "twin_rate": 0.0,
+   "keep": false
+  },
+  "style_rule:10": {
+   "kind": "style_rule",
+   "idx": 10,
+   "gold_rate": 0.0,
+   "twin_rate": 0.0,
+   "keep": true
+  },
+  "style_rule:11": {
+   "kind": "style_rule",
+   "idx": 11,
+   "gold_rate": 0.0,
+   "twin_rate": 0.0,
+   "keep": true
+  },
+  "style_rule:12": {
+   "kind": "style_rule",
+   "idx": 12,
+   "gold_rate": 0.0,
+   "twin_rate": 0.0,
+   "keep": true
+  },
+  "style_rule:13": {
+   "kind": "style_rule",
+   "idx": 13,
+   "gold_rate": 0.0,
+   "twin_rate": 0.0,
+   "keep": true
+  },
+  "style_rule:14": {
+   "kind": "style_rule",
+   "idx": 14,
+   "gold_rate": 0.0,
+   "twin_rate": 0.0,
+   "keep": true
+  },
+  "style_rule:15": {
+   "kind": "style_rule",
+   "idx": 15,
+   "gold_rate": 0.0,
+   "twin_rate": 0.0,
+   "keep": true
+  },
+  "style_rule:16": {
+   "kind": "style_rule",
+   "idx": 16,
+   "gold_rate": 0.0,
+   "twin_rate": 0.0,
+   "keep": true
+  },
+  "style_rule:17": {
+   "kind": "style_rule",
+   "idx": 17,
+   "gold_rate": 0.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "style_rule:18": {
+   "kind": "style_rule",
+   "idx": 18,
+   "gold_rate": 0.0,
+   "twin_rate": 0.0,
+   "keep": true
+  },
+  "style_rule:19": {
+   "kind": "style_rule",
+   "idx": 19,
+   "gold_rate": 0.0,
+   "twin_rate": 0.0,
+   "keep": true
+  },
+  "task_procedure:0": {
+   "kind": "task_procedure",
+   "idx": 0,
+   "gold_rate": 0.4,
+   "twin_rate": 0.6,
+   "keep": false
+  },
+  "task_procedure:1": {
+   "kind": "task_procedure",
+   "idx": 1,
+   "gold_rate": 0.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "task_procedure:2": {
+   "kind": "task_procedure",
+   "idx": 2,
+   "gold_rate": 1.0,
+   "twin_rate": 0.0,
+   "keep": false
+  },
+  "task_procedure:3": {
+   "kind": "task_procedure",
+   "idx": 3,
+   "gold_rate": 0.0,
+   "twin_rate": 0.0,
+   "keep": true
+  },
+  "task_procedure:4": {
+   "kind": "task_procedure",
+   "idx": 4,
+   "gold_rate": 0.4,
+   "twin_rate": 0.6,
+   "keep": false
+  },
+  "task_procedure:5": {
+   "kind": "task_procedure",
+   "idx": 5,
+   "gold_rate": 1.0,
+   "twin_rate": 0.0,
+   "keep": false
+  },
+  "task_procedure:6": {
+   "kind": "task_procedure",
+   "idx": 6,
+   "gold_rate": 1.0,
+   "twin_rate": 0.0,
+   "keep": false
+  },
+  "task_procedure:7": {
+   "kind": "task_procedure",
+   "idx": 7,
+   "gold_rate": 1.0,
+   "twin_rate": 0.0,
+   "keep": false
+  },
+  "task_procedure:8": {
+   "kind": "task_procedure",
+   "idx": 8,
+   "gold_rate": 1.0,
+   "twin_rate": 0.0,
+   "keep": false
+  },
+  "task_procedure:9": {
+   "kind": "task_procedure",
+   "idx": 9,
+   "gold_rate": 1.0,
+   "twin_rate": 0.0,
+   "keep": false
+  },
+  "task_procedure:10": {
+   "kind": "task_procedure",
+   "idx": 10,
+   "gold_rate": 1.0,
+   "twin_rate": 0.0,
+   "keep": false
+  },
+  "task_procedure:11": {
+   "kind": "task_procedure",
+   "idx": 11,
+   "gold_rate": 1.0,
+   "twin_rate": 0.0,
+   "keep": false
+  },
+  "task_procedure:12": {
+   "kind": "task_procedure",
+   "idx": 12,
+   "gold_rate": 1.0,
+   "twin_rate": 0.0,
+   "keep": false
+  },
+  "task_procedure:13": {
+   "kind": "task_procedure",
+   "idx": 13,
+   "gold_rate": 0.4,
+   "twin_rate": 0.6,
+   "keep": false
+  },
+  "task_procedure:14": {
+   "kind": "task_procedure",
+   "idx": 14,
+   "gold_rate": 0.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "task_procedure:15": {
+   "kind": "task_procedure",
+   "idx": 15,
+   "gold_rate": 1.0,
+   "twin_rate": 0.0,
+   "keep": false
+  },
+  "task_procedure:16": {
+   "kind": "task_procedure",
+   "idx": 16,
+   "gold_rate": 0.6,
+   "twin_rate": 0.4,
+   "keep": false
+  },
+  "task_procedure:17": {
+   "kind": "task_procedure",
+   "idx": 17,
+   "gold_rate": 1.0,
+   "twin_rate": 0.0,
+   "keep": false
+  },
+  "task_procedure:18": {
+   "kind": "task_procedure",
+   "idx": 18,
+   "gold_rate": 0.0,
+   "twin_rate": 0.4,
+   "keep": true
+  },
+  "task_procedure:19": {
+   "kind": "task_procedure",
+   "idx": 19,
+   "gold_rate": 1.0,
+   "twin_rate": 0.0,
+   "keep": false
+  },
+  "task_procedure:20": {
+   "kind": "task_procedure",
+   "idx": 20,
+   "gold_rate": 1.0,
+   "twin_rate": 0.0,
+   "keep": false
+  },
+  "task_procedure:21": {
+   "kind": "task_procedure",
+   "idx": 21,
+   "gold_rate": 1.0,
+   "twin_rate": 0.0,
+   "keep": false
+  },
+  "task_procedure:22": {
+   "kind": "task_procedure",
+   "idx": 22,
+   "gold_rate": 1.0,
+   "twin_rate": 0.0,
+   "keep": false
+  },
+  "task_procedure:23": {
+   "kind": "task_procedure",
+   "idx": 23,
+   "gold_rate": 0.0,
+   "twin_rate": 0.0,
+   "keep": true
+  },
+  "task_procedure:24": {
+   "kind": "task_procedure",
+   "idx": 24,
+   "gold_rate": 0.0,
+   "twin_rate": 0.0,
+   "keep": true
+  },
+  "task_procedure:25": {
+   "kind": "task_procedure",
+   "idx": 25,
+   "gold_rate": 1.0,
+   "twin_rate": 0.0,
+   "keep": false
+  },
+  "task_procedure:26": {
+   "kind": "task_procedure",
+   "idx": 26,
+   "gold_rate": 1.0,
+   "twin_rate": 0.0,
+   "keep": false
+  },
+  "task_procedure:27": {
+   "kind": "task_procedure",
+   "idx": 27,
+   "gold_rate": 0.4,
+   "twin_rate": 0.6,
+   "keep": false
+  },
+  "task_procedure:28": {
+   "kind": "task_procedure",
+   "idx": 28,
+   "gold_rate": 0.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "task_procedure:29": {
+   "kind": "task_procedure",
+   "idx": 29,
+   "gold_rate": 0.8,
+   "twin_rate": 0.2,
+   "keep": false
+  },
+  "task_procedure:30": {
+   "kind": "task_procedure",
+   "idx": 30,
+   "gold_rate": 0.0,
+   "twin_rate": 0.0,
+   "keep": true
+  },
+  "task_procedure:31": {
+   "kind": "task_procedure",
+   "idx": 31,
+   "gold_rate": 0.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "task_procedure:32": {
+   "kind": "task_procedure",
+   "idx": 32,
+   "gold_rate": 1.0,
+   "twin_rate": 0.0,
+   "keep": false
+  },
+  "task_procedure:33": {
+   "kind": "task_procedure",
+   "idx": 33,
+   "gold_rate": 1.0,
+   "twin_rate": 0.0,
+   "keep": false
+  },
+  "task_procedure:34": {
+   "kind": "task_procedure",
+   "idx": 34,
+   "gold_rate": 1.0,
+   "twin_rate": 0.0,
+   "keep": false
+  },
+  "task_procedure:35": {
+   "kind": "task_procedure",
+   "idx": 35,
+   "gold_rate": 0.6,
+   "twin_rate": 0.0,
+   "keep": false
+  },
+  "task_procedure:36": {
+   "kind": "task_procedure",
+   "idx": 36,
+   "gold_rate": 1.0,
+   "twin_rate": 0.0,
+   "keep": false
+  },
+  "task_procedure:37": {
+   "kind": "task_procedure",
+   "idx": 37,
+   "gold_rate": 0.8,
+   "twin_rate": 0.2,
+   "keep": false
+  },
+  "task_procedure:38": {
+   "kind": "task_procedure",
+   "idx": 38,
+   "gold_rate": 0.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "task_procedure:39": {
+   "kind": "task_procedure",
+   "idx": 39,
+   "gold_rate": 0.0,
+   "twin_rate": 0.0,
+   "keep": true
+  },
+  "task_procedure:40": {
+   "kind": "task_procedure",
+   "idx": 40,
+   "gold_rate": 0.0,
+   "twin_rate": 0.0,
+   "keep": true
+  },
+  "task_procedure:41": {
+   "kind": "task_procedure",
+   "idx": 41,
+   "gold_rate": 1.0,
+   "twin_rate": 0.0,
+   "keep": false
+  },
+  "task_procedure:42": {
+   "kind": "task_procedure",
+   "idx": 42,
+   "gold_rate": 1.0,
+   "twin_rate": 0.0,
+   "keep": false
+  },
+  "task_procedure:43": {
+   "kind": "task_procedure",
+   "idx": 43,
+   "gold_rate": 0.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "task_procedure:44": {
+   "kind": "task_procedure",
+   "idx": 44,
+   "gold_rate": 0.4,
+   "twin_rate": 0.6,
+   "keep": false
+  },
+  "task_procedure:45": {
+   "kind": "task_procedure",
+   "idx": 45,
+   "gold_rate": 0.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "task_procedure:46": {
+   "kind": "task_procedure",
+   "idx": 46,
+   "gold_rate": 0.0,
+   "twin_rate": 0.0,
+   "keep": true
+  },
+  "task_procedure:47": {
+   "kind": "task_procedure",
+   "idx": 47,
+   "gold_rate": 1.0,
+   "twin_rate": 0.0,
+   "keep": false
+  },
+  "task_procedure:48": {
+   "kind": "task_procedure",
+   "idx": 48,
+   "gold_rate": 0.0,
+   "twin_rate": 0.0,
+   "keep": true
+  },
+  "task_procedure:49": {
+   "kind": "task_procedure",
+   "idx": 49,
+   "gold_rate": 0.8,
+   "twin_rate": 0.2,
+   "keep": false
+  },
+  "task_procedure:50": {
+   "kind": "task_procedure",
+   "idx": 50,
+   "gold_rate": 0.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "task_procedure:51": {
+   "kind": "task_procedure",
+   "idx": 51,
+   "gold_rate": 1.0,
+   "twin_rate": 0.0,
+   "keep": false
+  },
+  "task_procedure:52": {
+   "kind": "task_procedure",
+   "idx": 52,
+   "gold_rate": 0.2,
+   "twin_rate": 0.8,
+   "keep": true
+  },
+  "task_procedure:53": {
+   "kind": "task_procedure",
+   "idx": 53,
+   "gold_rate": 0.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "task_procedure:54": {
+   "kind": "task_procedure",
+   "idx": 54,
+   "gold_rate": 0.6,
+   "twin_rate": 0.4,
+   "keep": false
+  },
+  "task_procedure:55": {
+   "kind": "task_procedure",
+   "idx": 55,
+   "gold_rate": 0.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "task_procedure:56": {
+   "kind": "task_procedure",
+   "idx": 56,
+   "gold_rate": 0.0,
+   "twin_rate": 0.0,
+   "keep": true
+  },
+  "task_procedure:57": {
+   "kind": "task_procedure",
+   "idx": 57,
+   "gold_rate": 0.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "task_procedure:58": {
+   "kind": "task_procedure",
+   "idx": 58,
+   "gold_rate": 0.0,
+   "twin_rate": 0.0,
+   "keep": true
+  },
+  "task_procedure:59": {
+   "kind": "task_procedure",
+   "idx": 59,
+   "gold_rate": 0.6,
+   "twin_rate": 0.4,
+   "keep": false
+  },
+  "task_procedure:60": {
+   "kind": "task_procedure",
+   "idx": 60,
+   "gold_rate": 0.4,
+   "twin_rate": 0.6,
+   "keep": false
+  },
+  "task_procedure:61": {
+   "kind": "task_procedure",
+   "idx": 61,
+   "gold_rate": 0.0,
+   "twin_rate": 0.0,
+   "keep": true
+  },
+  "task_procedure:62": {
+   "kind": "task_procedure",
+   "idx": 62,
+   "gold_rate": 0.8,
+   "twin_rate": 0.2,
+   "keep": false
+  },
+  "task_procedure:63": {
+   "kind": "task_procedure",
+   "idx": 63,
+   "gold_rate": 1.0,
+   "twin_rate": 0.0,
+   "keep": false
+  },
+  "task_procedure:64": {
+   "kind": "task_procedure",
+   "idx": 64,
+   "gold_rate": 0.0,
+   "twin_rate": 1.0,
+   "keep": true
+  },
+  "task_procedure:65": {
+   "kind": "task_procedure",
+   "idx": 65,
+   "gold_rate": 1.0,
+   "twin_rate": 0.0,
+   "keep": false
+  },
+  "task_procedure:66": {
+   "kind": "task_procedure",
+   "idx": 66,
+   "gold_rate": 0.0,
+   "twin_rate": 0.0,
+   "keep": true
+  },
+  "task_procedure:67": {
+   "kind": "task_procedure",
+   "idx": 67,
+   "gold_rate": 1.0,
+   "twin_rate": 0.0,
+   "keep": false
+  },
+  "task_procedure:68": {
+   "kind": "task_procedure",
+   "idx": 68,
+   "gold_rate": 0.4,
+   "twin_rate": 0.6,
+   "keep": false
+  },
+  "task_procedure:69": {
+   "kind": "task_procedure",
+   "idx": 69,
+   "gold_rate": 1.0,
+   "twin_rate": 0.0,
+   "keep": false
+  },
+  "unclear_type:0": {
+   "kind": "unclear_type",
+   "idx": 0,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:1": {
+   "kind": "unclear_type",
+   "idx": 1,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:2": {
+   "kind": "unclear_type",
+   "idx": 2,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:3": {
+   "kind": "unclear_type",
+   "idx": 3,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:4": {
+   "kind": "unclear_type",
+   "idx": 4,
+   "gold_rate": 0.3333333333333333,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:5": {
+   "kind": "unclear_type",
+   "idx": 5,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:6": {
+   "kind": "unclear_type",
+   "idx": 6,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:7": {
+   "kind": "unclear_type",
+   "idx": 7,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:8": {
+   "kind": "unclear_type",
+   "idx": 8,
+   "gold_rate": 0.3333333333333333,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:9": {
+   "kind": "unclear_type",
+   "idx": 9,
+   "gold_rate": 0.6666666666666666,
+   "twin_rate": null,
+   "keep": false
+  },
+  "unclear_type:10": {
+   "kind": "unclear_type",
+   "idx": 10,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:11": {
+   "kind": "unclear_type",
+   "idx": 11,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:12": {
+   "kind": "unclear_type",
+   "idx": 12,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:13": {
+   "kind": "unclear_type",
+   "idx": 13,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:14": {
+   "kind": "unclear_type",
+   "idx": 14,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:15": {
+   "kind": "unclear_type",
+   "idx": 15,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:16": {
+   "kind": "unclear_type",
+   "idx": 16,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:17": {
+   "kind": "unclear_type",
+   "idx": 17,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:18": {
+   "kind": "unclear_type",
+   "idx": 18,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:19": {
+   "kind": "unclear_type",
+   "idx": 19,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:20": {
+   "kind": "unclear_type",
+   "idx": 20,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:21": {
+   "kind": "unclear_type",
+   "idx": 21,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:22": {
+   "kind": "unclear_type",
+   "idx": 22,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:23": {
+   "kind": "unclear_type",
+   "idx": 23,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:24": {
+   "kind": "unclear_type",
+   "idx": 24,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:25": {
+   "kind": "unclear_type",
+   "idx": 25,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:26": {
+   "kind": "unclear_type",
+   "idx": 26,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:27": {
+   "kind": "unclear_type",
+   "idx": 27,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:28": {
+   "kind": "unclear_type",
+   "idx": 28,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:29": {
+   "kind": "unclear_type",
+   "idx": 29,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:30": {
+   "kind": "unclear_type",
+   "idx": 30,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:31": {
+   "kind": "unclear_type",
+   "idx": 31,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:32": {
+   "kind": "unclear_type",
+   "idx": 32,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:33": {
+   "kind": "unclear_type",
+   "idx": 33,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:34": {
+   "kind": "unclear_type",
+   "idx": 34,
+   "gold_rate": 0.6666666666666666,
+   "twin_rate": null,
+   "keep": false
+  },
+  "unclear_type:35": {
+   "kind": "unclear_type",
+   "idx": 35,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:36": {
+   "kind": "unclear_type",
+   "idx": 36,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:37": {
+   "kind": "unclear_type",
+   "idx": 37,
+   "gold_rate": 0.3333333333333333,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:38": {
+   "kind": "unclear_type",
+   "idx": 38,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:39": {
+   "kind": "unclear_type",
+   "idx": 39,
+   "gold_rate": 0.3333333333333333,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:40": {
+   "kind": "unclear_type",
+   "idx": 40,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:41": {
+   "kind": "unclear_type",
+   "idx": 41,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:42": {
+   "kind": "unclear_type",
+   "idx": 42,
+   "gold_rate": 1.0,
+   "twin_rate": null,
+   "keep": false
+  },
+  "unclear_type:43": {
+   "kind": "unclear_type",
+   "idx": 43,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:44": {
+   "kind": "unclear_type",
+   "idx": 44,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:45": {
+   "kind": "unclear_type",
+   "idx": 45,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:46": {
+   "kind": "unclear_type",
+   "idx": 46,
+   "gold_rate": 1.0,
+   "twin_rate": null,
+   "keep": false
+  },
+  "unclear_type:47": {
+   "kind": "unclear_type",
+   "idx": 47,
+   "gold_rate": 1.0,
+   "twin_rate": null,
+   "keep": false
+  },
+  "unclear_type:48": {
+   "kind": "unclear_type",
+   "idx": 48,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:49": {
+   "kind": "unclear_type",
+   "idx": 49,
+   "gold_rate": 1.0,
+   "twin_rate": null,
+   "keep": false
+  },
+  "unclear_type:50": {
+   "kind": "unclear_type",
+   "idx": 50,
+   "gold_rate": 0.6666666666666666,
+   "twin_rate": null,
+   "keep": false
+  },
+  "unclear_type:51": {
+   "kind": "unclear_type",
+   "idx": 51,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:52": {
+   "kind": "unclear_type",
+   "idx": 52,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:53": {
+   "kind": "unclear_type",
+   "idx": 53,
+   "gold_rate": 0.3333333333333333,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:54": {
+   "kind": "unclear_type",
+   "idx": 54,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:55": {
+   "kind": "unclear_type",
+   "idx": 55,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:56": {
+   "kind": "unclear_type",
+   "idx": 56,
+   "gold_rate": 1.0,
+   "twin_rate": null,
+   "keep": false
+  },
+  "unclear_type:57": {
+   "kind": "unclear_type",
+   "idx": 57,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:58": {
+   "kind": "unclear_type",
+   "idx": 58,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:59": {
+   "kind": "unclear_type",
+   "idx": 59,
+   "gold_rate": 0.3333333333333333,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:60": {
+   "kind": "unclear_type",
+   "idx": 60,
+   "gold_rate": 0.3333333333333333,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:61": {
+   "kind": "unclear_type",
+   "idx": 61,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:62": {
+   "kind": "unclear_type",
+   "idx": 62,
+   "gold_rate": 1.0,
+   "twin_rate": null,
+   "keep": false
+  },
+  "unclear_type:63": {
+   "kind": "unclear_type",
+   "idx": 63,
+   "gold_rate": 0.3333333333333333,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:64": {
+   "kind": "unclear_type",
+   "idx": 64,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:65": {
+   "kind": "unclear_type",
+   "idx": 65,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:66": {
+   "kind": "unclear_type",
+   "idx": 66,
+   "gold_rate": 0.3333333333333333,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:67": {
+   "kind": "unclear_type",
+   "idx": 67,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:68": {
+   "kind": "unclear_type",
+   "idx": 68,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  },
+  "unclear_type:69": {
+   "kind": "unclear_type",
+   "idx": 69,
+   "gold_rate": 0.0,
+   "twin_rate": null,
+   "keep": true
+  }
+ }
+}

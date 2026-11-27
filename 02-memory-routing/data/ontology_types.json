@@ -1,0 +1,68 @@
+[
+ {
+  "name": "Style rules",
+  "type": "style rules",
+  "memory_type": "procedural",
+  "description": "The user's standing preferences for how replies are written, covering wording, spelling and vocabulary, punctuation, formatting and length, preferred analogies and example themes, programming languages for code, and conventions for currencies, time units and cited sources.",
+  "applies_when": "Consult before writing any reply, since the wording and formatting rules govern all output, and check the analogy, example, code-language, unit and source conventions whenever a reply explains concepts, gives examples or code, or involves money, dates or citations.",
+  "size": 113,
+  "groups": [
+   "Style rules: wording, spelling and vocabulary",
+   "Style rules: punctuation, formatting and structure",
+   "Style rules: analogies and metaphors",
+   "Style rules: example themes and programming languages",
+   "Style rules: units, time frames and sources"
+  ]
+ },
+ {
+  "name": "Task procedures",
+  "type": "task procedures",
+  "memory_type": "procedural",
+  "description": "How the user wants recurring tool-based tasks carried out: logging and looking up data in spreadsheets, databases, CRM or tickets; drafting and sharing documents and updates via email, Slack or Notion; and filing issues, scheduling events or reminders, and storing files.",
+  "applies_when": "Consult before performing any tool-driven task such as record-keeping, data lookups, drafting or sending written work, creating tickets, scheduling, or uploading and sharing files, so the user's established workflow is followed.",
+  "size": 38,
+  "groups": [
+   "Task procedures: data logging, lookups and spreadsheets",
+   "Task procedures: documents and team communication",
+   "Task procedures: tickets, calendar and file storage"
+  ]
+ },
+ {
+  "name": "Facts",
+  "type": "facts",
+  "memory_type": "semantic",
+  "description": "Personal facts about the user's everyday life and preferences, covering food and drink, home and decor, chores and maintenance, gardening, pets, travel and transport, hobbies, entertainment tastes, fitness and health, work routines, family and social life, and shopping habits.",
+  "applies_when": "Consult when giving recommendations, making plans or schedules, or suggesting purchases, activities or gifts, so the reply can fit the user's established tastes, routines and circumstances.",
+  "size": 599,
+  "groups": [
+   "Facts: food and drink",
+   "Facts: home furnishings and decor",
+   "Facts: household chores and maintenance routines",
+   "Facts: gardening and plants",
+   "Facts: pets and animals",
+   "Facts: travel and transport",
+   "Facts: crafts, making and collecting hobbies",
+   "Facts: books, films, music and games",
+   "Facts: fitness, sports, health and sleep",
+   "Facts: work routines and scheduling habits",
+   "Facts: family, social life, gifts and celebrations",
+   "Facts: shopping and purchasing habits"
+  ]
+ },
+ {
+  "name": "Past sessions",
+  "type": "past sessions",
+  "memory_type": "episodic",
+  "description": "Dated summaries of earlier sessions with the user across coding projects, studying, home repairs and planning, writing drafts, and beginner hobby practice, recording what was done, what works, and what remains unfinished or undecided.",
+  "applies_when": "Consult when the user returns to or follows up on a project, study topic, repair, plan, piece of writing, or hobby they worked on before, so the reply can pick up from where things were left off.",
+  "size": 250,
+  "groups": [
+   "Past sessions: coding and software projects",
+   "Past sessions: study and exam preparation",
+   "Past sessions: home repairs and fixes",
+   "Past sessions: home planning and organization projects",
+   "Past sessions: writing and creative drafts",
+   "Past sessions: beginner hobby practice plans"
+  ]
+ }
+]

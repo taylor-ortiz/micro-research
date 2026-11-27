@@ -1,0 +1,184 @@
+[
+ {
+  "name": "Style rules: wording, spelling and vocabulary",
+  "type": "style rules",
+  "description": "Word-level preferences such as British spellings, banned or replaced words, cutting intensifiers, hedges and filler, avoiding contractions, and preferring direct verbs and active voice.",
+  "applies_when": "Apply to every reply the assistant writes, whatever the topic, because these rules govern all of the user's text.",
+  "extras": "colour, grey, judgement, okay, email, utilise, whilst, in order to, basically, very, perhaps, contractions, e.g., nominalisations, active voice, double negatives, redundant pairs"
+ },
+ {
+  "name": "Style rules: punctuation, formatting and structure",
+  "type": "style rules",
+  "description": "Rules on punctuation marks, formatting, number writing, sentence and paragraph structure, and reply length.",
+  "applies_when": "Apply to every reply the assistant writes, since these rules shape the layout and punctuation of all output.",
+  "extras": "em dashes, exclamation marks, semicolons, ellipses, ampersands, bold, inline code, parentheses, numbers under ten, percent, paragraph spacing, one idea per sentence, two hundred words, acronyms, rhetorical questions"
+ },
+ {
+  "name": "Style rules: analogies and metaphors",
+  "type": "style rules",
+  "description": "Preferred analogies, metaphors and reference domains the user likes when concepts are explained.",
+  "applies_when": "Consult whenever an explanation would benefit from an analogy or metaphor, especially for technical, scientific, career or emotional topics.",
+  "extras": "woodworking, Lego, orchestra, plumbing, recipes, mountain climbing, poker, tides, weather, river delta, ant colony, postal service, bus routes"
+ },
+ {
+  "name": "Style rules: example themes and programming languages",
+  "type": "style rules",
+  "description": "Preferred subject matter for illustrative examples and stories, and which programming languages or platforms to use for code examples by topic.",
+  "applies_when": "Consult whenever a reply includes examples, sample stories, illustrative scenarios or code snippets.",
+  "extras": "cats, parrots, foxes, Moorish tilework, haiku, Roman life, rural businesses, low sodium meals, dumbbells, Kotlin, Haskell, Bash, Swift, Dart, Scala, Perl, C sharp, macOS terminal"
+ },
+ {
+  "name": "Style rules: units, time frames and sources",
+  "type": "style rules",
+  "description": "Conventions for currencies, calendar and scheduling units, and which kinds of sources to favour when citing information.",
+  "applies_when": "Consult when a reply involves money estimates, dates or timelines, or cites sources and evidence.",
+  "extras": "Thai baht, Brazilian reais, rupees, week numbers, fiscal quarters, school terms, lunar calendar, peer reviewed journals, museum guides, oral history, government health guidance"
+ },
+ {
+  "name": "Task procedures: data logging, lookups and spreadsheets",
+  "type": "task procedures",
+  "description": "Workflows where the user wants records tracked as spreadsheet rows or data pulled from databases, CRM or support tickets.",
+  "applies_when": "Consult before doing any tracking, tallying, budgeting, data lookup or record-keeping task with tools.",
+  "extras": "spreadsheet_append, sql_query, crm_lookup, support_ticket_search, drive_search, web_search"
+ },
+ {
+  "name": "Task procedures: documents and team communication",
+  "type": "task procedures",
+  "description": "Workflows for drafting documents, newsletters, case studies and updates and sharing them through email, Slack or Notion.",
+  "applies_when": "Consult before drafting, publishing or sending written work or announcements to colleagues or partners with tools.",
+  "extras": "docs_create, email_send, slack_post, notion_search, notion_create_page, github_search_code, web_search, support_ticket_search"
+ },
+ {
+  "name": "Task procedures: tickets, calendar and file storage",
+  "type": "task procedures",
+  "description": "Workflows for filing issues, scheduling events or reminders, and uploading or archiving files.",
+  "applies_when": "Consult before creating tickets, scheduling meetings or reminders, or storing and sharing files with tools.",
+  "extras": "linear_create_issue, jira_create_issue, calendar_create_event, calendar_find_slot, dropbox_upload, drive_upload, email_send, slack_post"
+ },
+ {
+  "name": "Facts: food and drink",
+  "type": "facts",
+  "description": "The user's food and drink tastes, dislikes, regular meals, snacks and favourite places to eat.",
+  "applies_when": "Consult when suggesting meals, recipes, restaurants, snacks or drinks, or when food comes up in planning.",
+  "extras": "Thai green curry, cilantro, porridge, pho, takeout pizza, tea, flat white, mango, farmers market, noodle shop"
+ },
+ {
+  "name": "Facts: home furnishings and decor",
+  "type": "facts",
+  "description": "The user's preferences for furniture, bedding, fixtures and decor around the house.",
+  "applies_when": "Consult when advising on furniture, decor, bedding or home purchases and layouts.",
+  "extras": "solid oak, window seat, weighted blanket, farmhouse sink, shoe rack, mudroom bench, linen duvet, gas fireplace"
+ },
+ {
+  "name": "Facts: household chores and maintenance routines",
+  "type": "facts",
+  "description": "The user's cleaning schedules, laundry habits, seasonal home and car maintenance, and tidiness habits.",
+  "applies_when": "Consult when helping schedule chores, home upkeep or car maintenance or planning the user's week.",
+  "extras": "window washing, bed sheets, dusting, dishwasher, gutters, furnace tune up, oil changes, defrost freezer, recycling"
+ },
+ {
+  "name": "Facts: gardening and plants",
+  "type": "facts",
+  "description": "What the user grows, how they garden, and their houseplant and compost habits.",
+  "applies_when": "Consult when discussing gardening, plants, seeds, harvests or compost.",
+  "extras": "dahlias, chili peppers, potatoes in sacks, garlic, heirloom beans, blueberries, worm bin, seed saving, hydrangeas"
+ },
+ {
+  "name": "Facts: pets and animals",
+  "type": "facts",
+  "description": "The user's pets, how they care for them, and activities they share with animals.",
+  "applies_when": "Consult when topics involve the user's pets, pet care, pet-friendly plans or animal-related purchases.",
+  "extras": "cat, rabbit, dog walks, parrot, bearded dragon, hedgehog, groomer, pet sitter, quail, aquarium"
+ },
+ {
+  "name": "Facts: travel and transport",
+  "type": "facts",
+  "description": "The user's travel destinations, accommodation and packing habits, and how they commute and get around, including cycling and trains.",
+  "applies_when": "Consult when planning trips, bookings, routes, commutes or transport choices.",
+  "extras": "quiet carriage, carry-on, layovers, farm stays, alpine villages, night markets, bike panniers, cars, hostels"
+ },
+ {
+  "name": "Facts: crafts, making and collecting hobbies",
+  "type": "facts",
+  "description": "Hands-on hobbies the user enjoys such as crafts, building, textile work and collecting.",
+  "applies_when": "Consult when suggesting hobbies, projects, craft supplies or gifts tied to the user's making interests.",
+  "extras": "embroidery, weaving, bookbinding, calligraphy, mosaics, knitting, candle making, vintage teacups, coins, paper models"
+ },
+ {
+  "name": "Facts: books, films, music and games",
+  "type": "facts",
+  "description": "The user's tastes in reading, film and TV, music, and video or tabletop games.",
+  "applies_when": "Consult when recommending entertainment or planning leisure time.",
+  "extras": "fantasy novels, westerns, arthouse cinema, musicals, jazz records, lofi, karaoke, simulation games, tabletop RPGs"
+ },
+ {
+  "name": "Facts: fitness, sports, health and sleep",
+  "type": "facts",
+  "description": "The user's exercise routines, sports, outdoor activities, health habits and sleep habits.",
+  "applies_when": "Consult when advising on exercise, outdoor activities, wellbeing or sleep routines.",
+  "extras": "weights, hiking, bouldering, tennis, hockey, trail running, stretching, chamomile tea, breathing exercises"
+ },
+ {
+  "name": "Facts: work routines and scheduling habits",
+  "type": "facts",
+  "description": "How the user structures workdays, meetings, appointments and their desk setup.",
+  "applies_when": "Consult when scheduling meetings or appointments, planning the workday, or suggesting workspace changes.",
+  "extras": "no meetings before ten, focus blocks, email Fridays, coworking, vertical monitor, noise cancelling headphones, dentist mornings"
+ },
+ {
+  "name": "Facts: family, social life, gifts and celebrations",
+  "type": "facts",
+  "description": "The user's family routines, social events, hosting habits, holiday traditions and gift-giving preferences.",
+  "applies_when": "Consult when planning gifts, parties, holidays, family activities or social events.",
+  "extras": "kids, nephew, parents, book club, hosting, birthdays, holiday cards, surprise parties, experience gifts"
+ },
+ {
+  "name": "Facts: shopping and purchasing habits",
+  "type": "facts",
+  "description": "Where and how the user shops, which brands or sources they favour, and their payment and delivery preferences.",
+  "applies_when": "Consult when recommending products, stores or ways to buy and receive goods.",
+  "extras": "refurbished laptops, thrift stores, selvedge denim, debit card, bulk buying, reviews, sustainable brands, delivery"
+ },
+ {
+  "name": "Past sessions: coding and software projects",
+  "type": "past sessions",
+  "description": "Dated summaries of scripts, apps, bots and tech setups built or debugged with the user, noting what works and what remains broken.",
+  "applies_when": "Consult when the user returns to a programming, automation or home tech project or asks about earlier code work.",
+  "extras": "Python, Rust, Kotlin, Vue, SQL, Bash scripts, bots, media server, printer and doorbell setup; 2026-01 to 2026-11"
+ },
+ {
+  "name": "Past sessions: study and exam preparation",
+  "type": "past sessions",
+  "description": "Dated summaries of tutoring and review sessions for courses, quizzes and certifications, with topics mastered and still confusing.",
+  "applies_when": "Consult when the user resumes studying a subject or prepares for a related exam.",
+  "extras": "chemistry, statistics, genetics, physics, music theory, psychology, languages, chess, debate, interview prep; 2026-02 to 2026-11"
+ },
+ {
+  "name": "Past sessions: home repairs and fixes",
+  "type": "past sessions",
+  "description": "Dated summaries of completed home repair jobs and the follow-up tasks the user planned.",
+  "applies_when": "Consult when the user follows up on a repair or asks about home maintenance done before.",
+  "extras": "faucets, weatherstripping, grout, drywall, hinges, gates, toilets, caulk; 2026-05 to 2026-11"
+ },
+ {
+  "name": "Past sessions: home planning and organization projects",
+  "type": "past sessions",
+  "description": "Dated summaries of planning rooms, storage, builds, garden layouts and household organization, with open decisions noted.",
+  "applies_when": "Consult when the user revisits a home, garden or organization plan or a related open decision.",
+  "extras": "reading nook, gallery wall, vanity swap, garage pegboard, closets, raised beds, emergency kit, decluttering; 2026-01 to 2026-11"
+ },
+ {
+  "name": "Past sessions: writing and creative drafts",
+  "type": "past sessions",
+  "description": "Dated summaries of drafting and editing stories, speeches, letters, scripts and newsletters, with unfinished parts noted.",
+  "applies_when": "Consult when the user continues a writing project or asks for help with a similar piece.",
+  "extras": "memoir, eulogy, song lyrics, cover letters, picture books, newsletters, toasts, scripts, blog posts; 2026-02 to 2026-11"
+ },
+ {
+  "name": "Past sessions: beginner hobby practice plans",
+  "type": "past sessions",
+  "description": "Dated summaries of beginner learning plans for crafts, arts, instruments and hobbies, with skills postponed until basics improve.",
+  "applies_when": "Consult when the user continues learning a hobby or asks about next steps in a practice plan.",
+  "extras": "pottery, watercolor, origami, leathercraft, embroidery, ukulele, bouldering, beekeeping, juggling, film photography; 2026-02 to 2026-11"
+ }
+]
