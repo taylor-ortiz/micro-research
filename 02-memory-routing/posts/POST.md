@@ -83,9 +83,18 @@ I'd still organize memories into topic groups, but for a different reason than I
 
 This matters most if you run a smaller model on every message, if your users have memories that matter without resembling their requests (allergies, standing rules, constraints), or if you're heading toward account-level memory. If you're on a larger model with a small memory store, injecting everything works fine. You'll just pay about ten times as much.
 
-## 7. What I can't claim yet
+## 7. What I can't claim yet (locked)
 
----
+This was one synthetic user with 1,000 memories, and I screened out memories that contradicted each other. Real memory stores are messier. Because the classifier judges each memory on its own, two memories that conflict, like "vegetarian" and "had steak last week," would both get through, and it can't tell which is current.
+
+A few things I didn't test:
+
+- **Near misses.** Memories that are related but irrelevant, like "loves Thai iced tea" next to "allergic to peanuts." That's the next test.
+- **Scale.** At 1,000 memories, the group step only cut the candidates about in half. At 5,000 or more, the groups need to split as they fill so the classifier's work stays bounded.
+- **The classifier without groups,** and with richer group entries. I don't know yet how much the groups add to its accuracy.
+- **Off-the-shelf rerankers,** like Voyage or Cohere.
+
+The classifier was Jev, from TypeSafe. The full research brief, code and data are here: [link](https://github.com/taylor-ortiz/micro-research/tree/main/02-memory-routing)
 
 ## Notes for later sections (not part of the post)
 
