@@ -20,6 +20,10 @@ Before the results, here are the kinds of memory I used. The test user had 1,000
 
 The types matter because they look different from the questions they apply to, and that turned out to decide everything.
 
+![Four examples where search missed the memory: the question, the memory it needs, and the reply with search vs. with the classifier](images/question-to-memory.png)
+
+*Four examples where similarity search missed the memory.*
+
 ## 2. What I found (locked)
 
 Using a fast classifier model to pick the memories that matter for each message worked as well as injecting all 1,000. It picked about 9 memories per question and got it right 93% of the time on Haiku and 94% on Sonnet, against 87% and 96% for full injection, with about 98% fewer tokens for the answering model. Plain similarity search, the usual way agents fetch memories, also puts about 10 memories in the prompt, but got it right only 60–63% of the time.
