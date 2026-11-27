@@ -36,7 +36,7 @@ Using a fast decision model to pick the memories that matter for each message wo
 
 My original hypothesis was that it was better to organize memories than to search them all together. Standing rules like "use metric units" apply to every reply but share no words with any question, so I figured plain search would miss them. My theory was a memory ontology: sort every memory into topic groups, give each group a name, a description, when it applies and a few examples, and let the model read that like a table of contents to decide which groups to search. I assumed the more detail each group had, the better the model would choose.
 
-Neither held up. The best organized setup came in about 15 points under full injection, and richer descriptions didn't help at all. Having a decision model judge each individual memory was a late addition after that first result set came in.
+Organizing did beat plain search, but the best organized setup still came in about 15 points under full injection, and richer descriptions didn't help at all. Having a decision model judge each individual memory was a late addition after that first result set came in.
 
 ## How I grouped the memories (locked)
 
@@ -59,7 +59,7 @@ I ran it on Haiku 5.5, with Sonnet 5.5 side by side, and controlled where the ri
 
 The twins also shaped which questions made it in. A question was kept only if Haiku failed it with no memory, and followed the right memory, and separately its twin, every time it was given only that one. If Haiku already did the right thing by default, say it used metric anyway, I swapped the two, so passing always required reading the memory.
 
-My first plan had a hole. Some of the 1,000 background memories quietly answered questions on their own, so a pass didn't always trace back to the memory I planted. I checked every right memory against all 1,000 others and replaced 86 that contradicted one. I also found the store had no rules that apply to every reply, so I added 40. And I tuned settings on 75 questions and reported results only on the other 188, so the decision model never saw the test.
+My first plan had a hole. Some of the 1,000 background memories quietly answered questions on their own, so a pass didn't always trace back to the memory I planted. I checked every right memory against all 1,000 others and replaced 86 that contradicted one. I also found the store had no rules that apply to every reply, so I added 40. And I tuned settings on 75 questions and reported results only on the other 188, so nothing was tuned on the questions I report.
 
 The biggest surprise was the ontology. I expected three groups, one per memory type. It came out with 26.
 
@@ -75,13 +75,13 @@ My first version of the decision model only picked the groups, then ran similari
 
 One question I didn't plan to highlight shows why. The user's rule was to sign off every reply with "Cheers." With full injection it was in the prompt, just in the middle, and Haiku ignored it. That's study 01 all over again.
 
-I also swapped the decision model for an LLM doing the same job: Haiku read the candidate memories and scored which ones mattered. It came close on accuracy, about the same on Haiku and 5–7 points behind on Sonnet. But it was 3–10 times slower and cost 2–3 times as much to pick, because an LLM has to write out its choices while the decision model just returns scores. All in, the decision model was also far cheaper than full injection: $0.0017 per question against $0.0071 for full injection on Haiku, and $0.013 against $0.14 on Sonnet.
+I also swapped the decision model for an LLM doing the same job: Haiku read the candidate memories and scored which ones mattered. It came close on accuracy, about the same on Haiku and 5–7 points behind on Sonnet. But it was 3–10 times slower and cost 2–3 times as much to pick, because an LLM has to write out its choices while the decision model just returns scores. All in, the decision model was also far cheaper than full injection: $0.0017 per question against $0.0071 on Haiku, and $0.013 against $0.14 on Sonnet.
 
 ## 6. What I'd do with this (locked)
 
 If I were building an agent tomorrow, I'd put a relevance judge between the memory store and the prompt. Instead of asking "which memories look like this message?", ask "would this memory change the reply?" A fast decision model is enough for that job, and it's cheap.
 
-I'd still organize memories into topic groups, but for a different reason than I started with. The groups don't help the model find the right memory; the decision model does that. They keep the decision model's work bounded. Full injection hits a hard wall once memory outgrows the context window. A decision model judges each memory on its own, so it keeps working at any size, but its cost grows with every memory you add. Filtering by group first keeps that in check.
+I'd still organize memories into topic groups, but for a different reason than I started with. The groups alone didn't find the right memory; the decision model did. What the groups do is keep its work bounded. Full injection hits a hard wall once memory outgrows the context window. A decision model judges each memory on its own, so it keeps working at any size, but its cost grows with every memory you add. Filtering by group first keeps that in check.
 
 This matters most if you run a smaller model on every message, if your users have memories that matter without resembling their requests (allergies, standing rules, constraints), or if you're heading toward account-level memory. If you're on a larger model with a small memory store, injecting everything works fine. You'll just pay about ten times as much.
 
