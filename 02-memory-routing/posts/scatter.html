@@ -13,19 +13,19 @@ svg text{font-family:inherit}
 body{margin:0;background:#fff}
 </style></head>
 <body><div class="viz-root" id="root">
-<h1>Letting a classifier pick ~9 memories matched injecting all 1,000, at 2% of the tokens</h1>
+<h1>Letting a decision model pick ~9 memories matched injecting all 1,000, at 2% of the tokens</h1>
 <p class="sub">How often the reply used the right memory, against the tokens the replying model reads per question</p>
 <div class="legend">
  <span><svg width="12" height="12"><circle cx="6" cy="6" r="5" fill="var(--series-1)"/></svg>Haiku 5.5</span>
  <span><svg width="12" height="12"><rect x="1" y="1" width="10" height="10" rx="2" fill="var(--series-2)"/></svg>Sonnet 5.5</span>
 </div>
 <svg id="chart" width="816" height="430" role="img" aria-label="Scatter plot of adherence against answer tokens per question for four memory selection setups on Haiku 5.5 and Sonnet 5.5"></svg>
-<p class="note">Haiku: 188 held-out questions at three positions. Sonnet: 99 of them, middle position. Tokens are what the replying model reads; the classifier (Jev) also reads about 26k tokens per question, for about $0.001.</p>
+<p class="note">Haiku: 188 held-out questions at three positions. Sonnet: 99 of them, middle position. Tokens are what the replying model reads; the decision model (Jev) also reads about 26k tokens per question, for about $0.001.</p>
 <div class="tip" id="tip"></div>
 </div>
 <script>
 const data=[
- {s:"Classifier picks memories",k:"C-Jev+",h:[1284,92.8],n:[1222,93.9],lab:"right"},
+ {s:"Decision model picks memories",k:"C-Jev+",h:[1284,92.8],n:[1222,93.9],lab:"right"},
  {s:"Inject all 1,000 memories",k:"A",h:[66210,87.2],n:[65433,96.0],lab:"left"},
  {s:"Search every topic group",k:"G",h:[17976,73.6],n:[17546,73.7],lab:"above"},
  {s:"Similarity search, top 10",k:"E",h:[1551,62.6],n:[1444,59.6],lab:"right"},
